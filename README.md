@@ -103,8 +103,8 @@ Sual bankında **1.950 hazırlanmış sual** var; hədəf 10.000-dir. Yerli tət
 **Node.js 22.13+**, Docker Desktop və telefonda Expo Go lazımdır. Əmrlər repo kökündə işlədilir.
 
 ```powershell
-git clone https://github.com/IsrafilIsakhli/Bilirsen-.git
-cd Bilirsen-
+git clone https://github.com/IsrafilIsakhli/Bilirsen.git
+cd Bilirsen
 npm ci
 npm run generate
 ```

@@ -1,0 +1,52 @@
+[
+  {
+    "cue": "tick",
+    "durationSeconds": 30,
+    "peakDbFS": -6.02,
+    "rmsDbFS": -27.18,
+    "bytes": 5292044,
+    "sha256": "0ea8fbdece94cf7649b817d9b85eea19a4f6a3bdfe7a3cbb91e575ece1867ee1",
+    "tickToBedPeakDb": 16.82,
+    "tickCount": 75,
+    "firstQuarterTicks": 9,
+    "lastQuarterTicks": 33
+  },
+  {
+    "cue": "correct",
+    "durationSeconds": 0.85,
+    "peakDbFS": -3.1,
+    "rmsDbFS": -18.65,
+    "bytes": 149984
+  },
+  {
+    "cue": "wrong",
+    "durationSeconds": 0.7,
+    "peakDbFS": -4.11,
+    "rmsDbFS": -18.65,
+    "bytes": 123520
+  },
+  {
+    "cue": "tick-20",
+    "durationSeconds": 20,
+    "peakDbFS": -6.02,
+    "rmsDbFS": -26.75,
+    "bytes": 3528044,
+    "sha256": "cec891f6ca34777d2c58f8c606633d50ff4382af66117ebe28cf6e65e61ea520",
+    "tickToBedPeakDb": 17.12,
+    "tickCount": 74,
+    "firstQuarterTicks": 9,
+    "lastQuarterTicks": 32
+  },
+  {
+    "cue": "tick-25",
+    "durationSeconds": 25,
+    "peakDbFS": -6.02,
+    "rmsDbFS": -27.37,
+    "bytes": 4410044,
+    "sha256": "dddd5c5ad901e99d15382a4b72fc3abbf81511be894cbe57be7eddf6e1b25d8c",
+    "tickToBedPeakDb": 17.24,
+    "tickCount": 74,
+    "firstQuarterTicks": 9,
+    "lastQuarterTicks": 32
+  }
+]

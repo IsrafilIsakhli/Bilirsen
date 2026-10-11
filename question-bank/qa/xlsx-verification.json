@@ -1,0 +1,22 @@
+{
+  "xlsx_questions": 1950,
+  "all_twelve_columns_match": true,
+  "csv_matches": true,
+  "previous_questions_unchanged": 100,
+  "frozen_pane": {
+    "xSplit": "2",
+    "ySplit": "1",
+    "topLeftCell": "C2",
+    "activePane": "bottomRight",
+    "state": "frozen"
+  },
+  "table_range": "A1:L1951",
+  "filter_present": true,
+  "previous_checkpoint_unchanged": 450,
+  "previous_750_unchanged": 750,
+  "previous_850_unchanged": 850,
+  "previous_1850_unchanged": 1850,
+  "new_easy_questions": 100,
+  "database_questions": 1950,
+  "database_payloads_match": true
+}

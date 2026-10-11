@@ -1,0 +1,2957 @@
+{
+  "QOB": {
+    "url": "https://irs.gov.az/location/qobustan-milli-tarix-bdii-qoruu-1",
+    "title": "Qobustan Milli Tarix-Bədii Qoruğu — Mədəni İrs üzrə Dövlət Xidməti",
+    "section": "Qaval daşı"
+  },
+  "GOB": {
+    "url": "https://whc.unesco.org/en/list/1076/",
+    "title": "UNESCO — Gobustan Rock Art Cultural Landscape",
+    "section": "Description"
+  },
+  "BAK": {
+    "url": "https://whc.unesco.org/en/list/958/",
+    "title": "UNESCO — Walled City of Baku",
+    "section": "Brief synthesis"
+  },
+  "SHE": {
+    "url": "https://whc.unesco.org/en/list/1549/",
+    "title": "UNESCO — Historic Centre of Sheki",
+    "section": "Description and Brief synthesis"
+  },
+  "KEL": {
+    "url": "https://ich.unesco.org/en/RL/traditional-art-and-symbolism-of-kelaghayi-making-and-wearing-women-s-silk-headscarves-00669",
+    "title": "UNESCO — Kəlağayı sənəti",
+    "section": "Description"
+  },
+  "LAH": {
+    "url": "https://ich.unesco.org/en/RL/copper-craftsmanship-of-lahij-00675",
+    "title": "UNESCO — Lahıc misgərlik sənəti",
+    "section": "Description"
+  },
+  "CHO": {
+    "url": "https://ich.unesco.org/en/USL/chovqan-a-traditional-karabakh-horse-riding-game-in-the-republic-of-azerbaijan-00905",
+    "title": "UNESCO — Çovqan",
+    "section": "Description"
+  },
+  "ASH": {
+    "url": "https://ich.unesco.org/en/RL/art-of-azerbaijani-ashiq-00253",
+    "title": "UNESCO — Azərbaycan aşıq sənəti",
+    "section": "Description"
+  },
+  "YAL": {
+    "url": "https://ich.unesco.org/en/USL/yalli-kochari-tenzere-traditional-group-dances-of-nakhchivan-01190",
+    "title": "UNESCO — Naxçıvan yallıları",
+    "section": "Description"
+  },
+  "NAR": {
+    "url": "https://ich.unesco.org/en/RL/nar-bayrami-traditional-pomegranate-festivity-and-culture-01511",
+    "title": "UNESCO — Nar bayramı",
+    "section": "Description"
+  },
+  "KAM": {
+    "url": "https://ich.unesco.org/en/RL/art-of-crafting-and-playing-with-kamantcheh-kamancha-a-bowed-string-musical-instrument-01286",
+    "title": "UNESCO — Kamança sənəti",
+    "section": "Description"
+  },
+  "DOL": {
+    "url": "https://ich.unesco.org/en/RL/dolma-making-and-sharing-tradition-a-marker-of-cultural-identity-01188",
+    "title": "UNESCO — Dolma hazırlama və paylaşma ənənəsi",
+    "section": "Description"
+  },
+  "SYM": {
+    "url": "https://president.az/en/pages/view/azerbaijan/symbols",
+    "title": "Azərbaycan Respublikasının dövlət rəmzləri",
+    "section": "State Anthem and State Emblem"
+  },
+  "TAR": {
+    "url": "https://ich.unesco.org/doc/src/20435-EN.pdf?v=1370338359",
+    "title": "UNESCO — Representative List: Tar",
+    "section": "Craftsmanship and performance art of the Tar"
+  },
+  "VEN": {
+    "url": "https://science.nasa.gov/venus/venus-facts/",
+    "title": "NASA — Venus Facts",
+    "section": "Orbit and Rotation; Atmosphere"
+  },
+  "MER": {
+    "url": "https://science.nasa.gov/mercury/facts/",
+    "title": "NASA — Mercury Facts",
+    "section": "Introduction; Orbit and Rotation; Surface"
+  },
+  "MAR": {
+    "url": "https://science.nasa.gov/mars/facts/",
+    "title": "NASA — Mars Facts",
+    "section": "Namesake; Moons; Surface"
+  },
+  "JUP": {
+    "url": "https://science.nasa.gov/jupiter/jupiter-facts/",
+    "title": "NASA — Jupiter Facts",
+    "section": "Atmosphere; Structure"
+  },
+  "SAT": {
+    "url": "https://science.nasa.gov/saturn/facts/",
+    "title": "NASA — Saturn Facts",
+    "section": "Structure; Atmosphere; Rings"
+  },
+  "PLA": {
+    "url": "https://science.nasa.gov/solar-system/planets/",
+    "title": "NASA — About the Planets",
+    "section": "Introduction; Inner and Outer Planets"
+  },
+  "ANT": {
+    "url": "https://www.bas.ac.uk/about/where-we-work/antarctica/",
+    "title": "British Antarctic Survey — Antarctica",
+    "section": "Wind and snow; Ice sheet"
+  },
+  "OCT": {
+    "url": "https://ocean.si.edu/ocean-life/invertebrates/octopuses-squids-and-relatives",
+    "title": "Smithsonian — Cephalopods",
+    "section": "Circulatory System"
+  },
+  "FLA": {
+    "url": "https://www.nhm.ac.uk/discover/rainbow-nature-life-in-pink.html",
+    "title": "Natural History Museum — Life in pink",
+    "section": "Flamingo"
+  },
+  "COR": {
+    "url": "https://oceanservice.noaa.gov/facts/coral.html",
+    "title": "NOAA — Are corals animals or plants?",
+    "section": "Corals and symbiosis"
+  },
+  "SEA": {
+    "url": "https://oceanservice.noaa.gov/facts/seahorse.html",
+    "title": "NOAA — Seahorses",
+    "section": "Male pregnancy"
+  },
+  "BAT": {
+    "url": "https://www.nhm.ac.uk/discover/how-to-see-uk-bats-and-give-them-a-helping-hand.html",
+    "title": "Natural History Museum — Bats",
+    "section": "Echolocation"
+  },
+  "PTY": {
+    "url": "https://www.nhm.ac.uk/discover/the-platypus-puzzle.html",
+    "title": "Natural History Museum — The platypus puzzle",
+    "section": "Monotremes"
+  },
+  "TID": {
+    "url": "https://www.noaa.gov/education/resource-collections/ocean-coasts/tides",
+    "title": "NOAA — Tides",
+    "section": "Gravitational pull"
+  },
+  "CMP": {
+    "url": "https://www.rmg.co.uk/stories/maritime-history/true-north-magnetic-north-whats-difference",
+    "title": "Royal Museums Greenwich — True and magnetic north",
+    "section": "Magnetic north"
+  },
+  "KIL": {
+    "url": "https://whc.unesco.org/en/list/403/",
+    "title": "UNESCO — Kilimanjaro National Park",
+    "section": "Description"
+  },
+  "MAC": {
+    "url": "https://whc.unesco.org/en/list/274/",
+    "title": "UNESCO — Machu Picchu",
+    "section": "Description; Brief synthesis"
+  },
+  "PET": {
+    "url": "https://whc.unesco.org/en/list/326/",
+    "title": "UNESCO — Petra",
+    "section": "Description; Brief synthesis"
+  },
+  "GAL": {
+    "url": "https://whc.unesco.org/en/list/1/",
+    "title": "UNESCO — Galápagos Islands",
+    "section": "Description"
+  },
+  "ROS": {
+    "url": "https://www.britishmuseum.org/collection/object/Y_EA24",
+    "title": "British Museum — Rosetta Stone",
+    "section": "Description"
+  },
+  "WRI": {
+    "url": "https://airandspace.si.edu/collection-objects/1903-wright-flyer/nasm_A19610048000",
+    "title": "Smithsonian — 1903 Wright Flyer",
+    "section": "Object description"
+  },
+  "CUR": {
+    "url": "https://www.nobelprize.org/prizes/physics/1903/marie-curie/questions-and-answers/",
+    "title": "Nobel Prize — Marie Curie",
+    "section": "Questions and Answers"
+  },
+  "APO": {
+    "url": "https://www.nasa.gov/history/apollo-11-mission-overview/",
+    "title": "NASA — Apollo 11 Mission Overview",
+    "section": "Crew; Mission highlights"
+  },
+  "HAM": {
+    "url": "https://www.folger.edu/explore/shakespeares-works/hamlet/",
+    "title": "Folger Shakespeare Library — Hamlet",
+    "section": "Introduction"
+  },
+  "DON": {
+    "url": "https://www.loc.gov/loc/lcib/970623/noote.html",
+    "title": "Library of Congress — The Dutch View of Don Quixote",
+    "section": "Windmills episode"
+  },
+  "FAD": {
+    "url": "https://ich.unesco.org/en/RL/fado-urban-popular-song-of-portugal-00563",
+    "title": "UNESCO — Fado",
+    "section": "Description"
+  },
+  "FLM": {
+    "url": "https://ich.unesco.org/doc/src/17331-EN.pdf",
+    "title": "UNESCO — Flamenco",
+    "section": "Flamenco"
+  },
+  "WEB": {
+    "url": "https://home.cern/science/computing/the-birth-of-the-web/",
+    "title": "CERN — The birth of the Web",
+    "section": "Tim Berners-Lee and first website"
+  },
+  "QRC": {
+    "url": "https://www.denso-wave.com/en/system/qr/qr30th/",
+    "title": "DENSO WAVE — QR Code history",
+    "section": "1994; Automotive parts"
+  },
+  "BLU": {
+    "url": "https://www.bluetooth.com/about-us/bluetooth-origin/",
+    "title": "Bluetooth SIG — Origin of the name",
+    "section": "The man behind the tooth; Logo"
+  },
+  "FIB": {
+    "url": "https://assets.fiba.basketball/image/upload/documents-corporate-fiba-official-rules-2024-v10a.pdf",
+    "title": "FIBA — Official Basketball Rules 2024",
+    "section": "Articles 8 and 9"
+  },
+  "OLY": {
+    "url": "https://library.olympics.com/default/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?documentId=162035&parentDocumentId=37555&skipCopyright=true&skipWatermark=true",
+    "title": "IOC — Sport Administration Manual",
+    "section": "Symbols of the Olympic Movement"
+  },
+  "CHE": {
+    "url": "https://handbook.fide.com/chapter/E012023",
+    "title": "FIDE — Laws of Chess 2023",
+    "section": "Articles 1, 2, 3 and 5"
+  },
+  "CMP2": {
+    "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-7116",
+    "title": "Royal Museums Greenwich — Binnacle and compass",
+    "section": "Compass correction"
+  },
+  "MON": {
+    "url": "https://collections.louvre.fr/ark:/53355/cl010062370",
+    "title": "Louvre — Mona Lisa",
+    "section": "Une œuvre très fragile mais bien conservée"
+  },
+  "VAN": {
+    "url": "https://www.moma.org/collection/works/79802",
+    "title": "MoMA — The Starry Night",
+    "section": "Work description"
+  },
+  "TAJ": {
+    "url": "https://whc.unesco.org/en/list/252/",
+    "title": "UNESCO — Tac-Mahal",
+    "section": "Description"
+  },
+  "STO": {
+    "url": "https://whc.unesco.org/en/list/373/",
+    "title": "UNESCO — Stounhenc və Eyvbəri",
+    "section": "Description; criteria i, vi"
+  },
+  "WAL": {
+    "url": "https://whc.unesco.org/en/list/438/",
+    "title": "UNESCO — Böyük Çin səddi",
+    "section": "Description"
+  },
+  "QIN": {
+    "url": "https://whc.unesco.org/en/list/441/",
+    "title": "UNESCO — İlk Çin imperatorunun məqbərəsi",
+    "section": "Description; Brief synthesis"
+  },
+  "MAL": {
+    "url": "https://whc.unesco.org/en/list/132/",
+    "title": "UNESCO — Maltanın meqalit məbədləri",
+    "section": "Brief synthesis"
+  },
+  "VER": {
+    "url": "https://whc.unesco.org/en/list/83/",
+    "title": "UNESCO — Versal sarayı və parkı",
+    "section": "Brief description"
+  },
+  "NUB": {
+    "url": "https://whc.unesco.org/en/list/88/",
+    "title": "UNESCO — Nubiya abidələri",
+    "section": "Description; Brief synthesis"
+  },
+  "ATG": {
+    "url": "https://whc.unesco.org/en/list/65/",
+    "title": "UNESCO — Antiqua-Qvatemala",
+    "section": "Brief synthesis"
+  },
+  "QUI": {
+    "url": "https://whc.unesco.org/en/list/149/",
+    "title": "UNESCO — Kirigua",
+    "section": "Brief synthesis"
+  },
+  "DJO": {
+    "url": "https://whc.unesco.org/en/list/25/",
+    "title": "UNESCO — Cudc Quş Qoruğu",
+    "section": "Criteria vii; Description"
+  },
+  "SIL": {
+    "url": "https://ich.unesco.org/en/RL/sericulture-and-traditional-production-of-silk-for-weaving-01890",
+    "title": "UNESCO — İpəkçilik və ipək istehsalı",
+    "section": "Description"
+  },
+  "LAV": {
+    "url": "https://www.unesco.az/az/articles/intangible_cultural_heritage/flatbread-making-sharing-culture-lavash-katyrma-jupka-yufka",
+    "title": "UNESCO Milli Komissiyası — Nazik çörək mədəniyyəti",
+    "section": "Lavaş"
+  },
+  "URA": {
+    "url": "https://science.nasa.gov/uranus/facts/",
+    "title": "NASA — Uran haqqında faktlar",
+    "section": "Introduction; Orbit; Moons; Structure"
+  },
+  "NEP": {
+    "url": "https://science.nasa.gov/neptune/neptune-facts/",
+    "title": "NASA — Neptun haqqında faktlar",
+    "section": "Discovery; Orbit; Moons; Atmosphere"
+  },
+  "MOO": {
+    "url": "https://science.nasa.gov/moon/facts/",
+    "title": "NASA — Ay haqqında faktlar",
+    "section": "10 things; Orbit; Surface; Water"
+  },
+  "SND": {
+    "url": "https://oceanservice.noaa.gov/facts/sound.html",
+    "title": "NOAA — Səsin okeanda yayılması",
+    "section": "Temperature; Pressure"
+  },
+  "OBL": {
+    "url": "https://oceanservice.noaa.gov/facts/oceanblue.html",
+    "title": "NOAA — Okeanın rəngi",
+    "section": "Light absorption"
+  },
+  "OSL": {
+    "url": "https://oceanservice.noaa.gov/facts/whysalty.html",
+    "title": "NOAA — Okeanın duzluluğu",
+    "section": "Sources; Ions; Average salinity"
+  },
+  "ICE": {
+    "url": "https://oceanservice.noaa.gov/facts/iceberg.html",
+    "title": "NOAA — Aysberqlər",
+    "section": "Origin; Shapes"
+  },
+  "PRS": {
+    "url": "https://oceanservice.noaa.gov/facts/pressure.html",
+    "title": "NOAA — Dərinlik və təzyiq",
+    "section": "Hydrostatic pressure"
+  },
+  "OXY": {
+    "url": "https://oceanservice.noaa.gov/facts/ocean-oxygen.html",
+    "title": "NOAA — Okeanda oksigen istehsalı",
+    "section": "Plankton; Decay"
+  },
+  "SON": {
+    "url": "https://oceanservice.noaa.gov/facts/sonar.html",
+    "title": "NOAA — Sonar",
+    "section": "Active and passive sonar"
+  },
+  "TSU": {
+    "url": "https://oceanservice.noaa.gov/facts/tsunami.html",
+    "title": "NOAA — Sunami",
+    "section": "Causes; Waves"
+  },
+  "SHK": {
+    "url": "https://www.nhm.ac.uk/discover/what-can-shark-teeth-tell-us.html",
+    "title": "Natural History Museum — Köpəkbalığının dişləri",
+    "section": "Teeth; Fossilisation"
+  },
+  "EXT": {
+    "url": "https://www.nhm.ac.uk/discover/life-in-earths-most-extreme-environments.html",
+    "title": "Natural History Museum — Ekstremal mühitlərdə həyat",
+    "section": "Tardigrades; Anglerfish; Sea snakes"
+  },
+  "BAL": {
+    "url": "https://ich.unesco.org/en/RL/craftsmanship-and-performing-art-of-balaban-mey-01704",
+    "title": "UNESCO — Balaban sənəti",
+    "section": "Description"
+  },
+  "KHI": {
+    "url": "https://whc.unesco.org/en/list/1696/",
+    "title": "UNESCO — Xınalıq və Köç Yolu",
+    "section": "Description; Brief synthesis"
+  },
+  "CPT": {
+    "url": "https://ich.unesco.org/doc/src/07460-EN.pdf?t=1290162106",
+    "title": "UNESCO — Azərbaycan xalçaçılığının nominasiya sənədi",
+    "section": "Summary; Description"
+  },
+  "FOS": {
+    "url": "https://www.nhm.ac.uk/discover/what-is-a-fossil.html",
+    "title": "Natural History Museum — Fosillər",
+    "section": "Trace fossils"
+  },
+  "GOY": {
+    "url": "https://www.eco.gov.az/az/nazirlik/xeber?newsID=24643",
+    "title": "ETSN — Göygölün yaranması",
+    "section": "1139-cu il zəlzələsi"
+  },
+  "ZAR": {
+    "url": "https://www.preslib.az/az/historical/page/DcjkdK4",
+    "title": "Prezident Kitabxanası — Həsən bəy Zərdabi",
+    "section": "Bioqrafiya"
+  },
+  "MOL": {
+    "url": "https://www.preslib.az/az/historical/page/dbluxvp",
+    "title": "Prezident Kitabxanası — Molla Nəsrəddin",
+    "section": "Nəşr tarixi"
+  },
+  "OPR": {
+    "url": "https://www.preslib.az/az/historical/page/tsxginv",
+    "title": "Prezident Kitabxanası — Leyli və Məcnun",
+    "section": "Premyera; İfaçılar"
+  },
+  "SHV": {
+    "url": "https://president.az/az/articles/view/24531",
+    "title": "Şövkət Məmmədovanın120 illiyi haqqında sərəncam",
+    "section": "İlk qadın opera müğənnisi"
+  },
+  "VEC": {
+    "url": "https://whc.unesco.org/en/list/394/",
+    "title": "UNESCO — Venesiya",
+    "section": "Description; Brief synthesis"
+  },
+  "ANG": {
+    "url": "https://whc.unesco.org/en/list/668/",
+    "title": "UNESCO — Anqkor",
+    "section": "Description; Brief synthesis"
+  },
+  "RAP": {
+    "url": "https://whc.unesco.org/en/list/715/",
+    "title": "UNESCO — Rapa Nui",
+    "section": "Description; Brief synthesis"
+  },
+  "MSM": {
+    "url": "https://whc.unesco.org/en/list/80/",
+    "title": "UNESCO — Mon-Sen-Mişel",
+    "section": "Description; Brief synthesis"
+  },
+  "CAR": {
+    "url": "https://whc.unesco.org/en/list/721/",
+    "title": "UNESCO — Karlsbad mağaraları",
+    "section": "Description; Brief synthesis"
+  },
+  "GRC": {
+    "url": "https://whc.unesco.org/en/list/75/",
+    "title": "UNESCO — Böyük Kanyon",
+    "section": "Description; Brief synthesis"
+  },
+  "PAM": {
+    "url": "https://whc.unesco.org/en/list/485/",
+    "title": "UNESCO — Hierapolis-Pamukkale",
+    "section": "Description; Brief synthesis"
+  },
+  "CAP": {
+    "url": "https://whc.unesco.org/en/list/357/",
+    "title": "UNESCO — Kapadokiya",
+    "section": "Description; Brief synthesis"
+  },
+  "IGU": {
+    "url": "https://whc.unesco.org/en/list/303/",
+    "title": "UNESCO — İquasu",
+    "section": "Description; Brief synthesis"
+  },
+  "SOC": {
+    "url": "https://whc.unesco.org/en/list/1263/",
+    "title": "UNESCO — Sokotra",
+    "section": "Description; Brief synthesis"
+  },
+  "BAI": {
+    "url": "https://whc.unesco.org/en/list/754/",
+    "title": "UNESCO — Baykal",
+    "section": "Description; Brief synthesis"
+  },
+  "KOM": {
+    "url": "https://whc.unesco.org/en/list/609/",
+    "title": "UNESCO — Komodo",
+    "section": "Description; Brief synthesis"
+  },
+  "EIN": {
+    "url": "https://www.nobelprize.org/prizes/physics/1921/summary/",
+    "title": "Nobel — Eynşteyn",
+    "section": "Prize motivation"
+  },
+  "RNT": {
+    "url": "https://www.nobelprize.org/prizes/physics/1901/rontgen/facts/",
+    "title": "Nobel — Röntgen",
+    "section": "Facts"
+  },
+  "RUT": {
+    "url": "https://www.nobelprize.org/prizes/chemistry/1908/summary/",
+    "title": "Nobel — Rezerford",
+    "section": "Prize motivation"
+  },
+  "FLE": {
+    "url": "https://www.nobelprize.org/prizes/medicine/1945/fleming/questions-and-answers/",
+    "title": "Nobel — Fleminq",
+    "section": "Questions and answers"
+  },
+  "DAL": {
+    "url": "https://www.moma.org/collection/works/79018",
+    "title": "MoMA — Yaddaşın davamlılığı",
+    "section": "Work description"
+  },
+  "VME": {
+    "url": "https://www.mauritshuis.nl/en/our-collection/artworks/670-girl-with-a-pearl-earring",
+    "title": "Mauritshuis — Mirvari sırğalı qız",
+    "section": "Description"
+  },
+  "ROD": {
+    "url": "https://www.musee-rodin.fr/en/musee/collections/oeuvres/thinker",
+    "title": "Roden Muzeyi — Düşünən adam",
+    "section": "Description"
+  },
+  "GUE": {
+    "url": "https://www.museoreinasofia.es/colecciones/obra/guernica/?id=322",
+    "title": "Reina Sofía — Gernika",
+    "section": "Context"
+  },
+  "HOK": {
+    "url": "https://www.metmuseum.org/art/collection/search/56353",
+    "title": "MET — Böyük dalğa",
+    "section": "Description; Medium"
+  },
+  "MUN": {
+    "url": "https://www.munch.no/en/our-collection/a-scream-through-culture",
+    "title": "Munk Muzeyi — Qışqırıq",
+    "section": "Robberies"
+  },
+  "MCB": {
+    "url": "https://www.folger.edu/explore/shakespeares-works/macbeth/",
+    "title": "Folger — Maqbet",
+    "section": "Introduction"
+  },
+  "MC2": {
+    "url": "https://www.folger.edu/explore/shakespeares-works/macbeth/about-shakespeares-macbeth/",
+    "title": "Folger — Maqbet haqqında",
+    "section": "Introduction"
+  },
+  "ROM": {
+    "url": "https://www.folger.edu/explore/shakespeares-works/romeo-and-juliet/",
+    "title": "Folger — Romeo və Cülyetta",
+    "section": "Introduction"
+  },
+  "OTH": {
+    "url": "https://www.folger.edu/explore/shakespeares-works/othello/",
+    "title": "Folger — Otello",
+    "section": "Introduction"
+  },
+  "OT2": {
+    "url": "https://www.folger.edu/explore/shakespeares-works/othello/about-shakespeares-othello/",
+    "title": "Folger — Otello haqqında",
+    "section": "Introduction"
+  },
+  "TMP": {
+    "url": "https://www.folger.edu/explore/shakespeares-works/the-tempest/",
+    "title": "Folger — Fırtına",
+    "section": "Introduction"
+  },
+  "VGR": {
+    "url": "https://science.nasa.gov/mission/voyager/golden-record-contents/",
+    "title": "NASA — Voyacerin qızıl plastinkası",
+    "section": "Contents"
+  },
+  "VGG": {
+    "url": "https://science.nasa.gov/mission/voyager/golden-record-contents/greetings/",
+    "title": "NASA — Qızıl plastinkanın salamlamaları",
+    "section": "55 languages"
+  },
+  "VGM": {
+    "url": "https://science.nasa.gov/mission/voyager/golden-record-contents/sounds/",
+    "title": "NASA — Qızıl plastinkanın musiqisi",
+    "section": "Music list"
+  },
+  "VOL": {
+    "url": "https://www.fivb.com/volleyball/the-game/basic-rules/",
+    "title": "FIVB — Voleybolun əsas qaydaları",
+    "section": "Basic rules"
+  },
+  "TEN": {
+    "url": "https://www.itftennis.com/en/about-us/organisation/tennis-glossary/",
+    "title": "ITF — Tennis terminləri",
+    "section": "Scoring; Ace; Double Fault"
+  },
+  "STP": {
+    "url": "https://worldathletics.org/disciplines/middlelong/3000-metres-steeplechase",
+    "title": "World Athletics — Stiplçeyz",
+    "section": "FAQs"
+  },
+  "DEC": {
+    "url": "https://worldathletics.org/disciplines/combined/decathlon",
+    "title": "World Athletics — Dekatlon",
+    "section": "Introduction"
+  },
+  "HEP": {
+    "url": "https://worldathletics.org/disciplines/combined/heptathlon",
+    "title": "World Athletics — Heptatlon",
+    "section": "Disciplines"
+  },
+  "JUD": {
+    "url": "https://www.ijf.org/history/jigoro-kano-who-was-he-really/3977",
+    "title": "IJF — Ciqoro Kano",
+    "section": "Kodokan"
+  },
+  "CURL": {
+    "url": "https://worldcurling.org/2026/02/olympic-curling-stone-feature/",
+    "title": "World Curling — Kerlinq daşları",
+    "section": "Granite; Ailsa Craig"
+  },
+  "BDM": {
+    "url": "https://system.bwfbadminton.com/documents/folder_1_81/Regulations/Laws/Part%20II%20Section%201A%20-%20Laws%20of%20Badminton%20-%20May%202017.pdf",
+    "title": "BWF — Badminton qaydaları",
+    "section": "2.2.1 Feathered shuttle"
+  },
+  "SWM": {
+    "url": "https://resources.fina.org/fina/document/2024/07/01/1d853a10-86c9-4c8a-9c85-431d2acd284e/Competition-Regulations-version-1st-July-2024-_track-changes_V1.pdf",
+    "title": "World Aquatics — Üzmə qaydaları",
+    "section": "9.1 Individual medley"
+  },
+  "THE": {
+    "url": "https://openstax.org/books/college-physics-2e/pages/13-2-thermal-expansion-of-solids-and-liquids",
+    "title": "OpenStax — İstilik genişlənməsi",
+    "section": "College Physics 2e; müvafiq bölmə"
+  },
+  "CON": {
+    "url": "https://openstax.org/books/college-physics-2e/pages/14-5-conduction",
+    "title": "OpenStax — İstilikkeçirmə",
+    "section": "College Physics 2e; müvafiq bölmə"
+  },
+  "CVN": {
+    "url": "https://openstax.org/books/college-physics-2e/pages/14-6-convection",
+    "title": "OpenStax — Konveksiya",
+    "section": "College Physics 2e; müvafiq bölmə"
+  },
+  "RAD": {
+    "url": "https://openstax.org/books/college-physics-2e/pages/14-7-radiation",
+    "title": "OpenStax — Şüalanma",
+    "section": "College Physics 2e; müvafiq bölmə"
+  },
+  "LAT": {
+    "url": "https://openstax.org/books/college-physics-2e/pages/14-3-phase-change-and-latent-heat",
+    "title": "OpenStax — Faza dəyişməsi",
+    "section": "College Physics 2e; müvafiq bölmə"
+  },
+  "REF": {
+    "url": "https://openstax.org/books/college-physics-2e/pages/25-3-the-law-of-refraction",
+    "title": "OpenStax — Sınma",
+    "section": "College Physics 2e; müvafiq bölmə"
+  },
+  "DSP": {
+    "url": "https://openstax.org/books/college-physics-2e/pages/25-5-dispersion-the-rainbow-and-prisms",
+    "title": "OpenStax — Dispersiya",
+    "section": "College Physics 2e; müvafiq bölmə"
+  },
+  "TIR": {
+    "url": "https://openstax.org/books/college-physics-2e/pages/25-4-total-internal-reflection",
+    "title": "OpenStax — Tam daxili əksolunma",
+    "section": "College Physics 2e; müvafiq bölmə"
+  },
+  "MIR": {
+    "url": "https://openstax.org/books/college-physics-2e/pages/25-7-image-formation-by-mirrors",
+    "title": "OpenStax — Güzgülər",
+    "section": "College Physics 2e; müvafiq bölmə"
+  },
+  "INE": {
+    "url": "https://openstax.org/books/college-physics-2e/pages/4-2-newtons-first-law-of-motion-inertia",
+    "title": "OpenStax — Ətalət",
+    "section": "College Physics 2e; müvafiq bölmə"
+  },
+  "EQU": {
+    "url": "https://openstax.org/books/college-physics-2e/pages/9-1-the-first-condition-for-equilibrium",
+    "title": "OpenStax — Tarazlıq",
+    "section": "College Physics 2e; müvafiq bölmə"
+  },
+  "TRF": {
+    "url": "https://openstax.org/books/college-physics-2e/pages/23-7-transformers",
+    "title": "OpenStax — Transformatorlar",
+    "section": "College Physics 2e; müvafiq bölmə"
+  },
+  "RES": {
+    "url": "https://openstax.org/books/college-physics-2e/pages/21-1-resistors-in-series-and-parallel",
+    "title": "OpenStax — Müqavimətlərin birləşməsi",
+    "section": "College Physics 2e; müvafiq bölmə"
+  },
+  "CAL": {
+    "url": null,
+    "title": "Müəllifin hesablaması",
+    "section": "Sualın şərtlərindən çıxarılan həll"
+  },
+  "JAC": {
+    "url": "https://collection.sciencemuseumgroup.org.uk/objects/co8405056/jacquard-hand-loom",
+    "title": "Science Museum Group — Jakard əl dəzgahı",
+    "section": "Kartlar və mexanizm"
+  },
+  "BAB": {
+    "url": "https://hsm.ox.ac.uk/imagining-ai",
+    "title": "Oxford History of Science Museum — Bebbiç və Lavleys",
+    "section": "Difference Engine; Analytical Engine; Ada Lovelace; Jevons"
+  },
+  "BRA": {
+    "url": "https://www.loc.gov/nls/services-and-resources/informational-publications/about-braille/",
+    "title": "Library of Congress — Brayl yazısı",
+    "section": "Definition; Louis Braille; Braille Alphabet"
+  },
+  "ATC": {
+    "url": "https://www.nist.gov/atomic-clocks/how-do-atomic-clocks-work",
+    "title": "NIST — Atom saatları necə işləyir?",
+    "section": "Oscillation; Resonance; Cesium"
+  },
+  "GPS": {
+    "url": "https://www.gps.gov/gps",
+    "title": "GPS.gov — GPS-in quruluşu",
+    "section": "Three segments; one-way signals"
+  },
+  "DAG": {
+    "url": "https://www.si.edu/object/photograph-louis-jacques-mande-daguerre%3Anmah_554754",
+    "title": "Smithsonian — Lui Dagerin fotoşəkli",
+    "section": "Collection description; axtarış indeksindəki mətn"
+  },
+  "PHO": {
+    "url": "https://americanhistory.si.edu/explore/exhibitions/americas-listening/online/edisons-talking-machine",
+    "title": "Smithsonian — Edisonun danışan maşını",
+    "section": "1877; Home Phonograph; axtarış indeksindəki mətn"
+  },
+  "WBF": {
+    "url": "https://science.nasa.gov/mission/webb/fact-sheet/",
+    "title": "NASA — Ceyms Vebb fakt vərəqi",
+    "section": "Key Facts; Major Innovations"
+  },
+  "WMR": {
+    "url": "https://science.nasa.gov/mission/webb/webbs-mirrors/",
+    "title": "NASA — Vebbin aynaları",
+    "section": "Gold coating"
+  },
+  "COL": {
+    "url": "https://collection.sciencemuseumgroup.org.uk/objects/co8440792/valve-from-colossus-project-1940-1945",
+    "title": "Science Museum Group — Kolossus vakuum lampası",
+    "section": "Description"
+  },
+  "YMM": {
+    "url": "https://science.gov.az/az/news/open/24997",
+    "title": "AMEA — Kimyaçı alimlər İkinci Dünya müharibəsində",
+    "section": "Yusif Məmmədəliyev və yüksək oktanlı yanacaq"
+  },
+  "MUD": {
+    "url": "https://azerbaijan.az/related-information/14",
+    "title": "Azərbaycan dövlət portalı — Palçıq vulkanları",
+    "section": "Neft-qaz yataqları; ada mənşəyi"
+  },
+  "THA": {
+    "url": "https://www.preslib.az/az/historical/page/rkmplub",
+    "title": "Prezident Kitabxanası — Milli teatr tarixi",
+    "section": "1873-cü il tamaşası; Milli Teatr Günü"
+  },
+  "AXU": {
+    "url": "https://science.gov.az/az/news/open/17701",
+    "title": "AMEA — Mirzə Fətəli Axundzadənin yaradıcılığı",
+    "section": "Səbuhi; Təmsilat"
+  },
+  "VEZ": {
+    "url": "https://www.preslib.az/az/historical/page/OgLySmU",
+    "title": "Prezident Kitabxanası — Nəcəf bəy Vəzirov",
+    "section": "Müsibəti Fəxrəddin"
+  },
+  "VZF": {
+    "url": "https://milliarxiv.gov.az/az/sara-vezirova",
+    "title": "Milli Arxiv İdarəsi — Sara Vəzirova",
+    "section": "Atası Nəcəf bəy Vəzirovun Meşəçilik şöbəsi və meşəbəyi təyinatı; axtarış indeksinin mətni"
+  },
+  "NIZ": {
+    "url": "https://files.preslib.az/projects/nizami/e1.pdf",
+    "title": "Prezident Kitabxanası — Nizami Gəncəvi",
+    "section": "Xəmsə; İsgəndərnamə"
+  },
+  "NKS": {
+    "url": "https://www.preslib.az/az/book/uWEdhVBJr7cm9EW",
+    "title": "Prezident Kitabxanası — Xosrov və Şirin",
+    "section": "Annotasiya"
+  },
+  "QAR": {
+    "url": "https://files.preslib.az/projects/azerbaijan/gl5.pdf",
+    "title": "Prezident Kitabxanası — Azərbaycan musiqisi",
+    "section": "Qara Qarayev; Yeddi gözəl; İldırımlı yollarla; axtarış indeksindəki mətn"
+  },
+  "CUN": {
+    "url": "https://www.britishmuseum.org/blog/how-write-cuneiform",
+    "title": "British Museum — Mixi yazının yazılması",
+    "section": "Pazşəkilli izlər; gil; axtarış indeksindəki mətn"
+  },
+  "CUT": {
+    "url": "https://www.britishmuseum.org/research/projects/making-cuneiform-tablets",
+    "title": "British Museum — Mixi yazı lövhələrinin hazırlanması",
+    "section": "Mesopotamiya; axtarış indeksindəki mətn"
+  },
+  "PPR": {
+    "url": "https://www.britishmuseum.org/sites/default/files/2019-09/Presnotes_reading_a_papyrus_FINAL.pdf",
+    "title": "British Museum — Papirusun oxunması",
+    "section": "Papirus materialı; axtarış indeksindəki mətn"
+  },
+  "SUT": {
+    "url": "https://www.britishmuseum.org/collection/death-and-memory/anglo-saxon-ship-burial-sutton-hoo",
+    "title": "British Museum — Satton-Hu gəmi dəfni",
+    "section": "Anqlosakson gəmi dəfni; axtarış indeksindəki mətn"
+  },
+  "LEW": {
+    "url": "https://www.britishmuseum.org/collection/object/H_1831-1101-78",
+    "title": "British Museum — Lyuis şahmat kralı",
+    "section": "Material; axtarış indeksindəki obyekt təsviri"
+  },
+  "BEN": {
+    "url": "https://www.britishmuseum.org/collection/object/E_Af1898-0115-16",
+    "title": "British Museum — Benin relyef lövhəsi",
+    "section": "İtən mum üsulu; Oba sarayı; axtarış indeksindəki mətn"
+  },
+  "POR": {
+    "url": "https://www.britishmuseum.org/collection/galleries/roman-empire",
+    "title": "British Museum — Roma imperiyası qalereyası",
+    "section": "Portland vazası; axtarış indeksindəki mətn"
+  },
+  "FLO": {
+    "url": "https://whc.unesco.org/en/list/174/",
+    "title": "UNESCO — Florensiyanın tarixi mərkəzi",
+    "section": "Description; Brief synthesis"
+  },
+  "DUB": {
+    "url": "https://whc.unesco.org/en/list/95/",
+    "title": "UNESCO — Dubrovnikin köhnə şəhəri",
+    "section": "Description; Brief synthesis"
+  },
+  "VAT": {
+    "url": "https://whc.unesco.org/en/list/286/",
+    "title": "UNESCO — Vatikan",
+    "section": "Description; Brief synthesis"
+  },
+  "CHI": {
+    "url": "https://whc.unesco.org/en/list/483/",
+    "title": "UNESCO — Çiçen-İtsa",
+    "section": "Description; Brief synthesis"
+  },
+  "SAM": {
+    "url": "https://whc.unesco.org/en/list/603/",
+    "title": "UNESCO — Səmərqənd",
+    "section": "Description; Brief synthesis"
+  },
+  "ZIM": {
+    "url": "https://whc.unesco.org/en/list/364/",
+    "title": "UNESCO — Böyük Zimbabve",
+    "section": "Description; Brief synthesis"
+  },
+  "LAL": {
+    "url": "https://whc.unesco.org/en/list/18/",
+    "title": "UNESCO — Lalibela qaya kilsələri",
+    "section": "Description; Brief synthesis"
+  },
+  "ZAN": {
+    "url": "https://whc.unesco.org/en/list/173/",
+    "title": "UNESCO — Zənzibarın Daş şəhəri",
+    "section": "Description; Brief synthesis"
+  },
+  "VFL": {
+    "url": "https://www.kew.org/read-and-watch/carnivorous-plants",
+    "title": "Kew — Ətyeyən bitkilər",
+    "section": "Qida elementləri; küpə, yapışqan və sualtı tələlər"
+  },
+  "VFS": {
+    "url": "https://www.kew.org/plants/venus-flytrap",
+    "title": "Kew — Venera milçəktutanı",
+    "section": "Tətiklənmə və təbii yayılma; axtarış indeksindəki mətn"
+  },
+  "MAN": {
+    "url": "https://oceanservice.noaa.gov/education/tutorial_estuaries/est07_adaptations.html",
+    "title": "NOAA — Estuarilərdə yaşama uyğunlaşmaları",
+    "section": "Manqrovlar"
+  },
+  "KLP": {
+    "url": "https://ocean.si.edu/kelp-and-kelp-forests",
+    "title": "Smithsonian Ocean — Kelp və kelp meşələri",
+    "section": "Macroalgae; Anatomy; Urchin barrens"
+  },
+  "OTT": {
+    "url": "https://nationalzoo.si.edu/news/smithsonian-study-reveals-tool-using-sea-otters-not-closely-related",
+    "title": "Smithsonian — Dəniz samurlarının alət işlətməsi",
+    "section": "Daşlarla qabığın açılması"
+  },
+  "EPI": {
+    "url": "https://www.kew.org/plants/leopard-orchid",
+    "title": "Kew — Bəbir səhləbi",
+    "section": "Epifitlik və hava kökləri; axtarış indeksindəki mətn"
+  },
+  "CUC": {
+    "url": "https://www.nhm.ac.uk/discover/news/2023/june/uk-cuckoos-unable-adjust-migrations-keep-up-climate-change.html",
+    "title": "Natural History Museum — Ququ quşları",
+    "section": "Yuva parazitliyi; yumurta təqlidi"
+  },
+  "CTL": {
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23474299/",
+    "title": "Vision Research, 2013 — Mürəkkəb balığının W formalı bəbəyi",
+    "section": "Abstract; axtarış indeksindəki mətn"
+  },
+  "WFR": {
+    "url": "https://www.uaf.edu/news/archives/news-archives-2010-2021/alaska-frogs.php",
+    "title": "University of Alaska Fairbanks — Meşə qurbağaları və qlükoza",
+    "section": "Larson və Barnes tədqiqatının izahı"
+  },
+  "TIT": {
+    "url": "https://www.kew.org/read-and-watch/titan-arum-in-bloom",
+    "title": "Kew — Titan arumun çiçəklənməsi",
+    "section": "Sumatra; qoxu; çiçək qrupu; termal kamera"
+  },
+  "MIM": {
+    "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A313242-2/general-information",
+    "title": "Kew — Mimosa pudica",
+    "section": "Toxunuş və daxili su hərəkəti"
+  },
+  "BUT": {
+    "url": "https://www.nhm.ac.uk/discover/spotlight-blue-morpho.html",
+    "title": "Natural History Museum — Mavi morfo",
+    "section": "Structural colour"
+  },
+  "HSC": {
+    "url": "https://oceanservice.noaa.gov/facts/horseshoe-crab.html",
+    "title": "NOAA — Qılıncquyruqlar həqiqi xərçəngdirmi?",
+    "section": "Qohumluq və quyruğun funksiyası"
+  },
+  "MON2": {
+    "url": "https://www.nps.gov/articles/000/protecting-western-monarchs.htm",
+    "title": "US National Park Service — Qərb monarxlarının qorunması",
+    "section": "Nektar; yumurta yeri; tozlanma"
+  },
+  "VNI": {
+    "url": "https://www.kew.org/read-and-watch/vanilla-digitisation",
+    "title": "Kew — Vanil və digər səhləblər",
+    "section": "Vanil meyvələri; Albius; səhləb kökləri"
+  },
+  "BEE": {
+    "url": "https://www.sciencedirect.com/science/article/pii/S0003347221003869",
+    "title": "Animal Behaviour — Bal arısının titrəmə rəqsi, 2022",
+    "section": "Abstract; istiqamət və məsafə; axtarış indeksindəki mətn"
+  },
+  "BNF": {
+    "url": "https://www.nobelprize.org/prizes/medicine/1973/press-release/",
+    "title": "Nobel komitəsi — 1973-cü il fiziologiya və tibb mükafatı",
+    "section": "Karl fon Friş və arı dili"
+  },
+  "CAM": {
+    "url": "https://www.fao.org/4/x1700t/x1700t05.htm",
+    "title": "FAO — İkihörgüclü dəvə",
+    "section": "Hörgüclər və piy ehtiyatı"
+  },
+  "PEN": {
+    "url": "https://legacy.bas.ac.uk/about_antarctica/wildlife/birds/penguins/emperor.php",
+    "title": "British Antarctic Survey — İmperator pinqvini",
+    "section": "İnkubasiya; qış; sıx qrupda istilik"
+  },
+  "BAN": {
+    "url": "https://www.kew.org/plants/cavendish-banana",
+    "title": "Kew — Kavendiş bananı",
+    "section": "Nəhəng ot bitkisi; axtarış indeksindəki mətn"
+  },
+  "BAM": {
+    "url": "https://www.kew.org/read-and-watch/bamboo-kew-pandas",
+    "title": "Kew — Bambuk haqqında",
+    "section": "Poaceae ailəsi"
+  },
+  "PIN": {
+    "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A12322-2/general-information",
+    "title": "Kew — Ananas comosus",
+    "section": "Fruits; çoxlu çiçəkdən meyvə; axtarış indeksindəki mətn"
+  },
+  "SUN11": {
+    "url": "https://science.nasa.gov/sun/facts/",
+    "title": "NASA — Günəş haqqında faktlar",
+    "section": "Orbit and Rotation; Structure; Surface; Key Sun Features"
+  },
+  "STR11": {
+    "url": "https://science.nasa.gov/universe/stars/types/",
+    "title": "NASA — Ulduz növləri",
+    "section": "White Dwarfs; Red Giants; Neutron Stars; Red Dwarfs; Brown Dwarfs"
+  },
+  "CAP11": {
+    "url": "https://www.usgs.gov/water-science-school/science/capillary-action-and-water",
+    "title": "USGS — Kapilyarlıq və su",
+    "section": "Dar borular; adheziya; kağız lifləri"
+  },
+  "TEN11": {
+    "url": "https://www.usgs.gov/water-science-school/science/surface-tension-and-water",
+    "title": "USGS — Səthi gərilmə",
+    "section": "Metal sancağın səthdə saxlanması"
+  },
+  "ART11": {
+    "url": "https://www.usgs.gov/water-science-school/science/artesian-water-and-artesian-wells",
+    "title": "USGS — Artezian suyu və quyuları",
+    "section": "Örtülü sulu layda təzyiq; Artua adı"
+  },
+  "GAL11": {
+    "url": "https://periodic-table.rsc.org/element/31/gallium",
+    "title": "Royal Society of Chemistry — Qallium",
+    "section": "Fact box; Uses and properties; History"
+  },
+  "TUN11": {
+    "url": "https://periodic-table.rsc.org/element/74/tungsten",
+    "title": "Royal Society of Chemistry — Volfram",
+    "section": "Fact box; Uses and properties; History"
+  },
+  "HEL11": {
+    "url": "https://periodic-table.rsc.org/element/2/helium",
+    "title": "Royal Society of Chemistry — Helium",
+    "section": "Fact box; Uses and properties; History"
+  },
+  "IRN11": {
+    "url": "https://periodic-table.rsc.org/element/26/iron",
+    "title": "Royal Society of Chemistry — Dəmir",
+    "section": "Fact box; Uses and properties; History"
+  },
+  "CAR11": {
+    "url": "https://periodic-table.rsc.org/element/6/carbon",
+    "title": "Royal Society of Chemistry — Karbon",
+    "section": "Fact box; Uses and properties; History"
+  },
+  "NEO11": {
+    "url": "https://periodic-table.rsc.org/element/10/neon",
+    "title": "Royal Society of Chemistry — Neon",
+    "section": "Fact box; Uses and properties; History"
+  },
+  "SIL11": {
+    "url": "https://periodic-table.rsc.org/element/14/silicon",
+    "title": "Royal Society of Chemistry — Silisium",
+    "section": "Fact box; Uses and properties; History"
+  },
+  "IOD11": {
+    "url": "https://periodic-table.rsc.org/element/53/iodine",
+    "title": "Royal Society of Chemistry — Yod",
+    "section": "Fact box; Uses and properties; History"
+  },
+  "BIS11": {
+    "url": "https://periodic-table.rsc.org/element/83/bismuth",
+    "title": "Royal Society of Chemistry — Bismut",
+    "section": "Fact box; Uses and properties; History"
+  },
+  "RAN12": {
+    "url": "https://whc.unesco.org/en/list/922/",
+    "title": "UNESCO — Rani-ki-Vav",
+    "section": "Description; Brief synthesis"
+  },
+  "WAD12": {
+    "url": "https://whc.unesco.org/en/list/1314/",
+    "title": "UNESCO — Vadden dənizi",
+    "section": "Description; Brief synthesis"
+  },
+  "SHU12": {
+    "url": "https://whc.unesco.org/en/list/1315/",
+    "title": "UNESCO — Şuştar hidravlik sistemi",
+    "section": "Description; Brief synthesis"
+  },
+  "JAN12": {
+    "url": "https://whc.unesco.org/en/list/1338/",
+    "title": "UNESCO — Cantar Mantar",
+    "section": "Description; Brief synthesis"
+  },
+  "QAN12": {
+    "url": "https://whc.unesco.org/en/list/1506/",
+    "title": "UNESCO — İran kəhrizləri",
+    "section": "Description; Brief synthesis"
+  },
+  "KIN12": {
+    "url": "https://whc.unesco.org/en/list/818/",
+    "title": "UNESCO — Kinderdəyki dəyirman şəbəkəsi",
+    "section": "Description; Brief synthesis"
+  },
+  "PON12": {
+    "url": "https://whc.unesco.org/en/list/344/",
+    "title": "UNESCO — Pon dü Qar",
+    "section": "Description; Brief synthesis"
+  },
+  "HAL12": {
+    "url": "https://whc.unesco.org/en/list/806/",
+    "title": "UNESCO — Hallştatt-Daxştayn",
+    "section": "Description; Brief synthesis"
+  },
+  "ALH12": {
+    "url": "https://whc.unesco.org/en/list/314/",
+    "title": "UNESCO — Əlhambra və Generalife",
+    "section": "Description; Brief synthesis"
+  },
+  "HIM12": {
+    "url": "https://whc.unesco.org/en/list/661/",
+    "title": "UNESCO — Himeci qalası",
+    "section": "Description; Brief synthesis"
+  },
+  "HIR12": {
+    "url": "https://whc.unesco.org/en/list/775/",
+    "title": "UNESCO — Hiroşima Sülh Memorialı",
+    "section": "Description; Brief synthesis"
+  },
+  "BAG12": {
+    "url": "https://whc.unesco.org/en/list/1588/",
+    "title": "UNESCO — Baqan",
+    "section": "Description; Brief synthesis"
+  },
+  "BOR12": {
+    "url": "https://whc.unesco.org/en/list/592/",
+    "title": "UNESCO — Borobudur",
+    "section": "Description; Brief synthesis"
+  },
+  "WUL12": {
+    "url": "https://whc.unesco.org/en/list/640/",
+    "title": "UNESCO — Ulinyuan",
+    "section": "Description; Brief synthesis"
+  },
+  "JIU12": {
+    "url": "https://whc.unesco.org/en/list/637/",
+    "title": "UNESCO — Ciuçjayqou",
+    "section": "Description; Brief synthesis"
+  },
+  "NGO12": {
+    "url": "https://whc.unesco.org/en/list/39/",
+    "title": "UNESCO — Nqoronqoro",
+    "section": "Description; Brief synthesis"
+  },
+  "TSO12": {
+    "url": "https://whc.unesco.org/en/list/1021/",
+    "title": "UNESCO — Tsodilo",
+    "section": "Description; Brief synthesis"
+  },
+  "MES12": {
+    "url": "https://whc.unesco.org/en/list/27/",
+    "title": "UNESCO — Mesa-Verde",
+    "section": "Description; Brief synthesis"
+  },
+  "LAS12": {
+    "url": "https://whc.unesco.org/en/list/85/",
+    "title": "UNESCO — Vezer vadisi və Lasko",
+    "section": "Description; Brief synthesis"
+  },
+  "CAR12": {
+    "url": "https://whc.unesco.org/en/list/345/",
+    "title": "UNESCO — Karkasson",
+    "section": "Description; Brief synthesis"
+  },
+  "MOM13": {
+    "url": "https://nculture.gov.az/momin-xatin-turb-si",
+    "title": "Naxçıvan MR Mədəniyyət Nazirliyi — Möminə xatın türbəsi",
+    "section": "Memar; kitabə tarixi; sifarişçi; medalyonlar"
+  },
+  "YUS13": {
+    "url": "https://nculture.gov.az/yusif-kuseyr-oglu-turb-si1",
+    "title": "Naxçıvan MR Mədəniyyət Nazirliyi — Yusif Küseyr oğlu türbəsi",
+    "section": "Atababa adı; səkkizguşəli plan; piramidal örtük; inşa tarixi"
+  },
+  "QAR13": {
+    "url": "https://nculture.gov.az/qarabaglar-turb-kompleksi",
+    "title": "Naxçıvan MR Mədəniyyət Nazirliyi — Qarabağlar Türbə Kompleksi",
+    "section": "Kəngərli; qoşa minarə; on iki yarımsilindr"
+  },
+  "GUL13": {
+    "url": "https://nculture.gov.az/gulustan-turb-si",
+    "title": "Naxçıvan MR Mədəniyyət Nazirliyi — Gülüstan türbəsi",
+    "section": "Tuf; yerüstü sərdabə; on iki üzlü gövdə"
+  },
+  "ATE13": {
+    "url": "https://surakhani-ih.gov.az/az/page/16.html",
+    "title": "Suraxanı Rayon İcra Hakimiyyəti — Atəşgah",
+    "section": "Yerləşmə; təbii qaz; plan; Avropa Oyunları məşəli"
+  },
+  "ICH13": {
+    "url": "https://icherisheher.gov.az/activity/historical-reference",
+    "title": "İçərişəhər Qoruq İdarəsi — Muzeylər",
+    "section": "Qız qalası; Sıratağlı kompleks; Şirvanşahlar sarayı; Yeraltı hamam"
+  },
+  "ARM13": {
+    "url": "https://uzeyirhajibeyli.preslib.az/az/page/pcVk2x6",
+    "title": "Üzeyir Hacıbəyli — Arşın mal alan haqqında qeydlər",
+    "section": "1913; Peterburq; Şuşa; Əsgərin peşəsi"
+  },
+  "FIK13": {
+    "url": "https://files.preslib.az/projects/azerbaijan/gl6.pdf",
+    "title": "Prezident Kitabxanası — Fikrət Əmirov",
+    "section": "237-ci səhifə; axtarış indeksindəki bioqrafiya"
+  },
+  "MUS13": {
+    "url": "https://files.preslib.az/projects/azerbaijan/gl5.pdf",
+    "title": "Prezident Kitabxanası — Azərbaycan musiqi tarixi",
+    "section": "İlk milli balet; 60–80-ci illərin balet və operaları; axtarış indeksindəki mətn"
+  },
+  "NAT13": {
+    "url": "https://science.gov.az/az/news/open/24176",
+    "title": "AMEA — Natəvanın əsərlərində təbiət leksikası",
+    "section": "Xan qızı ləqəbi; axtarış indeksindəki mətn"
+  },
+  "NAB13": {
+    "url": "https://www.science.gov.az/az/news/open/36053",
+    "title": "AMEA — Şəhərsalma mədəniyyətində qadın imzası",
+    "section": "Natəvanın 1873-cü il su kəməri; axtarış indeksindəki mətn"
+  },
+  "NEV13": {
+    "url": "https://science.gov.az/az/news/open/9003",
+    "title": "AMEA — Mir Möhsün Nəvvab",
+    "section": "Vüzuhül-ərqam; Məclisi-fəramuşan; Məclisi-üns; səhifə yönləndiyi üçün axtarış indeksindəki mətn"
+  },
+  "ZAD13": {
+    "url": "https://science.gov.az/az/news/open/19844",
+    "title": "AMEA — Lütfi Zadənin qeyri-səlis məntiqi",
+    "section": "1965-ci il nəzəriyyəsi; 0–1 aralıq qiymətlər; axtarış indeksindəki mətn"
+  },
+  "BUL13": {
+    "url": "https://www.preslib.az/az/book/UucsMIu5k6dNjBs",
+    "title": "Prezident Kitabxanası — Bülbül biblioqrafiyası",
+    "section": "Sərlövhədəki tam ad"
+  },
+  "VEL14": {
+    "url": "https://www.invent.org/blog/inventors/walk-in-the-woods-velcro",
+    "title": "National Inventors Hall of Fame — Velcro",
+    "section": "Hooks and Loops; biomimicry; adın mənşəyi"
+  },
+  "MIC14": {
+    "url": "https://www.invent.org/blog/inventors/microwave",
+    "title": "National Inventors Hall of Fame — Mikrodalğalı soba",
+    "section": "Spenser; maqnetron; ərimiş şirniyyat"
+  },
+  "DISH14": {
+    "url": "https://www.invent.org/blog/inventors/dishwasher",
+    "title": "National Inventors Hall of Fame — Qabyuyan maşın",
+    "section": "Kokran; su təzyiqi; məftil bölmələr"
+  },
+  "BUB14": {
+    "url": "https://jobs.sealedair.com/content/Our-History/?locale=en_US",
+    "title": "Sealed Air — Şirkət tarixi",
+    "section": "1957-ci il divar örtüyü; istixana izolyasiyası"
+  },
+  "GOT14": {
+    "url": "https://archive.artic.edu/homer_exhb/assets/Rsrc_001087.pdf",
+    "title": "Art Institute of Chicago — Amerika qotikası",
+    "section": "Grant Wood bölməsi, çap səhifəsi 59; axtarış indeksindəki mətn"
+  },
+  "NGT14": {
+    "url": "https://www.rijksmuseum.nl/en/press/press-releases/for-the-first-time-in-300-years-the-night-watch-is-complete-again",
+    "title": "Rijksmuseum — Gecə gözətçisinin rekonstruksiyası",
+    "section": "2021-ci il rekonstruksiyası; 1715-ci il kəsilməsi; Lundens surəti"
+  },
+  "VIC14": {
+    "url": "https://www.louvre.fr/en/explore/visitor-trails/the-louvre-s-masterpieces/an-uplifting-sight",
+    "title": "Luvr — Samofrakiya Qələbəsi",
+    "section": "Nike; Samofrakiya; gəmi postamenti"
+  },
+  "GLD14": {
+    "url": "https://www.mauritshuis.nl/en/our-collection/artworks/605-the-goldfinch",
+    "title": "Mauritshuis — Fabritsiusun Saka tablosu",
+    "section": "Fiqur; zəncir; 1654-cü il barıt partlayışı"
+  },
+  "HOK14": {
+    "url": "https://www.metmuseum.org/art/collection/search/45434",
+    "title": "Metropolitan Museum — Böyük dalğa",
+    "section": "İndiqo və Prussiya mavisi"
+  },
+  "PIT14": {
+    "url": "https://www.lords.org/getattachment/d9eb43d5-5935-4634-b170-da698e0e9d6e/Laws-of-Cricket-2017-Code-4th-Edition-%282026%29.pdf",
+    "title": "MCC — Kriketdə oyun zolağı",
+    "section": "2026, Law 6.1: 22 yard / 20,12 metr"
+  },
+  "WKT14": {
+    "url": "https://www.lords.org/getmedia/5ff72819-c9ef-448c-87e3-b051408e1803/Changes-to-Laws-for-2026-edition-explained_2.pdf",
+    "title": "MCC — Kriket qaydalarının 2026 dəyişiklikləri",
+    "section": "Law 8.1; çap səhifəsi 2"
+  },
+  "OVR14": {
+    "url": "https://www.lords.org/getmedia/5ff72819-c9ef-448c-87e3-b051408e1803/Changes-to-Laws-for-2026-edition-explained_2.pdf",
+    "title": "MCC — Over qaydası",
+    "section": "Law 17.5.2 altı sayılan atış; əvvəlki nəşrin 17.1 ilə tutuşdurulub"
+  },
+  "BND14": {
+    "url": "https://www.lords.org/getattachment/d9eb43d5-5935-4634-b170-da698e0e9d6e/Laws-of-Cricket-2017-Code-4th-Edition-%282026%29.pdf",
+    "title": "MCC — Kriketdə sərhəd hesabı",
+    "section": "2026, Law 19.6.2 və 19.7.1; standart olaraq altı qaçış"
+  },
+  "FIE14": {
+    "url": "https://static.fie.org/uploads/40/204126-Technical%20rules%20August%202026%20ang.pdf",
+    "title": "FIE — Qılıncoynatmanın texniki qaydaları",
+    "section": "Avqust 2026; t.91 və t.96; üç silah bölməsi"
+  },
+  "ARC14": {
+    "url": "https://www.worldarchery.sport/news/142046/beginners-guide-archery-olympics",
+    "title": "World Archery — Oxatma hədəfi",
+    "section": "10 halqa; mərkəzin qızılı rəngi; 2026 Book 2 ilə tutuşdurulub"
+  },
+  "BSK14": {
+    "url": "https://springfield.edu/about/birthplace-of-basketball",
+    "title": "Springfield College — Basketbolun yaranması",
+    "section": "Neysmit; 1891; səbətlər; 13 qayda; qış ehtiyacı"
+  },
+  "EQ15": {
+    "url": "https://www.usgs.gov/programs/earthquake-hazards/science-earthquakes",
+    "title": "USGS — Zəlzələlərin elmi",
+    "section": "Episentr; ön təkan; intensivlik; P–S vaxtı; üç stansiya"
+  },
+  "INT15": {
+    "url": "https://pubs.usgs.gov/gip/interior/index.html",
+    "title": "USGS — Yerin daxili quruluşu",
+    "section": "S dalğaları; mantiya həcmi; daxili və xarici nüvə"
+  },
+  "IGN15": {
+    "url": "https://www.usgs.gov/faqs/what-are-igneous-rocks?page=0",
+    "title": "USGS — Maqmatik süxurlar",
+    "section": "Yavaş və sürətli soyuma; iri kristallar; vulkanik şüşə; maqma və lava"
+  },
+  "PUM15": {
+    "url": "https://www.usgs.gov/news/volcano-watch-rocks-float-briefly-where-lava-meets-sea",
+    "title": "USGS — Vulkanik daşların üzməsi",
+    "section": "Suyun tez nüfuz etmədiyi qaz boşluqları və sıxlıq"
+  },
+  "LIQ15": {
+    "url": "https://www.usgs.gov/programs/earthquake-hazards/new-madrid-seismic-zone",
+    "title": "USGS — Torpağın mayeləşməsi",
+    "section": "Liquefaction: doymuş qumda məsamə suyu təzyiqi"
+  },
+  "SAF15": {
+    "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A30001783-2/general-information",
+    "title": "Kew — Zəfəranın alındığı hissə",
+    "section": "Uses: Crocus sativus ağızcıqları"
+  },
+  "CIN15": {
+    "url": "https://spices.res.in/products/spices/cinnamon.html",
+    "title": "ICAR-IISR — Darçın",
+    "section": "Qurudulmuş daxili qabıq və qıvrılmış çubuqlar"
+  },
+  "CLO15": {
+    "url": "https://www.indianspices.com/node/24.html",
+    "title": "Spices Board — Mixək",
+    "section": "Description: qurudulmuş açılmamış çiçək qönçəsi"
+  },
+  "NUT15": {
+    "url": "https://www.indianspices.com/indianspices/spice-catalog/nutmeg-mace.html",
+    "title": "Spices Board — Muskat və masis",
+    "section": "Arillus və toxum ləpəsi; adətən ayrı erkək və dişi ağaclar"
+  },
+  "PEP15": {
+    "url": "https://ebooks.inflibnet.ac.in/ftp07/chapter/150/",
+    "title": "INFLIBNET — Qara və ağ istiotun hazırlanması",
+    "section": "Pepper products: ağ istiotda perikarpın çıxarılması"
+  },
+  "GIN15": {
+    "url": "https://spices.res.in/crops/ginger",
+    "title": "ICAR-IISR — Zəncəfil",
+    "section": "İstifadə edilən yeraltı hissə rizomdur"
+  },
+  "TUR15": {
+    "url": "https://www.efsa.europa.eu/en/topics/topic/food-colours",
+    "title": "EFSA — Qida rəngləndiriciləri",
+    "section": "Cədvəl: E100 — kurkumin; sarıkök mənşəyi ICAR-IISR turmeric səhifəsi ilə də tutuşdurulub"
+  },
+  "ARCH15": {
+    "url": "https://australian.museum/learn/animals/fishes/sevenspot-archerfish-toxotes-chatareus/",
+    "title": "Australian Museum — Oxatan balıq",
+    "section": "Su şırnağı ilə ov; dil və ağız tavanındakı yiv"
+  },
+  "AXO15": {
+    "url": "https://www.nhm.ac.uk/discover/axolotls-amphibians-that-never-grow-up.html",
+    "title": "Natural History Museum — Aksolotl",
+    "section": "Bərpa; neoteniya; Soçimilko; vəhşi fərdlərin rəngi"
+  },
+  "LYR15": {
+    "url": "https://www.environment.nsw.gov.au/topics/animals-and-plants/native-animals/native-animal-facts/birds/lyrebirds",
+    "title": "NSW Environment — Liraquşları",
+    "section": "Səs təqlidi; quyruq; nümayiş təpəciyi; yer örtüyündə qida axtarışı"
+  },
+  "PAN15": {
+    "url": "https://animals.sandiegozoo.org/animals/tree-pangolin",
+    "title": "San Diego Zoo — Panqolin",
+    "section": "Keratin; dişsiz ağız və mədə; malay dilində ad"
+  },
+  "SLO15": {
+    "url": "https://nationalzoo.si.edu/animals/news/why-are-sloths-so-slow-and-other-sloth-facts",
+    "title": "Smithsonian — Tənbəl heyvanın xüsusiyyətləri",
+    "section": "Tükdə yosun; maddələr mübadiləsi; üzmək"
+  },
+  "LEA15": {
+    "url": "https://stri.si.edu/story/blind-spots",
+    "title": "Smithsonian Tropical Research Institute — Qarışqaların göbələk bağları",
+    "section": "Yarpaq parçaları göbələk yetişdirmək üçün substratdır"
+  },
+  "BEI15": {
+    "url": "https://www.nationalzoo.si.edu/animals/beaver?qt-learn_more_about_the_animal=2",
+    "title": "Smithsonian — Qunduzun diş minası",
+    "section": "Dəmirin möhkəmləndirici rolu və narıncı rəng"
+  },
+  "BEA15": {
+    "url": "https://nationalzoo.si.edu/animals/beaver",
+    "title": "Smithsonian — Qunduz",
+    "section": "Quyruq siqnalı; sualtı girişli yuva; xüsusi ikili dırnaq"
+  },
+  "FLY15": {
+    "url": "https://australian.museum/learn/animals/fishes/a-flyingfish-cheilopogon-sp/",
+    "title": "Australian Museum — Uçan balıq",
+    "section": "Süzmə; böyümüş üzgəclər; quyruğun alt payı"
+  },
+  "NAU15": {
+    "url": "https://ocean.si.edu/ocean-life/invertebrates/octopuses-squids-and-relatives",
+    "title": "Smithsonian Ocean — Başıayaqlılar və nautilus",
+    "section": "Nautilusun sinfi və kameralı qabığın üzmə qabiliyyətində rolu"
+  },
+  "NOB14": {
+    "url": "https://www.lords.org/getattachment/d9eb43d5-5935-4634-b170-da698e0e9d6e/Laws-of-Cricket-2017-Code-4th-Edition-%282026%29.pdf",
+    "title": "MCC — Kriket qaydalarının 2026 nəşri",
+    "section": "Law 21.14: No ball üçün bir qaçışlıq cərimə"
+  },
+  "SEV13": {
+    "url": "https://bakucity.preslib.az/az/page/uI8phRgYsb",
+    "title": "Prezident Kitabxanası — Cəfər Cabbarlı və Sevil",
+    "section": "Sevil pyesinin motivləri əsasında Fikrət Əmirovun operası"
+  },
+  "AND16": {
+    "url": "https://www.invent.org/inductees/mary-anderson",
+    "title": "NIHF — Meri Andersonun şüşəsiləni",
+    "section": "Tramvay; Nyu-York; əl qolu; 1903 patent"
+  },
+  "LAM16": {
+    "url": "https://www.invent.org/inductees/hedy-lamarr",
+    "title": "NIHF — Hedi Lamarrın rabitə sistemi",
+    "section": "Aktrisa; tezlik dəyişmə; torpedo; 1942; sinxronlaşma"
+  },
+  "ANT16": {
+    "url": "https://www.invent.org/inductees/george-antheil",
+    "title": "NIHF — Corc Anteyl və musiqidən rabitəyə keçid",
+    "section": "Bəstəkar; pianonun 88 düyməsi və tezlik cədvəli"
+  },
+  "ZIP16": {
+    "url": "https://www.invent.org/inductees/gideon-sundback",
+    "title": "NIHF — Gideon Sundbek və fermuar",
+    "section": "Judsonun layihəsinin təkmilləşməsi; dişcik sayı; sürgü; zipper adı"
+  },
+  "BAK16": {
+    "url": "https://www.invent.org/inductees/leo-hendrik-baekeland",
+    "title": "NIHF — Bekeland və bakelit",
+    "section": "Bakelit ixtiraçısı"
+  },
+  "BAH16": {
+    "url": "https://www.sciencehistory.org/education/scientific-biographies/leo-hendrik-baekeland/",
+    "title": "Science History Institute — Sintetik plastik və fotoqrafik kağız",
+    "section": "İlk tam sintetik plastik; fenol-formaldehid; şellak; Velox qaz işığında"
+  },
+  "XER16": {
+    "url": "https://www.invent.org/inductees/chester-f-carlson",
+    "title": "NIHF — Karlson və kseroqrafiya",
+    "section": "Patent surətləri; elektrostatika; 1938 ilk quru surət"
+  },
+  "TRA16": {
+    "url": "https://www.computerhistory.org/siliconengine/invention-of-the-point-contact-transistor/",
+    "title": "Computer History Museum — İlk nöqtə-kontaktlı tranzistor",
+    "section": "1947; germanium; Bell Labs; iki qızıl kontakt"
+  },
+  "BAR16": {
+    "url": "https://www.invent.org/inductees/john-bardeen",
+    "title": "NIHF — Bardin və tranzistor",
+    "section": "Vakuum lampası ilə müqayisə; 1956 və 1972 fizika mükafatları"
+  },
+  "BCS16": {
+    "url": "https://www.nobelprize.org/prizes/physics/1972/summary/",
+    "title": "Nobel Foundation — 1972 fizika mükafatı",
+    "section": "Bardeen, Cooper və Schrieffer; BCS superkeçiricilik nəzəriyyəsi"
+  },
+  "KEV16": {
+    "url": "https://www.invent.org/inductees/stephanie-louise-kwolek",
+    "title": "NIHF — Kvolek və Kevlar",
+    "section": "Para-aramid polimer lifi; eyni çəki üçün poladla müqayisə"
+  },
+  "KWH16": {
+    "url": "https://www.sciencehistory.org/education/scientific-biographies/stephanie-l-kwolek/",
+    "title": "Science History Institute — Kvolekin polimer məhlulları",
+    "section": "Maye kristallı məhlulların güclü liflərə əyirilməsi"
+  },
+  "FRY16": {
+    "url": "https://www.invent.org/inductees/arthur-l-fry",
+    "title": "NIHF — Art Fray və yapışqan qeydlər",
+    "section": "Xor kitabındakı nişanlar; 1977 Press n Peel; 1980 geniş satış"
+  },
+  "SIL16": {
+    "url": "https://www.invent.org/inductees/spencer-silver",
+    "title": "NIHF — Spenser Silverin yapışqanı",
+    "section": "Akril yapışqan və xırda kürəciklər"
+  },
+  "TEF16": {
+    "url": "https://www.invent.org/inductees/roy-j-plunkett",
+    "title": "NIHF — Plankett və Teflon",
+    "section": "Soyuducu qazlar üzrə tədqiqat"
+  },
+  "TFH16": {
+    "url": "https://www.sciencehistory.org/education/scientific-biographies/roy-j-plunkett/",
+    "title": "Science History Institute — Teflonun təsadüfi kəşfi",
+    "section": "Qaz balonu; ağ toz; polimerləşmə; az sürtünmə; 1951 hədiyyə"
+  },
+  "GLU16": {
+    "url": "https://www.invent.org/inductees/harry-w-coover",
+    "title": "NIHF — Kuver və super yapışqan",
+    "section": "Sianoakrilat; optik nişangah plastiki; Eastman Kodak"
+  },
+  "THE17": {
+    "url": "https://whc.unesco.org/en/list/87/",
+    "title": "UNESCO — Qədim Teb",
+    "section": "Amon; Nilin iki sahili; Karnak və Luksor; nekropollar"
+  },
+  "MAM17": {
+    "url": "https://whc.unesco.org/en/list/150/",
+    "title": "UNESCO — Mamont mağarası",
+    "section": "Kentukki; əhəngdaşı; ən uzun mağara sistemi"
+  },
+  "BLE17": {
+    "url": "https://whc.unesco.org/en/list/425/",
+    "title": "UNESCO — Blenheym sarayı",
+    "section": "Con Çörçill; Lanselot Braun; Oksford yaxınlığı"
+  },
+  "PER17": {
+    "url": "https://whc.unesco.org/en/list/114/",
+    "title": "UNESCO — Persepol",
+    "section": "Əhəmənilər; I Dara; yarı təbii, yarı süni terras"
+  },
+  "SER17": {
+    "url": "https://whc.unesco.org/en/list/156/",
+    "title": "UNESCO — Serengeti",
+    "section": "Savanna; otlaq və su axtarışı; sürüləri izləyən yırtıcılar"
+  },
+  "KAH17": {
+    "url": "https://whc.unesco.org/en/list/137/",
+    "title": "UNESCO — Kahuzi-Bieqa Milli Parkı",
+    "section": "Sönmüş vulkanlar; şərq düzənlik qorillası; Konqo DR"
+  },
+  "BAM17": {
+    "url": "https://whc.unesco.org/en/list/208/",
+    "title": "UNESCO — Bamiyan vadisi",
+    "section": "Əfqanıstan; qaya oyuqları; Qandhara məktəbi"
+  },
+  "SYD17": {
+    "url": "https://whc.unesco.org/en/list/166/",
+    "title": "UNESCO — Sidney Opera Teatrı",
+    "section": "Utzon; qabıqvari dam; limana uzanan yarımada"
+  },
+  "TIT17": {
+    "url": "https://science.nasa.gov/saturn/moons/titan/facts/",
+    "title": "NASA — Titan haqqında faktlar",
+    "section": "Metan və etan; azot atmosferi; karbohidrogen qum dənələri"
+  },
+  "ENC17": {
+    "url": "https://science.nasa.gov/saturn/moons/enceladus/",
+    "title": "NASA — Enselad",
+    "section": "Buz və su şırnaqları; E halqası; pələng zolaqları"
+  },
+  "IO17": {
+    "url": "https://science.nasa.gov/jupiter/moons/io/",
+    "title": "NASA — İo",
+    "section": "Vulkanik aktivlik; cazibə dartışması; Voyacer 1"
+  },
+  "GAN17": {
+    "url": "https://science.nasa.gov/jupiter/moons/ganymede/",
+    "title": "NASA — Qanimed",
+    "section": "Öz maqnit sahəsi; Merkuridən böyük ölçü; dəmir nüvə"
+  },
+  "SVP17": {
+    "url": "https://www.preslib.az/az/book/1VBti28NBDJeuM8",
+    "title": "Prezident Kitabxanası — Səməd Vurğunun dramları",
+    "section": "Vaqif; Fərhad və Şirin; İnsan — kitab annotasiyası"
+  },
+  "SVB17": {
+    "url": "https://science.gov.az/az/forms/skonchavshiesya-deystvitelnyie-chlenyi/3435",
+    "title": "AMEA — Səməd Vurğunun bioqrafiyası",
+    "section": "Vəkilov soyadı; Qazaxın Yuxarı Salahlı kəndi"
+  },
+  "MC17": {
+    "url": "https://anl.az/el/Kitab/2017/12/2014-2250.pdf",
+    "title": "Milli Kitabxana — Mir Cəlalın bioqrafik məlumatı",
+    "section": "İndekslənmiş bioqrafik hissə: ilk roman Dirilən adam; Bir gəncin manifesti"
+  },
+  "MCS17": {
+    "url": "https://www.anl.az/down/meqale/525/2017/iyul/550980.htm",
+    "title": "Milli Kitabxana — Mir Cəlalın satirik yaradıcılığı",
+    "section": "İclas qurusu — satirik-yumoristik əsərlər siyahısı"
+  },
+  "ARN17": {
+    "url": "https://www.nationalgallery.org.uk/paintings/jan-van-eyck-the-arnolfini-portrait",
+    "title": "National Gallery — Arnolfini portreti",
+    "section": "Qabarıq güzgüdə iki əlavə fiqur; imza; bahalı portağallar"
+  },
+  "HOP17": {
+    "url": "https://archive.artic.edu/hopper/artwork/111628?from=193530",
+    "title": "Çikaqo İncəsənət İnstitutu — Gecə quşları",
+    "section": "Edvard Hopper; girişin göstərilməməsi; üç müştəri"
+  },
+  "MTS18": {
+    "url": "https://www.nhm.ac.uk/discover/mantis-shrimps.html",
+    "title": "Natural History Museum — Mantis krevetləri",
+    "section": "Xərçəngkimilər; kavitasiya; müstəqil göz hərəkəti"
+  },
+  "NMR18": {
+    "url": "https://www.nationalzoo.si.edu/animals/naked-mole-rat",
+    "title": "Smithsonian — Çılpaq köstəbək siçanı",
+    "section": "Kəsici diş arxasında dodaqlar; kraliça; istilik üçün yığışma"
+  },
+  "OKA18": {
+    "url": "https://animals.sandiegozoo.org/animals/okapi",
+    "title": "San Diego Zoo — Okapi",
+    "section": "Zürafə ilə qohumluq; tutucu dil; suyu sürüşdürən yağlı xəz"
+  },
+  "PFR18": {
+    "url": "https://www.nationalzoo.si.edu/animals/poison-frogs",
+    "title": "Smithsonian — Zəhərli ox qurbağaları",
+    "section": "Qida ilə toksiklik əlaqəsi; balalara yumurta; yapışqan dil"
+  },
+  "WOM18": {
+    "url": "https://australiazoo.com.au/wildlife/our-animals/common-wombat/",
+    "title": "Australia Zoo — Vombat",
+    "section": "Arxaya açılan kisə; arxa qığırdaq lövhə; gecə otlama"
+  },
+  "YEA18": {
+    "url": "https://annex.exploratorium.edu/cooking/bread/bread_science.html",
+    "title": "Exploratorium — Çörəyin elmi",
+    "section": "Birhüceyrəli maya; karbon qazı; qabartma tozundan fərq"
+  },
+  "GLU18": {
+    "url": "https://annex.exploratorium.edu/cooking/bread/activity-gluten.html",
+    "title": "Exploratorium — Qlütenin quruluşu",
+    "section": "Qaz saxlama; yağın qlüten inkişafına maneəsi"
+  },
+  "MAI18": {
+    "url": "https://cen.acs.org/articles/90/i40/Maillard-Reaction-Turns-100.html",
+    "title": "ACS — Mayyar reaksiyası",
+    "section": "Şəkərlə amin qruplarının reaksiyası; rəng və ətir"
+  },
+  "MAC18": {
+    "url": "https://www.acs.org/acs-webinars/library/tasty-culinary-chemistry.html",
+    "title": "ACS — Mətbəx kimyası",
+    "section": "Şəkərin karamelləşməsi ilə Mayyar reaksiyasının ayrı proseslər olması"
+  },
+  "EMU18": {
+    "url": "https://www.chem.ucla.edu/~harding/IGOC/E/emulsion.html",
+    "title": "UCLA — Emulsiya lüğəti",
+    "section": "Mayonez suda yağ emulsiya nümunəsidir"
+  },
+  "EMX18": {
+    "url": "https://annex.exploratorium.edu/cooking/eggs/hollandaise-pop.html",
+    "title": "Exploratorium — Emulqatorun fəaliyyəti",
+    "section": "Lesitin; molekulun susevər və yağsevər hissələri"
+  },
+  "SAB18": {
+    "url": "https://www.anl.az/down/m.e.sabir.pdf",
+    "title": "Milli Kitabxana — Mirzə Ələkbər Sabir",
+    "section": "Hophopnamə — şeir toplusu; bioqrafik giriş"
+  },
+  "SAH18": {
+    "url": "https://anl.az/down/teqvim-2017.pdf",
+    "title": "Milli Kitabxana — 2017 ədəbiyyat təqvimi",
+    "section": "Sabir bölməsi: Hop-hop imzası; vəfatdan sonrakı nəşr"
+  },
+  "SAP18": {
+    "url": "https://www.anl.az/el/s/mes_h1.pdf",
+    "title": "Milli Kitabxana — Hophopnamə nəşr qeydləri",
+    "section": "Abbas Səhhətin müqəddiməsi — nəşrin izah hissəsi"
+  },
+  "ANA18": {
+    "url": "https://www.qanun.az/huseyn-cavid-2356",
+    "title": "Qanun nəşriyyatı — Hüseyn Cavidin Ana əsəri",
+    "section": "Səlma; Qanpolad; Muradın ana evinə sığınması"
+  },
+  "OPP18": {
+    "url": "https://www.moma.org/collection/works/80997?sov_referrer=theme",
+    "title": "MoMA — Meret Oppenheymin Obyekt əsəri",
+    "section": "Xəzli çay dəsti; sürrealizm; Pikasso ilə söhbət"
+  },
+  "SEU18": {
+    "url": "https://archive.artic.edu/irvingpennarchives/pointillism/",
+    "title": "Çikaqo İncəsənət İnstitutu — Puantilizm",
+    "section": "Söra; rəng nöqtələri; La-Qrand-Jatt Sena adası"
+  },
+  "SNO18": {
+    "url": "https://wpbsa.com/wp-content/uploads/2198_WPBSA-Rulebook-2024-25.pdf",
+    "title": "WPBSA — Snukerin rəsmi qaydaları",
+    "section": "Section 2 Rule 8; Section 3 Rule 1: breyk, top qiymətləri, ardıcıllıq"
+  },
+  "HOC18": {
+    "url": "https://www.fih.hockey/static-assets/pdf/fih-Rules-of-hockey-2026-final.pdf",
+    "title": "FIH — Otüstü hokkey qaydaları, 2026",
+    "section": "2.1; 8.1; 9.5: oyunçu sayı, qol dairəsi, dəyənəyin arxası"
+  },
+  "T8NORMAL": {
+    "url": "https://www.unicode.org/reports/tr15/",
+    "title": "Unicode — Mətnin normallaşdırılması",
+    "section": "Normallaşdırma formaları"
+  },
+  "T8STATUS404": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/404",
+    "title": "MDN — 404 Not Found",
+    "section": "Resursun tapılmaması"
+  },
+  "T8STATUS200": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/200",
+    "title": "MDN — 200 OK",
+    "section": "Uğurlu cavab"
+  },
+  "NB13SANGER1958": {
+    "url": "https://www.nobelprize.org/uploads/2018/06/sanger-lecture.pdf",
+    "title": "Nobel — Sangerin 1958 mühazirəsi",
+    "section": "İnsulinin quruluşu"
+  },
+  "NB13RAMANLECT": {
+    "url": "https://www.nobelprize.org/uploads/2018/06/raman-lecture.pdf",
+    "title": "Nobel — Raman mühazirəsi",
+    "section": "Molekulyar rəqslərin səpilmə spektri"
+  },
+  "NB13ROGER": {
+    "url": "https://www.nobelprize.org/prizes/chemistry/2006/kornberg/facts/",
+    "title": "Nobel — Rocer Kornberq",
+    "section": "Ata və oğul Nobel laureatları"
+  },
+  "NB13LIPMANN": {
+    "url": "https://www.nobelprize.org/uploads/2018/06/lipmann-lecture.pdf",
+    "title": "Nobel — Lipmann mühazirəsi",
+    "section": "Koenzim A və asil qrupları"
+  },
+  "NB13PAULING54": {
+    "url": "https://www.nobelprize.org/prizes/chemistry/1954/summary/",
+    "title": "Nobel — 1954 kimya mükafatı",
+    "section": "Kimyəvi rabitə"
+  },
+  "AR15KLIMTGOLD": {
+    "url": "https://www.belvedere.at/en/stories/why-did-gustav-klimt-use-gold",
+    "title": "Belvedere — Klimt niyə qızıldan istifadə edirdi?",
+    "section": "Ailə və qızıl sənətkarlığı"
+  },
+  "AR15MENINASMET": {
+    "url": "https://www.metmuseum.org/art/collection/search/652745",
+    "title": "Metropolitan Museum — Las Meninas təsvirinin qravürü",
+    "section": "Mərkəzi fiqur, rəssam və güzgü"
+  },
+  "FD16COFFEINE": {
+    "url": "https://www.acs.org/molecule-of-the-week/archive/c/caffeine.html",
+    "title": "ACS — Kofein",
+    "section": "Alkaloid və təbii mənbələr"
+  },
+  "FD16HONEYCRYST": {
+    "url": "https://pubs.acs.org/doi/10.1021/acsomega.4c00570",
+    "title": "ACS Omega — Balın kristallaşması",
+    "section": "Qlükoza və fiziki dəyişmə"
+  },
+  "FD16WHITE": {
+    "url": "https://pubs.acs.org/doi/10.1021/acs.jchemed.5c01134",
+    "title": "ACS J. Chem. Educ. — Şokoladın kimyəvi tərkibi",
+    "section": "Ağ şokolad və kakao maddələri"
+  },
+  "FD16IRON": {
+    "url": "https://pubs.acs.org/doi/10.1021/ed085p399",
+    "title": "ACS J. Chem. Educ. — Yumurta sarısında dəmir",
+    "section": "Dəmirin sarıda cəmlənməsi"
+  },
+  "TC18HTTPZIP": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Compression",
+    "title": "MDN — HTTP sıxılması",
+    "section": "Kodlamanın razılaşdırılması və br"
+  },
+  "B19PRO": {
+    "url": "https://openstax.org/books/biology-2e/pages/4-2-prokaryotic-cells",
+    "title": "OpenStax — Prokariot hüceyrələr",
+    "section": "Nüvə; ribosom; bakteriya divarı; qamçı; səth-həcm nisbəti"
+  },
+  "B19EUK": {
+    "url": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
+    "title": "OpenStax — Eukariot hüceyrələr",
+    "section": "Nüvəcik; mitoxondri; vakuol; sellüloza; xloroplast"
+  },
+  "B19END": {
+    "url": "https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins",
+    "title": "OpenStax — Hüceyrənin daxili membran sistemi",
+    "section": "Dənəli və hamar şəbəkə; Holci; lizosom; vezikul"
+  },
+  "B19PAS": {
+    "url": "https://openstax.org/books/biology-2e/pages/5-2-passive-transport",
+    "title": "OpenStax — Passiv daşınma",
+    "section": "Diffuziya; osmos; toniklik; dinamik tarazlıq"
+  },
+  "B19ACT": {
+    "url": "https://openstax.org/books/biology-2e/pages/5-3-active-transport",
+    "title": "OpenStax — Aktiv daşınma",
+    "section": "ATP; natrium-kalium nasosu; simport; antiport; elektrokimyəvi qradient"
+  },
+  "B19ENZ": {
+    "url": "https://openstax.org/books/biology-2e/pages/6-5-enzymes",
+    "title": "OpenStax — Fermentlər",
+    "section": "Aktivləşmə enerjisi; aktiv mərkəz; denaturasiya; inhibitor; təkrar istifadə"
+  },
+  "B19GLY": {
+    "url": "https://openstax.org/books/biology-2e/pages/7-2-glycolysis",
+    "title": "OpenStax — Qlikoliz",
+    "section": "Sitoplazma; piruvat; oksigensiz mərhələ; xalis ATP; enerji yatırımı"
+  },
+  "B19PHO": {
+    "url": "https://openstax.org/books/biology-2e/pages/8-2-the-light-dependent-reactions-of-photosynthesis",
+    "title": "OpenStax — Fotosintezin işıq mərhələsi",
+    "section": "Yaşıl işıq; sudan oksigen; tilakoid; maqnezium; karotinoid"
+  },
+  "B19CYC": {
+    "url": "https://openstax.org/books/biology-2e/pages/10-2-the-cell-cycle",
+    "title": "OpenStax — Hüceyrə dövrü",
+    "section": "S fazası; metafaza; anafaza; sitokinez; bölünmə iyi"
+  },
+  "B19MEI": {
+    "url": "https://openstax.org/books/biology-2e/pages/11-1-the-process-of-meiosis",
+    "title": "OpenStax — Meyoz",
+    "section": "Xromosom dəstləri; homoloqlar; krossinqover; bölünmə və DNT surəti"
+  },
+  "NQ2": {
+    "url": "https://whc.unesco.org/en/list/2/",
+    "title": "UNESCO — Quito",
+    "section": "Şəhərin tarixi və memarlığı"
+  },
+  "NQ3": {
+    "url": "https://whc.unesco.org/en/list/3/",
+    "title": "UNESCO — Aachen Cathedral",
+    "section": "Karolinq irsi və saray kapellası"
+  },
+  "NQ4": {
+    "url": "https://whc.unesco.org/en/list/4/",
+    "title": "UNESCO — L’Anse aux Meadows",
+    "section": "Şimali Amerikada skandinav məskəni"
+  },
+  "NQ8": {
+    "url": "https://whc.unesco.org/en/list/8/",
+    "title": "UNESCO — Ichkeul National Park",
+    "section": "Su rejimi və köçəri quşlar"
+  },
+  "NQ9": {
+    "url": "https://whc.unesco.org/en/list/9/",
+    "title": "UNESCO — Simien National Park",
+    "section": "Efiopiya yüksək dağ ekosistemi"
+  },
+  "NQ10": {
+    "url": "https://whc.unesco.org/en/list/10/",
+    "title": "UNESCO — Lower Valley of the Awash",
+    "section": "İnsan təkamülü və fosillər"
+  },
+  "NQ15": {
+    "url": "https://whc.unesco.org/en/list/15/",
+    "title": "UNESCO — Aksum",
+    "section": "Stelalar və qədim krallıq"
+  },
+  "NQ19": {
+    "url": "https://whc.unesco.org/en/list/19/",
+    "title": "UNESCO — Fasil Ghebbi",
+    "section": "Qondarın saray kompleksi"
+  },
+  "NQ20": {
+    "url": "https://whc.unesco.org/en/list/20/",
+    "title": "UNESCO — Ancient City of Damascus",
+    "section": "Şəhər planı və Əməvi dövrü"
+  },
+  "NQ22": {
+    "url": "https://whc.unesco.org/en/list/22/",
+    "title": "UNESCO — Ancient City of Bosra",
+    "section": "Roma teatrı və karvan yolu"
+  },
+  "FA4A": {
+    "url": "https://www.folger.edu/explore/shakespeares-works/a-midsummer-nights-dream/",
+    "title": "Folger — Yay gecəsinin yuxusu",
+    "section": "Personajlar və süjet"
+  },
+  "FA4B": {
+    "url": "https://www.folger.edu/explore/shakespeares-works/the-merchant-of-venice/read/",
+    "title": "Folger — Venesiya taciri",
+    "section": "Sandıqlar və məhkəmə səhnəsi"
+  },
+  "FA4C": {
+    "url": "https://www.folger.edu/explore/shakespeares-works/king-lear/read/",
+    "title": "Folger — Kral Lir",
+    "section": "Ailə münasibətləri və faciə"
+  },
+  "FA4D": {
+    "url": "https://www.folger.edu/explore/shakespeares-works/julius-caesar/read/",
+    "title": "Folger — Yuli Sezar",
+    "section": "Sui-qəsd və nəticələri"
+  },
+  "FA4E": {
+    "url": "https://www.folger.edu/explore/shakespeares-works/twelfth-night/",
+    "title": "Folger — On ikinci gecə",
+    "section": "Əkizlər və qiyafə dəyişmə"
+  },
+  "FA4F": {
+    "url": "https://www.folger.edu/explore/shakespeares-works/much-ado-about-nothing/read/",
+    "title": "Folger — Heç nədən hay-küy",
+    "section": "Komediya süjeti"
+  },
+  "FA4G": {
+    "url": "https://www.folger.edu/explore/shakespeares-works/as-you-like-it/",
+    "title": "Folger — Necə istəsəniz",
+    "section": "Arden meşəsi və sürgün"
+  },
+  "FA4H": {
+    "url": "https://www.folger.edu/explore/shakespeares-works/richard-iii/read/",
+    "title": "Folger — III Riçard",
+    "section": "İngiltərə taxtı uğrunda mübarizə"
+  },
+  "FA4I": {
+    "url": "https://www.folger.edu/explore/shakespeares-works/the-taming-of-the-shrew/",
+    "title": "Folger — İnadkarın ram edilməsi",
+    "section": "Bacılar və evlilik"
+  },
+  "FA4J": {
+    "url": "https://www.folger.edu/explore/shakespeares-works/antony-and-cleopatra/",
+    "title": "Folger — Antoni və Kleopatra",
+    "section": "Roma və Misir"
+  },
+  "CH5A": {
+    "url": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism",
+    "title": "OpenStax — Atom quruluşu",
+    "section": "Proton, neytron, elektron və izotop"
+  },
+  "CH5B": {
+    "url": "https://openstax.org/books/chemistry-2e/pages/2-4-chemical-formulas",
+    "title": "OpenStax — Kimyəvi formullar",
+    "section": "Molekul, struktur və empirik formul"
+  },
+  "CH5C": {
+    "url": "https://openstax.org/books/chemistry-2e/pages/2-6-ionic-and-molecular-compounds",
+    "title": "OpenStax — İon və molekulyar birləşmələr",
+    "section": "Elektron mübadiləsi və ionlar"
+  },
+  "CH5D": {
+    "url": "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept",
+    "title": "OpenStax — Mol anlayışı",
+    "section": "Miqdar və molyar kütlə"
+  },
+  "CH5E": {
+    "url": "https://openstax.org/books/chemistry-2e/pages/4-1-writing-and-balancing-chemical-equations",
+    "title": "OpenStax — Tənliklərin tarazlaşdırılması",
+    "section": "Atomların saxlanması"
+  },
+  "CH5F": {
+    "url": "https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions",
+    "title": "OpenStax — Reaksiya növləri",
+    "section": "Çökmə, neytrallaşma və redoks"
+  },
+  "CH5G": {
+    "url": "https://openstax.org/books/chemistry-2e/pages/6-3-development-of-quantum-theory",
+    "title": "OpenStax — Kvant nəzəriyyəsi",
+    "section": "Dalğa təbiəti və orbital"
+  },
+  "CH5H": {
+    "url": "https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding",
+    "title": "OpenStax — Kovalent rabitə",
+    "section": "Ortaq elektron cütləri"
+  },
+  "CH5I": {
+    "url": "https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh",
+    "title": "OpenStax — pH və pOH",
+    "section": "Turşuluq şkalası"
+  },
+  "CH5J": {
+    "url": "https://openstax.org/books/chemistry-2e/pages/10-1-intermolecular-forces",
+    "title": "OpenStax — Molekullararası qüvvələr",
+    "section": "Dispersiya və hidrogen rabitəsi"
+  },
+  "ZN6A": {
+    "url": "https://animals.sandiegozoo.org/animals/red-panda",
+    "title": "San Diego Zoo — Qırmızı panda",
+    "section": "Ağac həyatına uyğunlaşma"
+  },
+  "ZN6B": {
+    "url": "https://animals.sandiegozoo.org/animals/giant-panda",
+    "title": "San Diego Zoo — Böyük panda",
+    "section": "Bambuk və əl quruluşu"
+  },
+  "ZN6C": {
+    "url": "https://animals.sandiegozoo.org/animals/binturong",
+    "title": "San Diego Zoo — Binturong",
+    "section": "Qoxu və ağacda hərəkət"
+  },
+  "ZN6D": {
+    "url": "https://animals.sandiegozoo.org/animals/fennec-fox",
+    "title": "San Diego Zoo — Fennek",
+    "section": "Səhra uyğunlaşmaları"
+  },
+  "ZN6E": {
+    "url": "https://animals.sandiegozoo.org/animals/capybara",
+    "title": "San Diego Zoo — Kapibara",
+    "section": "Yarımsu həyatı"
+  },
+  "ZN6F": {
+    "url": "https://animals.sandiegozoo.org/animals/cassowary",
+    "title": "San Diego Zoo — Kazuar",
+    "section": "Uça bilməyən meşə quşu"
+  },
+  "ZN6G": {
+    "url": "https://animals.sandiegozoo.org/animals/tuatara",
+    "title": "San Diego Zoo — Tuatara",
+    "section": "Unikal sürünən"
+  },
+  "ZN6H": {
+    "url": "https://animals.sandiegozoo.org/animals/elephant",
+    "title": "San Diego Zoo — Fil",
+    "section": "Xortum və sosial həyat"
+  },
+  "ZN6I": {
+    "url": "https://animals.sandiegozoo.org/animals/giraffe",
+    "title": "San Diego Zoo — Zürafə",
+    "section": "Boyun və bədən uyğunlaşmaları"
+  },
+  "ZN6J": {
+    "url": "https://animals.sandiegozoo.org/animals/cheetah",
+    "title": "San Diego Zoo — Hepard",
+    "section": "Sürətli qaçış uyğunlaşmaları"
+  },
+  "LANG": {
+    "url": null,
+    "title": "Azərbaycan dili — müəllif nümunələrinin təhlili",
+    "section": "Sözlərin mənası, qrammatik quruluş və bədii ifadə; nümunələr müstəqil yazılıb"
+  },
+  "TX8A": {
+    "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_URL",
+    "title": "MDN — URL",
+    "section": "İnternet ünvanının hissələri"
+  },
+  "TX8B": {
+    "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_domain_name",
+    "title": "MDN — Domen adları",
+    "section": "DNS və ünvanlar"
+  },
+  "TX8C": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview",
+    "title": "MDN — HTTP",
+    "section": "Sorğu və cavab modeli"
+  },
+  "TX8D": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Formats/Image_types",
+    "title": "MDN — Şəkil formatları",
+    "section": "Rastr, vektor və sıxılma"
+  },
+  "TX8E": {
+    "url": "https://developer.mozilla.org/en-US/docs/Glossary/Unicode",
+    "title": "MDN — Unicode",
+    "section": "Simvol və kodlaşdırma"
+  },
+  "TX8F": {
+    "url": "https://developer.mozilla.org/en-US/docs/Glossary/Cryptography",
+    "title": "MDN — Kriptoqrafiya",
+    "section": "Məxfilik və məlumat bütövlüyü"
+  },
+  "TX8G": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Caching",
+    "title": "MDN — Keşləmə",
+    "section": "Məlumatın təkrar istifadəsi"
+  },
+  "TX8H": {
+    "url": "https://developer.mozilla.org/en-US/docs/Glossary/Symmetric-key_cryptography",
+    "title": "MDN — Simmetrik kriptoqrafiya",
+    "section": "Açar və blok şifrəsi"
+  },
+  "TX8I": {
+    "url": "https://developer.mozilla.org/en-US/docs/Glossary/Public-key_cryptography",
+    "title": "MDN — Açıq açarlı kriptoqrafiya",
+    "section": "Açar cütü və imza"
+  },
+  "TX8J": {
+    "url": "https://developer.mozilla.org/en-US/docs/Glossary/Hash_function",
+    "title": "MDN — Heş funksiyası",
+    "section": "Məlumat izi"
+  },
+  "PH9A": {
+    "url": "https://openstax.org/books/college-physics-2e/pages/6-1-rotation-angle-and-angular-velocity",
+    "title": "OpenStax — Fırlanma",
+    "section": "Bucaq və xətti sürət"
+  },
+  "PH9B": {
+    "url": "https://openstax.org/books/college-physics-2e/pages/6-2-centripetal-acceleration",
+    "title": "OpenStax — Mərkəzəyönlü təcili",
+    "section": "Dairəvi hərəkət"
+  },
+  "PH9C": {
+    "url": "https://openstax.org/books/college-physics-2e/pages/11-7-archimedes-principle",
+    "title": "OpenStax — Arximed prinsipi",
+    "section": "Mayedə qaldırıcı qüvvə"
+  },
+  "PH9D": {
+    "url": "https://openstax.org/books/college-physics-2e/pages/12-2-bernoullis-equation",
+    "title": "OpenStax — Bernulli prinsipi",
+    "section": "Axın və enerji"
+  },
+  "PH9E": {
+    "url": "https://openstax.org/books/college-physics-2e/pages/16-2-period-and-frequency-in-oscillations",
+    "title": "OpenStax — Period və tezlik",
+    "section": "Rəqsi hərəkət"
+  },
+  "PH9F": {
+    "url": "https://openstax.org/books/college-physics-2e/pages/17-4-doppler-effect-and-sonic-booms",
+    "title": "OpenStax — Doppler effekti",
+    "section": "Səs mənbəyinin hərəkəti"
+  },
+  "PH9G": {
+    "url": "https://openstax.org/books/college-physics-2e/pages/17-5-sound-interference-and-resonance-standing-waves-in-air-columns",
+    "title": "OpenStax — Səs interferensiyası",
+    "section": "Rezonans və səsin zəifləməsi"
+  },
+  "PH9H": {
+    "url": "https://openstax.org/books/college-physics-2e/pages/13-3-the-ideal-gas-law",
+    "title": "OpenStax — İdeal qaz",
+    "section": "Qazın vəziyyəti"
+  },
+  "PH9I": {
+    "url": "https://openstax.org/books/college-physics-2e/pages/15-1-the-first-law-of-thermodynamics",
+    "title": "OpenStax — Termodinamikanın birinci qanunu",
+    "section": "İstilik və iş"
+  },
+  "PH9J": {
+    "url": "https://openstax.org/books/college-physics-2e/pages/15-6-entropy-and-the-second-law-of-thermodynamics-disorder-and-the-unavailability-of-energy",
+    "title": "OpenStax — Entropiya",
+    "section": "Enerjinin istifadə oluna bilməsi"
+  },
+  "WO10A": {
+    "url": "https://whc.unesco.org/en/list/28/",
+    "title": "UNESCO — Yellowstone",
+    "section": "Geotermal və ekoloji xüsusiyyətlər"
+  },
+  "WO10B": {
+    "url": "https://whc.unesco.org/en/list/76/",
+    "title": "UNESCO — Everglades",
+    "section": "Subtropik su ekosistemləri"
+  },
+  "WO10C": {
+    "url": "https://whc.unesco.org/en/list/120/",
+    "title": "UNESCO — Sagarmatha",
+    "section": "Himalay təbiəti və şerplər"
+  },
+  "WO10D": {
+    "url": "https://whc.unesco.org/en/list/121/",
+    "title": "UNESCO — Kathmandu Valley",
+    "section": "Dini irs və Newar memarlığı"
+  },
+  "WO10E": {
+    "url": "https://whc.unesco.org/en/list/138/",
+    "title": "UNESCO — Moenjodaro",
+    "section": "Qədim şəhər planı"
+  },
+  "WO10F": {
+    "url": "https://whc.unesco.org/en/list/139/",
+    "title": "UNESCO — Taxila",
+    "section": "Şəhər inkişafı və təhsil"
+  },
+  "WO10G": {
+    "url": "https://whc.unesco.org/en/list/171/",
+    "title": "UNESCO — Lahore Fort and Shalamar Gardens",
+    "section": "Moğol memarlığı və bağlar"
+  },
+  "WO10H": {
+    "url": "https://whc.unesco.org/en/list/119/",
+    "title": "UNESCO — Timbuktu",
+    "section": "Elm və səhra ticarəti"
+  },
+  "WO10I": {
+    "url": "https://whc.unesco.org/en/list/116/",
+    "title": "UNESCO — Djenné",
+    "section": "Torpaq memarlığı və daşqın"
+  },
+  "WO10J": {
+    "url": "https://whc.unesco.org/en/list/12/",
+    "title": "UNESCO — Tiya",
+    "section": "Sirli stelalar"
+  },
+  "WO10K": {
+    "url": "https://whc.unesco.org/en/list/13/",
+    "title": "UNESCO — Melka Kunture and Balchit",
+    "section": "Yüksək dağlarda qədim insan izləri"
+  },
+  "WO11A": {
+    "url": "https://whc.unesco.org/en/list/154/",
+    "title": "UNESCO — Great Barrier Reef",
+    "section": "Rif ekosistemi"
+  },
+  "WO11B": {
+    "url": "https://whc.unesco.org/en/list/447/",
+    "title": "UNESCO — Uluru-Kata Tjuta",
+    "section": "Səhra qayaları və Anangu irsi"
+  },
+  "WO11C": {
+    "url": "https://whc.unesco.org/en/list/421/",
+    "title": "UNESCO — Tongariro",
+    "section": "Vulkanik və mədəni landşaft"
+  },
+  "WO11D": {
+    "url": "https://whc.unesco.org/en/list/551/",
+    "title": "UNESCO — Te Wahipounamu",
+    "section": "Buzlaq landşaftları və quşlar"
+  },
+  "WO11E": {
+    "url": "https://whc.unesco.org/en/list/400/",
+    "title": "UNESCO — Budapest",
+    "section": "Dunayın iki sahili"
+  },
+  "WO11F": {
+    "url": "https://whc.unesco.org/en/list/616/",
+    "title": "UNESCO — Prague",
+    "section": "Şəhər irsi"
+  },
+  "WO11G": {
+    "url": "https://whc.unesco.org/en/list/29/",
+    "title": "UNESCO — Kraków",
+    "section": "Kral və universitet şəhəri"
+  },
+  "WO11H": {
+    "url": "https://whc.unesco.org/en/list/32/",
+    "title": "UNESCO — Wieliczka and Bochnia",
+    "section": "Yeraltı duz irsi"
+  },
+  "WO11I": {
+    "url": "https://whc.unesco.org/en/list/369/",
+    "title": "UNESCO — Giant’s Causeway",
+    "section": "Bazalt sütunları"
+  },
+  "WO11J": {
+    "url": "https://whc.unesco.org/en/list/672/",
+    "title": "UNESCO — Ha Long Bay – Cat Ba",
+    "section": "Dəniz karstı"
+  },
+  "SP12A": {
+    "url": "https://www.world.rugby/the-game/beginners-guide/points?lang=en",
+    "title": "World Rugby — Xal sistemi",
+    "section": "Try, konversiya və zərbələr"
+  },
+  "SP12B": {
+    "url": "https://db.ittf.com/sites/default/files/public/2026-02/2026_Statutes_v1_consolidated_clean.pdf",
+    "title": "ITTF — 2026 qaydaları",
+    "section": "Stolüstü tennis"
+  },
+  "SP12C": {
+    "url": "https://archive.ihf.info/files/Uploads/Documents/9222_ihf_regelflyer_2008_eng_neu.pdf",
+    "title": "IHF — Həndbolun əsasları",
+    "section": "Qapı sahəsi və oyun hərəkətləri"
+  },
+  "SP12D": {
+    "url": "https://resources.fina.org/fina/document/2026/02/18/e6815ecc-06d9-4f0b-98e9-4c441cf5e6a3/2026-02-18_World-Aquatics_CR-Final.pdf",
+    "title": "World Aquatics — 2026 yarış qaydaları",
+    "section": "Üzgüçülük texnikası"
+  },
+  "SP12E": {
+    "url": "https://www.usga.org/content/usga/home-page/articles/2026/01/world-play-terminology-golf-lingo.html",
+    "title": "USGA — Qolf terminləri",
+    "section": "Par və quş adları"
+  },
+  "SP12F": {
+    "url": "https://static.wbsc.org/uploads/federations/282/documents/9cecec45-9da5-3be3-729e-c00ea2e42244.pdf",
+    "title": "WBSC — Beysbol 2025–2026",
+    "section": "İnninq və atışlar"
+  },
+  "SP12G": {
+    "url": "https://inside.fifa.com/es/news/curso-intensivo-sobre-reglas-del-futsal",
+    "title": "FIFA — Futzal qaydaları",
+    "section": "Futzalın əsasları"
+  },
+  "SP12H": {
+    "url": "https://www.worldarchery.sport/sport/equipment/compound",
+    "title": "World Archery — Compound yay",
+    "section": "Yayın mexanikası"
+  },
+  "SP12I": {
+    "url": "https://system.bwfbadminton.com/documents/folder_1_81/Statutes/CHAPTER-4---RULES-OF-THE-GAME/Section%204.1-%20Laws%20of%20Badminton%20-%2019052018A.pdf",
+    "title": "BWF — Badmintonun əsas qaydaları",
+    "section": "Meydança və servis"
+  },
+  "SP12J": {
+    "url": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/world-cup-champions-1930-1978-uruguay-italy-germany-brazil-england-argentina",
+    "title": "FIFA — İlk dünya çempionatları",
+    "section": "Tarixi nəticələr"
+  },
+  "NH13A": {
+    "url": "https://www.nobelprize.org/prizes/chemistry/1980/press-release/",
+    "title": "Nobel Prize — Kimya 1980",
+    "section": "DNT tədqiqatları və Sangerin iki mükafatı"
+  },
+  "NH13B": {
+    "url": "https://www.nobelprize.org/prizes/medicine/1983/mcclintock/facts/",
+    "title": "Nobel Prize — Barbara McClintock",
+    "section": "Hərəkətli genetik elementlər"
+  },
+  "NH13C": {
+    "url": "https://www.nobelprize.org/prizes/physics/1930/raman/facts/",
+    "title": "Nobel Prize — C. V. Raman",
+    "section": "İşığın səpilməsi"
+  },
+  "NH13D": {
+    "url": "https://www.nobelprize.org/prizes/physics/1983/press-release/",
+    "title": "Nobel Prize — Fizika 1983",
+    "section": "Ulduzların quruluşu və elementlər"
+  },
+  "NH13E": {
+    "url": "https://www.nobelprize.org/prizes/medicine/2015/tu/biographical/",
+    "title": "Nobel Prize — Tu Youyou",
+    "section": "Artemisininin tarixi"
+  },
+  "NH13F": {
+    "url": "https://www.nobelprize.org/prizes/medicine/1953/summary/",
+    "title": "Nobel Prize — Tibb 1953",
+    "section": "Krebs və Lipmann"
+  },
+  "NH13G": {
+    "url": "https://www.nobelprize.org/prizes/medicine/1959/summary/",
+    "title": "Nobel Prize — Tibb 1959",
+    "section": "Nuklein turşularının sintezi"
+  },
+  "NH13H": {
+    "url": "https://www.nobelprize.org/prizes/peace/1962/ceremony-speech/",
+    "title": "Nobel Prize — Linus Pauling",
+    "section": "Elm və sülh fəaliyyəti"
+  },
+  "NH13I": {
+    "url": "https://www.nobelprize.org/prizes/physics/2013/press-release/",
+    "title": "Nobel Prize — Fizika 2013",
+    "section": "Higgs mexanizmi"
+  },
+  "NH13J": {
+    "url": "https://www.nobelprize.org/alfred-nobel/",
+    "title": "Nobel Prize — Alfred Nobel",
+    "section": "İxtira və vəsiyyət"
+  },
+  "AZ14A": {
+    "url": "https://azerbaijan.az/news/786",
+    "title": "Azerbaijan.az — Azərbaycan kinosu",
+    "section": "İlk nümayişlər və ekranlaşdırmalar"
+  },
+  "AZ14B": {
+    "url": "https://azerbaijan.az/related-information/34",
+    "title": "Azerbaijan.az — Milli parklar",
+    "section": "Əsas qorunan ekosistemlər"
+  },
+  "AZ14C": {
+    "url": "https://gsaz.az/articles/view/103/Azarbaycanin-gollari",
+    "title": "Azərbaycan Coğrafiya Cəmiyyəti — Göllər",
+    "section": "Göl mənşəyi və hövzələr"
+  },
+  "AZ14D": {
+    "url": "https://gsaz.az/articles/view/108/",
+    "title": "Azərbaycan Coğrafiya Cəmiyyəti — Çaylar",
+    "section": "Çayların hövzə xüsusiyyətləri"
+  },
+  "AZ14E": {
+    "url": "https://azerbaijan.az/related-information/91",
+    "title": "Azerbaijan.az — Qədim ədəbiyyat",
+    "section": "Dədə Qorqud boylarının qəhrəmanları"
+  },
+  "AZ14F": {
+    "url": "https://science.gov.az/az/news/open/20591",
+    "title": "AMEA — Məmmədəli Hüseynov",
+    "section": "Azıx arxeologiyası"
+  },
+  "AZ14G": {
+    "url": "https://www.musicacademy.edu.az/az/ixtisas-fortepiano-gorkemli/393-vaqif-mustafazade.html",
+    "title": "Bakı Musiqi Akademiyası — Vaqif Mustafazadə",
+    "section": "Caz-muğam və ansambllar"
+  },
+  "AZ14H": {
+    "url": "https://bahlulzade.az/s/biography",
+    "title": "Səttar Bəhlulzadənin ev muzeyi — Bioqrafiya",
+    "section": "Lirik mənzərə rəssamı"
+  },
+  "AZ14I": {
+    "url": "https://ich.unesco.org/en/RL/culture-of-cay-tea-a-symbol-of-identity-hospitality-and-social-interaction-01685",
+    "title": "UNESCO — Çay mədəniyyəti",
+    "section": "Qonaqpərvərlik və süfrə"
+  },
+  "AZ14J": {
+    "url": "https://ich.unesco.org/en/RL/tandir-craftsmanship-and-bread-baking-in-azerbaijan-02120",
+    "title": "UNESCO — Təndir sənətkarlığı",
+    "section": "Soba və bilik ötürülməsi"
+  },
+  "AR15A": {
+    "url": "https://www.uffizi.it/en/artworks/birth-of-venus",
+    "title": "Uffizi — Veneranın doğulması",
+    "section": "Mifologiya və təsvir"
+  },
+  "AR15B": {
+    "url": "https://www.uffizi.it/en/artworks/botticelli-spring",
+    "title": "Uffizi — Primavera",
+    "section": "Mifoloji fiqurlar"
+  },
+  "AR15C": {
+    "url": "https://www.museodelprado.es/en/the-collection/art-work/las-meninas/9fdc7800-9ade-48b0-ab8b-edee94ea877f",
+    "title": "Prado — Las Meninas",
+    "section": "Saray portreti və güzgü"
+  },
+  "AR15D": {
+    "url": "https://www.belvedere.at/en/veranstaltung/gustav-klimt-and-his-time-0",
+    "title": "Belvedere — Gustav Klimt",
+    "section": "Öpüş və qızıl ornament"
+  },
+  "AR15E": {
+    "url": "https://www.louvre.fr/en/explore/visitor-trails/the-louvre-s-masterpieces/romanticism-topicality-sensuality",
+    "title": "Louvre — Azadlıq xalqa yol göstərir",
+    "section": "1830 üsyanı"
+  },
+  "AR15F": {
+    "url": "https://www.moma.org/collection/works/78455",
+    "title": "MoMA — Christinanın dünyası",
+    "section": "Andrew Wyethin tablosu"
+  },
+  "AR15G": {
+    "url": "https://www.moma.org/collection/works/79809",
+    "title": "MoMA — Campbell şorba qutuları",
+    "section": "Pop-art seriyası"
+  },
+  "AR15H": {
+    "url": "https://www.marmottan.fr/en/notice/4014/",
+    "title": "Marmottan Monet — Təəssürat, günəşin doğması",
+    "section": "Liman və yeni cərəyan"
+  },
+  "AR15I": {
+    "url": "https://www.musee-orsay.fr/en/artworks/arrangement-en-gris-et-noir-ndeg1-974",
+    "title": "Musée d’Orsay — Whistlerin anası",
+    "section": "Portretin adı və kompozisiyası"
+  },
+  "AR15J": {
+    "url": "https://www.museodelprado.es/en/whats-on/multimedia/el-3-de-mayo-en-madrid-o-los-fusilamientos/9cd56487-45e7-5345-b265-f42ce572115a",
+    "title": "Prado — 3 may 1808",
+    "section": "Edam səhnəsi"
+  },
+  "FD16A": {
+    "url": "https://pubs.acs.org/doi/10.1021/cen-v082n049.p060",
+    "title": "ACS — Popkornun elmi",
+    "section": "Buxar, qabıq və nişasta"
+  },
+  "FD16B": {
+    "url": "https://www.acs.org/content/dam/acsorg/events/slides/2014-10-16-candy-chemistry-final.pdf",
+    "title": "ACS — Konfet kimyası",
+    "section": "Şəkər və kristal"
+  },
+  "FD16C": {
+    "url": "https://cen.acs.org/articles/85/i6/Honey.html",
+    "title": "ACS C&EN — Bal",
+    "section": "Şəkərlər və nektar"
+  },
+  "FD16D": {
+    "url": "https://www.acs.org/content/dam/acsorg/education/resources/highschool/chemmatters/articlesbytopic/organicchemistry/chemmatters-dec2008-coffee.pdf",
+    "title": "ACS — Qəhvədəki maddələr",
+    "section": "Qovurma və qazlar"
+  },
+  "FD16E": {
+    "url": "https://www.acs.org/molecule-of-the-week/archive/p/syn-propanethial-s-oxide.html",
+    "title": "ACS — Soğanın gözyaşardıcı maddəsi",
+    "section": "Kəsilən hüceyrələrin reaksiyası"
+  },
+  "FD16F": {
+    "url": "https://www.acs.org/molecule-of-the-week/archive/a/allicin.html",
+    "title": "ACS — Allisin",
+    "section": "Sarımsaq kimyası"
+  },
+  "FD16G": {
+    "url": "https://www.acs.org/acs-webinars/library/chocolate-chemistry.html",
+    "title": "ACS — Şokolad kimyası",
+    "section": "Kakao yağı və temperləmə"
+  },
+  "FD16H": {
+    "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/eggs/shell-eggs-farm-table",
+    "title": "USDA — Yumurtalar",
+    "section": "Bişmə və quruluş"
+  },
+  "FD16I": {
+    "url": "https://www.acs.org/middleschoolchemistry/simulations/chapter6/lesson2.html",
+    "title": "ACS — Soda və sirkə",
+    "section": "Turşu ilə bikarbonat"
+  },
+  "FD16J": {
+    "url": "https://www.acs.org/content/dam/acsorg/events/culinary-chemistry/transcripts/2020-01-16-cooking-history.pdf",
+    "title": "ACS — Bişirmənin elmi tarixi",
+    "section": "Təzyiqli qazan"
+  },
+  "FD16K": {
+    "url": "https://openstax.org/books/biology-2e/pages/3-2-carbohydrates",
+    "title": "OpenStax — Karbohidratlar",
+    "section": "Qida maddələrinin quruluşu"
+  },
+  "EC17A": {
+    "url": "https://openstax.org/books/biology-2e/pages/45-1-population-demography",
+    "title": "OpenStax — Populyasiyaların demoqrafiyası",
+    "section": "Say, sıxlıq və məkan bölgüsü"
+  },
+  "EC17B": {
+    "url": "https://openstax.org/books/biology-2e/pages/45-6-community-ecology",
+    "title": "OpenStax — Birliklərin ekologiyası",
+    "section": "Növlərarası münasibətlər və ardıcıllıq"
+  },
+  "EC17C": {
+    "url": "https://openstax.org/books/biology-2e/pages/46-1-ecology-of-ecosystems",
+    "title": "OpenStax — Ekosistemlərin ekologiyası",
+    "section": "Canlı və cansız amillər"
+  },
+  "EC17D": {
+    "url": "https://openstax.org/books/biology-2e/pages/46-2-energy-flow-through-ecosystems",
+    "title": "OpenStax — Ekosistemlərdə enerji axını",
+    "section": "Trofik səviyyələr və məhsuldarlıq"
+  },
+  "EC17E": {
+    "url": "https://openstax.org/books/biology-2e/pages/46-3-biogeochemical-cycles",
+    "title": "OpenStax — Biogeokimyəvi dövranlar",
+    "section": "Karbon, azot və fosfor"
+  },
+  "PL17A": {
+    "url": "https://openstax.org/books/biology-2e/pages/30-2-stems",
+    "title": "OpenStax — Bitki gövdələri",
+    "section": "Daxili quruluş və dəyişilmiş gövdələr"
+  },
+  "PL17B": {
+    "url": "https://openstax.org/books/biology-2e/pages/30-3-roots",
+    "title": "OpenStax — Bitki kökləri",
+    "section": "Sorulma, kök ucu və yan köklər"
+  },
+  "PL17C": {
+    "url": "https://openstax.org/books/biology-2e/pages/30-4-leaves",
+    "title": "OpenStax — Yarpaqlar",
+    "section": "Ağızcıqlar və yarpaq quruluşu"
+  },
+  "PL17D": {
+    "url": "https://openstax.org/books/biology-2e/pages/32-1-reproductive-development-and-structure",
+    "title": "OpenStax — Bitkilərin çoxalma quruluşları",
+    "section": "Çiçək və nəsil növbələşməsi"
+  },
+  "PL17E": {
+    "url": "https://openstax.org/books/biology-2e/pages/31-3-nutritional-adaptations-of-plants",
+    "title": "OpenStax — Bitkilərin qidalanma uyğunlaşmaları",
+    "section": "Kökün mikroorqanizmlərlə əlaqəsi"
+  },
+  "TC18A": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies",
+    "title": "MDN — Brauzer kukiləri",
+    "section": "Sessiya və kuki atributları"
+  },
+  "TC18B": {
+    "url": "https://developer.mozilla.org/en-US/docs/Glossary/TCP",
+    "title": "MDN — TCP",
+    "section": "Etibarlı şəbəkə axını"
+  },
+  "TC18C": {
+    "url": "https://developer.mozilla.org/en-US/docs/Glossary/UDP",
+    "title": "MDN — UDP",
+    "section": "Dataqram və gecikmə"
+  },
+  "TC18D": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    "title": "MDN — HTML",
+    "section": "Veb sənədin quruluşu"
+  },
+  "TC18E": {
+    "url": "https://developer.mozilla.org/en-US/docs/Glossary/CSS",
+    "title": "MDN — CSS",
+    "section": "Görünüş və qaydalar"
+  },
+  "TC18F": {
+    "url": "https://developer.mozilla.org/en-US/docs/Glossary/JSON",
+    "title": "MDN — JSON",
+    "section": "Məlumat növləri"
+  },
+  "TC18G": {
+    "url": "https://developer.mozilla.org/en-US/docs/Glossary/Base64",
+    "title": "MDN — Base64",
+    "section": "İkili məlumatın mətn kodlanması"
+  },
+  "TC18H": {
+    "url": "https://developer.mozilla.org/en-US/docs/Glossary/Lossless_compression",
+    "title": "MDN — İtkisiz sıxılma",
+    "section": "Bərpa və sıxılma üsulları"
+  },
+  "TC18I": {
+    "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/What_is_accessibility",
+    "title": "MDN — Rəqəmsal əlçatanlıq",
+    "section": "Köməkçi vasitələr və müxtəlif istifadəçilər"
+  },
+  "TC18J": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API",
+    "title": "MDN — Web Storage",
+    "section": "Lokal və sessiya saxlanması"
+  },
+  "SP19A": {
+    "url": "https://www.nasa.gov/missions/apollo/apollo-13-the-successful-failure/",
+    "title": "NASA — Apollo 13 və uğurlu xilasetmə",
+    "section": "Qəza və mühəndis həlləri"
+  },
+  "SP19B": {
+    "url": "https://www.nasa.gov/history/50-years-ago-apollo-17-lights-up-the-night-sky-on-its-way-to-the-moon/",
+    "title": "NASA — Apollo 17-nin gecə startı",
+    "section": "Ekipaj və eniş sahəsi"
+  },
+  "SP19C": {
+    "url": "https://www.nasa.gov/gallery/gemini/",
+    "title": "NASA — Gemini proqramı",
+    "section": "Apolloya hazırlıq mərhələsi"
+  },
+  "SP19D": {
+    "url": "https://www.nasa.gov/project-mercury/",
+    "title": "NASA — Mercury proqramı",
+    "section": "İlk Amerika insanlı uçuşları"
+  },
+  "SP19E": {
+    "url": "https://science.nasa.gov/mission/hubble/overview/hubble-timeline/hubble-history-timeline-full-text/",
+    "title": "NASA — Hubble tarixinin xronologiyası",
+    "section": "Start və servis missiyaları"
+  },
+  "SP19F": {
+    "url": "https://science.nasa.gov/mission/galileo/galileo-science/",
+    "title": "NASA — Galileo missiyasının elmi nəticələri",
+    "section": "Asteroid və Yupiter müşahidələri"
+  },
+  "SP19G": {
+    "url": "https://science.nasa.gov/mission/cassini/grand-finale/overview/",
+    "title": "NASA — Cassini-nin Böyük Finalı",
+    "section": "Son orbitlər və ölçmələr"
+  },
+  "SP19H": {
+    "url": "https://science.nasa.gov/mission/juno/",
+    "title": "NASA — Juno missiyası",
+    "section": "Enerji və orbitə daxilolma"
+  },
+  "SP19I": {
+    "url": "https://www.esa.int/Science_Exploration/Space_Science/Rosetta/Rosetta_factsheet",
+    "title": "ESA — Rosetta missiyasının faktları",
+    "section": "Komet nüvəsinə səyahət"
+  },
+  "SP19J": {
+    "url": "https://science.nasa.gov/mission/osiris-rex/osiris-rex-faq/",
+    "title": "NASA — OSIRIS-REx sualları və cavabları",
+    "section": "Nümunənin qaytarılması və qorunması"
+  },
+  "PS20A": {
+    "url": "https://openstax.org/books/psychology-2e/pages/5-6-gestalt-principles-of-perception",
+    "title": "OpenStax — Qavrayışın Geştalt prinsipləri",
+    "section": "Yaxınlıq, oxşarlıq və fiqur-fon"
+  },
+  "PS20B": {
+    "url": "https://openstax.org/books/psychology-2e/pages/6-2-classical-conditioning",
+    "title": "OpenStax — Klassik şərtlənmə",
+    "section": "Pavlov və öyrənilmiş reaksiyalar"
+  },
+  "PS20C": {
+    "url": "https://openstax.org/books/psychology-2e/pages/6-3-operant-conditioning",
+    "title": "OpenStax — Operant şərtlənmə",
+    "section": "Davranışın nəticələri"
+  },
+  "PS20D": {
+    "url": "https://openstax.org/books/psychology-2e/pages/8-1-how-memory-functions",
+    "title": "OpenStax — Yaddaş necə işləyir",
+    "section": "Kodlaşdırma və yaddaş növləri"
+  },
+  "PS20E": {
+    "url": "https://openstax.org/books/psychology-2e/pages/8-3-problems-with-memory",
+    "title": "OpenStax — Yaddaş problemləri",
+    "section": "Müdaxilə və xatirənin dəyişməsi"
+  },
+  "PS20F": {
+    "url": "https://openstax.org/books/psychology-2e/pages/6-4-observational-learning-modeling",
+    "title": "OpenStax — Müşahidə yolu ilə öyrənmə",
+    "section": "Bandura və modelləşdirmə"
+  },
+  "PS20G": {
+    "url": "https://openstax.org/books/psychology-2e/pages/7-3-problem-solving",
+    "title": "OpenStax — Problemin həlli",
+    "section": "Strategiyalar və düşüncə maneələri"
+  },
+  "PS20H": {
+    "url": "https://openstax.org/books/psychology-2e/pages/12-4-conformity-compliance-and-obedience",
+    "title": "OpenStax — Uyğunlaşma və itaət",
+    "section": "Qrupun qərara təsiri"
+  },
+  "PS20I": {
+    "url": "https://openstax.org/books/psychology-2e/pages/12-7-prosocial-behavior",
+    "title": "OpenStax — Prososial davranış",
+    "section": "Kömək və münasibətlər"
+  },
+  "PS20J": {
+    "url": "https://openstax.org/books/psychology-2e/pages/8-4-ways-to-enhance-memory",
+    "title": "OpenStax — Yaddaşı yaxşılaşdıran üsullar",
+    "section": "Aralı təkrar və əlaqələndirmə"
+  },
+  "USGA12BUNKER": {
+    "url": "https://rules.usga.org/courses/rules-for-teams-2025/lessons/play-the-course-as-you-find-it-2/topic/what-are-the-areas-of-the-course-and-how-are-they-defined/",
+    "title": "USGA — Qolf meydançasının sahələri",
+    "section": "Bunker və qumlu sahə"
+  },
+  "EZAZFLAG": {
+    "url": "https://president.az/az/pages/view/azerbaijan/symbols",
+    "title": "Azərbaycan Prezidentinin rəsmi səhifəsi — Dövlət rəmzləri",
+    "section": "Dövlət Bayrağı: rənglər, aypara, bayraq günü"
+  },
+  "EZAZBASIC": {
+    "url": "https://azerbaijan.travel/practical-information",
+    "title": "Azərbaycan Turizm Bürosu — Praktik məlumat",
+    "section": "Money; Public Transportation"
+  },
+  "EZNOVRUZ": {
+    "url": "https://azerbaijan.travel/bayram-ovqati-yaradan-novruz-tedbirleri",
+    "title": "Azərbaycan Turizm Bürosu — Novruz tədbirləri",
+    "section": "Yazın gəlişi, dörd çərşənbə və adətlər"
+  },
+  "EZPAKHLAVA": {
+    "url": "https://azerbaijan.travel/pakhlava",
+    "title": "Azərbaycan Turizm Bürosu — Paxlava",
+    "section": "Klassik paxlava resepti və romb dilimlər"
+  },
+  "EZSHEKER": {
+    "url": "https://azerbaijan.travel/shekerbura",
+    "title": "Azərbaycan Turizm Bürosu — Şəkərbura",
+    "section": "İçlik: üyüdülmüş çərəz və şəkər"
+  },
+  "EZJAPAN": {
+    "url": "https://web-japan.org/kidsweb/explore/basic/index.html",
+    "title": "Yaponiya XİN / Kids Web Japan — Əsas faktlar",
+    "section": "Capital; Unit of currency"
+  },
+  "EZJAPANFLAG": {
+    "url": "https://web-japan.org/kidsweb/explore/national/index.html",
+    "title": "Yaponiya XİN / Kids Web Japan — Bayraq və himn",
+    "section": "Hinomaru və Günəş diski"
+  },
+  "EZFUJI": {
+    "url": "https://web-japan.org/atlas/nature/nat06.html",
+    "title": "Yaponiya XİN / Japan Atlas — Fudzi",
+    "section": "Yaponiyanın ən yüksək zirvəsi"
+  },
+  "EZJAPANGEO": {
+    "url": "https://www.mofa.go.jp/territory/page1we_000006.html",
+    "title": "Yaponiya Xarici İşlər Nazirliyi — Yaponiya ərazisi",
+    "section": "Location: Şərqi Asiya"
+  },
+  "EZCANADAREG": {
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadas-regions.html",
+    "title": "Kanada hökuməti — Kanadanın regionları",
+    "section": "Ottava; ABŞ ilə cənub sərhədi"
+  },
+  "EZCANADASYM": {
+    "url": "https://www.canada.ca/en/canadian-heritage/services/official-symbols-canada.html",
+    "title": "Kanada hökuməti — Rəsmi rəmzlər",
+    "section": "The national flag; The maple tree"
+  },
+  "EZCANADALANG": {
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/publications-manuals/discover-canada/read-online/canadian-symbols.html",
+    "title": "Kanada hökuməti — Kanada rəmzləri",
+    "section": "Canada’s Official Languages"
+  },
+  "EZAUSCAP": {
+    "url": "https://www.australia.com/en-us/facts-and-planning/about-australia/cities-states-and-territories.html",
+    "title": "Tourism Australia — Ştatlar, ərazilər və paytaxtlar",
+    "section": "Australian Capital Territory: Canberra"
+  },
+  "EZAUSBASIC": {
+    "url": "https://www.australia.com/en/facts-and-planning/about-australia/key-facts-about-australia.html",
+    "title": "Tourism Australia — Avstraliya haqqında əsas faktlar",
+    "section": "Cənub yarımkürəsi və əks fəsillər"
+  },
+  "EZAUSARMS": {
+    "url": "https://www.dfat.gov.au/sites/default/files/australia-in-brief-2021.pdf",
+    "title": "Avstraliya XİN — Australia in Brief",
+    "section": "Dövlət rəmzləri: gerbdə kenquru və emu"
+  },
+  "EZAUSFACT": {
+    "url": "https://www.dfat.gov.au/sites/default/files/our-indo-pacific-community-3-4-country-fact-files.pdf",
+    "title": "Avstraliya XİN — Ölkə məlumatları",
+    "section": "Australia: Geography — Tasmania"
+  },
+  "EZHEART": {
+    "url": "https://www.nhlbi.nih.gov/health/heart",
+    "title": "NIH / NHLBI — Ürək necə işləyir",
+    "section": "Ürəyin qanı pompalaması; qanın oksigen və qida daşıması"
+  },
+  "EZHEARTANAT": {
+    "url": "https://www.nhlbi.nih.gov/health/heart/anatomy",
+    "title": "NIH / NHLBI — Ürəyin quruluşu",
+    "section": "Dörd kamera"
+  },
+  "EZLUNGS": {
+    "url": "https://www.nhlbi.nih.gov/health/lungs/respiratory-system",
+    "title": "NIH / NHLBI — Tənəffüs sistemi",
+    "section": "Ağciyərlər və döş boşluğu"
+  },
+  "EZDIGEST": {
+    "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "title": "NIH / NIDDK — Həzm sistemi necə işləyir",
+    "section": "Ağız, qida borusu, tüpürcək, mədə və nazik bağırsaq"
+  },
+  "EZINSECT": {
+    "url": "https://naturalhistory.si.edu/education/teaching-resources/life-science/what-insect",
+    "title": "Smithsonian Təbiət Tarixi Muzeyi — Həşərat nədir",
+    "section": "Ayaqlar, bədən hissələri, bığcıqlar və hörümçəklər"
+  },
+  "EZBUTTERFLY": {
+    "url": "https://gardens.si.edu/learn/for-educators/cultivating-habitat/butterfly-gardening/about-butterflies/",
+    "title": "Smithsonian Gardens — Kəpənəklər haqqında",
+    "section": "Larva: caterpillar"
+  },
+  "EZDOLPHIN": {
+    "url": "https://oceanservice.noaa.gov/facts/dolphin.html",
+    "title": "NOAA — Delfinlər balıqdırmı",
+    "section": "Məməli təsnifatı və südlə bəsləmə"
+  },
+  "EZFROG": {
+    "url": "https://www.nhm.ac.uk/discover/frogspawn-tadpoles-and-froglets.html",
+    "title": "Təbiət Tarixi Muzeyi — Qurbağaların həyat dövrü",
+    "section": "Çömçəquyruqdan qurbağaya"
+  },
+  "EZDUCK": {
+    "url": "https://animals.sandiegozoo.org/animal-glossary/webbed-feet",
+    "title": "San Diego Zoo — Pərdəli ayaqlar",
+    "section": "Barmaqlar arasındakı pərdənin üzmə funksiyası"
+  },
+  "EZBIRDFEATHER": {
+    "url": "https://www.nhm.ac.uk/discover/news/2025/february/origin-feathers-remains-mystery.html",
+    "title": "Təbiət Tarixi Muzeyi — Lələklər",
+    "section": "Müasir quşların lələkləri"
+  },
+  "EZFOG": {
+    "url": "https://weather.metoffice.gov.uk/learn-about/weather/types-of-weather/fog",
+    "title": "Met Office — Duman",
+    "section": "Havada asılı su damcıları"
+  },
+  "EZDEW": {
+    "url": "https://weather.metoffice.gov.uk/learn-about/weather/types-of-weather/temperature/dew",
+    "title": "Met Office — Şeh",
+    "section": "Səthlərdə kondensasiya olunan damcılar"
+  },
+  "EZRAINBOW": {
+    "url": "https://weather.metoffice.gov.uk/learn-about/weather/optical-effects/rainbows",
+    "title": "Met Office — Göy qurşağı",
+    "section": "Günəş işığı və su damcıları"
+  },
+  "EZWIND": {
+    "url": "https://weather.metoffice.gov.uk/learn-about/weather/types-of-weather/wind",
+    "title": "Met Office — Külək",
+    "section": "Hərəkətdə olan hava"
+  },
+  "EZHAIL": {
+    "url": "https://weather.metoffice.gov.uk/learn-about/weather/types-of-weather/hail",
+    "title": "Met Office — Dolu",
+    "section": "Buz dənələri şəklində yağıntı"
+  },
+  "EZSNOW": {
+    "url": "https://weather.metoffice.gov.uk/learn-about/weather/types-of-weather/snow",
+    "title": "Met Office — Qar",
+    "section": "Qar dənələri və buz kristalları"
+  },
+  "EZOBSERV": {
+    "url": "https://weather.metoffice.gov.uk/binaries/content/assets/metofficegovuk/pdf/weather/guides/10_0230_fs_17_observations.pdf",
+    "title": "Met Office — Hava müşahidələri",
+    "section": "Termometrlərlə temperaturun ölçülməsi"
+  },
+  "EZTHUNDER": {
+    "url": "https://weather.metoffice.gov.uk/learn-about/weather/types-of-weather/thunder-and-lightning",
+    "title": "Met Office — Şimşək və göy gurultusu",
+    "section": "Göy gurultusunun səs olması; işıq və səsin yayılma sürətləri"
+  },
+  "EZPRECIP": {
+    "url": "https://weather.metoffice.gov.uk/learn-about/met-office-for-schools/other-content/other-resources/what-is-precipitation",
+    "title": "Met Office — Yağıntı nədir",
+    "section": "Yağış: maye su damcıları"
+  },
+  "EZRAISIN": {
+    "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/shelf-stable-food",
+    "title": "USDA — Uzun müddət saxlanan qidalar",
+    "section": "Qurutma: üzümdən kişmiş"
+  },
+  "EZDAIRY": {
+    "url": "https://www.myplate.gov/web/eat-healthy/dairy",
+    "title": "USDA / MyPlate — Süd məhsulları",
+    "section": "Süd, qatıq və pendir"
+  },
+  "EZOLIVEOIL": {
+    "url": "https://www.internationaloliveoil.org/el-mundo-del-olivo/aceite-de-oliva/?lang=es",
+    "title": "Beynəlxalq Zeytun Şurası — Zeytun yağları",
+    "section": "Zeytun meyvəsindən əldə olunan yağ"
+  },
+  "EZWHEAT": {
+    "url": "https://www.aphis.usda.gov/ace/generally-authorized-non-propagative-plant-products",
+    "title": "USDA / APHIS — Emal olunmuş bitki məhsulları",
+    "section": "Wheat milled products: bulgur"
+  },
+  "EZPROTEIN": {
+    "url": "https://www.fao.org/world-pulses-day/news-detail/what-is-the-difference-between-legumes-and-pulses/en",
+    "title": "FAO — Paxlalılar və quru paxla dənləri",
+    "section": "Noxud: chickpea — legume"
+  },
+  "EZORCHESTRA": {
+    "url": "https://www.lso.co.uk/learn-and-discover/digital-activities-and-resources/how-to-build-an-orchestra/",
+    "title": "London Simfonik Orkestri — Orkestr necə qurulur",
+    "section": "Dirijor və orkestr"
+  },
+  "EZMUSICFAM": {
+    "url": "https://playapi.lso.co.uk/download/6/berlioz_inset_PDF.pdf",
+    "title": "London Simfonik Orkestri — Orkestr alətləri",
+    "section": "Strings: violin"
+  },
+  "EZFLUTE": {
+    "url": "https://www.yamaha.com/en/musical_instrument_guide/flute/mechanism/mechanism002.html",
+    "title": "Yamaha — Fleytada səsin yaranması",
+    "section": "Nəfəs axını və üfürmə"
+  },
+  "EZDRUM": {
+    "url": "https://www.yamaha.com/en/musical_instrument_guide/drums/mechanism/mechanism003.html",
+    "title": "Yamaha — Nağarada səsin yaranması",
+    "section": "Gərilmiş səthə zərbə"
+  },
+  "EZPIANO": {
+    "url": "https://www.yamaha.com/en/musical_instrument_guide/piano/mechanism/mechanism002.html",
+    "title": "Yamaha — Pianoda səs mexanizmi",
+    "section": "Klaviş, çəkic və sim"
+  },
+  "EZPORTRAIT": {
+    "url": "https://www.nationalgallery.org.uk/paintings/sandro-botticelli-portrait-of-a-young-man",
+    "title": "London Milli Qalereyası — Gənc kişinin portreti",
+    "section": "İnsanın üzü və fərdi cizgilərinin təsviri"
+  },
+  "EZSTILLLIFE": {
+    "url": "https://www.nationalgallery.org.uk/paintings/glossary/still-lives",
+    "title": "London Milli Qalereyası — Natürmort",
+    "section": "Meyvə, güllər və gündəlik əşyalar"
+  },
+  "EZSELFPORTRAIT": {
+    "url": "https://www.nationalgallery.org.uk/paintings/ignace-henri-theodore-fantin-latour-self-portrait",
+    "title": "London Milli Qalereyası — Fantin-Latour, Avtoportret",
+    "section": "Rəssamın özünü təsvir etməsi"
+  },
+  "EZSCULPTURE": {
+    "url": "https://www.getty.edu/education/for_teachers/curricula/sculpture/",
+    "title": "Getty Muzeyi — Heykəltaraşlıqla tanışlıq",
+    "section": "Üçölçülü forma"
+  },
+  "EZCOLOUR": {
+    "url": "https://www.getty.edu/education/teachers/building_lessons/formal_analysis.html",
+    "title": "Getty Muzeyi — Təsviri sənətin əsasları",
+    "section": "Color: warm red and yellow"
+  },
+  "EZEGYPTEARLY": {
+    "url": "https://www.britishmuseum.org/collection/galleries/early-egypt",
+    "title": "British Museum — Erkən Misir",
+    "section": "Nil vadisi və firon titulu"
+  },
+  "EZEGYPTTIME": {
+    "url": "https://www.britishmuseum.org/learn/schools/ages-7-11/ancient-egypt/timeline-ancient-egypt",
+    "title": "British Museum — Qədim Misirin tarix xətti",
+    "section": "Giza, sfinks və mumiyalama"
+  },
+  "EZCOMPUTER": {
+    "url": "https://support.microsoft.com/en-us/surface/models/surface-3-specs-and-features",
+    "title": "Microsoft — Surface 3 quruluşu və hissələri",
+    "section": "Mikrofon, dinamik, kamera, toxunma ekranı, microSD"
+  },
+  "EZFOOTBALL3": {
+    "url": "https://www.theifab.com/laws/latest/the-players/",
+    "title": "IFAB — Law 3: Oyunçular",
+    "section": "3.1 Number of players"
+  },
+  "EZFOOTBALL10": {
+    "url": "https://www.theifab.com/laws/latest/determining-the-outcome-of-a-match/",
+    "title": "IFAB — Law 10: Oyunun nəticəsi",
+    "section": "10.1 Goal scored; 10.2 Winning team"
+  },
+  "EZFOOTBALL12": {
+    "url": "https://www.theifab.com/laws/latest/fouls-and-misconduct/",
+    "title": "IFAB — Law 12: Qayda pozuntuları",
+    "section": "Sarı vərəqə: caution; qırmızı vərəqə: sending-off"
+  }
+}

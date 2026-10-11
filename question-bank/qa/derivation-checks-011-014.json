@@ -1,0 +1,10 @@
+{
+  "ferry_minimum_crossings": 7,
+  "combined_work_hours": 2,
+  "twelve_chimes_seconds": 22,
+  "grid_paths": 10,
+  "two_eggs_four_drops_floor_capacity": 10,
+  "hourglass_total_minutes": 15,
+  "same_coin_faces_probability": "1/2",
+  "discount_factors_commute": true
+}

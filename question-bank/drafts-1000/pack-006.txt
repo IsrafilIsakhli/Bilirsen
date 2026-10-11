@@ -1,0 +1,60 @@
+@Təbiət və canlılar|ZN6A|https://animals.sandiegozoo.org/animals/red-panda|San Diego Zoo — Qırmızı panda|Ağac həyatına uyğunlaşma
+orta|new1000-p06-r01|Qırmızı panda budaq üstündə tarazlığı əsasən nə ilə saxlayır?|Uzun quyruğu ilə|Qısa qulaqları ilə|Yastı burnu ilə|Arxa dişləri ilə
+orta|new1000-p06-r02|Qırmızı panda günün hansı vaxtlarında daha fəaldır?|Sübh və alaqaranlıqda|Yalnız günortada|Yalnız tam gecəyarısı|Yalnız qarlı havada
+orta|new1000-p06-r03|Qırmızı pandanın qidasında hansı bitki üstünlük təşkil edir?|Bambuk|Kaktus|Zeytun|Şam qozası
+orta|new1000-p06-r04|Qırmızı pandanın al-qırmızı rəngi ağaclarda nə ilə qarışaraq gizlənməyə kömək edir?|Qırmızı mamırla|Mavi çiçəklərlə|Ağ qumla|Qara buzla
+orta|new1000-p06-r05|Qırmızı panda təhdid qarşısında qoxunu əsasən haradan buraxır?|Quyruq dibindəki vəzilərdən|Buynuzlardan|Dırnaqların ucundan|Dişlərin arasından
+@Təbiət və canlılar|ZN6B|https://animals.sandiegozoo.org/animals/giant-panda|San Diego Zoo — Böyük panda|Bambuk və əl quruluşu
+orta|new1000-p06-r06|Böyük panda zooloji baxımdan hansı fəsiləyə aiddir?|Ayılar|Yenotlar|Pişiklər|Dələlər
+orta|new1000-p06-r07|Pandanın bambuku tutan “yalançı baş barmağı” əslində nədir?|Böyümüş bilək sümüyü|Altıncı həqiqi barmaq|Uzun dırnaq|Dəri buynuzu
+orta|new1000-p06-r08|Vəhşi böyük pandaların təbii vətəni əsasən hansı ölkədir?|Çin|Braziliya|Kanada|Keniya
+orta|new1000-p06-r09|Böyük panda ərazidə qoxu izi qoymaq üçün nədən istifadə edir?|Qoxu vəzisindən|Bambukun mürəkkəbindən|Torpaqdakı duzdan|Dişinin tozundan
+orta|new1000-p06-r10|Pandanın bambuk gövdəsini əzməsinə hansı xüsusiyyət kömək edir?|Güclü çənə və yastı arxa dişlər|Uzun zəhər dişləri|Dişsiz ağız|Balina kimi bığ lövhələri
+@Təbiət və canlılar|ZN6C|https://animals.sandiegozoo.org/animals/binturong|San Diego Zoo — Binturong|Qoxu və ağacda hərəkət
+orta|new1000-p06-r11|Binturongun qoxusu adətən hansı qidaya bənzədilir?|Popkorn|Limon|Qəhvə|Darçın
+orta|new1000-p06-r12|Binturongun quyruğu budaqlarda hansı işi görə bilir?|Budağı tutmaq|Uçmaq|Su süzmək|İşıq saçmaq
+çətin|new1000-p06-r13|“Ayı-pişik” adlandırılan binturong hansı fəsiləyə aiddir?|Viverridlərə|Ayıkimilərə|Pişikkimilərə|Dələkimilərə
+orta|new1000-p06-r14|Binturong yırtıcılar dəstəsində olsa da, qidasında nə üstünlük təşkil edir?|Meyvə|Yalnız balıq|Yalnız ot|Yalnız qan
+çətin|new1000-p06-r15|Binturong ağacdan başıaşağı enərkən hansı uyğunlaşmadan istifadə edir?|Topuqlarını çevirməkdən|Qulaqlarını yelkən etməkdən|Dişləri ilə sürüşməkdən|Quyruğunu qoparmaqdan
+@Təbiət və canlılar|ZN6D|https://animals.sandiegozoo.org/animals/fennec-fox|San Diego Zoo — Fennek|Səhra uyğunlaşmaları
+orta|new1000-p06-r16|Fennekin böyük qulaqları eşitmə ilə yanaşı nə edir?|Artıq istiliyi yayır|Su istehsal edir|Qumu həzm edir|Yalnız qoxu tutur
+orta|new1000-p06-r17|Fennekin pəncəsindəki tüklər əsasən nədən qoruyur?|İsti qumdan|Dərin dəniz təzyiqindən|Buzda boğulmaqdan|Elektrik axınından
+orta|new1000-p06-r18|Fennek günün isti vaxtını əsasən harada keçirir?|Yeraltı yuvada|Gölün dibində|Ağacın zirvəsində|Qar tunelində
+orta|new1000-p06-r19|Fennekin qum rəngli kürkü səhrada nəyi asanlaşdırır?|Kamuflyajı|Fotosintezi|Suda nəfəs almağı|Elektrik istehsalını
+orta|new1000-p06-r20|Fennek hansı coğrafi mühitə uyğunlaşıb?|Şimali Afrika səhralarına|Antarktika buzuna|Amazonun su basmış meşəsinə|Sibir tayqasına
+@Təbiət və canlılar|ZN6E|https://animals.sandiegozoo.org/animals/capybara|San Diego Zoo — Kapibara|Yarımsu həyatı
+orta|new1000-p06-r21|Dünyanın ən iri gəmiricisi hansıdır?|Kapibara|Qunduz|Oxlu kirpi|Su siçanı
+orta|new1000-p06-r22|Kapibaranın qismən pərdəli barmaqları əsasən nəyə kömək edir?|Üzməyə|Uçmağa|Qaz çıxarmağa|Buz yaratmağa
+orta|new1000-p06-r23|Kapibaranın göz və burun dəliklərinin başın yuxarısında olması nəyi asanlaşdırır?|Bədəni suda saxlayaraq ətrafı izləməyi|Torpaqda tam gizlənməyi|Ağacda tərs asılmağı|Havada süzməyi
+orta|new1000-p06-r24|Kapibara təhlükədən qaçarkən hansı mühitdən sığınacaq kimi istifadə edir?|Sudan|Ağac tacından|Qar yığınından|Qaya zirvəsindən
+orta|new1000-p06-r25|Kapibara hansı ev heyvanına daha yaxın qohumdur?|Dəniz donuzuna|Ev donuzuna|Pişiyə|Keçiyə
+@Təbiət və canlılar|ZN6F|https://animals.sandiegozoo.org/animals/cassowary|San Diego Zoo — Kazuar|Uça bilməyən meşə quşu
+çətin|new1000-p06-r26|Kazuarın başındakı dəbilqənin xarici örtüyü əsasən nədəndir?|Keratindən|Şüşədən|Mərmərdən|Sellülozadan
+orta|new1000-p06-r27|Kazuar yumurtalarını əsasən hansı valideyn basır?|Erkək|Dişi|Hər dəfə başqa quş|Heç biri
+orta|new1000-p06-r28|Kazuar meşədə toxumları əsasən necə yayır?|Meyvəni yeyib toxumu ifraz etməklə|Qanadına yapışdırmaqla|Yalnız yuvasında əkməklə|Toxumu dənizə daşımaqla
+orta|new1000-p06-r29|Kazuarın əsas qida qrupu hansıdır?|Meyvə|Yalnız balıq|Yalnız taxıl|Yalnız sümük
+çətin|new1000-p06-r30|Kazuar hansı quşun yaxın qohumudur?|Emu|Tutuquşu|Leylək|Qağayı
+@Təbiət və canlılar|ZN6G|https://animals.sandiegozoo.org/animals/tuatara|San Diego Zoo — Tuatara|Unikal sürünən
+orta|new1000-p06-r31|Tuatara təbii halda yalnız harada yaşayır?|Yeni Zelandiyada|İslandiyada|Yamaykada|Madaqaskarda
+orta|new1000-p06-r32|Tuatara başının üstündəki “üçüncü göz” əsasən nəyə həssasdır?|İşığa|Qoxuya|Elektrikə|Duzluluğa
+çətin|new1000-p06-r33|“Tuatara” maori dilində təxminən nə deməkdir?|Tikanlı bel|Uzun quyruq|Yaşıl göz|Daş dili
+orta|new1000-p06-r34|Yetkin tuatara əsasən günün hansı vaxtında fəaldır?|Gecə|Günorta istisində|Yalnız günəşli səhərdə|Yalnız qürubdan əvvəl
+çətin|new1000-p06-r35|Tuataranı kərtənkələlərdən fərqləndirən xarici xüsusiyyət hansıdır?|Xarici qulaq dəliyinin olmaması|Altı ayaqlı olması|Lələk örtüyü|Buynuzlu dimdik
+@Təbiət və canlılar|ZN6H|https://animals.sandiegozoo.org/animals/elephant|San Diego Zoo — Fil|Xortum və sosial həyat
+orta|new1000-p06-r36|Filin xortumu hansı hissələrin birləşməsindən yaranıb?|Burun və üst dodaq|Alt dodaq və dil|Qulaq və çənə|Boyun və quyruq
+orta|new1000-p06-r37|Filin uzun “dişləri” hansı dişlərin böyümüş formasıdır?|Kəsici dişlərin|Azı dişlərinin|Köpək dişlərinin|Süd azı dişlərinin
+orta|new1000-p06-r38|Afrika filinin xortum ucunda neçə barmağa bənzər çıxıntı olur?|2|1|3|4
+çətin|new1000-p06-r39|Filin köhnələn azı dişlərini əvəz edən yeni dişlər necə irəliləyir?|Çənənin arxasından önünə|Yalnız aşağıdan yuxarı şaquli|Dişlərin ortasından iki yana|Yalnız ön tərəfdən arxaya
+orta|new1000-p06-r40|Fil sürüsünə adətən hansı fərd rəhbərlik edir?|Təcrübəli dişi|Ən gənc erkək|Tək bala|Başqa növün fərdi
+@Təbiət və canlılar|ZN6I|https://animals.sandiegozoo.org/animals/giraffe|San Diego Zoo — Zürafə|Boyun və bədən uyğunlaşmaları
+orta|new1000-p06-r41|Zürafənin çox uzun boynunda adətən neçə boyun fəqərəsi olur?|7|14|21|28
+orta|new1000-p06-r42|Zürafə su içmək üçün adətən nə edir?|Ön ayaqlarını aralayır|Arxa ayaqlarında dayanır|Tam suya dalır|Boynunu bədəninə çəkir
+çətin|new1000-p06-r43|Zürafənin “buynuzları” digər bir çox buynuzdan nə ilə seçilir?|Dəri və tüklə örtülür|Hər ay tam tökülür|Yalnız şüşədən ibarətdir|Sümüksüzdür
+orta|new1000-p06-r44|Zürafənin tünd dili əsasən hansı işdə istifadə olunur?|Yarpaqları tutmaqda|Qumu qazmaqda|Uçuşu idarə etməkdə|Su süzməkdə
+orta|new1000-p06-r45|Zürafə balası doğularkən ana adətən hansı vəziyyətdə olur?|Ayaqüstə|Arxasıüstə|Suda üzərkən|Budaqda asılı
+@Təbiət və canlılar|ZN6J|https://animals.sandiegozoo.org/animals/cheetah|San Diego Zoo — Hepard|Sürətli qaçış uyğunlaşmaları
+orta|new1000-p06-r46|Hepardın qaçışda uzun addım atmasına əsasən nə kömək edir?|Çevik onurğa|Sərt qabıq|Pərdəli ayaq|Qısa quyruq
+orta|new1000-p06-r47|Hepardın açıqda qalan caynaqları qaçışda hansı rolu oynayır?|Yerlə ilişməni artırır|Ayağı üzgəcə çevirir|İstiliyi tam saxlayır|Səsi gücləndirir
+orta|new1000-p06-r48|Hepard yüksək sürəti əsasən necə istifadə edir?|Qısa məsafəli sprintdə|Günlərlə fasiləsiz qaçışda|Yalnız ağacda|Yalnız su altında
+orta|new1000-p06-r49|Hepardın gözlərindən ağıza enən qara xətlər nəyə bənzədilir?|Göz yaşı izinə|Zebra zolağına|Buynuz kölgəsinə|Balıq pulcuğuna
+çətin|new1000-p06-r50|Qohum erkək hepardların yaratdığı kiçik birlik necə adlanır?|Koalisiya|Koloniya|Pətək|Sürücü dəstə

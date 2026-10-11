@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-10-05",
+  "newQuestions": 100,
+  "newByDifficulty": {
+    "orta": 67,
+    "çətin": 33
+  },
+  "newByCategory": {
+    "Dünya və coğrafiya": 10,
+    "Tarix və sivilizasiyalar": 10,
+    "Elm və kosmos": 12,
+    "İncəsənət və ədəbiyyat": 15,
+    "Təbiət və canlılar": 17,
+    "Azərbaycan": 15,
+    "Gündəlik həyat": 9,
+    "İdman və oyunlar": 7,
+    "Məntiq və düşünmə": 5
+  },
+  "notes": [
+    "Əvvəlki 750 sualın mövzu və fakt açarları ilə müqayisə edildi. Eyni faktın tərsinə soruşulmasına yol verilmədi.",
+    "Çətinlik ilkin redaktə qiymətləndirməsidir; oyunçu sınağı aparılmayıb.",
+    "Göz reseptorları sayı, qorilla populyasiyası, mağara uzunluğu və mübahisəli müəllif identifikasiyası kimi dəyişən və ya qeyri-müəyyən iddialar soruşulmadı.",
+    "Oppenheym əsərində xəzin hansı heyvana aidliyi soruşulmadı; muzey materiallarında sonradan dəyişən identifikasiyaya əsaslanılmadı.",
+    "Saturn peykləri haqqında həyatın mövcudluğu iddia edilmir. Qanimed müqayisəsi diametrə aiddir.",
+    "Sabirin doğum gününə dair mənbə uyğunsuzluğu səbəbindən tarix sualı yazılmadı.",
+    "Mir Cəlal və Sabir PDF mətnlərinin kitabxana tərəfindən indekslənmiş hissələri istifadə edildi; tam PDF yüklənməsi təsdiqlənmir.",
+    "Beş məntiq həlli ayrıca hesablandı; daş oyununun bütün mümkün son rəngləri rekursiv yoxlandı.",
+    "Otüstü hokkey üçün qüvvədə olan mart 2026 qaydası istifadə edildi; noyabrda qüvvəyə minəcək mətn əvəzləyici seçilmədi."
+  ]
+}

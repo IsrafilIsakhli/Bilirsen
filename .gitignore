@@ -1,0 +1,40 @@
+.local/
+backups/
+tmp/
+question-bank/tools/node_modules/
+**/node_modules/
+**/.expo/
+**/dist/
+coverage/
+**/coverage/
+.env
+.env.*
+!.env.example
+*.tsbuildinfo
+*.log
+apps/api/src/generated/
+test-results/
+tmp-audit.json
+
+# Local previews, exports and test artifacts
+/output/*
+!/output/design/
+/output/design/*
+!/output/design/son-dizayn-2026-10-05/
+question-bank/outputs/**/*.inspect.ndjson
+playwright-report/
+blob-report/
+
+# Tool and editor caches
+**/__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+.idea/
+
+# Private keys and database backups
+*.pem
+*.key
+*.p12
+*.pfx
+*.dump

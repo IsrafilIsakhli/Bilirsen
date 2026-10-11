@@ -1,0 +1,60 @@
+@Dünya və coğrafiya|WO11A|https://whc.unesco.org/en/list/154/|UNESCO — Great Barrier Reef|Rif ekosistemi
+orta|new1000-p11-r01|Böyük Sədd rifi Avstraliyanın hansı sahilindədir?|Şimal-şərq|Cənub-qərb|Şimal-qərb|Cənub-şərq
+orta|new1000-p11-r02|Böyük Sədd rifi əsasən hansı təbii quruluşların sistemidir?|Mərcan riflərinin|Buz adalarının|Vulkan konuslarının|Şirin su deltalarının
+orta|new1000-p11-r03|Böyük Sədd rifində yaşayan duqonq hansı heyvan kimi də tanınır?|Dəniz inəyi|Dəniz atı|Dəniz fili|Dəniz bəbiri
+orta|new1000-p11-r04|Böyük Sədd rifində dəniz tısbağaları üçün mühüm sahilyanı fəaliyyət hansıdır?|Çimərliklərdə yuvalama|Ağac başında qışlama|Şirin su bulağında yumurta basma|Dağ mağarasında balalama
+orta|new1000-p11-r05|Böyük Sədd rifinin əhəmiyyəti əsasən nə ilə bağlıdır?|Yüksək biomüxtəlifliklə|Yalnız mineral hasilatı ilə|Yalnız şirin su ehtiyatı ilə|Yalnız sahilyanı şəhərsalma ilə
+@Dünya və coğrafiya|WO11B|https://whc.unesco.org/en/list/447/|UNESCO — Uluru-Kata Tjuta|Səhra qayaları və Anangu irsi
+orta|new1000-p11-r06|Uluru əsasən hansı süxurdan ibarətdir?|Qumdaşı|Daş kömür|Mərmər|Obsidian
+çətin|new1000-p11-r07|Uluru ilə ənənəvi bağlılığı olan yerli xalq hansıdır?|Anangu|Sami|İnuit|Aynu
+orta|new1000-p11-r08|Uluru Avstraliyanın hansı hissəsində yerləşir?|Mərkəzi səhra bölgəsində|Şimal buzlaqlarında|Cənub-qərb okeanında|Tasmaniyanın göllərində
+orta|new1000-p11-r09|Kata Tjuta hansı görünüşlü qaya quruluşları ilə tanınır?|Qübbəvari qayalar|Buz sütunları|Qumdan düz divarlar|Şüşə piramidalar
+orta|new1000-p11-r10|Uluru rənginin gün ərzində dəyişmiş görünməsində əsas rol nədir?|İşıq və kölgə|Süxurun hər saat kimyəvi tərkibini dəyişməsi|Qayanın hər gün yeni qat əmələ gətirməsi|Yalnız küləyin istiqaməti
+@Dünya və coğrafiya|WO11C|https://whc.unesco.org/en/list/421/|UNESCO — Tongariro|Vulkanik və mədəni landşaft
+orta|new1000-p11-r11|Tongariro milli parkı hansı ölkədədir?|Yeni Zelandiya|İslandiya|Filippin|İndoneziya
+çətin|new1000-p11-r12|Tongarironun dağları hansı xalq üçün müqəddəs əhəmiyyət daşıyır?|Maori|Zulu|Maya|Şerp
+orta|new1000-p11-r13|Tongariro landşaftında hansı geoloji quruluşlar əsasdır?|Vulkanlar|Mərcan atolları|Dəniz buzları|Qranit göydələnlər
+çətin|new1000-p11-r14|Tongariroda hansı vulkan növləri birlikdə mövcuddur?|Fəal və sönmüş|Yalnız fəal vulkanlar|Yalnız sönmüş vulkanlar|Yalnız palçıq vulkanları
+çətin|new1000-p11-r15|1993-cü ildə Tongariro UNESCO-da hansı anlayışın ilk nümunələrindən oldu?|Mədəni landşaft|Sənaye proqramı|Kosmik qoruq|Şəhər metro şəbəkəsi
+@Dünya və coğrafiya|WO11D|https://whc.unesco.org/en/list/551/|UNESCO — Te Wahipounamu|Buzlaq landşaftları və quşlar
+orta|new1000-p11-r16|Te Wahipounamunun fyordlarını əsasən hansı proses formalaşdırıb?|Buzlaşma|Mərcan böyüməsi|Küləkdə qum yığılması|Meteorit əriməsi
+çətin|new1000-p11-r17|Te Wahipounamuda yaşayan kea hansı quşdur?|Alp tutuquşusu|Dəniz qağayısı|Səhra dəvəquşusu|Qütb pinqvini
+orta|new1000-p11-r18|Te Wahipounamuda yaşayan takahenin əsas xüsusiyyəti hansıdır?|Uça bilməməsi|Sualtı ov etməsi|Yalnız ağacda yuvalaması|Tam köçəri quş olması
+çətin|new1000-p11-r19|Te Wahipounamu Yeni Zelandiyanın hansı əsas adasındadır?|Cənub adası|Şimal adası|Stüart adasından kənar tək atolda|Çatem adasında
+çətin|new1000-p11-r20|Franz Josef və Fox buzlaqları hansı qeyri-adi mühitə qədər enir?|Mülayim yağış meşəsinə|Mərcan rifinə|Qum səhrasının mərkəzinə|Qütb dəniz buzuna
+@Dünya və coğrafiya|WO11E|https://whc.unesco.org/en/list/400/|UNESCO — Budapest|Dunayın iki sahili
+orta|new1000-p11-r21|Budanı Peşt hissəsindən hansı çay ayırır?|Dunay|Sena|Temza|Reyn
+çətin|new1000-p11-r22|Buda təpəlikdədirsə, Peşt əsasən hansı relyefdədir?|Düzənlikdə|Vulkan kraterində|Buzlaq üstündə|Sahil uçurumunda
+çətin|new1000-p11-r23|Budapeştdəki Akvinkum xarabalıqları hansı dövrə aiddir?|Roma|İnka|Vikinqlər|Moğol
+çətin|new1000-p11-r24|Andraşi prospektinin altında XIX əsrdə hansı nəqliyyat quruldu?|Metro|Yalnız kanal|Asma kanat yolu|Yalnız yük borusu
+çətin|new1000-p11-r25|Budapeşt parlament binasının əsas üslubu hansıdır?|Neoqotika|Bauhaus|Brutalizm|Qədim Misir
+@Dünya və coğrafiya|WO11F|https://whc.unesco.org/en/list/616/|UNESCO — Prague|Şəhər irsi
+orta|new1000-p11-r26|Praqa hansı çayın iki sahilində yerləşir?|Vltava|Dunay|Volqa|Po
+çətin|new1000-p11-r27|Praqadakı Karl körpüsü hansı hökmdarın adı ilə bağlıdır?|IV Karl|Böyük Karl|I Pyotr|XIV Lüdovik
+çətin|new1000-p11-r28|Praqadakı məşhur qotika kilsəsinin adı nədir?|Müqəddəs Vit|Müqəddəs Mark|Müqəddəs Pavel|Müqəddəs Basil
+çətin|new1000-p11-r29|Praqanın Yeni Şəhəri əsasən hansı orta əsr hökmdarı ilə bağlıdır?|IV Karl|Neron|Napoleon|VIII Henri
+çətin|new1000-p11-r30|Praqanın Josefov məhəlləsi əsasən hansı icmanın tarixi ilə bağlıdır?|Yəhudi|Maori|İnuit|Şerp
+@Dünya və coğrafiya|WO11G|https://whc.unesco.org/en/list/29/|UNESCO — Kraków|Kral və universitet şəhəri
+orta|new1000-p11-r31|Krakovdakı Vavel təpəsi tarixən əsasən nə idi?|Kral iqamətgahı və dəfn yeri|Yalnız kömür mədəni|Yalnız dəniz limanı|Yalnız süni stadion
+orta|new1000-p11-r32|Krakov hansı ölkənin keçmiş paytaxtıdır?|Polşa|Çexiya|Macarıstan|Slovakiya
+çətin|new1000-p11-r33|Krakovdakı Kazimyej məhəlləsinin irsində hansı iki icma önəmlidir?|Katolik və yəhudi|Maori və sami|İnka və maya|Şinto və taoist
+çətin|new1000-p11-r34|Krakovun qədim universiteti hansı adla tanınır?|Yagellon|Sorbonna|Kembric|Leyden
+çətin|new1000-p11-r35|Krakovun tarixi mərkəzində hansı tikili ticarət keçmişini xatırladır?|Parça bazarı zalı|Kral sarayı|Saat qülləsi|Müdafiə kazarması
+@Dünya və coğrafiya|WO11H|https://whc.unesco.org/en/list/32/|UNESCO — Wieliczka and Bochnia|Yeraltı duz irsi
+orta|new1000-p11-r36|Veliçka mədənindəki heykəllər əsasən nədən yonulub?|Daş duzdan|Buzdan|Qranitdən|Poladdan
+orta|new1000-p11-r37|Veliçka və Boxnya mədənləri hansı ölkədədir?|Polşa|Avstriya|İsveç|Rumıniya
+çətin|new1000-p11-r38|Veliçka mədəninin yeraltı zallarında hansı dini quruluşlar var?|Kapellalar|Yalnız minarələr|Yalnız stupalar|Yalnız zikkuratlar
+orta|new1000-p11-r39|Veliçka və Boxnya hansı xammalın hasilatı ilə bağlıdır?|Duz|Mis|Almaz|Neft
+çətin|new1000-p11-r40|Veliçka mədənlərinin idarə olunduğu tarixi bina nə idi?|Duz idarəsinin qalası|Dəniz mayakı|Şüşə zavodu|Buz muzeyi
+@Dünya və coğrafiya|WO11I|https://whc.unesco.org/en/list/369/|UNESCO — Giant’s Causeway|Bazalt sütunları
+orta|new1000-p11-r41|“Nəhənglər yolu”nun sütunları hansı süxurdandır?|Bazalt|Mərmər|Daş duz|Daş kömür
+orta|new1000-p11-r42|“Nəhənglər yolu” harada yerləşir?|Şimali İrlandiya|Siciliya|Korsika|Sardiniya
+orta|new1000-p11-r43|“Nəhənglər yolu”nun qaya sütunları əsasən necə yaranıb?|Lavanın soyuması ilə|Mərcan skeletlərindən|Buzun əriməsi ilə|Qumun küləkdə sıxılması ilə
+çətin|new1000-p11-r44|“Nəhənglər yolu”ndakı sütunların kəsiyi adətən necə görünür?|Çoxbucaqlı|Yalnız dairəvi|Yalnız ürəkşəkilli|Yalnız ulduzşəkilli
+çətin|new1000-p11-r45|“Nəhənglər yolu” əfsanəsi nəhənglərin hansı ölkəyə keçidi ilə bağlıdır?|Şotlandiya|Portuqaliya|Yunanıstan|İtaliya
+@Dünya və coğrafiya|WO11J|https://whc.unesco.org/en/list/672/|UNESCO — Ha Long Bay – Cat Ba|Dəniz karstı
+orta|new1000-p11-r46|Ha Long körfəzi əsasən hansı ölkədədir?|Vyetnam|Tailand|Malayziya|Kamboca
+orta|new1000-p11-r47|Ha Longun qülləvari adaları əsasən hansı süxurdandır?|Əhəngdaşı|Qranit|Bazalt|Daş kömür
+orta|new1000-p11-r48|Ha Longun mağara və qaya formaları hansı relyef tipinə aiddir?|Karst|Buzlaq|Yalnız qum barxanı|Yalnız lava qalxanı
+çətin|new1000-p11-r49|Cat Ba lanquru hansı heyvan qrupuna aiddir?|Primatlar|Gəmiricilər|Sürünənlər|Balıqlar
+orta|new1000-p11-r50|Ha Long – Cat Ba ərazisində qaya mənzərəsinə hansı su mühiti daxildir?|Dəniz körfəzi|Qapalı şirin su gölü|Dağ buzlağı|Yeraltı neft hovuzu

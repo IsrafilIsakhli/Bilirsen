@@ -1,0 +1,61 @@
+@Dünya və coğrafiya|WO10A|https://whc.unesco.org/en/list/28/|UNESCO — Yellowstone|Geotermal və ekoloji xüsusiyyətlər
+orta|new1000-p10-r01|Yellowstoneun fəvvarə kimi isti su atan mənbələri nədir?|Geyzerlər|Buzlaqlar|Deltalar|Dolinlər
+orta|new1000-p10-r02|Yellowstoneun böyük kalderası əsasən hansı hadisənin izidir?|Vulkan fəaliyyəti|Mərcan böyüməsi|Dəniz daşqını|Qum yığılması
+orta|new1000-p10-r03|Yellowstoneda qorunan tarixi düzənlik sürüləri hansı heyvandandır?|Bizon|Kenquru|Lama|Zürafə
+orta|new1000-p10-r04|Yellowstone isti bulaqlarının enerjisi əsasən haradan gəlir?|Yerin daxili istiliyindən|Ayın səthi istiliyindən|Yalnız yay günəşinin istiliyindən|Okeanın dərinlik cərəyanından
+orta|new1000-p10-r05|Yellowstoneun daşlaşmış bitki qalıqları nəyi öyrənməyə imkan verir?|Qədim bitki həyatını|Yalnız müasir quşların miqrasiyasını|Yalnız indiki çayların sürətini|Yalnız dəniz duzunun kimyasını
+@Dünya və coğrafiya|WO10B|https://whc.unesco.org/en/list/76/|UNESCO — Everglades|Subtropik su ekosistemləri
+orta|new1000-p10-r06|“Ot çayı” deyilən Everglades hansı ABŞ ştatındadır?|Florida|Alyaska|Nevada|Meyn
+orta|new1000-p10-r07|Evergladesdə şirin su ilə dəniz suyu qarışanda hansı su yaranır?|Şor su|Şirin su|Distillə olunmuş su|Doymuş duz məhlulu
+orta|new1000-p10-r08|Evergladesin sahil meşələrinin xarakterik tipi hansıdır?|Mangrov|Tayqa|Alp çəmənliyi|Səhra kolluğu
+orta|new1000-p10-r09|Evergladesin qoruduğu manati hansı mühitdə yaşayan heyvandır?|Suda|Yalnız ağacda|Yalnız səhrada|Yalnız qar altında
+çətin|new1000-p10-r10|Evergladesin düz səthinin altında əsas hansı süxur yerləşir?|Əhəngdaşı|Qranit|Obsidian|Daş kömür
+@Dünya və coğrafiya|WO10C|https://whc.unesco.org/en/list/120/|UNESCO — Sagarmatha|Himalay təbiəti və şerplər
+orta|new1000-p10-r11|Sagarmatha milli parkında yerləşən ən məşhur zirvə hansıdır?|Everest|Montblan|Kilimancaro|Elbrus
+orta|new1000-p10-r12|Sagarmatha hansı ölkənin milli parkıdır?|Nepal|Butan|Monqolustan|Qazaxıstan
+orta|new1000-p10-r13|Sagarmatha ilə sıx bağlı yerli xalq hansıdır?|Şerplər|Maorilər|İnuitlər|Samilər
+orta|new1000-p10-r14|Sagarmatha hansı dağ sisteminin hissəsidir?|Himalay|And|Ural|Atlas
+orta|new1000-p10-r15|Sagarmathada qorunan yüksək dağ yırtıcılarından biri hansıdır?|Qar bəbiri|Yaquar|Afrika şiri|Qütb ayısı
+@Dünya və coğrafiya|WO10D|https://whc.unesco.org/en/list/121/|UNESCO — Kathmandu Valley|Dini irs və Newar memarlığı
+orta|new1000-p10-r16|Katmandu vadisinin stupaları əsasən hansı dinlə bağlıdır?|Buddizm|Sintoizm|Zərdüştilik|Taoizm
+orta|new1000-p10-r17|Katmandu vadisində Durbar meydanları əsasən nəyi birləşdirir?|Saray, məbəd və ictimai məkanları|Yalnız hərbi istehkamları|Yalnız liman anbarlarını|Yalnız kənd təsərrüfatı terraslarını
+orta|new1000-p10-r18|Katmandu vadisinin bədii irsində hansı iki din birləşir?|Buddizm və hinduizm|Sintoizm və xristianlıq|Yəhudilik və taoizm|Zərdüştilik və caynizm
+orta|new1000-p10-r19|Katmandu stupalarında çəkilən böyük gözlər kimi simvolizə edir?|Buddanı|Sezarı|Odini|Anubisi
+çətin|new1000-p10-r20|Katmandu vadisinin ənənəvi ustalıq irsi hansı xalqla bağlıdır?|Nevarlar|Vikinqlər|Mayalar|Zulu xalqı
+@Tarix və sivilizasiyalar|WO10E|https://whc.unesco.org/en/list/138/|UNESCO — Moenjodaro|Qədim şəhər planı
+orta|new1000-p10-r21|Mohenjo-Daro hansı qədim sivilizasiyanın şəhəri idi?|Hind vadisi|Maya|Mino|Nubiya
+orta|new1000-p10-r22|Mohenjo-Daroda küçələrin düzbucaq altında kəsişməsi nəyi göstərir?|Planlı şəhərsalmanı|Təsadüfi köçəri düşərgəsini|Yalnız məbəd tikintisini|Müasir avtomobil yolunu
+orta|new1000-p10-r23|Mohenjo-Daronun inkişaf etmiş drenajı əsasən nə üçün idi?|Çirkab suyu uzaqlaşdırmaq|Taxılı üyütmək|Metal əritmək|Ulduz izləmək
+orta|new1000-p10-r24|Mohenjo-Daro xarabalıqları indiki hansı ölkədədir?|Pakistan|İran|İraq|Misir
+çətin|new1000-p10-r25|Mohenjo-Daroda ictimai hamamların olması hansı sahəni göstərir?|Şəhər məişəti və su qurğularını|Yalnız müdafiə divarlarının qalınlığını|Yalnız metal emalını|Yalnız astronomik müşahidəni
+@Tarix və sivilizasiyalar|WO10F|https://whc.unesco.org/en/list/139/|UNESCO — Taxila|Şəhər inkişafı və təhsil
+orta|new1000-p10-r26|Taxila qədimdə əsasən hansı dinin təhsil mərkəzi idi?|Buddizm|Sintoizm|Protestantlıq|Vudu
+çətin|new1000-p10-r27|Taxiladakı Sirkap şəhər planında hansı mədəni təsir görünür?|Ellinistik|Vikinqlər|Azteklər|Polineziya
+orta|new1000-p10-r28|Taxila Şərqlə Qərbi bağlayan hansı ticarət şəbəkəsində idi?|İpək yolu|Kəhrəba yolunun yalnız Baltik hissəsi|İnkaların dağ yolu|Transsibir dəmir yolu
+çətin|new1000-p10-r29|Taxiladakı Bhir təpəsi hansı fatehin gəlişi ilə əlaqələndirilir?|Makedoniyalı İsgəndər|Napoleon|I Pyotr|Vilyam Fateh
+çətin|new1000-p10-r30|Sirkapı dağıdıb Sirsuxla bağlı şəhər irsi yaradan sülalə hansıdır?|Kuşanlar|Tüdorlar|Karolinqlər|Tokugava
+@İncəsənət və ədəbiyyat|WO10G|https://whc.unesco.org/en/list/171/|UNESCO — Lahore Fort and Shalamar Gardens|Moğol memarlığı və bağlar
+orta|new1000-p10-r31|Lahor qalası və Şalimar bağları hansı imperiyanın irsidir?|Böyük Moğol|Roma|İnka|Bizans
+çətin|new1000-p10-r32|Lahordakı Şalimar bağları neçə əsas terrasda qurulub?|3|2|4|5
+orta|new1000-p10-r33|Şalimar bağlarının kompozisiyasında hansı element xüsusilə önəmlidir?|Su hovuzları və şəlalələr|Yalnız mərmər heykəl qalereyaları|Yalnız labirint yollar|Yalnız quru daş həyətlər
+çətin|new1000-p10-r34|Lahor qalasındakı Şiş Mahal hansı bəzəyi ilə məşhurdur?|Şüşə və güzgü mozaikası|Rəngli kərpic şəbəkəsi|Yalnız taxta oyma|Yalnız qızıl dəri örtüyü
+çətin|new1000-p10-r35|Lahorun Moğol memarlığında Əkbər dövrü hansı materialla seçilir?|Qırmızı qumdaşı|Qara bazalt|Ağ qranit|Yaşıl nefrit
+@Tarix və sivilizasiyalar|WO10H|https://whc.unesco.org/en/list/119/|UNESCO — Timbuktu|Elm və səhra ticarəti
+çətin|new1000-p10-r36|Timbuktunun tarixi ali təhsil mərkəzi hansı adla tanınır?|Sankore|Sorbonna|Bologna|Nalanda
+çətin|new1000-p10-r37|Timbuktuda ticarət olunan hansı məhsul onu intellektual mərkəzə çevirirdi?|Əlyazmalar|Yalnız taxıl|Yalnız dəri|Yalnız məişət qabları
+orta|new1000-p10-r38|Timbuktu hansı səhranın cənub kənarındadır?|Sahara|Qobi|Atakama|Taklamakan
+orta|new1000-p10-r39|Timbuktunun şimaldan gələn mühüm ticarət məhsulu nə idi?|Duz|Buz|Kauçuk|İpəkqurdu
+çətin|new1000-p10-r40|Timbuktunun qədim məscidləri əsasən hansı memarlıq ənənəsinə aiddir?|Torpaq memarlığı|Klassik mərmər memarlığı|Taxta karkas memarlığı|Tam bişmiş kərpic və şüşə memarlığı
+@Tarix və sivilizasiyalar|WO10I|https://whc.unesco.org/en/list/116/|UNESCO — Djenné|Torpaq memarlığı və daşqın
+orta|new1000-p10-r41|Cennedə ənənəvi evlər niyə təpəciklərdə tikilirdi?|Mövsümi daşqından qorunmaq üçün|Yalnız hərbi müşahidə üçün|Yeraltı soyuq hava saxlamaq üçün|Qum fırtınasını daim dayandırmaq üçün
+çətin|new1000-p10-r42|Cennenin monumental məscid memarlığında hansı material əsasdır?|Torpaq|Şüşə|Qranit|Dəmir
+orta|new1000-p10-r43|Cenne hansı transsəhra ticarətində mühüm halqa idi?|Qızıl|Balina|Kakao|Daş kömür
+çətin|new1000-p10-r44|Cenne xarabalıqlarındakı islamdan əvvəlki qatlar nəyi göstərir?|Şəhərin daha qədim tarixini|Şəhərin yalnız XX əsrdə yarandığını|Heç yaşayış olmadığını|Yalnız Roma koloniyası olduğunu
+orta|new1000-p10-r45|Tarixi Cenne şəhəri hansı ölkədədir?|Mali|Nigeriya|Sudan|Mərakeş
+@Tarix və sivilizasiyalar|WO10J|https://whc.unesco.org/en/list/12/|UNESCO — Tiya|Sirli stelalar
+çətin|new1000-p10-r46|Efiopiyadakı Tiya əsasən hansı abidələrlə tanınır?|Simvollu daş stelalar|Buz sarayları|Roma akvedukları|Polad körpülər
+çətin|new1000-p10-r47|Tiya stelalarındakı bir çox simvolun xüsusiyyəti nədir?|Mənaları tam aydın deyil|Hamısı müasir QR koddur|Hamısı musiqi notudur|Hamısı latın rəqəmidir
+@Tarix və sivilizasiyalar|WO10K|https://whc.unesco.org/en/list/13/|UNESCO — Melka Kunture and Balchit|Yüksək dağlarda qədim insan izləri
+çətin|new1000-p10-r48|Melka Kunture alətləri arasında hansı material işlədilib?|Vulkanik süxur|Müasir polad ərintisi|Yalnız şüşə lif|Yalnız dəmir-beton
+çətin|new1000-p10-r49|Melka Kunturedə qədim ayaq izləri hansı tip sübutdur?|Keçmiş yaşayışın izi|Yalnız yazılı hüquqi sənəd|Yalnız divar boyası|Yalnız insan skeletinin hissəsi
+çətin|new1000-p10-r50|Melka Kunture fosilləri homininlərin hansı mühitə uyğunlaşmasını araşdırır?|Yüksək dağlıq mühitə|Dərin okeana|Qütb buzuna|Kosmik vakuuma

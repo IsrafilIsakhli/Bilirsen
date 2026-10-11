@@ -1,0 +1,11 @@
+{
+  "chocolate_breaks": 23,
+  "rope_radius_cm": 15.92356687898089,
+  "possible_final_stones": [
+    "qırmızı"
+  ],
+  "coffee_and_milk_equal": true,
+  "derangements": 2,
+  "permutations": 6,
+  "snooker_break": 147
+}

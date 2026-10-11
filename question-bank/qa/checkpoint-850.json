@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-10-05",
+  "startId": "AZQ-00751",
+  "endId": "AZQ-00850",
+  "added": 100,
+  "newByDifficulty": {"asan": 0, "orta": 67, "çətin": 33},
+  "total": 850,
+  "remaining": 9150,
+  "previous750Unchanged": true,
+  "xlsxCsvJsonlMatch": true,
+  "databaseCount": 850,
+  "databasePayloadsMatch": true,
+  "difficultyCalibration": "İlkin redaktə qiymətləndirməsi; oyunçu sınağı aparılmayıb."
+}

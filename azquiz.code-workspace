@@ -1,0 +1,36 @@
+{
+  "folders": [
+    {
+      "name": "Azərbaycan Bilik Yarışı",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.encoding": "utf8",
+    "files.eol": "\n",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "files.exclude": {
+      "**/node_modules": true,
+      "**/.expo": true,
+      "**/dist": true,
+      ".local": true,
+      "tmp": true
+    },
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/.expo": true,
+      "**/dist": true,
+      "output": true,
+      ".local": true,
+      "tmp": true
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode"
+    ]
+  }
+}

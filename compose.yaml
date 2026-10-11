@@ -1,0 +1,31 @@
+name: azquiz-local
+
+services:
+  postgres:
+    image: postgres:18
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: quiz_admin
+      POSTGRES_DB: quiz_az
+      POSTGRES_PASSWORD_FILE: /run/secrets/postgres_password
+      POSTGRES_INITDB_ARGS: --encoding=UTF8 --auth-host=scram-sha-256
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql
+    secrets:
+      - postgres_password
+    shm_size: 128mb
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "quiz_admin", "-d", "quiz_az"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+      start_period: 15s
+
+secrets:
+  postgres_password:
+    file: ./.local/postgres-password.txt
+
+volumes:
+  postgres_data:

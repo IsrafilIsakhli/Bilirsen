@@ -1,0 +1,110 @@
+generator client {
+  provider = "prisma-client"
+  output = "../src/generated/prisma"
+  moduleFormat = "cjs"
+}
+datasource db {
+  provider = "postgresql"
+  schemas = ["app"]
+}
+model User {
+  id String @id @db.Uuid
+  displayName String
+  createdAt DateTime @default(now()) @db.Timestamptz(3)
+  ranks Rank[]
+  sessions Session[]
+  matches Match[]
+  results Result[]
+  ledger RankLedger[]
+  receipts CommandReceipt[]
+  @@map("users")
+  @@schema("app")
+}
+model Session {
+  id String @id @db.Uuid
+  userId String @db.Uuid
+  user User @relation(fields: [userId], references: [id])
+  accessHash String @unique
+  refreshHash String @unique
+  previousRefreshHashes String[]
+  accessExpiresAt DateTime @db.Timestamptz(3)
+  refreshExpiresAt DateTime @db.Timestamptz(3)
+  revoked Boolean @default(false)
+  @@map("sessions")
+  @@schema("app")
+}
+model Rank {
+  userId String @db.Uuid
+  user User @relation(fields: [userId], references: [id])
+  mode String
+  points Int @default(0)
+  @@id([userId, mode])
+  @@map("player_ranks")
+  @@schema("app")
+}
+model QuestionVersion {
+  id String @id @db.Uuid
+  bankId String @unique
+  factKey String @unique
+  difficulty String
+  category String
+  text String
+  options Json
+  correctOption String
+  contentHash String
+  releaseStatus String @default("test_only")
+  @@index([releaseStatus, difficulty])
+  @@map("question_versions")
+  @@schema("app")
+}
+model Match {
+  id String @id @db.Uuid
+  userId String @db.Uuid
+  user User @relation(fields: [userId], references: [id])
+  activeUserId String? @unique @db.Uuid
+  status String
+  state Json
+  revision Int @default(0)
+  dueAt DateTime? @db.Timestamptz(3)
+  createdAt DateTime @default(now()) @db.Timestamptz(3)
+  result Result?
+  @@index([status, dueAt])
+  @@index([userId, createdAt(sort: Desc)])
+  @@map("matches")
+  @@schema("app")
+}
+model Result {
+  matchId String @id @db.Uuid
+  match Match @relation(fields: [matchId], references: [id])
+  userId String @db.Uuid
+  user User @relation(fields: [userId], references: [id])
+  payload Json
+  finishedAt DateTime @db.Timestamptz(3)
+  @@index([userId, finishedAt(sort: Desc)])
+  @@map("match_results")
+  @@schema("app")
+}
+model RankLedger {
+  matchId String @db.Uuid
+  userId String @db.Uuid
+  user User @relation(fields: [userId], references: [id])
+  mode String
+  previousPoints Int
+  theoreticalDelta Int
+  actualDelta Int
+  points Int
+  @@id([matchId, userId, mode])
+  @@map("rank_ledger")
+  @@schema("app")
+}
+model CommandReceipt {
+  userId String @db.Uuid
+  user User @relation(fields: [userId], references: [id])
+  commandId String @db.Uuid
+  fingerprint String
+  response Json
+  createdAt DateTime @default(now()) @db.Timestamptz(3)
+  @@id([userId, commandId])
+  @@map("command_receipts")
+  @@schema("app")
+}

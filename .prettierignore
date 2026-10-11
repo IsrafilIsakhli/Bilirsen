@@ -1,0 +1,12 @@
+node_modules/
+**/node_modules/
+**/dist/
+**/.expo/
+.local/
+backups/
+tmp/
+question-bank/
+output/
+package-lock.json
+**/generated/
+apps/mobile/expo-env.d.ts

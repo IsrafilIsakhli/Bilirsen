@@ -1,0 +1,41 @@
+{
+  "target": 10000,
+  "authored": 1950,
+  "reviewReady": 1950,
+  "sourceCompared": 1778,
+  "derived": 111,
+  "linguisticallyAnalysed": 61,
+  "importedToDatabase": 1950,
+  "remainingToAuthor": 8050,
+  "difficultyTargets": {
+    "asan": 2000,
+    "orta": 5000,
+    "çətin": 3000
+  },
+  "byDifficulty": {
+    "asan": 205,
+    "orta": 1022,
+    "çətin": 723
+  },
+  "byCategory": {
+    "Azərbaycan": 232,
+    "Dünya və coğrafiya": 159,
+    "Elm və kosmos": 310,
+    "Gündəlik həyat": 184,
+    "Məntiq və düşünmə": 111,
+    "Tarix və sivilizasiyalar": 218,
+    "Texnologiya və ixtiralar": 171,
+    "Təbiət və canlılar": 247,
+    "İdman və oyunlar": 104,
+    "İncəsənət və ədəbiyyat": 214
+  },
+  "byCorrectOption": {
+    "A": 465,
+    "B": 533,
+    "C": 450,
+    "D": 502
+  },
+  "complete": false,
+  "lastUpdated": "2026-10-05",
+  "difficultyCalibration": "Oyunçu sınağı aparılmayıb; çətinliklər ilkin qiymətləndirmədir."
+}

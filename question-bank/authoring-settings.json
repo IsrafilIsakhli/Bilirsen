@@ -1,0 +1,5 @@
+{
+  "target": 10000,
+  "difficultyTargets": {"asan": 2000, "orta": 5000, "çətin": 3000},
+  "reason": "İstifadəçi 2026-10-05 tarixində asan sualları azaltmağı, orta və çətin suallara üstünlük verməyi istəyib."
+}

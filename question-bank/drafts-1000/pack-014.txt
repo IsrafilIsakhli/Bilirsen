@@ -1,0 +1,60 @@
+@Azərbaycan|AZ14A|https://azerbaijan.az/news/786|Azerbaijan.az — Azərbaycan kinosu|İlk nümayişlər və ekranlaşdırmalar
+orta|new1000-p14-r01|1898-ci ildə Bakıda ilk kino süjetlərini nümayiş etdirən fotoqraf kim idi?|Aleksandr Mişon|Boris Svetlov|Cəfər Cabbarlı|Həsən bəy Zərdabi
+orta|new1000-p14-r02|Azərbaycan Kinosu Günü hansı tarixdə qeyd olunur?|2 avqust|10 mart|28 may|18 sentyabr
+orta|new1000-p14-r03|“Bibiheybətdə neft fontanı yanğını” hansı mövzulu ilk kino nümunəsidir?|Neft sənayesi xronikası|Tarixi animasiya|Musiqili komediya|Kosmos sənədli filmi
+çətin|new1000-p14-r04|“Neft və milyonlar səltənətində” hansı yazıçının əsərinə əsaslanır?|İbrahim bəy Musabəyov|Mirzə Fətəli Axundzadə|Cəlil Məmmədquluzadə|Nəriman Nərimanov
+çətin|new1000-p14-r05|1917-ci ildə hansı Üzeyir Hacıbəyli operettası ekranlaşdırılmışdı?|Arşın mal alan|Leyli və Məcnun|Koroğlu|Şah Abbas və Xurşidbanu
+@Azərbaycan|AZ14B|https://azerbaijan.az/related-information/34|Azerbaijan.az — Milli parklar|Əsas qorunan ekosistemlər
+orta|new1000-p14-r06|Hirkan Milli Parkı Azərbaycanın əsasən hansı bölgəsindədir?|Lənkəran–Astara|Qazax–Tovuz|Abşeronun şəhər mərkəzi|Naxçıvanın səhraları
+orta|new1000-p14-r07|Hirkan meşələrinin nadir ağaclarından biri hansıdır?|Dəmirağac|Sekvoya|Baobab|Evkalipt
+orta|new1000-p14-r08|Şirvan Milli Parkının məşhur qorunan məməlisi hansıdır?|Ceyran|Qütb ayısı|Lama|Koala
+orta|new1000-p14-r09|Ağgöl Milli Parkı əsasən hansı canlıların yaşayış mühiti ilə seçilir?|Su quşları|Yalnız səhra əqrəbləri|Yalnız mərcanlar|Yalnız alp keçiləri
+orta|new1000-p14-r10|Abşeron Milli Parkı hansı təbii sahəni qoruyur?|Sahil yarımadası ekosistemini|Yalnız yüksək dağ buzlağını|Yalnız tropik meşəni|Yalnız çay dərəsinin vulkanını
+@Azərbaycan|AZ14C|https://gsaz.az/articles/view/103/Azarbaycanin-gollari|Azərbaycan Coğrafiya Cəmiyyəti — Göllər|Göl mənşəyi və hövzələr
+orta|new1000-p14-r11|Xəzəri ayrıca götürsək, Azərbaycanın ən böyük gölü hansıdır?|Sarısu|Göygöl|Maralgöl|Batabat
+orta|new1000-p14-r12|Sarısu əsasən hansı ovalıqdadır?|Kür-Araz|Lənkəran|Qusar maili düzənliyi|Şərur düzənliyi
+orta|new1000-p14-r13|Masazır hansı su xüsusiyyətinə malik göldür?|Şor sulu|Tam buzlaq suyu|Yalnız süni içməli su|Daimi qaynar su
+orta|new1000-p14-r14|Azərbaycanın yüksək dağ göllərinin bir qrupu hansı mənşəlidir?|Buzlaq|Yalnız mərcan|Yalnız okean rifi|Yalnız süni metro
+çətin|new1000-p14-r15|Göygöl hansı çayın hövzəsindədir?|Kürəkçay|Samur|Pirsaat|Viləşçay
+@Azərbaycan|AZ14D|https://gsaz.az/articles/view/108/|Azərbaycan Coğrafiya Cəmiyyəti — Çaylar|Çayların hövzə xüsusiyyətləri
+çətin|new1000-p14-r16|Tərtərçay Kürün hansı tərəf qoludur?|Sağ|Sol|Heç qolu deyil|Yalnız yeraltı qoludur
+orta|new1000-p14-r17|Naxçıvançay hansı böyük çayın hövzəsinə daxildir?|Araz|Samur|Volqa|Don
+orta|new1000-p14-r18|Qudyalçay sonda hansı su hövzəsinə axır?|Xəzər dənizi|Qara dəniz|Aralıq dənizi|Aral gölü
+çətin|new1000-p14-r19|Kişçay Kürün hansı tərəf qoludur?|Sol|Sağ|Heç qolu deyil|Yalnız mənsəbdə yaranır
+çətin|new1000-p14-r20|Həkəriçay hansı böyük çay sisteminə daxildir?|Araz|Samur|Nil|Dunay
+@Azərbaycan|AZ14E|https://azerbaijan.az/related-information/91|Azerbaijan.az — Qədim ədəbiyyat|Dədə Qorqud boylarının qəhrəmanları
+orta|new1000-p14-r21|“Kitabi-Dədə Qorqud”da Təpəgözü öldürən kimdir?|Basat|Uruz|Beyrək|Əmran
+orta|new1000-p14-r22|“Kitabi-Dədə Qorqud”da Uruzun atası kimdir?|Salur Qazan|Dirsə xan|Duxa Qoca|Baybura
+çətin|new1000-p14-r23|“Kitabi-Dədə Qorqud”da Dəli Domrul kimin oğludur?|Duxa Qocanın|Qanlı Qocanın|Qazılıq Qocanın|Uşun Qocanın
+çətin|new1000-p14-r24|“Kitabi-Dədə Qorqud”da Qanturalı kimin oğludur?|Qanlı Qocanın|Dirsə xanın|Bayburanın|Salur Qazanın
+orta|new1000-p14-r25|Dədə Qorqud dastanlarında ayrıca hekayə bölməsi necə adlanır?|Boy|Fəsilə|Aktiv|Sütun
+@Azərbaycan|AZ14F|https://science.gov.az/az/news/open/20591|AMEA — Məmmədəli Hüseynov|Azıx arxeologiyası
+orta|new1000-p14-r26|Azıxın məşhur insan qalıq tapıntısı bədənin hansı hissəsidir?|Alt çənə|Bud sümüyü|Tam kəllə|Onurğa
+çətin|new1000-p14-r27|Azıxdakı məşhur çənə sümüyü hansı ildə tapılıb?|1968|1908|1938|1998
+orta|new1000-p14-r28|Azıxın uzunmüddətli qazıntılarına rəhbərlik edən arxeoloq kim idi?|Məmmədəli Hüseynov|Lütfi Zadə|Yusif Məmmədəliyev|Fərman Salmanov
+çətin|new1000-p14-r29|Azıxın məşhur çənə sümüyü hansı arxeoloji təbəqədən çıxıb?|V|I|II|X
+orta|new1000-p14-r30|Azıx və Tağlar əsasən hansı dövrün düşərgələridir?|Paleolit|Yalnız orta əsrlər|Yalnız dəmir dövrü|Yalnız yeni tarix
+@Azərbaycan|AZ14G|https://www.musicacademy.edu.az/az/ixtisas-fortepiano-gorkemli/393-vaqif-mustafazade.html|Bakı Musiqi Akademiyası — Vaqif Mustafazadə|Caz-muğam və ansambllar
+orta|new1000-p14-r31|Vaqif Mustafazadə hansı iki musiqi ənənəsini birləşdirdi?|Caz və muğam|Rok və qriqorian|Fado və flamenko|Polka və opera
+orta|new1000-p14-r32|Vaqif Mustafazadənin əsas ifa aləti hansıdır?|Fortepiano|Kamança|Balaban|Qarmon
+çətin|new1000-p14-r33|Vaqif Mustafazadənin yaratdığı qadın vokal kvarteti necə adlanırdı?|Leyli|Aysel|Lalə|Bənövşə
+çətin|new1000-p14-r34|Vaqif Mustafazadənin 1970-ci illərdəki vokal-instrumental ansamblı hansıdır?|Sevil|Karvan|Rast|Savab
+çətin|new1000-p14-r35|1977-ci ildə Mustafazadənin yaratdığı instrumental ansambl necə adlanırdı?|Muğam|Ulduz|Xəzər|Dəniz
+@Azərbaycan|AZ14H|https://bahlulzade.az/s/biography|Səttar Bəhlulzadənin ev muzeyi — Bioqrafiya|Lirik mənzərə rəssamı
+orta|new1000-p14-r36|Səttar Bəhlulzadənin yaradıcılığında əsas janrlardan biri hansıdır?|Mənzərə|Yalnız miniatür portret|Yalnız hərbi xəritə|Yalnız texniki cizgi
+orta|new1000-p14-r37|Səttar Bəhlulzadənin ev muzeyi hansı Bakı qəsəbəsindədir?|Əmircan|Mərdəkan|Buzovna|Bilgəh
+çətin|new1000-p14-r38|Səttar Bəhlulzadə gəncliyində qəzetdə hansı işlə məşğul olmuşdu?|Karikatura çəkməklə|Yalnız musiqi yazmaqla|Yalnız heykəl tökməklə|Yalnız teatr oynamaqla
+orta|new1000-p14-r39|Səttar Bəhlulzadənin ilk müəllimlərindən biri kim idi?|Əzim Əzimzadə|Üzeyir Hacıbəyli|Niyazi|Mirzə Şəfi Vazeh
+çətin|new1000-p14-r40|Səttar Bəhlulzadə Moskvada hansı rəssamlıq institutunda oxumuşdu?|Surikov|Repin|Bauhaus|Sorbonna
+@Azərbaycan|AZ14I|https://ich.unesco.org/en/RL/culture-of-cay-tea-a-symbol-of-identity-hospitality-and-social-interaction-01685|UNESCO — Çay mədəniyyəti|Qonaqpərvərlik və süfrə
+asan|new1000-p14-r41|Azərbaycan çay mədəniyyətində məşhur stəkan forması hansıdır?|Armudu|Yalnız kub|Yalnız üçbucaq|Tam yastı
+orta|new1000-p14-r42|Azərbaycanın UNESCO çay mədəniyyəti nominasiyası hansı ölkə ilə ortaqdır?|Türkiyə|Yaponiya|Braziliya|Kanada
+orta|new1000-p14-r43|Çay mədəniyyətində qonağa çay təklifi əsasən nəyi göstərir?|Qonaqpərvərliyi|Yalnız rəqabəti|Yalnız borc tələbini|Yalnız rəsmi cəzanı
+orta|new1000-p14-r44|UNESCO-nun çay mədəniyyəti təsvirində əsas çay növü hansıdır?|Qara çay|Yalnız matcha|Yalnız ağ çay|Yalnız mate
+orta|new1000-p14-r45|Ənənəvi çay süfrəsində çayla yanaşı hansı əlavələr verilə bilər?|Şəkər, limon və şirniyyat|Yalnız duzlu buz|Yalnız xam un|Yalnız quru torpaq
+@Azərbaycan|AZ14J|https://ich.unesco.org/en/RL/tandir-craftsmanship-and-bread-baking-in-azerbaijan-02120|UNESCO — Təndir sənətkarlığı|Soba və bilik ötürülməsi
+orta|new1000-p14-r46|Ənənəvi təndir əsasən hansı materialdan hazırlanır?|Gil və saxsı|Şəffaf şüşə|Yalnız polad|Yalnız taxta
+çətin|new1000-p14-r47|Təndirin əsas iki yerləşmə növü hansıdır?|Yerüstü və yeraltı|Yalnız daşınan və qatlanan|Yalnız silindrik və üfüqi|Yalnız elektrikli və qazlı
+orta|new1000-p14-r48|Təndir sənətinin bilikləri ənənəvi olaraq necə ötürülür?|Ailədə müşahidə və təcrübə ilə|Yalnız peyk siqnalı ilə|Yalnız idman yarışı ilə|Yalnız riyazi kodla
+orta|new1000-p14-r49|Təndir çörəyi adətə görə əvvəl kimlərə təklif olunur?|Uşaqlara və qonaqlara|Yalnız ustaya|Yalnız satıcıya|Yalnız hakimə
+çətin|new1000-p14-r50|Azərbaycan təndir sənəti UNESCO siyahısına hansı ildə daxil edilib?|2024|1994|2004|2014

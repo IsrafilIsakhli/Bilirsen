@@ -1,0 +1,60 @@
+@Texnologiya və ixtiralar|TC18A|https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies|MDN — Brauzer kukiləri|Sessiya və kuki atributları
+orta|new1000-p18-r01|İnternet mağazası səbətdəki məhsulları növbəti səhifədə də tanıyırsa, buna hansı brauzer mexanizmi kömək edə bilər?|Kuki|Şəklin alternativ mətni|Səhifənin fon rəngi|Faylın çap miqyası
+çətin|new1000-p18-r02|Kukidə “HttpOnly” atributunun əsas işi nədir?|JavaScript vasitəsilə kukiyə çıxışı məhdudlaşdırmaq|Kukinin şəbəkə ilə göndərilməsini tam dayandırmaq|Kukinin adını şifrələmək|Kukini bütün domenlərə yaymaq
+çətin|new1000-p18-r03|Kukinin “Secure” atributu onun hansı bağlantı ilə göndərilməsini tələb edir?|Təhlükəsiz HTTPS bağlantısı ilə|Yalnız adi HTTP ilə|Yalnız Bluetooth ilə|Yalnız peyk rabitəsi ilə
+çətin|new1000-p18-r04|“SameSite” kuki atributu əsasən nəyi idarə edir?|Saytlararası sorğularda kukinin göndərilməsini|Kukinin diskdəki sıxılmasını|Kukinin maksimum mətn uzunluğunu|Kukinin şrift ölçüsünü
+çətin|new1000-p18-r05|Kuki üçün “Max-Age=0” yazılması brauzerə hansı göstərişi verir?|Kukini dərhal silmək|Kukini daimi saxlamaq|Kukinin adını böyütmək|Onu şəkil faylına çevirmək
+@Texnologiya və ixtiralar|TC18B|https://developer.mozilla.org/en-US/docs/Glossary/TCP|MDN — TCP|Etibarlı şəbəkə axını
+orta|new1000-p18-r06|Məlumat hissələri yolda qarışıq ardıcıllıqla gəlsə də, proqramın onları düzgün sıra ilə almasını hansı protokol təmin edir?|TCP|UDP|DNS|NTP
+çətin|new1000-p18-r07|TCP-nin yaradılması ilə əlaqəli iki mühəndis kimdir?|Vint Serf və Bob Kan|Tim Berners-Li və Linus Torvalds|Ada Lavleys və Qreys Hopper|Çarlz Bebbic və Alan Türinq
+çətin|new1000-p18-r08|Şəbəkə yüklənməsini nəzərə alaraq göndərmə sürətini tənzimləmək TCP-də hansı anlayışdır?|Tıxacın idarə edilməsi|Yalnız rəng kalibrləməsi|Faylın şifrələnməsi|Yalnız ekran yenilənməsi
+orta|new1000-p18-r09|TCP-də iki kompüter arasında qurulan rabitə hansı modelə uyğundur?|Bağlantı əsaslı modelə|Yalnız bağlantısız modelə|Yalnız yayım radiomodelinə|Yalnız optik çap modelinə
+orta|new1000-p18-r10|TCP adındakı “T” hansı ingilis sözünü bildirir?|Transmission|Translation|Temperature|Typography
+@Texnologiya və ixtiralar|TC18C|https://developer.mozilla.org/en-US/docs/Glossary/UDP|MDN — UDP|Dataqram və gecikmə
+orta|new1000-p18-r11|UDP-ni TCP-dən ayıran rabitə modeli hansıdır?|Bağlantısız dataqram modeli|Bağlantı əsaslı bayt axını|Yalnız yerli fayl modeli|Yalnız brauzer yaddaşı modeli
+orta|new1000-p18-r12|Canlı danışıqda köhnə səs hissəsini yenidən gözləməkdənsə itkiyə dözmək üçün niyə UDP seçilə bilər?|Yenidən ötürmənin gözləmə yükünü azaltmağa kömək edir|Hər paketi özü mütləq şifrələyir|Hər paketi eyni sıra ilə çatdırmağa zəmanət verir|Səsi yalnız fayl kimi saxlayır
+orta|new1000-p18-r13|UDP başlığındakı port nömrəsi nəyi ayırd etməyə kömək edir?|Cihazdakı göndərən və qəbul edən xidmətləri|Paketin yalnız fiziki kabelini|Şəklin rəng dərinliyini|Mətnin əlifbasını
+çətin|new1000-p18-r14|UDP-də yoxlama cəmi əsasən hansı məqsədə xidmət edir?|Məlumat korlanmasını aşkar etməyə|İstifadəçini avtomatik tanımağa|Paketləri mütləq şifrələməyə|Hər paketi daimi saxlamağa
+çətin|new1000-p18-r15|UDP özü hansı zəmanəti vermir?|Paketlərin mütləq çatmasını|Port nömrəsi daşımasını|Dataqram göndərilməsini|IP ilə işləyə bilməsini
+@Texnologiya və ixtiralar|TC18D|https://developer.mozilla.org/en-US/docs/Web/HTML|MDN — HTML|Veb sənədin quruluşu
+asan|new1000-p18-r16|Veb səhifənin başlıq, abzas və keçid kimi quruluşunu əsasən hansı dil təsvir edir?|HTML|CSS|SQL|Yalnız ZIP
+orta|new1000-p18-r17|HTML adındakı “HyperText” fikri mətnin hansı xüsusiyyətini vurğulayır?|Başqa resurslara keçidlərlə bağlana bilməsini|Yalnız böyük hərflə yazılmasını|Mütləq səsli oxunmasını|Hər zaman şifrəli olmasını
+orta|new1000-p18-r18|HTML elementinin əlavə xüsusiyyətini müəyyən edən “lang” və ya “id” kimi hissə nə adlanır?|Atribut|Arxiv|Prosessor|Paket itkisi
+çətin|new1000-p18-r19|HTML sənədində “head” və “body” arasında əsas fərq nədir?|Biri sənəd məlumatlarını, digəri əsas məzmunu daşıyır|Biri yalnız CSS, digəri yalnız DNS daşıyır|Biri server, digəri brauzer paroludur|Hər ikisi yalnız görünən mətn üçündür
+çətin|new1000-p18-r20|Başlığı sadəcə iri şriftlə göstərmək əvəzinə başlıq elementi ilə işarələmək nəyi ifadə edir?|Məzmunun semantik quruluşunu|Yalnız ekranın fiziki enini|Yalnız internet sürətini|Yalnız faylın sıxılmasını
+@Texnologiya və ixtiralar|TC18E|https://developer.mozilla.org/en-US/docs/Glossary/CSS|MDN — CSS|Görünüş və qaydalar
+asan|new1000-p18-r21|Səhifənin rəngini, ölçülərini və görünüşünü əsasən hansı dil idarə edir?|CSS|HTML-in yalnız mətn hissəsi|DNS|CSV
+çətin|new1000-p18-r22|CSS qaydasında hansı elementlərin dəyişəcəyini müəyyən edən hissə necə adlanır?|Selektor|Dataqram|Kuki|Şifrə açarı
+orta|new1000-p18-r23|CSS-də “color” xüsusiyyəti əsasən nəyi dəyişir?|Mətnin rəngini|Faylın ünvanını|Şəbəkə portunu|Şəklin formatını
+çətin|new1000-p18-r24|CSS-də “background-color” hansı görünüş hissəsini müəyyən edir?|Fon rəngini|Keçidin internet ünvanını|Şifrənin gücünü|Mətnin dil kodunu
+çətin|new1000-p18-r25|CSS adındakı “cascading” anlayışı əsasən nə ilə bağlıdır?|Üst-üstə düşən üslub qaydalarının üstünlüyü ilə|Mətnin avtomatik tərcüməsi ilə|Şəkillərin sıxılması ilə|Paketlərin şəbəkədə ardıcıllığı ilə
+@Texnologiya və ixtiralar|TC18F|https://developer.mozilla.org/en-US/docs/Glossary/JSON|MDN — JSON|Məlumat növləri
+orta|new1000-p18-r26|JSON-da “true” və “false” hansı məlumat növüdür?|Məntiqi qiymət|Şəkil|Tarix obyekti|Funksiya
+çətin|new1000-p18-r27|JSON-da sıralanmış qiymətlər toplusu necə adlanır?|Massiv|Kuki|Üslub qaydası|Şəbəkə portu
+çətin|new1000-p18-r28|JSON obyektində məlumat əsasən hansı formada təşkil edilir?|Açar–qiymət cütləri|Yalnız piksel sətirləri|Yalnız səs dalğaları|Yalnız rəng cədvəli
+çətin|new1000-p18-r29|JSON-da hansı qiymət ayrıca yerli məlumat növü kimi dəstəklənir?|null|İcra olunan funksiya|Müntəzəm ifadə obyekti|Ayrıca tarix obyekti
+çətin|new1000-p18-r30|Bir tarix JSON-a adi məlumat kimi çevriləndə çox vaxt hansı formada saxlanır?|Mətn sətri kimi|İcra olunan proqram kimi|Yalnız şəkil kimi|Yalnız səs faylı kimi
+@Texnologiya və ixtiralar|TC18G|https://developer.mozilla.org/en-US/docs/Glossary/Base64|MDN — Base64|İkili məlumatın mətn kodlanması
+orta|new1000-p18-r31|Base64 əsasən hansı problemi həll edir?|İkili məlumatı mətn daşıyan kanalda təqdim etməyi|Faylı mütləq gizli saxlamağı|Məlumatı həmişə kiçiltməyi|Ekrana yeni rəng əlavə etməyi
+çətin|new1000-p18-r32|Base64-də bir simvol neçə bit məlumatı təmsil edir?|6 bit|4 bit|8 bit|16 bit
+orta|new1000-p18-r33|Üç baytlıq məlumat Base64-də adətən neçə əsas simvolla ifadə olunur?|4 simvolla|2 simvolla|3 simvolla|8 simvolla
+orta|new1000-p18-r34|Base64 sətrinin sonundakı “=” işarəsi adətən nə üçündür?|Tamamlama üçün|Riyazi bərabərlik hesablamaq üçün|Şifrə açarını bildirmək üçün|Faylı iki dəfə sıxmaq üçün
+orta|new1000-p18-r35|Base64-ə çevrilmiş faylın həcmi uzun girişlərdə adətən necə dəyişir?|Təxminən üçdəbir artır|Təxminən üçdəbir azalır|Həmişə dəyişməz qalır|Təxminən iki dəfə artır
+@Texnologiya və ixtiralar|TC18H|https://developer.mozilla.org/en-US/docs/Glossary/Lossless_compression|MDN — İtkisiz sıxılma|Bərpa və sıxılma üsulları
+orta|new1000-p18-r36|Rəqəmsal sənədi açanda bütün ilkin məlumatın tam bərpası tələb olunursa, hansı sıxılma seçilməlidir?|İtkisiz sıxılma|Yalnız itkili sıxılma|Məlumatın təsadüfi atılması|Yalnız ekran ölçüsünün azaldılması
+çətin|new1000-p18-r37|WebP formatı sıxılma baxımından hansı imkana malikdir?|Həm itkili, həm itkisiz rejimə|Yalnız sıxılmamış mətnə|Yalnız səs sıxılmasına|Yalnız şifrəli arxivə
+çətin|new1000-p18-r38|HTTP sıxılmasında alıcı dəstəklədiyi sıxılma üsullarını hansı sorğu başlığı ilə bildirir?|Accept-Encoding|Content-Type|Authorization|Location
+orta|new1000-p18-r39|Gzip, Brotli və Zstandard hansı ümumi qrupa daxildir?|İtkisiz sıxılma üsulları|Yalnız mətn şriftləri|Yalnız rəng modelləri|Yalnız açıq açarlı şifrələr
+çətin|new1000-p18-r40|Brotli sıxılmasının HTTP-də işlənən kodlama adı hansıdır?|br|bt|brot|bl
+@Texnologiya və ixtiralar|TC18I|https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/What_is_accessibility|MDN — Rəqəmsal əlçatanlıq|Köməkçi vasitələr və müxtəlif istifadəçilər
+orta|new1000-p18-r41|Ekrandakı rəqəmsal mətni səsli oxuyan köməkçi proqram necə adlanır?|Ekran oxuyucusu|Şəkil arxivi|Şəbəkə açarı|Yalnız video kodeki
+orta|new1000-p18-r42|Siçan işlədə bilməyən istifadəçi üçün saytı hansı yolla idarə etmək imkanı vacibdir?|Klaviatura ilə|Yalnız rəng dəyişikliyi ilə|Yalnız fon musiqisi ilə|Yalnız faylın adını dəyişməklə
+orta|new1000-p18-r43|Videodakı danışığın yazılı altyazı ilə verilməsi xüsusən hansı maneəni azaldır?|Eşitmə ilə bağlı maneəni|Yalnız videonun mətnini sıxmağı|Yalnız görüntünü böyütməyi|Yalnız şəbəkə paketlərini sıralamağı
+orta|new1000-p18-r44|Rəqəmsal əlçatanlıq yalnız daimi əlilliyi olan insanlara faydalıdırmı?|Xeyr, müvəqqəti və şəraitdən doğan məhdudiyyətlərdə də faydalıdır|Bəli, müvəqqəti məhdudiyyətlərdə işə yaramır|Bəli, yalnız bir ekran oxuyucusunda mümkündür|Bəli, yalnız çap sənədinə aiddir
+orta|new1000-p18-r45|Formada səhvin harada olduğunu aydın göstərmək hansı istifadəçi çətinliyini azaltmağa kömək edir?|Tapşırığı anlama və tamamlama çətinliyini|Yalnız faylın ötürülmə ölçüsünü|Yalnız cihazın yaddaş həcmini|Yalnız ekranın fiziki qüsurunu
+@Texnologiya və ixtiralar|TC18J|https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API|MDN — Web Storage|Lokal və sessiya saxlanması
+çətin|new1000-p18-r46|Brauzerdə “localStorage” adi rejimdə bağlanıb yenidən açıldıqdan sonra məlumatı necə saxlayır?|Müddəti bitən sessiya ilə avtomatik silmir|Hər düymə basılanda silir|Yalnız bir saniyə saxlayır|Mütləq serverə köçürür
+çətin|new1000-p18-r47|“sessionStorage” əsasən hansı sərhədə bağlı saxlanmadır?|Müəyyən brauzer vərəqinin sessiyasına|Bütün dünyadakı brauzerlərə|Yalnız kompüterin ekranına|Yalnız saytın çap nüsxəsinə
+çətin|new1000-p18-r48|Kukidən fərqli olaraq Web Storage məlumatı hər HTTP sorğusunda avtomatik serverə göndərilirmi?|Xeyr|Bəli, həmişə tam göndərilir|Yalnız mətn varsa mütləq göndərilir|Yalnız gecələr göndərilir
+çətin|new1000-p18-r49|Web Storage əməliyyatlarının sinxron olması böyük məlumatla işləyərkən hansı problem yarada bilər?|Səhifədə digər işlərin cavabını gecikdirə bilər|Şəklin rəng tərkibini dəyişdirə bilər|Şəbəkə portunu öz-özünə dəyişdirir|Fayl formatını mütləq çevirir
+çətin|new1000-p18-r50|Gizli brauzer rejimində saxlanan lokal məlumat üçün hansı davranış gözlənilir?|Gizli sessiya bağlananda silinə bilər|Mütləq hamıya yayımlanır|Heç vaxt silinmir|Kağız fayla avtomatik çevrilir

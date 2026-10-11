@@ -1,0 +1,60 @@
+@Elm və kosmos|CH5A|https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism|OpenStax — Atom quruluşu|Proton, neytron, elektron və izotop
+asan|new1000-p05-r01|Atomun hansı hissəsi müsbət yüklüdür?|Proton|Elektron|Neytron|Foton
+orta|new1000-p05-r02|Bir elementi digərindən fərqləndirən əsas say hansıdır?|Proton sayı|Neytron sayı|Molekul sayı|Kimyəvi rabitə sayı
+orta|new1000-p05-r03|Eyni elementin izotopları əsasən hansı sayla fərqlənir?|Neytron sayı|Proton sayı|Atom nömrəsi|Nüvənin müsbət yükü
+asan|new1000-p05-r04|Neytral atomda elektron sayı hansı saya bərabərdir?|Proton sayına|Neytron sayına|Kütlə ədədinə|Orbital sayına
+orta|new1000-p05-r05|Atomun kütləsinin böyük hissəsi harada cəmlənir?|Nüvədə|Elektron buludunun kənarında|Kimyəvi rabitədə|Atomlararası boşluqda
+@Elm və kosmos|CH5B|https://openstax.org/books/chemistry-2e/pages/2-4-chemical-formulas|OpenStax — Kimyəvi formullar|Molekul, struktur və empirik formul
+asan|new1000-p05-r06|H₂O formulundakı “2” nəyi göstərir?|İki hidrogen atomunu|İki oksigen atomunu|İki su molekulunu|İki elektron itirilməsini
+orta|new1000-p05-r07|Atomların necə birləşdiyini göstərən formul hansıdır?|Struktur formul|Yalnız empirik formul|Kütlə ədədi|Atom nömrəsi
+çətin|new1000-p05-r08|Empirik formul nəyi ən sadə şəkildə göstərir?|Atomların tam ədəd nisbətini|Molekulun həndəsi formasını|Maddənin rəngini|Elektronların sürətini
+çətin|new1000-p05-r09|C₆H₁₂O₆ üçün ən sadə empirik formul hansıdır?|CH₂O|C₂H₆O|CH₄|C₆HO
+çətin|new1000-p05-r10|Eyni molekul formuluna, fərqli quruluşa malik maddələr necə adlanır?|İzomerlər|İzotoplar|İzobarlar|İonlar
+@Elm və kosmos|CH5C|https://openstax.org/books/chemistry-2e/pages/2-6-ionic-and-molecular-compounds|OpenStax — İon və molekulyar birləşmələr|Elektron mübadiləsi və ionlar
+orta|new1000-p05-r11|Atom bir elektron itirəndə hansı yük alır?|Müsbət|Mənfi|Yüksüz|Mütləq ikiqat mənfi
+orta|new1000-p05-r12|Mənfi yüklü ion necə adlanır?|Anion|Kation|Neytron|Nuklon
+orta|new1000-p05-r13|İon rabitəsi əsasən hansı hissəciklərin cazibəsidir?|Əks yüklü ionların|Yalnız neytronların|İki eyni yüklü ionun|İki fotonun
+orta|new1000-p05-r14|Adi kimyəvi reaksiyada atomun hansı hissəsi elementin kimliyini qoruyur?|Nüvəsi|Xarici elektron təbəqəsi|Rabitə uzunluğu|Molekul forması
+çətin|new1000-p05-r15|Ca²⁺ ilə Cl⁻ ionlarından yaranan neytral birləşmənin formulu nədir?|CaCl₂|Ca₂Cl|CaCl|Ca₂Cl₃
+@Elm və kosmos|CH5D|https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept|OpenStax — Mol anlayışı|Miqdar və molyar kütlə
+orta|new1000-p05-r16|Kimyada maddə miqdarının vahidi hansıdır?|Mol|Vatt|Paskal|Kulon
+çətin|new1000-p05-r17|Bir mol maddədəki hissəcik sayını hansı sabit müəyyən edir?|Avoqadro sabiti|Qravitasiya sabiti|Plank sabiti|Boltsman sabiti
+çətin|new1000-p05-r18|Molyar kütlə adətən hansı vahidlə ifadə olunur?|Qram/mol|Mol/saniyə|Litr/metr|Kulon/kiloqram
+orta|new1000-p05-r19|Təxminən 18 qram su neçə mol suya uyğundur?|1|2|0,5|18
+orta|new1000-p05-r20|Maddənin molyar kütləsi dəyişmirsə, kütləsi ikiqat olanda mol sayı necə dəyişir?|İkiqat artır|Yarıya enir|Dəyişmir|Dördqat artır
+@Elm və kosmos|CH5E|https://openstax.org/books/chemistry-2e/pages/4-1-writing-and-balancing-chemical-equations|OpenStax — Tənliklərin tarazlaşdırılması|Atomların saxlanması
+asan|new1000-p05-r21|Kimyəvi tənliyi tarazlaşdırarkən əsasən nə dəyişdirilir?|Əmsallar|Element simvolları|Formulun indeksləri|Atomların növü
+asan|new1000-p05-r22|2H₂ + O₂ → 2H₂O tənliyində neçə su molekulu göstərilir?|2|1|3|4
+orta|new1000-p05-r23|Tənliyin tarazlaşdırılması hansı qanuna əsaslanır?|Kütlənin saxlanması|Ümumdünya cazibəsi|İşığın sınması|Elektrik müqaviməti
+asan|new1000-p05-r24|Kimyəvi tənlikdə oxun solunda əsasən nə yazılır?|Reaksiyaya girən maddələr|Yalnız katalizatorlar|Yalnız qazlar|Reaksiya məhsulları
+çətin|new1000-p05-r25|Kimyəvi tənlikdə maddənin yanında “(aq)” nə deməkdir?|Suda həll olmuş|Bərk|Qaz|Ərimiş metal
+@Elm və kosmos|CH5F|https://openstax.org/books/chemistry-2e/pages/4-2-classifying-chemical-reactions|OpenStax — Reaksiya növləri|Çökmə, neytrallaşma və redoks
+orta|new1000-p05-r26|İki məhlul qarışanda həll olmayan bərk maddə yaranması nədir?|Çökmə reaksiyası|Sublimasiya|Distillə|Buxarlanma
+orta|new1000-p05-r27|Turşu ilə əsasın reaksiyası adətən necə adlanır?|Neytrallaşma|Polimerləşmə|Kristallaşma|Fotosintez
+orta|new1000-p05-r28|Elektron itirilməsi kimyada nədir?|Oksidləşmə|Reduksiya|Kondensasiya|Hidroliz
+orta|new1000-p05-r29|Elektron qəbul edilməsi kimyada nədir?|Reduksiya|Oksidləşmə|Distillə|Sublimasiya
+çətin|new1000-p05-r30|Redoks reaksiyasında oksidləşdirici maddənin özü nə olur?|Reduksiya olunur|Mütləq buxarlanır|Elektron itirir|Mütləq çökür
+@Elm və kosmos|CH5G|https://openstax.org/books/chemistry-2e/pages/6-3-development-of-quantum-theory|OpenStax — Kvant nəzəriyyəsi|Dalğa təbiəti və orbital
+çətin|new1000-p05-r31|De Broyl nəzəriyyəsi elektrona hansı xüsusiyyəti aid edir?|Dalğa təbiətini|Yalnız müsbət yükü|Sıfır kütləni|Neytron quruluşunu
+çətin|new1000-p05-r32|Hezenberqin qeyri-müəyyənlik prinsipində hansı cüt əsasdır?|Mövqe və impuls|Rəng və qoxu|Kütlə və həcm|Temperatur və vaxt
+çətin|new1000-p05-r33|Atom orbitalı əsasən nəyi təsvir edir?|Elektronun tapılma ehtimalını|Nüvənin səthini|Dəqiq planetvari orbitini|Protonun parçalanma vaxtını
+çətin|new1000-p05-r34|Kvant modelində s orbitalının ümumi forması necədir?|Sferik|Yalnız düz xətt|Düzbucaqlı|Üçbucaq
+çətin|new1000-p05-r35|Elektron spin kvant ədədi neçə mümkün qiymət alır?|2|1|3|4
+@Elm və kosmos|CH5H|https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding|OpenStax — Kovalent rabitə|Ortaq elektron cütləri
+orta|new1000-p05-r36|Kovalent rabitədə atomlar əsasən nəyi paylaşır?|Elektron cütünü|Neytron cütünü|Proton cütünü|Nüvələrini
+orta|new1000-p05-r37|İkiqat kovalent rabitədə neçə elektron cütü paylaşılır?|2|1|3|4
+çətin|new1000-p05-r38|Eyni iki atom arasındakı rabitə üçqat olanda tək rabitəyə nisbətən adətən necə olur?|Daha qısa və möhkəm|Daha uzun və zəif|Tamamilə ionsuz cazibəsiz|Həmişə eyni uzunluqda və qüvvədə
+orta|new1000-p05-r39|Qütblü kovalent rabitənin yaranmasına əsas nə səbəb olur?|Elektronların qeyri-bərabər paylaşılması|Nüvələrin eyni olması|Neytronların yoxluğu|Bütün elektronların itirilməsi
+orta|new1000-p05-r40|H₂ molekulunda rabitə hansı tipdir?|Qeyri-qütblü kovalent|İon|Metal|Yalnız hidrogen rabitəsi
+@Elm və kosmos|CH5I|https://openstax.org/books/chemistry-2e/pages/14-2-ph-and-poh|OpenStax — pH və pOH|Turşuluq şkalası
+orta|new1000-p05-r41|25°C-də pH-ı 7 olan saf su necə xarakterizə edilir?|Neytral|Güclü turş|Güclü əsas|Mütləq duzlu
+orta|new1000-p05-r42|pH 3-dən 2-yə enəndə hidronium qatılığı necə dəyişir?|10 dəfə artır|2 dəfə artır|10 dəfə azalır|Dəyişmir
+çətin|new1000-p05-r43|25°C-də pH + pOH cəmi neçədir?|14|7|10|100
+orta|new1000-p05-r44|Eyni temperaturda pH-ı 2 və 5 olan məhlullardan hansı daha turşdur?|pH 2 olan|pH 5 olan|İkisi eynidir|Hər ikisi əsasdır
+çətin|new1000-p05-r45|Turş məhlulda hansı ionun qatılığı hidroksiddən böyükdür?|Hidronium|Natrium|Kalsium|Xlorid
+@Elm və kosmos|CH5J|https://openstax.org/books/chemistry-2e/pages/10-1-intermolecular-forces|OpenStax — Molekullararası qüvvələr|Dispersiya və hidrogen rabitəsi
+çətin|new1000-p05-r46|London dispersiya qüvvələri hansı hissəciklərdə mümkündür?|Bütün atom və molekullarda|Yalnız su molekullarında|Yalnız ionlarda|Yalnız metallarda
+çətin|new1000-p05-r47|Ani dipol başqa hissəcikdə nə yarada bilər?|İnduksiya olunmuş dipol|Yeni proton|Yeni element|Daimi neytron
+çətin|new1000-p05-r48|Hidrogen rabitəsi üçün H adətən hansı atomlardan birinə bağlı olur?|N, O və ya F|Na, K və ya Li|Fe, Cu və ya Zn|He, Ne və ya Ar
+orta|new1000-p05-r49|Molekullararası cazibə güclənəndə qaynama temperaturu adətən necə dəyişir?|Yüksəlir|Enir|Dəyişmir|Mütləq eyni miqdarda azalır
+çətin|new1000-p05-r50|Qütblü molekullar arasında daimi dipolların qarşılıqlı təsiri necə adlanır?|Dipol-dipol cazibəsi|Nüvə parçalanması|Metal rabitəsi|Radioaktivlik

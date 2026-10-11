@@ -1,0 +1,15 @@
+{
+  "batch": "batch-016.txt",
+  "questions": 50,
+  "difficulty": {
+    "orta": 20,
+    "çətin": 30
+  },
+  "review": "Mənbədəki faktlar, variantların unikallığı, mətnin Azərbaycan dilində olması və əvvəlki dəstələrlə məna fərqləri nəzərdən keçirilib. İxtiraçının başqa faktını soruşmaq eyni faktın tərsinə təkrarı sayılmır.",
+  "notes": [
+    "Post-it yapışqanının kəşf ili mənbələrdə fərqli verildiyi üçün soruşulmayıb.",
+    "Teflon və super yapışqan haqqında sağlamlıq və istifadə məsləhəti verilməyib.",
+    "Bardinin yalnız konkret 1956 və 1972 mükafatları soruşulub.",
+    "Eyni mövzulu sualların bir oyunda toplanmaması sonradan seçim mexanizmində tətbiq edilməlidir."
+  ]
+}

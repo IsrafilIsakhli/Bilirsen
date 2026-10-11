@@ -1,0 +1,187 @@
+{
+  "THE17": {
+    "url": "https://whc.unesco.org/en/list/87/",
+    "title": "UNESCO — Qədim Teb",
+    "section": "Amon; Nilin iki sahili; Karnak və Luksor; nekropollar"
+  },
+  "MAM17": {
+    "url": "https://whc.unesco.org/en/list/150/",
+    "title": "UNESCO — Mamont mağarası",
+    "section": "Kentukki; əhəngdaşı; ən uzun mağara sistemi"
+  },
+  "BLE17": {
+    "url": "https://whc.unesco.org/en/list/425/",
+    "title": "UNESCO — Blenheym sarayı",
+    "section": "Con Çörçill; Lanselot Braun; Oksford yaxınlığı"
+  },
+  "PER17": {
+    "url": "https://whc.unesco.org/en/list/114/",
+    "title": "UNESCO — Persepol",
+    "section": "Əhəmənilər; I Dara; yarı təbii, yarı süni terras"
+  },
+  "SER17": {
+    "url": "https://whc.unesco.org/en/list/156/",
+    "title": "UNESCO — Serengeti",
+    "section": "Savanna; otlaq və su axtarışı; sürüləri izləyən yırtıcılar"
+  },
+  "KAH17": {
+    "url": "https://whc.unesco.org/en/list/137/",
+    "title": "UNESCO — Kahuzi-Bieqa Milli Parkı",
+    "section": "Sönmüş vulkanlar; şərq düzənlik qorillası; Konqo DR"
+  },
+  "BAM17": {
+    "url": "https://whc.unesco.org/en/list/208/",
+    "title": "UNESCO — Bamiyan vadisi",
+    "section": "Əfqanıstan; qaya oyuqları; Qandhara məktəbi"
+  },
+  "SYD17": {
+    "url": "https://whc.unesco.org/en/list/166/",
+    "title": "UNESCO — Sidney Opera Teatrı",
+    "section": "Utzon; qabıqvari dam; limana uzanan yarımada"
+  },
+  "TIT17": {
+    "url": "https://science.nasa.gov/saturn/moons/titan/facts/",
+    "title": "NASA — Titan haqqında faktlar",
+    "section": "Metan və etan; azot atmosferi; karbohidrogen qum dənələri"
+  },
+  "ENC17": {
+    "url": "https://science.nasa.gov/saturn/moons/enceladus/",
+    "title": "NASA — Enselad",
+    "section": "Buz və su şırnaqları; E halqası; pələng zolaqları"
+  },
+  "IO17": {
+    "url": "https://science.nasa.gov/jupiter/moons/io/",
+    "title": "NASA — İo",
+    "section": "Vulkanik aktivlik; cazibə dartışması; Voyacer 1"
+  },
+  "GAN17": {
+    "url": "https://science.nasa.gov/jupiter/moons/ganymede/",
+    "title": "NASA — Qanimed",
+    "section": "Öz maqnit sahəsi; Merkuridən böyük ölçü; dəmir nüvə"
+  },
+  "SVP17": {
+    "url": "https://www.preslib.az/az/book/1VBti28NBDJeuM8",
+    "title": "Prezident Kitabxanası — Səməd Vurğunun dramları",
+    "section": "Vaqif; Fərhad və Şirin; İnsan — kitab annotasiyası"
+  },
+  "SVB17": {
+    "url": "https://science.gov.az/az/forms/skonchavshiesya-deystvitelnyie-chlenyi/3435",
+    "title": "AMEA — Səməd Vurğunun bioqrafiyası",
+    "section": "Vəkilov soyadı; Qazaxın Yuxarı Salahlı kəndi"
+  },
+  "MC17": {
+    "url": "https://anl.az/el/Kitab/2017/12/2014-2250.pdf",
+    "title": "Milli Kitabxana — Mir Cəlalın bioqrafik məlumatı",
+    "section": "İndekslənmiş bioqrafik hissə: ilk roman Dirilən adam; Bir gəncin manifesti"
+  },
+  "MCS17": {
+    "url": "https://www.anl.az/down/meqale/525/2017/iyul/550980.htm",
+    "title": "Milli Kitabxana — Mir Cəlalın satirik yaradıcılığı",
+    "section": "İclas qurusu — satirik-yumoristik əsərlər siyahısı"
+  },
+  "ARN17": {
+    "url": "https://www.nationalgallery.org.uk/paintings/jan-van-eyck-the-arnolfini-portrait",
+    "title": "National Gallery — Arnolfini portreti",
+    "section": "Qabarıq güzgüdə iki əlavə fiqur; imza; bahalı portağallar"
+  },
+  "HOP17": {
+    "url": "https://archive.artic.edu/hopper/artwork/111628?from=193530",
+    "title": "Çikaqo İncəsənət İnstitutu — Gecə quşları",
+    "section": "Edvard Hopper; girişin göstərilməməsi; üç müştəri"
+  },
+  "MTS18": {
+    "url": "https://www.nhm.ac.uk/discover/mantis-shrimps.html",
+    "title": "Natural History Museum — Mantis krevetləri",
+    "section": "Xərçəngkimilər; kavitasiya; müstəqil göz hərəkəti"
+  },
+  "NMR18": {
+    "url": "https://www.nationalzoo.si.edu/animals/naked-mole-rat",
+    "title": "Smithsonian — Çılpaq köstəbək siçanı",
+    "section": "Kəsici diş arxasında dodaqlar; kraliça; istilik üçün yığışma"
+  },
+  "OKA18": {
+    "url": "https://animals.sandiegozoo.org/animals/okapi",
+    "title": "San Diego Zoo — Okapi",
+    "section": "Zürafə ilə qohumluq; tutucu dil; suyu sürüşdürən yağlı xəz"
+  },
+  "PFR18": {
+    "url": "https://www.nationalzoo.si.edu/animals/poison-frogs",
+    "title": "Smithsonian — Zəhərli ox qurbağaları",
+    "section": "Qida ilə toksiklik əlaqəsi; balalara yumurta; yapışqan dil"
+  },
+  "WOM18": {
+    "url": "https://australiazoo.com.au/wildlife/our-animals/common-wombat/",
+    "title": "Australia Zoo — Vombat",
+    "section": "Arxaya açılan kisə; arxa qığırdaq lövhə; gecə otlama"
+  },
+  "YEA18": {
+    "url": "https://annex.exploratorium.edu/cooking/bread/bread_science.html",
+    "title": "Exploratorium — Çörəyin elmi",
+    "section": "Birhüceyrəli maya; karbon qazı; qabartma tozundan fərq"
+  },
+  "GLU18": {
+    "url": "https://annex.exploratorium.edu/cooking/bread/activity-gluten.html",
+    "title": "Exploratorium — Qlütenin quruluşu",
+    "section": "Qaz saxlama; yağın qlüten inkişafına maneəsi"
+  },
+  "MAI18": {
+    "url": "https://cen.acs.org/articles/90/i40/Maillard-Reaction-Turns-100.html",
+    "title": "ACS — Mayyar reaksiyası",
+    "section": "Şəkərlə amin qruplarının reaksiyası; rəng və ətir"
+  },
+  "MAC18": {
+    "url": "https://www.acs.org/acs-webinars/library/tasty-culinary-chemistry.html",
+    "title": "ACS — Mətbəx kimyası",
+    "section": "Şəkərin karamelləşməsi ilə Mayyar reaksiyasının ayrı proseslər olması"
+  },
+  "EMU18": {
+    "url": "https://www.chem.ucla.edu/~harding/IGOC/E/emulsion.html",
+    "title": "UCLA — Emulsiya lüğəti",
+    "section": "Mayonez suda yağ emulsiya nümunəsidir"
+  },
+  "EMX18": {
+    "url": "https://annex.exploratorium.edu/cooking/eggs/hollandaise-pop.html",
+    "title": "Exploratorium — Emulqatorun fəaliyyəti",
+    "section": "Lesitin; molekulun susevər və yağsevər hissələri"
+  },
+  "SAB18": {
+    "url": "https://www.anl.az/down/m.e.sabir.pdf",
+    "title": "Milli Kitabxana — Mirzə Ələkbər Sabir",
+    "section": "Hophopnamə — şeir toplusu; bioqrafik giriş"
+  },
+  "SAH18": {
+    "url": "https://anl.az/down/teqvim-2017.pdf",
+    "title": "Milli Kitabxana — 2017 ədəbiyyat təqvimi",
+    "section": "Sabir bölməsi: Hop-hop imzası; vəfatdan sonrakı nəşr"
+  },
+  "SAP18": {
+    "url": "https://www.anl.az/el/s/mes_h1.pdf",
+    "title": "Milli Kitabxana — Hophopnamə nəşr qeydləri",
+    "section": "Abbas Səhhətin müqəddiməsi — nəşrin izah hissəsi"
+  },
+  "ANA18": {
+    "url": "https://www.qanun.az/huseyn-cavid-2356",
+    "title": "Qanun nəşriyyatı — Hüseyn Cavidin Ana əsəri",
+    "section": "Səlma; Qanpolad; Muradın ana evinə sığınması"
+  },
+  "OPP18": {
+    "url": "https://www.moma.org/collection/works/80997?sov_referrer=theme",
+    "title": "MoMA — Meret Oppenheymin Obyekt əsəri",
+    "section": "Xəzli çay dəsti; sürrealizm; Pikasso ilə söhbət"
+  },
+  "SEU18": {
+    "url": "https://archive.artic.edu/irvingpennarchives/pointillism/",
+    "title": "Çikaqo İncəsənət İnstitutu — Puantilizm",
+    "section": "Söra; rəng nöqtələri; La-Qrand-Jatt Sena adası"
+  },
+  "SNO18": {
+    "url": "https://wpbsa.com/wp-content/uploads/2198_WPBSA-Rulebook-2024-25.pdf",
+    "title": "WPBSA — Snukerin rəsmi qaydaları",
+    "section": "Section 2 Rule 8; Section 3 Rule 1: breyk, top qiymətləri, ardıcıllıq"
+  },
+  "HOC18": {
+    "url": "https://www.fih.hockey/static-assets/pdf/fih-Rules-of-hockey-2026-final.pdf",
+    "title": "FIH — Otüstü hokkey qaydaları, 2026",
+    "section": "2.1; 8.1; 9.5: oyunçu sayı, qol dairəsi, dəyənəyin arxası"
+  }
+}

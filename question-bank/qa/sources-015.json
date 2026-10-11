@@ -1,0 +1,112 @@
+{
+  "EQ15": {
+    "url": "https://www.usgs.gov/programs/earthquake-hazards/science-earthquakes",
+    "title": "USGS — Zəlzələlərin elmi",
+    "section": "Episentr; ön təkan; intensivlik; P–S vaxtı; üç stansiya"
+  },
+  "INT15": {
+    "url": "https://pubs.usgs.gov/gip/interior/index.html",
+    "title": "USGS — Yerin daxili quruluşu",
+    "section": "S dalğaları; mantiya həcmi; daxili və xarici nüvə"
+  },
+  "IGN15": {
+    "url": "https://www.usgs.gov/faqs/what-are-igneous-rocks?page=0",
+    "title": "USGS — Maqmatik süxurlar",
+    "section": "Yavaş və sürətli soyuma; iri kristallar; vulkanik şüşə; maqma və lava"
+  },
+  "PUM15": {
+    "url": "https://www.usgs.gov/news/volcano-watch-rocks-float-briefly-where-lava-meets-sea",
+    "title": "USGS — Vulkanik daşların üzməsi",
+    "section": "Suyun tez nüfuz etmədiyi qaz boşluqları və sıxlıq"
+  },
+  "LIQ15": {
+    "url": "https://www.usgs.gov/programs/earthquake-hazards/new-madrid-seismic-zone",
+    "title": "USGS — Torpağın mayeləşməsi",
+    "section": "Liquefaction: doymuş qumda məsamə suyu təzyiqi"
+  },
+  "SAF15": {
+    "url": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A30001783-2/general-information",
+    "title": "Kew — Zəfəranın alındığı hissə",
+    "section": "Uses: Crocus sativus ağızcıqları"
+  },
+  "CIN15": {
+    "url": "https://spices.res.in/products/spices/cinnamon.html",
+    "title": "ICAR-IISR — Darçın",
+    "section": "Qurudulmuş daxili qabıq və qıvrılmış çubuqlar"
+  },
+  "CLO15": {
+    "url": "https://www.indianspices.com/node/24.html",
+    "title": "Spices Board — Mixək",
+    "section": "Description: qurudulmuş açılmamış çiçək qönçəsi"
+  },
+  "NUT15": {
+    "url": "https://www.indianspices.com/indianspices/spice-catalog/nutmeg-mace.html",
+    "title": "Spices Board — Muskat və masis",
+    "section": "Arillus və toxum ləpəsi; adətən ayrı erkək və dişi ağaclar"
+  },
+  "PEP15": {
+    "url": "https://ebooks.inflibnet.ac.in/ftp07/chapter/150/",
+    "title": "INFLIBNET — Qara və ağ istiotun hazırlanması",
+    "section": "Pepper products: ağ istiotda perikarpın çıxarılması"
+  },
+  "GIN15": {
+    "url": "https://spices.res.in/crops/ginger",
+    "title": "ICAR-IISR — Zəncəfil",
+    "section": "İstifadə edilən yeraltı hissə rizomdur"
+  },
+  "TUR15": {
+    "url": "https://www.efsa.europa.eu/en/topics/topic/food-colours",
+    "title": "EFSA — Qida rəngləndiriciləri",
+    "section": "Cədvəl: E100 — kurkumin; sarıkök mənşəyi ICAR-IISR turmeric səhifəsi ilə də tutuşdurulub"
+  },
+  "ARCH15": {
+    "url": "https://australian.museum/learn/animals/fishes/sevenspot-archerfish-toxotes-chatareus/",
+    "title": "Australian Museum — Oxatan balıq",
+    "section": "Su şırnağı ilə ov; dil və ağız tavanındakı yiv"
+  },
+  "AXO15": {
+    "url": "https://www.nhm.ac.uk/discover/axolotls-amphibians-that-never-grow-up.html",
+    "title": "Natural History Museum — Aksolotl",
+    "section": "Bərpa; neoteniya; Soçimilko; vəhşi fərdlərin rəngi"
+  },
+  "LYR15": {
+    "url": "https://www.environment.nsw.gov.au/topics/animals-and-plants/native-animals/native-animal-facts/birds/lyrebirds",
+    "title": "NSW Environment — Liraquşları",
+    "section": "Səs təqlidi; quyruq; nümayiş təpəciyi; yer örtüyündə qida axtarışı"
+  },
+  "PAN15": {
+    "url": "https://animals.sandiegozoo.org/animals/tree-pangolin",
+    "title": "San Diego Zoo — Panqolin",
+    "section": "Keratin; dişsiz ağız və mədə; malay dilində ad"
+  },
+  "SLO15": {
+    "url": "https://nationalzoo.si.edu/animals/news/why-are-sloths-so-slow-and-other-sloth-facts",
+    "title": "Smithsonian — Tənbəl heyvanın xüsusiyyətləri",
+    "section": "Tükdə yosun; maddələr mübadiləsi; üzmək"
+  },
+  "LEA15": {
+    "url": "https://stri.si.edu/story/blind-spots",
+    "title": "Smithsonian Tropical Research Institute — Qarışqaların göbələk bağları",
+    "section": "Yarpaq parçaları göbələk yetişdirmək üçün substratdır"
+  },
+  "BEI15": {
+    "url": "https://www.nationalzoo.si.edu/animals/beaver?qt-learn_more_about_the_animal=2",
+    "title": "Smithsonian — Qunduzun diş minası",
+    "section": "Dəmirin möhkəmləndirici rolu və narıncı rəng"
+  },
+  "BEA15": {
+    "url": "https://nationalzoo.si.edu/animals/beaver",
+    "title": "Smithsonian — Qunduz",
+    "section": "Quyruq siqnalı; sualtı girişli yuva; xüsusi ikili dırnaq"
+  },
+  "FLY15": {
+    "url": "https://australian.museum/learn/animals/fishes/a-flyingfish-cheilopogon-sp/",
+    "title": "Australian Museum — Uçan balıq",
+    "section": "Süzmə; böyümüş üzgəclər; quyruğun alt payı"
+  },
+  "NAU15": {
+    "url": "https://ocean.si.edu/ocean-life/invertebrates/octopuses-squids-and-relatives",
+    "title": "Smithsonian Ocean — Başıayaqlılar və nautilus",
+    "section": "Nautilusun sinfi və kameralı qabığın üzmə qabiliyyətində rolu"
+  }
+}

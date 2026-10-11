@@ -1,0 +1,51 @@
+@Azərbaycan|LANG||Azərbaycan dili — müəllif nümunələrinin təhlili|Sözlərin mənası, qrammatik quruluş və bədii ifadə; nümunələr müstəqil yazılıb
+orta|new1000-p07-r01|“Yaz gəldi, məktubu yaz” cümlələrində “yaz”lar nədir?|Omonim|Sinonim|Antonim|Termin
+orta|new1000-p07-r02|“Al don geyindi, kitabı al” cümlələrində “al”lar nədir?|Omonim|Antonim|Sinonim|Say
+asan|new1000-p07-r03|“İsti münasibət” ifadəsində “isti” hansı mənadadır?|Məcazi|Yalnız temperatur|Terminoloji|Riyazi
+orta|new1000-p07-r04|“Dağın başı” ifadəsində “baş” hansı hadisəyə nümunədir?|Çoxmənalılığa|Yalnız omonimliyə|İxtisara|Alınma sözə
+asan|new1000-p07-r05|“Ürəyi daşa dönmüşdü” ifadəsi nə bildirir?|Rəhmsizləşmişdi|Ürəyi böyümüşdü|Ürəyi soyumuşdu|Daş udmuşdu
+orta|new1000-p07-r06|“Gözü su içmirdi” ifadəsi əsasən nə deməkdir?|Etibar etmirdi|Su istəmirdi|Yaxşı görmürdü|Yuxusu gəlirdi
+orta|new1000-p07-r07|“Burnu ilə odlayırdı” ifadəsi hansı halı bildirir?|Çox qəzəbli idi|Üşüyürdü|Ac idi|Yatırdı
+asan|new1000-p07-r08|“Ağzına su almışdı” ifadəsi nə deməkdir?|Danışmırdı|Mahnı oxuyurdu|Qışqırırdı|Gülürdü
+asan|new1000-p07-r09|“Əli açıq” adam necə adamdır?|Səxavətli|Qorxaq|Tənbəl|Yalançı
+asan|new1000-p07-r10|“Qulaq asmaq” ifadəsində feil bütövlükdə nə bildirir?|Dinləmək|Asılmaq|Qaçmaq|Gizlətmək
+çətin|new1000-p07-r11|“Qoca çinar” ifadəsində “qoca” hansı bədii təsvirə xidmət edir?|Epitetə|Mübaliğəyə|Təkrirə|Təzada
+çətin|new1000-p07-r12|“Külək pəncərəni döyürdü” insanlaşdırılmış halda hansı vasitəyə nümunədir?|Təşxis|Təzad|Kinayə|Təkrir
+orta|new1000-p07-r13|“Bir dünya işim var” ifadəsində nə işlənib?|Mübaliğə|Sadə termin|Tarixi ad|Dəqiq ölçü
+orta|new1000-p07-r14|“Gecə qara, ümid ağ” ifadəsində hansı vasitə əsasdır?|Təzad|Təkrir|Mübaliğə|Sual
+orta|new1000-p07-r15|“Şir kimi cəsur” ifadəsində hansı vasitə var?|Təşbeh|Təkrir|İroniya|İxtisar
+çətin|new1000-p07-r16|“Vətən, Vətən, səni sevirəm”də sözün təkrarı hansı vasitədir?|Təkrir|Epitet|Təzad|Təşxis
+orta|new1000-p07-r17|“Təmkin” sözü hansı anlayışa daha yaxındır?|Özünü ələ alma|Tələskənlik|Lovğalıq|Qısqanclıq
+asan|new1000-p07-r18|“Təvazökar” sözünün əksi hansıdır?|Lovğa|Sadə|Səmimi|Utancaq
+asan|new1000-p07-r19|“Qənaətcil” adam əsasən necə davranır?|İsraf etmir|Həmişə borc alır|Heç işləməz|Hamını aldadar
+çətin|new1000-p07-r20|“Mübhəm” sözünə ən yaxın məna hansıdır?|Aydın olmayan|Tam aşkar|Çox ucuz|Qəti düzgün
+asan|new1000-p07-r21|“Ehtimal” sözünə ən yaxın anlayış hansıdır?|Mümkünlük|Qəti fakt|Əmr|Yaddaş
+asan|new1000-p07-r22|“Müşahidə” əsasən nədir?|Diqqətlə izləmə|Kor-koranə təxmin|Əzbərləmə|Qadağa
+asan|new1000-p07-r23|“Müqayisə” zamanı əsasən nə edilir?|Oxşar və fərqli cəhətlər araşdırılır|Yalnız ad dəyişdirilir|Mətn gizlədilir|Hər şey silinir
+orta|new1000-p07-r24|“İki dəfə ölç, bir dəfə biç” nəyi tövsiyə edir?|İşi düşünərək görməyi|Həmişə tələsməyi|Ölçüdən qaçmağı|İşdən imtinanı
+asan|new1000-p07-r25|“Dama-dama göl olar” hansı fikri ifadə edir?|Kiçik əlavələr böyük nəticə yaradır|Yalnız yağış faydalıdır|Göl həmişə boşalır|Səbir həmişə zərərdir
+orta|new1000-p07-r26|“Ağac bar verəndə başını əyər” hansı keyfiyyəti qiymətləndirir?|Təvazökarlığı|Lovğalığı|Qorxaqlığı|Tələskənliyi
+asan|new1000-p07-r27|“El gücü, sel gücü” nəyin əhəmiyyətini vurğulayır?|Birliyin|Yalnızlığın|İsrafın|Susmağın
+orta|new1000-p07-r28|“Dost dar gündə tanınar” məsəli hansı keyfiyyəti önə çəkir?|Çətinlikdə sədaqəti|Yalnız var-dövləti|Həmişə tələsməyi|Rəqabətdə qalib gəlməyi
+asan|new1000-p07-r29|“Oxuyuruq” sözündə hərəkəti kim edir?|Biz|Mən|Sən|O
+çətin|new1000-p07-r30|“Gəlmişdim” hansı keçmiş zamanı bildirir?|Nəqli keçmişin hekayəsini|İndiki zamanı|Əmr şəklini|Qəti gələcəyi
+asan|new1000-p07-r31|“Yazacağam” feili hansı zamanı bildirir?|Qəti gələcək|İndiki|Şühudi keçmiş|Nəqli keçmiş
+asan|new1000-p07-r32|“Gəlsin” feili hansı şəkildədir?|Əmr|Şərt|Arzu|Vacib
+asan|new1000-p07-r33|“Gəlsə” feili hansı şəkildədir?|Şərt|Əmr|Lazım|Xəbər
+çətin|new1000-p07-r34|“Oxumalıyam” feili hansı şəkli bildirir?|Vacib|Şərt|Əmr|Arzu
+asan|new1000-p07-r35|“Kitabın üz qabığı” birləşməsində “kitabın” hansı haldadır?|Yiyəlik|Yönlük|Təsirlik|Çıxışlıq
+asan|new1000-p07-r36|“Dosta məktub yazdım”da “dosta” hansı haldadır?|Yönlük|Yiyəlik|Yerlik|Çıxışlıq
+asan|new1000-p07-r37|“Kitabı oxudum”da “kitabı” hansı haldadır?|Təsirlik|Yönlük|Yerlik|Yiyəlik
+asan|new1000-p07-r38|“Bağda quşlar oxuyur”da “bağda” hansı haldadır?|Yerlik|Adlıq|Yönlük|Çıxışlıq
+asan|new1000-p07-r39|“Kənddən qayıtdı”da “kənddən” hansı haldadır?|Çıxışlıq|Təsirlik|Yiyəlik|Adlıq
+asan|new1000-p07-r40|“Gözəl ev” birləşməsində “gözəl” hansı nitq hissəsidir?|Sifət|Say|Əvəzlik|Feil
+asan|new1000-p07-r41|“O sürətlə qaçdı”da “sürətlə” hansı suala cavab verir?|Necə?|Kim?|Nə qədər?|Hara?
+asan|new1000-p07-r42|“Beşinci mərtəbə”də sayın növü hansıdır?|Sıra sayı|Miqdar sayı|Kəsr sayı|Qeyri-müəyyən say
+asan|new1000-p07-r43|“Bu kitab mənimdir”də “bu” hansı əvəzlikdir?|İşarə|Şəxs|Sual|Qeyri-müəyyən
+asan|new1000-p07-r44|“Kim gəldi?” cümləsində “kim” hansı əvəzlikdir?|Sual|Şəxs|İşarə|Təyini
+asan|new1000-p07-r45|“Mən və sən”də “və” hansı köməkçi nitq hissəsidir?|Bağlayıcı|Qoşma|Ədat|Modal söz
+asan|new1000-p07-r46|“Sənin üçün aldım”da “üçün” nədir?|Qoşma|Bağlayıcı|Say|Nida
+asan|new1000-p07-r47|“Ax, nə gözəldir!” cümləsində “ax” nədir?|Nida|Qoşma|Əvəzlik|Say
+çətin|new1000-p07-r48|“Məncə, o haqlıdır”da “məncə” nə bildirir?|Danışanın münasibətini|Əşyanın sayını|Məkan istiqamətini|Hərəkətin əmrini
+orta|new1000-p07-r49|“Gül-çiçək” hansı quruluşlu sözdür?|Mürəkkəb|Sadə|Yalnız ixtisar|Yalnız alınma
+çətin|new1000-p07-r50|“Duzlu” sözündə “-lu” hansı işi görür?|Yeni söz yaradır|Yalnız cəm bildirir|Yalnız hal bildirir|Zamanı dəyişir

@@ -1,0 +1,60 @@
+@Təbiət və canlılar|B19PRO|https://openstax.org/books/biology-2e/pages/4-2-prokaryotic-cells|OpenStax — Prokariot hüceyrələr|Nüvə; ribosom; bakteriya divarı; qamçı; səth-həcm nisbəti
+orta|prokaryote-no-membrane-nucleus|Bakteriyanın DNT-si olsa da, onu heyvan hüceyrəsindən ayıran hansı quruluş yoxdur?|Membranla əhatəli nüvə|Hüceyrə membranı|Ribosom|Sitoplazma
+orta|ribosome-protein-production|Hüceyrəni fabrik saysaq, zülal hazırlayan dəzgah rolunu hansı quruluş oynayar?|Ribosom|Vakuol|Xloroplast|Hüceyrə divarı
+çətin|bacterial-wall-peptidoglycan|Bir çox bakteriyanın hüceyrə divarının əsas maddəsi nədir?|Peptidoqlikan|Sellüloza|Xitin|Kollagen
+orta|bacterial-flagellum-locomotion|Bakteriyanın uzun qamçısı əsasən hansı işə yarayır?|Hərəkət etməyə|DNT-ni saxlamağa|Zülal yığmağa|Bölünməni dayandırmağa
+çətin|cell-size-surface-volume-ratio|Hüceyrə böyüdükcə qida mübadiləsini çətinləşdirən hansı nisbət azalır?|Səthin həcmə nisbəti|Kütlənin həcmə nisbəti|Radiusun diametrə nisbəti|DNT-nin xromosoma nisbəti
+@Təbiət və canlılar|B19EUK|https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells|OpenStax — Eukariot hüceyrələr|Nüvəcik; mitoxondri; vakuol; sellüloza; xloroplast
+çətin|nucleolus-ribosomal-subunits|Nüvəcik hüceyrənin hansı quruluşunun hissələrinin hazırlanmasında iştirak edir?|Ribosomun|Vakuolun|Hüceyrə divarının|Lizosomun
+orta|mitochondrion-atp-production|Hüceyrədə qidadan alınan enerjinin ATP istehsalına çevrilməsində hansı orqanoid əsas rol oynayır?|Mitoxondri|Nüvəcik|Holci aparatı|Mərkəzi vakuol
+orta|central-vacuole-turgor-support|Bitki hüceyrəsinin böyük mərkəzi vakuolu su ilə dolanda hansı xüsusiyyətə kömək edir?|Turqor təzyiqinə|Hüceyrə divarının parçalanmasına|Elektron daşıma zəncirinin dayanmasına|Xromosomların ayrılmasına
+orta|plant-wall-cellulose-material|Bitki hüceyrə divarının möhkəm liflərində əsas hansı maddə olur?|Sellüloza|Xitin|Peptidoqlikan|Kreatin
+orta|chloroplast-light-conversion-organelle|Yaşıl yarpaq hüceyrəsində işıq enerjisindən istifadə edən fotosintez hansı orqanoiddə gedir?|Xloroplastda|Lizosomda|Ribosomda|Holci aparatında
+@Elm və kosmos|B19END|https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins|OpenStax — Hüceyrənin daxili membran sistemi|Dənəli və hamar şəbəkə; Holci; lizosom; vezikul
+orta|rough-er-ribosome-surface|Dənəli endoplazmatik şəbəkənin səthini dənəli göstərən nədir?|Səthindəki ribosomlar|Duz kristalları|Yağ damcıları|Xromosom ucları
+orta|smooth-er-lipid-synthesis|Hamar endoplazmatik şəbəkə xüsusilə hansı maddələrin sintezində iştirak edir?|Lipidlərin|Sellülozanın|DNT-nin|Peptidoqlikanın
+orta|golgi-sorting-packaging|Hazırlanmış zülalları dəyişdirib ünvanına görə qablaşdıran hüceyrə quruluşu hansıdır?|Holci aparatı|Nüvəcik|Sentromer|Xloroplast
+orta|lysosome-intracellular-digestion|Hüceyrənin köhnəlmiş hissələrini fermentlərlə parçalaya bilən orqanoid hansıdır?|Lizosom|Yalnız amin turşusu istehsalına|Yalnız işıq udulmasına|Yalnız xromosomların düzülməsinə
+çətin|vesicle-membrane-transport-packet|Hüceyrə daxilində maddə daşıyan, membranla örtülü kiçik kisəcik necə adlanır?|Vezikul|Nukleotid|Xromatid|Sentromer
+@Gündəlik həyat|B19PAS|https://openstax.org/books/biology-2e/pages/5-2-passive-transport|OpenStax — Passiv daşınma|Diffuziya; osmos; toniklik; dinamik tarazlıq
+orta|diffusion-perfume-concentration|Küləksiz otaqda ətir molekullarının yüksək qatılıqdan aşağı qatılığa yayılması hansı prosesdir?|Diffuziya|Elektroliz|Kristallaşma|Yanma
+orta|osmosis-water-selective-membrane|Suyun seçici keçirici membran boyunca hərəkətinə verilən xüsusi ad nədir?|Osmos|Denaturasiya|Fermentasiya|Replikasiya
+orta|plant-cell-hypertonic-water-loss|Bitki hüceyrəsi ətrafında məhlul daha qatı olanda su əsasən hansı istiqamətə keçir?|Hüceyrədən kənara|Kənardan hüceyrəyə|Yalnız nüvəyə|Yalnız xloroplasta
+çətin|isotonic-no-net-water-flow|İzotonik məhlulda hüceyrəyə daxil olan və çıxan su barədə hansı fikir doğrudur?|Xalis su axını yaranmır|Su molekulları dayanır|Yalnız daxilolma olur|Yalnız çıxış olur
+çətin|facilitated-diffusion-passive-proteins|Zülal kanalından istifadə edən asanlaşdırılmış diffuziya niyə aktiv daşınma sayılmır?|Qradient istiqamətində hüceyrə enerjisi sərf etmədən gedir|Zülal kanalından istifadə etmir|Yalnız bərk maddələrdə gedir|Həmişə ATP-ni parçalayır
+@Elm və kosmos|B19ACT|https://openstax.org/books/biology-2e/pages/5-3-active-transport|OpenStax — Aktiv daşınma|ATP; natrium-kalium nasosu; simport; antiport; elektrokimyəvi qradient
+orta|active-transport-against-gradient|Hüceyrə maddəni az qatılıqdan çox qatılığa daşımaq üçün nə sərf etməlidir?|Enerji|Yalnız membranın böyüməsini|Yalnız hüceyrənin bölünməsini|Yalnız passiv su axınını
+çətin|sodium-potassium-pump-ratio|Natrium-kalium nasosu bir dövrdə neçə natriumu çıxarıb neçə kaliumu daxil edir?|3 natrium, 2 kalium|2 natrium, 3 kalium|1 natrium, 1 kalium|4 natrium, 4 kalium
+çətin|symport-same-direction|Membranda iki müxtəlif maddəni eyni istiqamətdə daşıyan sistem necə adlanır?|Simport|Antiport|Osmos|Endositoz
+çətin|antiport-opposite-direction|Membrandakı daşıyıcı iki maddəni əks istiqamətlərdə keçirirsə, bu nədir?|Antiport|Simport|Diffuziya|Fagositoz
+orta|electrochemical-gradient-two-components|İonların elektrokimyəvi qradienti hansı iki təsiri birləşdirir?|Qatılıq və elektrik yükü fərqini|Temperatur və təzyiq fərqini|İşıq intensivliyi və rütubəti|Membran sahəsi və hüceyrə yaşını
+@Elm və kosmos|B19ENZ|https://openstax.org/books/biology-2e/pages/6-5-enzymes|OpenStax — Fermentlər|Aktivləşmə enerjisi; aktiv mərkəz; denaturasiya; inhibitor; təkrar istifadə
+orta|enzyme-lowers-activation-energy|Ferment kimyəvi reaksiyanı əsasən necə sürətləndirir?|Aktivləşmə enerjisini azaldır|Aktivləşmə enerjisini artırır|Reaksiyanın tarazlıq sabitini mütləq dəyişir|Yalnız son məhsulu durulaşdırır
+orta|enzyme-active-site-binding|Substratın fermentə bağlandığı xüsusi hissə necə adlanır?|Aktiv mərkəz|Sentromer|Nüvəcik|Hüceyrə divarı
+orta|enzyme-denaturation-shape-change|Yüksək temperatur zülal fermentini denaturasiya edəndə nə dəyişə bilər?|Məkan quruluşu və fəaliyyəti|Yalnız elektronlarının yükləri|Amin turşularının hamısının proton sayı|Zülalın mütləq karbon sayı
+çətin|competitive-inhibitor-active-site|Rəqabətli inhibitor fermentin harasına bağlanmaq üçün substratla rəqabət aparır?|Aktiv mərkəzinə|Yalnız substratın artıq məhsuluna|Yalnız fermentdən uzaq məhlula|Yalnız hüceyrədənkənar suya
+orta|enzyme-not-consumed-reaction|Reaksiyadan sonra ferment barədə hansı fikir doğrudur?|Başqa substratla yenidən işləyə bilər|Hər dövrdə mütləq tam sərf olunur|Hər reaksiyada mütləq məhsula bağlanıb qalır|Hər dövrdə mütləq yeni amin turşusuna çevrilir
+@Elm və kosmos|B19GLY|https://openstax.org/books/biology-2e/pages/7-2-glycolysis|OpenStax — Qlikoliz|Sitoplazma; piruvat; oksigensiz mərhələ; xalis ATP; enerji yatırımı
+orta|glycolysis-cytoplasm-location|Qlükozanın parçalanmasının ilk mərhələsi olan qlikoliz harada gedir?|Sitoplazmada|Nüvədə|Holci aparatında|Xloroplastın qranında
+çətin|glycolysis-two-three-carbon-pyruvates|Bir altıkarbonlu qlükoza qlikolizin sonunda hansı əsas karbonlu məhsullara ayrılır?|İki üçkarbonlu piruvata|Bir altıkarbonlu nişastaya|Üç ikikarbonlu asetata|Bir dördkarbonlu sitrata
+orta|glycolysis-no-direct-oxygen-use|Qlikoliz birbaşa hansı maddədən istifadə etmədən də baş verə bilər?|Oksigendən|Qlükozadan|Fermentlərdən|ADP-dən
+çətin|glycolysis-net-two-atp|Bir qlükozanın qlikolizindən alınan ATP-nin xalis qazancı neçə molekuldur?|2|4|6|8
+çətin|glycolysis-initial-energy-investment|Qlikolizin ilk hissəsində ATP sərf olunması nə üçün lazımdır?|Qlükozanı sonrakı parçalanmaya hazırlamaq üçün|Piruvatı ilkin qlükozaya qaytarmaq üçün|Oksigeni birbaşa bağlamaq üçün|Bütün ATP-ni dərhal ehtiyat kimi saxlamaq üçün
+@Təbiət və canlılar|B19PHO|https://openstax.org/books/biology-2e/pages/8-2-the-light-dependent-reactions-of-photosynthesis|OpenStax — Fotosintezin işıq mərhələsi|Yaşıl işıq; sudan oksigen; tilakoid; maqnezium; karotinoid
+orta|chlorophyll-green-reflection|Yarpağın yaşıl görünməsi xlorofillin yaşıl işıqla necə davranması ilə bağlıdır?|Onu daha çox əks etdirməsi və keçirməsi ilə|Onu ən güclü udması ilə|Onu səsə çevirməsi ilə|Onu yalnız gecə buraxması ilə
+çətin|photosynthetic-oxygen-water-origin|Fotosintezdə ayrılan oksigenin atomları əsasən hansı maddədən gəlir?|Sudan|Karbon qazından|Qlükozadan|Azotdan
+çətin|light-reactions-thylakoid-membrane|Xloroplastda fotosintezin işıq reaksiyaları əsasən harada gedir?|Tilakoid membranında|Nüvə örtüyündə|Hüceyrə divarında|Vakuol şirəsində
+çətin|chlorophyll-magnesium-central-ion|Xlorofil molekulunun halqavari hissəsinin mərkəzində hansı metal var?|Maqnezium|Dəmir|Mis|Natrium
+orta|carotenoids-excess-light-protection|Karotinoidlər bitkidə artıq udulmuş işıq enerjisinin zərərini necə azalda bilər?|Enerjini istilik kimi yayaraq|İşıq enerjisini tam olaraq nüvəyə ötürərək|Bütün udulmuş enerjini yalnız yeni xlorofilə çevirərək|Fotosintezi gecəyə keçirərək
+@Elm və kosmos|B19CYC|https://openstax.org/books/biology-2e/pages/10-2-the-cell-cycle|OpenStax — Hüceyrə dövrü|S fazası; metafaza; anafaza; sitokinez; bölünmə iyi
+orta|s-phase-dna-replication|Hüceyrə dövrünün S fazasında hansı əsas hadisə baş verir?|DNT-nin surəti çıxarılır|Xromosomlar qütblərə ayrılır|Hüceyrə sitoplazması tam bölünür|Bölünmə iyi mütləq dağılır
+orta|metaphase-equatorial-alignment|Mitozda xromosomların hüceyrənin ekvator müstəvisində düzülməsi hansı mərhələdir?|Metafaza|Profaza|Anafaza|Telofaza
+orta|anaphase-sister-chromatid-separation|Mitozun anafazasında əsasən nə bir-birindən ayrılır?|Bacı xromatidlər|DNT-nin tək nukleotidləri|Membran lipidlərinin quyruqları|Meyoz I-dəki homoloji cütlər
+orta|cytokinesis-cytoplasm-division|Nüvə bölünməsindən fərqli olaraq sitokinez nəyi bölür?|Sitoplazmanı|DNT ardıcıllığını|Fermentin aktiv mərkəzini|Xlorofil halqasını
+çətin|mitotic-spindle-microtubules|Xromosomları hərəkət etdirən bölünmə iyi əsasən hansı liflərdən qurulur?|Mikroborucuqlardan|Sellüloza liflərindən|Kollagen liflərindən|Xitin liflərindən
+@Elm və kosmos|B19MEI|https://openstax.org/books/biology-2e/pages/11-1-the-process-of-meiosis|OpenStax — Meyoz|Xromosom dəstləri; homoloqlar; krossinqover; bölünmə və DNT surəti
+orta|meiosis-reduces-chromosome-sets|Meyozun xromosom dəstlərinin sayına əsas təsiri nədir?|Sayını yarıya endirmək|Sayını ikiqat artırmaq|Bütün xromosomları itirmək|Dəst sayını dəyişməz saxlamaq
+çətin|meiosis-crossing-over-prophase-one|Homoloji xromosomların hissə mübadiləsi olan krossinqover meyozun əsasən hansı mərhələsində baş verir?|Profaza I-də|Metafaza II-də|Anafaza II-də|Telofaza II-də
+orta|meiosis-one-homologue-from-each-parent|Diploid hüceyrənin bir homoloji xromosom cütünün iki üzvü adətən haradan gəlir?|Biri anadan, biri atadan|Hər ikisi yalnız anadan|Hər ikisi yalnız atadan|Hər ikisi yeni başdan yaranır
+çətin|meiosis-one-replication-two-divisions|Normal meyozda DNT-nin bir dəfə surəti çıxarıldıqdan sonra neçə nüvə bölünməsi olur?|İki|Bir|Üç|Dörd
+çətin|meiosis-first-division-homologues|Meyoz I-də qütblərə əsasən hansı quruluşlar ayrılıb gedir?|Homoloji xromosomlar|Ayrı nukleotidlər|Ferment molekulları|Nüvə məsamələri

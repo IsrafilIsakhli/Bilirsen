@@ -1,0 +1,29 @@
+{
+  "bridgeMinimum": 17,
+  "openDoors": 10,
+  "cubesWithTwoPaintedFaces": 12,
+  "validCodes": [
+    "312"
+  ],
+  "redPairProbability": "3/10",
+  "palindrome": "Kələk",
+  "queueSize": 15,
+  "trainMetres": 300,
+  "median": 10,
+  "ropeMinutes": 45,
+  "dominoColourCounts": [
+    30,
+    32
+  ],
+  "ballWeighings": 2,
+  "manualLogicReview": [
+    "shared brother",
+    "equivalent box statements",
+    "photo child",
+    "jugs",
+    "cats syllogism",
+    "ten days weekday",
+    "bulb heat",
+    "book leaf"
+  ]
+}

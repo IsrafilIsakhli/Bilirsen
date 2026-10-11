@@ -1,0 +1,332 @@
+{
+  "SUN11": {
+    "url": "https://science.nasa.gov/sun/facts/",
+    "title": "NASA — Günəş haqqında faktlar",
+    "section": "Orbit and Rotation; Structure; Surface; Key Sun Features"
+  },
+  "STR11": {
+    "url": "https://science.nasa.gov/universe/stars/types/",
+    "title": "NASA — Ulduz növləri",
+    "section": "White Dwarfs; Red Giants; Neutron Stars; Red Dwarfs; Brown Dwarfs"
+  },
+  "CAP11": {
+    "url": "https://www.usgs.gov/water-science-school/science/capillary-action-and-water",
+    "title": "USGS — Kapilyarlıq və su",
+    "section": "Dar borular; adheziya; kağız lifləri"
+  },
+  "TEN11": {
+    "url": "https://www.usgs.gov/water-science-school/science/surface-tension-and-water",
+    "title": "USGS — Səthi gərilmə",
+    "section": "Metal sancağın səthdə saxlanması"
+  },
+  "ART11": {
+    "url": "https://www.usgs.gov/water-science-school/science/artesian-water-and-artesian-wells",
+    "title": "USGS — Artezian suyu və quyuları",
+    "section": "Örtülü sulu layda təzyiq; Artua adı"
+  },
+  "GAL11": {
+    "url": "https://periodic-table.rsc.org/element/31/gallium",
+    "title": "Royal Society of Chemistry — Qallium",
+    "section": "Fact box; Uses and properties; History"
+  },
+  "TUN11": {
+    "url": "https://periodic-table.rsc.org/element/74/tungsten",
+    "title": "Royal Society of Chemistry — Volfram",
+    "section": "Fact box; Uses and properties; History"
+  },
+  "HEL11": {
+    "url": "https://periodic-table.rsc.org/element/2/helium",
+    "title": "Royal Society of Chemistry — Helium",
+    "section": "Fact box; Uses and properties; History"
+  },
+  "IRN11": {
+    "url": "https://periodic-table.rsc.org/element/26/iron",
+    "title": "Royal Society of Chemistry — Dəmir",
+    "section": "Fact box; Uses and properties; History"
+  },
+  "CAR11": {
+    "url": "https://periodic-table.rsc.org/element/6/carbon",
+    "title": "Royal Society of Chemistry — Karbon",
+    "section": "Fact box; Uses and properties; History"
+  },
+  "NEO11": {
+    "url": "https://periodic-table.rsc.org/element/10/neon",
+    "title": "Royal Society of Chemistry — Neon",
+    "section": "Fact box; Uses and properties; History"
+  },
+  "SIL11": {
+    "url": "https://periodic-table.rsc.org/element/14/silicon",
+    "title": "Royal Society of Chemistry — Silisium",
+    "section": "Fact box; Uses and properties; History"
+  },
+  "IOD11": {
+    "url": "https://periodic-table.rsc.org/element/53/iodine",
+    "title": "Royal Society of Chemistry — Yod",
+    "section": "Fact box; Uses and properties; History"
+  },
+  "BIS11": {
+    "url": "https://periodic-table.rsc.org/element/83/bismuth",
+    "title": "Royal Society of Chemistry — Bismut",
+    "section": "Fact box; Uses and properties; History"
+  },
+  "RAN12": {
+    "url": "https://whc.unesco.org/en/list/922/",
+    "title": "UNESCO — Rani-ki-Vav",
+    "section": "Description; Brief synthesis"
+  },
+  "WAD12": {
+    "url": "https://whc.unesco.org/en/list/1314/",
+    "title": "UNESCO — Vadden dənizi",
+    "section": "Description; Brief synthesis"
+  },
+  "SHU12": {
+    "url": "https://whc.unesco.org/en/list/1315/",
+    "title": "UNESCO — Şuştar hidravlik sistemi",
+    "section": "Description; Brief synthesis"
+  },
+  "JAN12": {
+    "url": "https://whc.unesco.org/en/list/1338/",
+    "title": "UNESCO — Cantar Mantar",
+    "section": "Description; Brief synthesis"
+  },
+  "QAN12": {
+    "url": "https://whc.unesco.org/en/list/1506/",
+    "title": "UNESCO — İran kəhrizləri",
+    "section": "Description; Brief synthesis"
+  },
+  "KIN12": {
+    "url": "https://whc.unesco.org/en/list/818/",
+    "title": "UNESCO — Kinderdəyki dəyirman şəbəkəsi",
+    "section": "Description; Brief synthesis"
+  },
+  "PON12": {
+    "url": "https://whc.unesco.org/en/list/344/",
+    "title": "UNESCO — Pon dü Qar",
+    "section": "Description; Brief synthesis"
+  },
+  "HAL12": {
+    "url": "https://whc.unesco.org/en/list/806/",
+    "title": "UNESCO — Hallştatt-Daxştayn",
+    "section": "Description; Brief synthesis"
+  },
+  "ALH12": {
+    "url": "https://whc.unesco.org/en/list/314/",
+    "title": "UNESCO — Əlhambra və Generalife",
+    "section": "Description; Brief synthesis"
+  },
+  "HIM12": {
+    "url": "https://whc.unesco.org/en/list/661/",
+    "title": "UNESCO — Himeci qalası",
+    "section": "Description; Brief synthesis"
+  },
+  "HIR12": {
+    "url": "https://whc.unesco.org/en/list/775/",
+    "title": "UNESCO — Hiroşima Sülh Memorialı",
+    "section": "Description; Brief synthesis"
+  },
+  "BAG12": {
+    "url": "https://whc.unesco.org/en/list/1588/",
+    "title": "UNESCO — Baqan",
+    "section": "Description; Brief synthesis"
+  },
+  "BOR12": {
+    "url": "https://whc.unesco.org/en/list/592/",
+    "title": "UNESCO — Borobudur",
+    "section": "Description; Brief synthesis"
+  },
+  "WUL12": {
+    "url": "https://whc.unesco.org/en/list/640/",
+    "title": "UNESCO — Ulinyuan",
+    "section": "Description; Brief synthesis"
+  },
+  "JIU12": {
+    "url": "https://whc.unesco.org/en/list/637/",
+    "title": "UNESCO — Ciuçjayqou",
+    "section": "Description; Brief synthesis"
+  },
+  "NGO12": {
+    "url": "https://whc.unesco.org/en/list/39/",
+    "title": "UNESCO — Nqoronqoro",
+    "section": "Description; Brief synthesis"
+  },
+  "TSO12": {
+    "url": "https://whc.unesco.org/en/list/1021/",
+    "title": "UNESCO — Tsodilo",
+    "section": "Description; Brief synthesis"
+  },
+  "MES12": {
+    "url": "https://whc.unesco.org/en/list/27/",
+    "title": "UNESCO — Mesa-Verde",
+    "section": "Description; Brief synthesis"
+  },
+  "LAS12": {
+    "url": "https://whc.unesco.org/en/list/85/",
+    "title": "UNESCO — Vezer vadisi və Lasko",
+    "section": "Description; Brief synthesis"
+  },
+  "CAR12": {
+    "url": "https://whc.unesco.org/en/list/345/",
+    "title": "UNESCO — Karkasson",
+    "section": "Description; Brief synthesis"
+  },
+  "MOM13": {
+    "url": "https://nculture.gov.az/momin-xatin-turb-si",
+    "title": "Naxçıvan MR Mədəniyyət Nazirliyi — Möminə xatın türbəsi",
+    "section": "Memar; kitabə tarixi; sifarişçi; medalyonlar"
+  },
+  "YUS13": {
+    "url": "https://nculture.gov.az/yusif-kuseyr-oglu-turb-si1",
+    "title": "Naxçıvan MR Mədəniyyət Nazirliyi — Yusif Küseyr oğlu türbəsi",
+    "section": "Atababa adı; səkkizguşəli plan; piramidal örtük; inşa tarixi"
+  },
+  "QAR13": {
+    "url": "https://nculture.gov.az/qarabaglar-turb-kompleksi",
+    "title": "Naxçıvan MR Mədəniyyət Nazirliyi — Qarabağlar Türbə Kompleksi",
+    "section": "Kəngərli; qoşa minarə; on iki yarımsilindr"
+  },
+  "GUL13": {
+    "url": "https://nculture.gov.az/gulustan-turb-si",
+    "title": "Naxçıvan MR Mədəniyyət Nazirliyi — Gülüstan türbəsi",
+    "section": "Tuf; yerüstü sərdabə; on iki üzlü gövdə"
+  },
+  "ATE13": {
+    "url": "https://surakhani-ih.gov.az/az/page/16.html",
+    "title": "Suraxanı Rayon İcra Hakimiyyəti — Atəşgah",
+    "section": "Yerləşmə; təbii qaz; plan; Avropa Oyunları məşəli"
+  },
+  "ICH13": {
+    "url": "https://icherisheher.gov.az/activity/historical-reference",
+    "title": "İçərişəhər Qoruq İdarəsi — Muzeylər",
+    "section": "Qız qalası; Sıratağlı kompleks; Şirvanşahlar sarayı; Yeraltı hamam"
+  },
+  "ARM13": {
+    "url": "https://uzeyirhajibeyli.preslib.az/az/page/pcVk2x6",
+    "title": "Üzeyir Hacıbəyli — Arşın mal alan haqqında qeydlər",
+    "section": "1913; Peterburq; Şuşa; Əsgərin peşəsi"
+  },
+  "FIK13": {
+    "url": "https://files.preslib.az/projects/azerbaijan/gl6.pdf",
+    "title": "Prezident Kitabxanası — Fikrət Əmirov",
+    "section": "237-ci səhifə; axtarış indeksindəki bioqrafiya"
+  },
+  "MUS13": {
+    "url": "https://files.preslib.az/projects/azerbaijan/gl5.pdf",
+    "title": "Prezident Kitabxanası — Azərbaycan musiqi tarixi",
+    "section": "İlk milli balet; 60–80-ci illərin balet və operaları; axtarış indeksindəki mətn"
+  },
+  "NAT13": {
+    "url": "https://science.gov.az/az/news/open/24176",
+    "title": "AMEA — Natəvanın əsərlərində təbiət leksikası",
+    "section": "Xan qızı ləqəbi; axtarış indeksindəki mətn"
+  },
+  "NAB13": {
+    "url": "https://www.science.gov.az/az/news/open/36053",
+    "title": "AMEA — Şəhərsalma mədəniyyətində qadın imzası",
+    "section": "Natəvanın 1873-cü il su kəməri; axtarış indeksindəki mətn"
+  },
+  "NEV13": {
+    "url": "https://science.gov.az/az/news/open/9003",
+    "title": "AMEA — Mir Möhsün Nəvvab",
+    "section": "Vüzuhül-ərqam; Məclisi-fəramuşan; Məclisi-üns; səhifə yönləndiyi üçün axtarış indeksindəki mətn"
+  },
+  "ZAD13": {
+    "url": "https://science.gov.az/az/news/open/19844",
+    "title": "AMEA — Lütfi Zadənin qeyri-səlis məntiqi",
+    "section": "1965-ci il nəzəriyyəsi; 0–1 aralıq qiymətlər; axtarış indeksindəki mətn"
+  },
+  "BUL13": {
+    "url": "https://www.preslib.az/az/book/UucsMIu5k6dNjBs",
+    "title": "Prezident Kitabxanası — Bülbül biblioqrafiyası",
+    "section": "Sərlövhədəki tam ad"
+  },
+  "VEL14": {
+    "url": "https://www.invent.org/blog/inventors/walk-in-the-woods-velcro",
+    "title": "National Inventors Hall of Fame — Velcro",
+    "section": "Hooks and Loops; biomimicry; adın mənşəyi"
+  },
+  "MIC14": {
+    "url": "https://www.invent.org/blog/inventors/microwave",
+    "title": "National Inventors Hall of Fame — Mikrodalğalı soba",
+    "section": "Spenser; maqnetron; ərimiş şirniyyat"
+  },
+  "DISH14": {
+    "url": "https://www.invent.org/blog/inventors/dishwasher",
+    "title": "National Inventors Hall of Fame — Qabyuyan maşın",
+    "section": "Kokran; su təzyiqi; məftil bölmələr"
+  },
+  "BUB14": {
+    "url": "https://jobs.sealedair.com/content/Our-History/?locale=en_US",
+    "title": "Sealed Air — Şirkət tarixi",
+    "section": "1957-ci il divar örtüyü; istixana izolyasiyası"
+  },
+  "GOT14": {
+    "url": "https://archive.artic.edu/homer_exhb/assets/Rsrc_001087.pdf",
+    "title": "Art Institute of Chicago — Amerika qotikası",
+    "section": "Grant Wood bölməsi, çap səhifəsi 59; axtarış indeksindəki mətn"
+  },
+  "NGT14": {
+    "url": "https://www.rijksmuseum.nl/en/press/press-releases/for-the-first-time-in-300-years-the-night-watch-is-complete-again",
+    "title": "Rijksmuseum — Gecə gözətçisinin rekonstruksiyası",
+    "section": "2021-ci il rekonstruksiyası; 1715-ci il kəsilməsi; Lundens surəti"
+  },
+  "VIC14": {
+    "url": "https://www.louvre.fr/en/explore/visitor-trails/the-louvre-s-masterpieces/an-uplifting-sight",
+    "title": "Luvr — Samofrakiya Qələbəsi",
+    "section": "Nike; Samofrakiya; gəmi postamenti"
+  },
+  "GLD14": {
+    "url": "https://www.mauritshuis.nl/en/our-collection/artworks/605-the-goldfinch",
+    "title": "Mauritshuis — Fabritsiusun Saka tablosu",
+    "section": "Fiqur; zəncir; 1654-cü il barıt partlayışı"
+  },
+  "HOK14": {
+    "url": "https://www.metmuseum.org/art/collection/search/45434",
+    "title": "Metropolitan Museum — Böyük dalğa",
+    "section": "İndiqo və Prussiya mavisi"
+  },
+  "PIT14": {
+    "url": "https://www.lords.org/getattachment/d9eb43d5-5935-4634-b170-da698e0e9d6e/Laws-of-Cricket-2017-Code-4th-Edition-%282026%29.pdf",
+    "title": "MCC — Kriketdə oyun zolağı",
+    "section": "2026, Law 6.1: 22 yard / 20,12 metr"
+  },
+  "WKT14": {
+    "url": "https://www.lords.org/getmedia/5ff72819-c9ef-448c-87e3-b051408e1803/Changes-to-Laws-for-2026-edition-explained_2.pdf",
+    "title": "MCC — Kriket qaydalarının 2026 dəyişiklikləri",
+    "section": "Law 8.1; çap səhifəsi 2"
+  },
+  "OVR14": {
+    "url": "https://www.lords.org/getmedia/5ff72819-c9ef-448c-87e3-b051408e1803/Changes-to-Laws-for-2026-edition-explained_2.pdf",
+    "title": "MCC — Over qaydası",
+    "section": "Law 17.5.2 altı sayılan atış; əvvəlki nəşrin 17.1 ilə tutuşdurulub"
+  },
+  "BND14": {
+    "url": "https://www.lords.org/getattachment/d9eb43d5-5935-4634-b170-da698e0e9d6e/Laws-of-Cricket-2017-Code-4th-Edition-%282026%29.pdf",
+    "title": "MCC — Kriketdə sərhəd hesabı",
+    "section": "2026, Law 19.6.2 və 19.7.1; standart olaraq altı qaçış"
+  },
+  "FIE14": {
+    "url": "https://static.fie.org/uploads/40/204126-Technical%20rules%20August%202026%20ang.pdf",
+    "title": "FIE — Qılıncoynatmanın texniki qaydaları",
+    "section": "Avqust 2026; t.91 və t.96; üç silah bölməsi"
+  },
+  "ARC14": {
+    "url": "https://www.worldarchery.sport/news/142046/beginners-guide-archery-olympics",
+    "title": "World Archery — Oxatma hədəfi",
+    "section": "10 halqa; mərkəzin qızılı rəngi; 2026 Book 2 ilə tutuşdurulub"
+  },
+  "BSK14": {
+    "url": "https://springfield.edu/about/birthplace-of-basketball",
+    "title": "Springfield College — Basketbolun yaranması",
+    "section": "Neysmit; 1891; səbətlər; 13 qayda; qış ehtiyacı"
+  },
+  "NOB14": {
+    "url": "https://www.lords.org/getattachment/d9eb43d5-5935-4634-b170-da698e0e9d6e/Laws-of-Cricket-2017-Code-4th-Edition-%282026%29.pdf",
+    "title": "MCC — Kriket qaydalarının 2026 nəşri",
+    "section": "Law 21.14: No ball üçün bir qaçışlıq cərimə"
+  },
+  "SEV13": {
+    "url": "https://bakucity.preslib.az/az/page/uI8phRgYsb",
+    "title": "Prezident Kitabxanası — Cəfər Cabbarlı və Sevil",
+    "section": "Sevil pyesinin motivləri əsasında Fikrət Əmirovun operası"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "new": 1000,
+  "total": 1850,
+  "database": 1850,
+  "remaining": 8150,
+  "previous850Unchanged": true,
+  "oldSourceMetadataUnchanged": true,
+  "newByDifficulty": {
+    "asan": 64,
+    "orta": 568,
+    "çətin": 368
+  }
+}

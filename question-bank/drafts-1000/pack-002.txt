@@ -1,0 +1,60 @@
+@Dünya və coğrafiya|NQ2|https://whc.unesco.org/en/list/2/|UNESCO — Quito|Şəhərin tarixi və memarlığı
+orta|quito-pichincha-slope|Quito şəhəri hansı vulkanın yamaclarında salınıb?|Pichincha|Etna|Vezuviy|Fuji
+orta|quito-incan-ruins-foundation|İspanların 1534-cü ildə saldığı Quito hansı sivilizasiyanın şəhər xarabalıqları üzərində qurulmuşdu?|İnka|Maya|Aztek|Olmek
+çətin|quito-art-school-fusion|Quito incəsənət məktəbinin özəlliyi hansı ənənələri birləşdirməsidir?|Yerli Amerika və Avropa|Yalnız Çin və Yaponiya|Yalnız Misir və Nubiya|Yalnız Roma və Yunanıstan
+orta|quito-andes-setting|Quitonun ətrafındakı dağ mənzərəsi hansı dağ sisteminə aiddir?|And|Alp|Himalay|Ural
+çətin|quito-compania-order|Quitodakı La Compañía kilsəsi hansı dini ordenlə bağlıdır?|İezuitlər|Benediktçilər|Dominikanlar|Fransiskanlar
+@Tarix və sivilizasiyalar|NQ3|https://whc.unesco.org/en/list/3/|UNESCO — Aachen Cathedral|Karolinq irsi və saray kapellası
+orta|aachen-charlemagne-patron|Aaxen kilsəsinin saray kapellasını tikdirən hökmdar kim idi?|Böyük Karl|XIV Lüdovik|I Pyotr|I Napoleon
+çətin|aachen-octagonal-plan|Aaxen kapellasının mərkəzi hissəsinin planı hansı çoxbucaqlı formasındadır?|Səkkizbucaqlı|Üçbucaqlı|Beşbucaqlı|Onbucaqlı
+orta|aachen-burial-emperor|814-cü ildə Aaxendə dəfn edilən hökmdar kim idi?|Böyük Karl|Yuli Sezar|Konstantin|Çingiz xan
+çətin|aachen-throne-coronation-use|Aaxendəki qədim daş taxtın əsas tarixi rolu nə idi?|Hökmdarların tacqoyma yeri|Dənizçilərin and kürsüsü|Tacirlərin ölçü masası|Məhkəmə arxivi
+orta|aachen-gothic-choir|Aaxen kilsəsinin sonradan əlavə edilən xor hissəsi hansı üslubdadır?|Qotika|Art deko|Bauhaus|Rokoko
+@Tarix və sivilizasiyalar|NQ4|https://whc.unesco.org/en/list/4/|UNESCO — L’Anse aux Meadows|Şimali Amerikada skandinav məskəni
+orta|lanse-norse-settlement|L’Anse aux Meadows xarabalıqları Kolumbdan əvvəl Amerikaya kimlərin çatdığını göstərir?|Vikinqlərin|Finikiyalıların|Monqolların|Romalıların
+çətin|lanse-turf-timber-houses|L’Anse aux Meadows evlərində taxta karkasın üzərini əsasən nə örtürdü?|Çim layları|Mərmər lövhələr|Şüşə panellər|Bişmiş kərpic
+orta|lanse-newfoundland-location|L’Anse aux Meadows hansı adanın şimal ucundadır?|Nyufaundlend|Kuba|Siciliya|Madaqaskar
+çətin|lanse-forge-evidence|Bu skandinav məskənində dəmirçi emalatxanası hansı fəaliyyətin aparıldığını göstərir?|Dəmir işlənməsinin|Kağız istehsalının|Şüşə üfürmənin|İpək toxumanın
+orta|lanse-eleventh-century|L’Anse aux Meadows vikinqlərinin məskunlaşması əsasən hansı əsrə aid edilir?|XI|XV|XVIII|IV
+@Təbiət və canlılar|NQ8|https://whc.unesco.org/en/list/8/|UNESCO — Ichkeul National Park|Su rejimi və köçəri quşlar
+orta|ichkeul-migratory-refuge|İşkel gölü ördək və qazlar üçün köç zamanı əsasən nə rol oynayır?|Dayanacaq və qışlama yeri|Yalnız yumurta inkubatoru|Dənizdə ov meydanı|Quru səhrada sığınacaq
+çətin|ichkeul-summer-salinity|Yayda dəniz suyu daxil olanda İşkel gölündə hansı göstərici artır?|Duzluluq|Buz qalınlığı|Suyun şirinliyi|Daşqın çöküntüsü
+orta|ichkeul-autumn-freshwater|Payız yağışları İşkelin su rejiminə hansı əsas təsiri göstərir?|Şirin su axınını artırır|Duzluluğu mövsümdən asılı olmayaraq sabit saxlayır|Dənizdən axını daim artırır|Göldə buxarlanmanı həmişə gücləndirir
+orta|ichkeul-tunisia-country|İşkel gölü və bataqlıqları hansı Şimali Afrika ölkəsindədir?|Tunis|Mərakeş|Liviya|Misir
+çətin|ichkeul-seasonal-ecosystem|İşkelin ekosistemini fərqləndirən əsas mövsümi dəyişmə hansıdır?|Su səviyyəsi və duzluluq|Dağların hündürlüyü və yaşı|Yer qabığının qalınlığı|Günəşin tərkibi
+@Təbiət və canlılar|NQ9|https://whc.unesco.org/en/list/9/|UNESCO — Simien National Park|Efiopiya yüksək dağ ekosistemi
+orta|simien-erosion-landscape|Simienin dərin dərələri və kəskin zirvələri uzun müddət əsasən hansı proseslə formalaşıb?|Eroziya ilə|Meteorit yağışı ilə|Mərcan böyüməsi ilə|Dəniz buzunun genişlənməsi ilə
+çətin|simien-walia-ibex|Simienə xas Walia ibeksi hansı heyvan qrupundandır?|Dağ keçiləri|Dəniz suitiləri|Çöl antilopları|Ağac qurbağaları
+orta|simien-ras-dejen|Efiopiyanın ən yüksək zirvəsi Ras Dejen hansı milli parkın ərazisindədir?|Simien|Serengeti|Kruger|Yosemiti
+orta|simien-ethiopian-highlands|Simien milli parkı hansı ölkənin dağlarında yerləşir?|Efiopiya|Keniya|Uqanda|Zambiya
+çətin|simien-afroalpine-habitat|Simienin yüksək hissələrində hansı tip təbii mühit üstünlük təşkil edir?|Afrika alp ekosistemi|Mangrov meşəsi|Mərcan rifi|Tropik bataqlıq deltası
+@Tarix və sivilizasiyalar|NQ10|https://whc.unesco.org/en/list/10/|UNESCO — Lower Valley of the Awash|İnsan təkamülü və fosillər
+orta|lucy-awash-discovery|Məşhur Lucy skeleti hansı çayın aşağı vadisi ilə bağlıdır?|Avaş|Nil|Konqo|Niger
+çətin|lucy-afarensis-species|Lucy adlı fosil hansı növə aid edilir?|Australopithecus afarensis|Homo neanderthalensis|Homo erectus|Paranthropus boisei
+orta|lucy-discovery-1974|Lucy skeletinin tapılması hansı ildə baş verib?|1974|1904|1944|2004
+çətin|ardi-older-than-lucy|Ardi ilə Lucy fosillərini yaşlarına görə müqayisə etsək, hansı daha qədimdir?|Ardi|Lucy|Eyni yaşdadırlar|Hər ikisi orta əsrlərə aiddir
+orta|awash-human-evolution-record|Avaş vadisindəki qədim hominin fosilləri hansı mövzunu araşdırmaq üçün xüsusilə əhəmiyyətlidir?|İnsan təkamülünü|İpək yolunun xəritəsini|İlk buxar maşınlarını|Müasir dəniz sərhədlərini
+@Tarix və sivilizasiyalar|NQ15|https://whc.unesco.org/en/list/15/|UNESCO — Aksum|Stelalar və qədim krallıq
+orta|aksum-monolithic-stelae|Aksumun nəhəng stelaları adətən necə hazırlanmışdı?|Bir bütöv daşdan|Şüşə parçalarını yapışdırmaqla|Taxta lövhələri yığmaqla|Dəmir tor hörməklə
+çətin|aksum-obelisk-building-facade|Aksum stelalarının üzərindəki oyma naxışlar nəyi təqlid edir?|Çoxmərtəbəli bina fasadını|Gəmi yelkənini|Balıq pulcuğunu|Ulduz xəritəsini
+orta|aksum-coronation-after-decline|Aksum siyasi gücünü itirdikdən sonra Efiopiya hökmdarları şəhərə hansı mərasim üçün gəlirdilər?|Tacqoyma|Gəmi suya salma|Olimpiada açılışı|Taxıl hərracı
+çətin|ezana-trilingual-inscriptions|Aksum hökmdarı Ezananın yazılarında Ge’ez və Səba dili ilə yanaşı hansı dil işlənirdi?|Yunan|İspan|Çin|Latış
+orta|aksum-obelisk-return-rome|İtaliya işğalı zamanı aparılmış Aksum obeliski hansı şəhərdən geri qaytarıldı?|Roma|Paris|Madrid|Vyana
+@Tarix və sivilizasiyalar|NQ19|https://whc.unesco.org/en/list/19/|UNESCO — Fasil Ghebbi|Qondarın saray kompleksi
+orta|fasil-ghebbi-founder|Qondarı daimi paytaxt seçən Efiopiya hökmdarı kim idi?|Fasilides|Ramses|Mansa Musa|Hammurapi
+çətin|gondar-jesuit-baroque|Qondar memarlığına iezuit missionerləri hansı Avropa üslubunu gətirmişdilər?|Barokko|Modernizm|Art nuvo|Brutalizm
+orta|fasil-ghebbi-function|Fasil Ghebbi kompleksi əsasən kimin iqamətgahı idi?|Efiopiya imperatorlarının|Venesiya doqlarının|Maya kahinlərinin|Yapon şoqunlarının
+çətin|fasil-bath-pool-pavilion|Fasilides hamamındakı pavilyonun ətrafında hansı quruluş yerləşir?|Düzbucaqlı su hovuzu|Qumlu yarış meydanı|Dairəvi duz anbarı|Süni buz gölü
+orta|gondar-capital-1636|Qondar Fasilides tərəfindən hansı əsrdə daimi paytaxt edilmişdi?|XVII|XII|IX|XX
+@Tarix və sivilizasiyalar|NQ20|https://whc.unesco.org/en/list/20/|UNESCO — Ancient City of Damascus|Şəhər planı və Əməvi dövrü
+orta|damascus-umayyad-capital|Dəməşq hansı xilafətin paytaxtı olmuşdu?|Əməvi|Abbasi|Fatimi|Osmanlı
+orta|damascus-great-mosque-century|Dəməşqin Böyük Əməvi məscidi hansı əsrdə tikilib?|VIII|III|XIV|XIX
+çətin|damascus-roman-street-plan|Qədim Dəməşqin küçə planında hansı dövrün izləri açıq görünür?|Roma|Vikinqlər|Azteklər|İnka
+orta|damascus-medieval-sword-craft|Orta əsr Dəməşqi krujeva ilə yanaşı hansı sənət məhsulu ilə tanınırdı?|Qılınc|Çini vaza|Şüşə teleskop|Piano
+çətin|damascus-jupiter-temple-remains|Dəməşqdə Roma dövründən qalan məşhur məbəd hansı tanrıya həsr olunmuşdu?|Yupiterə|Odininə|Anubisə|İştara
+@Tarix və sivilizasiyalar|NQ22|https://whc.unesco.org/en/list/22/|UNESCO — Ancient City of Bosra|Roma teatrı və karvan yolu
+orta|bosra-roman-arabia-capital|Bosra Roma imperiyasının hansı əyalətinin paytaxtı idi?|Ərəbistan|Britaniya|Qalliya|Luzitaniya
+orta|bosra-theatre-century|Bosranın yaxşı qorunmuş Roma teatrı hansı əsrə aiddir?|II|VII|XIII|XVIII
+orta|bosra-mecca-caravan-stop|Bosra hansı şəhərə gedən qədim karvan yolunun mühüm dayanacağı idi?|Məkkə|Pekin|London|Kiyev
+çətin|bosra-theatre-fortification|Bosra teatrı sonrakı əsrlərdə hansı müdafiə quruluşunun bir hissəsinə çevrilmişdi?|Qalanın|Su bəndinin|Mayakın|Dəniz limanının
+çətin|bosra-amarna-tablets|Bosranın adı hansı qədim Misir yazılı tapıntılarında keçir?|Amarna lövhələrində|Ölülər kitabının hər nüsxəsində|Rozetta daşının latın mətnində|Qədim Olimpiya siyahılarında

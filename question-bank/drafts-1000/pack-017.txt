@@ -1,0 +1,60 @@
+@Təbiət və canlılar|EC17A|https://openstax.org/books/biology-2e/pages/45-1-population-demography|OpenStax — Populyasiyaların demoqrafiyası|Say, sıxlıq və məkan bölgüsü
+orta|new1000-p17-r01|Bir meşədəki bütün maralların sayı ilə hər kvadrat kilometrə düşən maral sayı arasında fərq nədir?|Birincisi say, ikincisi sıxlıqdır|Hər ikisi yalnız doğum sürətidir|Birincisi sıxlıq, ikincisi saydır|Hər ikisi yalnız miqrasiya göstəricisidir
+orta|new1000-p17-r02|Su mənbələrinin ətrafında toplaşan heyvanlar hansı məkan bölgüsünə nümunədir?|Qrup halında bölgü|Bərabər bölgü|Tam təsadüfi bölgü|Yaş qruplarına bölgü
+çətin|new1000-p17-r03|Öz ərazisini qoruyan quşların yuvaları bir-birindən oxşar məsafədədirsə, hansı bölgü gözlənilir?|Bərabər bölgü|Qrup halında bölgü|Tam təsadüfi bölgü|Nəsillərə görə bölgü
+orta|new1000-p17-r04|İşarələnib buraxılan heyvanların sonradan yenidən tutulması hansı məqsədə xidmət edir?|Populyasiya sayını təxmin etməyə|Heyvanların növünü dəyişməyə|Qida zəncirini qısaltmağa|Bütün fərdlərin yaşını dəqiq tapmağa
+çətin|new1000-p17-r05|Əksər fərdləri yaşlı olan insan populyasiyasının yaş piramidası nəyə işarə edə bilər?|Gələcəkdə sayın azalması ehtimalına|Mütləq sürətli artıma|Heç kimin köçmədiyinə|Doğumların ölüm sayından mütləq çoxluğuna
+@Təbiət və canlılar|EC17B|https://openstax.org/books/biology-2e/pages/45-6-community-ecology|OpenStax — Birliklərin ekologiyası|Növlərarası münasibətlər və ardıcıllıq
+orta|new1000-p17-r06|Eyni məhdud qida üçün mübarizə aparan iki növ arasında hansı münasibət var?|Rəqabət|Mutualizm|Kommensalizm|Parazitizm
+orta|new1000-p17-r07|Bir növün fayda gördüyü, digərinin isə nəzərəçarpacaq fayda və ya zərər görmədiyi əlaqə necə adlanır?|Kommensalizm|Mutualizm|Rəqabət|Yırtıcılıq
+çətin|new1000-p17-r08|Bəzi kəpənəklərin zəhərli növə bənzəyərək qorunması hansı uyğunlaşmadır?|Beyts mimikriyası|Müller mimikriyası|Mövsümi miqrasiya|Ekoloji ardıcıllıq
+çətin|new1000-p17-r09|İki zəhərli növ oxşar xəbərdarlıq rənglərini paylaşırsa, bu nə adlanır?|Müller mimikriyası|Beyts mimikriyası|Kommensalizm|Kamuflyaj
+orta|new1000-p17-r10|Torpaqsız yeni lava səthində canlı birliklərin formalaşması hansı prosesdir?|İlkin ekoloji ardıcıllıq|İkincili ekoloji ardıcıllıq|Mövsümi miqrasiya|Genetik sürüklənmə
+@Təbiət və canlılar|EC17C|https://openstax.org/books/biology-2e/pages/46-1-ecology-of-ecosystems|OpenStax — Ekosistemlərin ekologiyası|Canlı və cansız amillər
+orta|new1000-p17-r11|Göldəki yosunlar və suyun temperaturu hansı iki amil qrupuna aiddir?|Biotik və abiotik|İkisi də biotik|İkisi də abiotik|Genetik və irsi
+orta|new1000-p17-r12|Meşəni yalnız ağaclarla deyil, torpaq, su və iqlimlə birlikdə öyrənən vahid nədir?|Ekosistem|Tək populyasiya|Tək növ|Yalnız qida səviyyəsi
+asan|new1000-p17-r13|Öz üzvi qidasını hazırlayan canlı qida şəbəkəsində hansı roldadır?|İstehsalçı|Birinci dərəcəli istehlakçı|İkinci dərəcəli istehlakçı|Yırtıcı
+orta|new1000-p17-r14|Çürümüş yarpaqlardakı üzvi maddələri parçalayan göbələklər hansı funksiyanı yerinə yetirir?|Parçalayıcı funksiyasını|Yalnız tozlandırmanı|Yalnız toxum yayılmasını|Yalnız fotosintezi
+çətin|new1000-p17-r15|Çaydan dənizə tökülən suların qarışdığı, duzluluğu dəyişən sahə necə adlanır?|Estuari|Buzlaq|Səhra vahəsi|Dərin okean çökəkliyi
+@Təbiət və canlılar|EC17D|https://openstax.org/books/biology-2e/pages/46-2-energy-flow-through-ecosystems|OpenStax — Ekosistemlərdə enerji axını|Trofik səviyyələr və məhsuldarlıq
+orta|new1000-p17-r16|Ot–dovşan–tülkü zəncirində dovşan hansı trofik roldadır?|Birinci dərəcəli istehlakçı|İstehsalçı|İkinci dərəcəli istehlakçı|Parçalayıcı
+orta|new1000-p17-r17|Qida zəncirində ox adətən nəyi göstərir?|Enerjinin ötürüldüyü istiqaməti|Heyvanın baxdığı istiqaməti|Canlının hərəkət yolunu|Həmişə böyük canlıdan kiçiyə yönəlməni
+orta|new1000-p17-r18|Enerji piramidasında yuxarı səviyyələr niyə daha az enerji alır?|Enerjinin bir hissəsi istilik kimi itir|Hər səviyyə yeni enerji yaradır|Yırtıcılar Günəş işığını tam udur|Enerji yalnız bitkilərdə yox olur
+çətin|new1000-p17-r19|Bitkinin yaratdığı üzvi maddədən öz tənəffüsünə sərf etdiyi hissə çıxılarsa, nə qalır?|Xalis ilkin məhsuldarlıq|Ümumi ilkin məhsuldarlıq|Heyvanların ikincili məhsuldarlığı|Yalnız mineral ehtiyatı
+çətin|new1000-p17-r20|Su ekosistemində fitoplanktonun kiçik mövcud biokütləsi böyük istehlakçı biokütləsini necə saxlaya bilər?|Fitoplankton sürətlə çoxalıb yenilənir|İstehlakçılar qidaya ehtiyac duymur|Biokütlə enerjiyə bərabərdir|Su özü zülal yaradır
+@Təbiət və canlılar|EC17E|https://openstax.org/books/biology-2e/pages/46-3-biogeochemical-cycles|OpenStax — Biogeokimyəvi dövranlar|Karbon, azot və fosfor
+çətin|new1000-p17-r21|Atmosfer azotunu canlıların istifadə edə biləcəyi birləşmələrə çevirən proses nədir?|Azot fiksasiyası|Denitrifikasiya|Transpirasiya|Kondensasiya
+çətin|new1000-p17-r22|Nitratların yenidən atmosfer azotuna çevrilməsi necə adlanır?|Denitrifikasiya|Azot fiksasiyası|Fotosintez|Buxarlanma
+çətin|new1000-p17-r23|Hansı əsas maddə dövranının nəzərəçarpacaq atmosfer qaz mərhələsi yoxdur?|Fosfor dövranının|Karbon dövranının|Azot dövranının|Su dövranının
+orta|new1000-p17-r24|Gölə həddindən artıq gübrə axanda yosun artımı və oksigen azalması hansı hadisəni yarada bilər?|Evtrofikasiya|Süxur metamorfizmi|Vulkan püskürməsi|Torpağın donması
+orta|new1000-p17-r25|Qazıntı yanacağının yandırılması karbonu əsasən hansı saxlanma yerindən atmosferə keçirir?|Uzunmüddətli geoloji ehtiyatlardan|Yalnız buludlardan|Yalnız canlı yarpaqlardan|Yalnız dəniz səthindən
+@Təbiət və canlılar|PL17A|https://openstax.org/books/biology-2e/pages/30-2-stems|OpenStax — Bitki gövdələri|Daxili quruluş və dəyişilmiş gövdələr
+orta|new1000-p17-r26|Kartof yumrusundakı “gözlər” onun hansı orqan olduğunu göstərir?|Dəyişilmiş gövdə|Dəyişilmiş yarpaq|Adi toxum|Dəyişilmiş çiçək
+orta|new1000-p17-r27|Bitki gövdəsində yarpağın birləşdiyi nöqtə necə adlanır?|Buğum|Buğumarası|Kök qapağı|Ləçək
+orta|new1000-p17-r28|Ağac gövdəsində su və mineralları əsasən hansı toxuma daşıyır?|Ksilem|Floem|Epidermis|Mantar toxuması
+orta|new1000-p17-r29|Yarpaqda yaranmış şəkərləri digər orqanlara əsasən hansı toxuma çatdırır?|Floem|Ksilem|Kök qapağı|Kutikula
+çətin|new1000-p17-r30|Mülayim iqlimdə ağacın bir illik halqası adətən hansı iki hissədən ibarətdir?|Erkən və gec oduncaqdan|Yalnız qabıq və yarpaqdan|İki toxum qatından|Yalnız kök və tumurcuqdan
+@Təbiət və canlılar|PL17B|https://openstax.org/books/biology-2e/pages/30-3-roots|OpenStax — Bitki kökləri|Sorulma, kök ucu və yan köklər
+orta|new1000-p17-r31|Kök tükcüklərinin çox olması bitkiyə əsasən necə kömək edir?|Sorulma səthini artırır|Yarpaqları rəngləndirir|Toxumun sayını azaldır|Çiçəyin qoxusunu yaradır
+orta|new1000-p17-r32|Torpaqda irəliləyən kökün böyümə ucunu hansı quruluş qoruyur?|Kök qapağı|Ləçək|Tozluq|Meyvə qabığı
+orta|new1000-p17-r33|Yerkökünün qalınlaşmış kökü əsasən hansı işi görür?|Ehtiyat qida saxlayır|Tozcuq yaradır|Yalnız qaz mübadiləsini dayandırır|Toxumu havaya atır
+orta|new1000-p17-r34|Bir əsas kökün üstün olduğu kök sistemi necə adlanır?|Mil kök sistemi|Saçaqlı kök sistemi|Yalnız hava kökü sistemi|Yalnız dayaq kökü sistemi
+çətin|new1000-p17-r35|Kökün yan şaxələri hansı daxili toxuma qatından başlanır?|Peritsikldən|Yarpaq epidermisindən|Kutikuladan|Çiçək saplağından
+@Təbiət və canlılar|PL17C|https://openstax.org/books/biology-2e/pages/30-4-leaves|OpenStax — Yarpaqlar|Ağızcıqlar və yarpaq quruluşu
+orta|new1000-p17-r36|Yarpağın ağızcığını açıb-bağlayan hüceyrələr necə adlanır?|Qapayıcı hüceyrələr|Kök tükcükləri|Tozcuq hüceyrələri|Ksilem boruları
+orta|new1000-p17-r37|Yarpaq səthindəki mumvari kutikula əsasən nəyi azaldır?|Su itkisini|Kökün uzunluğunu|Tozcuqların sayını|Mineral maddələrin kütləsini
+orta|new1000-p17-r38|Şam iynələri kimi kiçik səthli yarpaqlar hansı üstünlüyü verə bilər?|Su itkisini məhdudlaşdırır|Torpaqdan duzu tam çıxarır|Bitkini köksüz yaşadır|Çiçəklənməni həmişə dayandırır
+orta|new1000-p17-r39|Bir saplaqda ayrı-ayrı yarpaqcıqlar varsa, belə yarpaq necə adlanır?|Mürəkkəb yarpaq|Sadə yarpaq|Yalnız iynəyarpaq|Yalnız pulcuqyarpaq
+orta|new1000-p17-r40|Bir gövdə buğumunda iki yarpaq üzbəüz yerləşirsə, bu hansı düzülüşdür?|Qarşı-qarşıya düzülüş|Növbəli düzülüş|Yalnız rozet düzülüşü|Üçlü dəstə düzülüşü
+@Təbiət və canlılar|PL17D|https://openstax.org/books/biology-2e/pages/32-1-reproductive-development-and-structure|OpenStax — Bitkilərin çoxalma quruluşları|Çiçək və nəsil növbələşməsi
+orta|new1000-p17-r41|Çiçəkdə tozcuq dənələri erkəkciyin hansı hissəsində yaranır?|Tozluqda|Dişicik ağızcığında|Yumurtalıqda|Ləçəkdə
+orta|new1000-p17-r42|Tozcuğu qəbul edən dişicik hissəsi hansıdır?|Ağızcıq|Tozluq|Kasayarpaq|Çiçək yatağının altı
+orta|new1000-p17-r43|Çiçəyin açılmamış qönçəsini adətən hansı hissələr qoruyur?|Kasayarpaqlar|Tozcuqlar|Yumurtacıqlar|Toxum ləpələri
+orta|new1000-p17-r44|Bitkilərin həyat dövründə sporları meyozla yaradan diploid nəsil necə adlanır?|Sporofit|Qametofit|Ziqotdan əvvəlki qamet|Yalnız tozcuq borusu
+çətin|new1000-p17-r45|Çılpaqtoxumluların toxumu örtülütoxumluların toxumundan əsasən necə fərqlənir?|Meyvə daxilində yerləşmir|Heç vaxt rüşeym daşımır|Həmişə təkhüceyrəlidir|Mütləq su içində yaranır
+@Təbiət və canlılar|PL17E|https://openstax.org/books/biology-2e/pages/31-3-nutritional-adaptations-of-plants|OpenStax — Bitkilərin qidalanma uyğunlaşmaları|Kökün mikroorqanizmlərlə əlaqəsi
+çətin|new1000-p17-r46|Paxlalı bitki kökündə rizobium bakteriyalarının yerləşdiyi xüsusi şişkin quruluş nədir?|Kök yumrucuğu|Çiçək tozluğu|Toxum ləpəsi|Gövdə buğumarası
+orta|new1000-p17-r47|Kök və göbələk arasında yaranan qarşılıqlı faydalı birlik necə adlanır?|Mikoriza|Çiçəklənmə|Denitrifikasiya|Buxarlanma
+orta|new1000-p17-r48|Mikorizada göbələk bitkidən əsasən nə əldə edir?|Üzvi qida maddələri|Hazır tozcuq dənələri|Yalnız çiçək piqmenti|Kök qapağı
+orta|new1000-p17-r49|Mikoriza göbələyinin uzanan hifləri bitkiyə necə kömək edə bilər?|Torpaqdan su və mineralların alınmasını artırır|Bütün yarpaqları əvəz edir|Hər toxumu iki yerə bölür|Tozlandırmanı mütləq dayandırır
+orta|new1000-p17-r50|Xlorofilsiz tam parazit bitki üzvi qidasını əsasən haradan alır?|Sahib bitkidən|Təkcə Günəş işığından|Yalnız havadakı azotdan|Yalnız süxur kristallarından

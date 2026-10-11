@@ -1,0 +1,33 @@
+{
+  "new": 100,
+  "total": 1950,
+  "database": 1950,
+  "remaining": 8050,
+  "previous1850Unchanged": true,
+  "oldSourceMetadataUnchanged": true,
+  "newByDifficulty": {
+    "asan": 100,
+    "orta": 0,
+    "çətin": 0
+  },
+  "newByCategory": {
+    "Azərbaycan": 10,
+    "Dünya və coğrafiya": 15,
+    "Elm və kosmos": 10,
+    "Təbiət və canlılar": 10,
+    "Məntiq və düşünmə": 5,
+    "Gündəlik həyat": 15,
+    "İncəsənət və ədəbiyyat": 20,
+    "Tarix və sivilizasiyalar": 5,
+    "Texnologiya və ixtiralar": 5,
+    "İdman və oyunlar": 5
+  },
+  "newByVerification": {
+    "source_comparison": 85,
+    "linguistic_analysis": 11,
+    "derivation": 4
+  },
+  "semanticReview": "100 yeni sual məna və variantlar baxımından nəzərdən keçirilib; əvvəlki növbə sayma və ortaq qardaş suallarını təkrarlayan nümunələr çıxarılıb.",
+  "readerFile": "C:\\project3\\question-bank\\outputs\\01a10932-ea68-7a01-b9cb-b7de3ae9ca73\\100-asan-sual.md",
+  "checkedAt": "2026-10-05"
+}

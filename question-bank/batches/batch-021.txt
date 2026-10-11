@@ -1,0 +1,50 @@
+Məntiq və düşünmə|orta|new1000-p03-r01|Bir ədədi 25% artırıb nəticəni 20% azaltsaq nə alınar?|İlkin ədəd|İlkinin 105%-i|İlkinin 95%-i|İlkinin 80%-i|CAL|1,25 × 0,80 = 1; ilkin qiymət alınır.
+Məntiq və düşünmə|orta|new1000-p03-r02|Eyni qiymətə alınmış iki maldan biri 50% baha, digəri 50% ucuz satılır. Ümumi nəticə nədir?|Nə qazanc, nə zərər|25% qazanc|25% zərər|50% qazanc|CAL|Bərabər iki alış qiymətini x götürdük: satış 1,5x + 0,5x = 2x, alış da 2x-dir.
+Məntiq və düşünmə|orta|new1000-p03-r03|100-dən kiçik müsbət tam ədəd həm 8-ə, həm 9-a bölünür. Ədəd hansıdır?|72|64|81|96|CAL|8 və 9 qarşılıqlı sadədir; 100-dən kiçik yeganə müsbət ortaq qat 72-dir.
+Məntiq və düşünmə|asan|new1000-p03-r04|İki ardıcıl tam ədədin hasili həmişə necə olur?|Cüt|Tək|Sadə|Mənfi|CAL|İki ardıcıl tam ədəddən biri cütdür; hasil cütdür.
+Məntiq və düşünmə|asan|new1000-p03-r05|İki tək tam ədədin cəmi həmişə necə olur?|Cüt|Tək|Sadə|Sıfır|CAL|İki tək ədəd 2a+1 və 2b+1-dir; cəmləri 2(a+b+1) olur.
+Məntiq və düşünmə|asan|new1000-p03-r06|Ardıcıl üç tam ədədin cəmi həmişə nəyə bölünür?|3-ə|4-ə|5-ə|7-yə|CAL|(n−1)+n+(n+1)=3n; cəm 3-ə bölünür.
+Məntiq və düşünmə|orta|new1000-p03-r07|Bir ədədin kvadratı təkdirsə, həmin tam ədəd necədir?|Tək|Cüt|Mütləq mənfi|Mütləq sadə|CAL|Cüt ədədin kvadratı cütdür; kvadratı tək olan tam ədəd təkdir.
+Məntiq və düşünmə|çətin|new1000-p03-r08|İki müsbət ədədin cəmi 20-dir. Hasilləri ən çox neçə ola bilər?|100|80|90|120|CAL|x(20−x)=100−(x−10)²; maksimum 100-dür.
+Məntiq və düşünmə|asan|new1000-p03-r09|Kvadratın tərəfini ikiqat etsək, sahəsi neçə dəfə böyüyər?|4|2|6|8|CAL|Sahə tərəfin kvadratı ilə dəyişir: 2²=4.
+Məntiq və düşünmə|orta|new1000-p03-r10|Kubun bütün tillərini üçqat etsək, həcmi neçə dəfə böyüyər?|27|9|6|18|CAL|Həcm tilin kubu ilə dəyişir: 3³=27.
+Məntiq və düşünmə|orta|new1000-p03-r11|Dairənin radiusu yarıya enərsə, sahəsi ilkin sahənin hansı hissəsi olar?|Dörddə biri|Yarısı|Üçdə biri|Səkkizdə biri|CAL|Dairə sahəsi πr²-dir: radiusun yarıya enməsi sahəni dörddəbir edir.
+Məntiq və düşünmə|çətin|new1000-p03-r12|İki oxşar üçbucağın tərəfləri 2:3 nisbətindədirsə, sahələri hansı nisbətdədir?|4:9|2:3|8:27|1:3|CAL|Oxşar fiqurların sahə nisbəti tərəf nisbətinin kvadratıdır: 4:9.
+Məntiq və düşünmə|asan|new1000-p03-r13|Üçbucağın iki bucağı 35° və 65°-dir. Üçüncü bucaq neçədir?|80°|90°|70°|100°|CAL|180−35−65=80 dərəcə.
+Məntiq və düşünmə|orta|new1000-p03-r14|Düzgün altıbucaqlının bir daxili bucağı neçə dərəcədir?|120°|90°|108°|135°|CAL|Düzgün altıbucaqlının daxili bucağı (6−2)×180/6=120 dərəcə.
+Məntiq və düşünmə|çətin|new1000-p03-r15|Düzgün beşbucaqlının neçə diaqonalı var?|5|3|7|10|CAL|Beşbucaqlının diaqonal sayı 5×(5−3)/2=5-dir.
+Məntiq və düşünmə|asan|new1000-p03-r16|Düzbucaqlının perimetri 30, bir tərəfi 6-dır. Digər tərəfi neçədir?|9|12|18|24|CAL|2(6+x)=30 olduğundan x=9.
+Məntiq və düşünmə|çətin|new1000-p03-r17|Yanma sürəti qeyri-bərabər olan ipin yarısı kəsilsə, qalan hissənin yanma vaxtı barədə nə demək olar?|İlkin vaxtın yarısı olması təmin edilmir|Mütləq yarıya enir|Mütləq ikiqat artır|Mütləq dəyişmir|CAL|Qeyri-bərabər yanma sürətində uzunluq payı vaxt payını müəyyən etmir.
+Məntiq və düşünmə|asan|new1000-p03-r18|Üç açarın hərəsi ayrı qapını açır. Birinci açarın qapısı tapılıbsa, qalanları ən çox neçə əlavə yoxlama ilə müəyyənləşər?|1|2|3|4|CAL|Qalan bir açarı bir qapıda sınamaq kifayətdir; nəticə digər uyğunluğu da müəyyən edir.
+Məntiq və düşünmə|asan|new1000-p03-r19|Beş dost bir-birinə bir hədiyyə verir. Hər dost digər dördünə hədiyyə verirsə, cəmi neçə hədiyyə verilir?|20|10|15|25|CAL|Hədiyyələr istiqamətlidir: 5 nəfər × 4 alıcı = 20.
+Məntiq və düşünmə|asan|new1000-p03-r20|Altı nəfərin hər biri başqa birinə məktub yazır. Hər kəs yalnız bir məktub yazırsa, cəmi neçə məktub var?|6|15|30|36|CAL|Hər nəfər bir məktub yazır: 6×1=6.
+Məntiq və düşünmə|orta|new1000-p03-r21|Şifrədə üç mövqe var, hərəsində 0 və ya 1 yazılır. Cəmi neçə fərqli şifrə mümkündür?|8|6|9|12|CAL|Üç müstəqil ikili mövqe 2³=8 vəziyyət yaradır.
+Məntiq və düşünmə|çətin|new1000-p03-r22|Əvvəl tərəziyə qoyulmuş eyni kütləli iki qutuya birində 3, digərində 5 eyni kütləli top əlavə olunur. Tarazlığı bərpa etmək üçün bir topu hansı qutudan hansına keçirmək lazımdır?|Beş topludan üç topluya|Üç topludan beş topluya|İstənilən qutudan digərinə iki top|Heç top keçirmək olmaz|CAL|Əvvəl 3 və 5 top var; birini 5-dən 3-ə keçirmək 4 və 4 edir.
+Məntiq və düşünmə|asan|new1000-p03-r23|Dörd fərqli kitab bir rəfə neçə müxtəlif ardıcıllıqla düzülə bilər?|24|16|12|8|CAL|Dörd fərqli kitab üçün 4!=24 sıra var.
+Məntiq və düşünmə|asan|new1000-p03-r24|Üç dostdan ikisini seçmək neçə fərqli cüt yaradır?|3|6|9|2|CAL|Üç nəfərdən iki nəfərlik seçim 3×2/2=3-dür.
+Məntiq və düşünmə|orta|new1000-p03-r25|Dairəvi masada altı nəfər oturub. Hər kəs yalnız iki qonşusu ilə əl sıxırsa, neçə fərqli əl sıxma var?|6|12|15|3|CAL|Dairədə altı qonşuluq kənarı var; hər kənar bir əl sıxmadır.
+Məntiq və düşünmə|asan|new1000-p03-r26|Bir qutuda 12 ağ və 8 qara top var. Təsadüfi götürülən topun ağ olma ehtimalı nədir?|3/5|2/5|1/2|3/4|CAL|Ağ top ehtimalı 12/(12+8)=3/5-dir.
+Məntiq və düşünmə|orta|new1000-p03-r27|Ədalətli zərdə cüt və 3-dən böyük ədəd gəlmə ehtimalı nədir?|1/3|1/2|1/6|2/3|CAL|Uyğun zər nəticələri 4 və 6-dır: 2/6=1/3.
+Məntiq və düşünmə|orta|new1000-p03-r28|İki ədalətli zərin eyni rəqəmi göstərmə ehtimalı nədir?|1/6|1/12|1/3|1/36|CAL|İki zərin 36 bərabər ehtimallı cütündən 6-sında rəqəmlər eynidir: 1/6.
+Məntiq və düşünmə|orta|new1000-p03-r29|Ədalətli sikkənin müstəqil atışlarında ardıcıl on dəfə gerb düşüb. Növbəti atışda gerb düşmə ehtimalı nədir?|1/2|1/11|10/11|0|CAL|Atışlar müstəqildir; keçmiş nəticə növbəti ədalətli atışın 1/2 ehtimalını dəyişmir.
+Məntiq və düşünmə|çətin|new1000-p03-r30|Bir zər atılıb və nəticənin cüt olduğu məlumdur. Nəticənin 6 olması ehtimalı nədir?|1/3|1/6|1/2|2/3|CAL|Cüt olduğu məlum nəticələr 2,4,6-dır; yalnız biri 6-dır, ehtimal 1/3.
+Məntiq və düşünmə|asan|new1000-p03-r31|Yarışın yekun sıralamasında A B-dən, B isə C-dən qabaqdadır. Hansı nəticə çıxır?|A C-dən qabaqdadır|C A-dan qabaqdadır|A mütləq sonuncudur|B mütləq birincidir|CAL|Yekun sıralamada qabaqda olma münasibəti tranzitivdir: A>B və B>C-dən A>C.
+Məntiq və düşünmə|orta|new1000-p03-r32|Bütün lalələr çiçəkdir, bəzi çiçəklər ağdır. Hansı nəticə mütləq çıxmır?|Bəzi lalələr ağdır|Lalələr çiçəklər qrupundadır|Lalə çiçəkdir|Ağ çiçək mövcuddur|CAL|Ağ çiçəklərin lalə olduğu verilməyib; bəzi lalələrin ağ olması məcburi nəticə deyil.
+Məntiq və düşünmə|orta|new1000-p03-r33|Heç bir kvadrat dairə deyil, bütün A fiqurları kvadratdır. A haqqında nə doğrudur?|Heç biri dairə deyil|Hamısı dairədir|Bəzisi mütləq dairədir|Heç biri kvadrat deyil|CAL|A fiqurları kvadratdır və heç bir kvadrat dairə deyil; A fiqurları da dairə deyil.
+Məntiq və düşünmə|asan|new1000-p03-r34|“Yağış varsa, yol yaşdır” doğrudursa, yol quru olanda nə nəticə çıxır?|Yağış yoxdur|Yağış mütləq var|Qar mütləq yağır|Yol mütləq bağlıdır|CAL|Yağış ⇒ yaş yol şərtinin əks müqabili: quru yol ⇒ yağış yoxdur.
+Məntiq və düşünmə|asan|new1000-p03-r35|“A və B doğrudur” ifadəsinin doğru olması üçün nə lazımdır?|Hər ikisi doğru olsun|Yalnız A doğru olsun|Yalnız B doğru olsun|Hər ikisi yanlış olsun|CAL|Məntiqi VƏ yalnız hər iki qiymət doğru olduqda doğrudur.
+Məntiq və düşünmə|asan|new1000-p03-r36|İki fərqli tam ədədin orta qiyməti 7-dir. Cəmləri neçədir?|14|7|21|49|CAL|İki ədədin cəmi orta qiymətin ikiqatıdır: 2×7=14.
+Məntiq və düşünmə|orta|new1000-p03-r37|2, 4, 100 ədədlərində hansı göstərici böyük ədədin təsirinə daha az həssasdır?|Median|Ədədi orta|Cəm|Ən böyük qiymət|CAL|Median 4-dür; 100-ün böyüdülməsi medianı dəyişmir, cəmi və ortanı dəyişir.
+Məntiq və düşünmə|çətin|new1000-p03-r38|Siyahıdakı hər qiymətdən eyni ədədi çıxsaq, hansı göstərici dəyişməz?|Variasiya aralığı|Ədədi orta|Median|Ən kiçik qiymət|CAL|(maksimum−c)−(minimum−c)=maksimum−minimum; aralıq dəyişmir.
+Məntiq və düşünmə|orta|new1000-p03-r39|Bir tam ədədi 5-ə böləndə qalıq 3 alınır. Onun ikiqatını 5-ə böləndə qalıq nə olar?|1|2|3|4|CAL|n=5k+3 olduqda 2n=10k+6=5(2k+1)+1; qalıq 1-dir.
+Məntiq və düşünmə|çətin|new1000-p03-r40|Kitabın səhifələri 1-dən 12-yə qədər nömrələnib. Yazılışda “1” rəqəmi neçə dəfə işlənib?|5|3|4|6|CAL|1,10,11,12 yazılışlarında 1 rəqəmi 1+1+2+1=5 dəfə var.
+Məntiq və düşünmə|orta|new1000-p03-r41|Bir işçi işi 6, digəri 12 saata görür. Birlikdə neçə saata bitirərlər?|4|3|6|9|CAL|Birgə saatlıq məhsuldarlıq 1/6+1/12=1/4; vaxt 4 saatdır.
+Məntiq və düşünmə|orta|new1000-p03-r42|Müsbət tam ədədin son rəqəmi 5-dir. Onun kvadratının son iki rəqəmi həmişə nədir?|25|15|35|55|CAL|(10k+5)²=100k(k+1)+25; son iki rəqəm 25-dir.
+Məntiq və düşünmə|asan|new1000-p03-r43|Bir maşın sabit sürətlə hər saat 60 km gedir. 150 km üçün neçə saat lazımdır?|2,5|2|3|3,5|CAL|150/60=2,5 saat.
+Məntiq və düşünmə|orta|new1000-p03-r44|Saatda 72 km sürət saniyədə neçə metrdir?|20|12|24|30|CAL|72×1000/3600=20 metr/saniyə.
+Məntiq və düşünmə|asan|new1000-p03-r45|Bir xəritədə 1 sm 2 km-dir. 7 sm-lik yol həqiqətdə neçə kilometrdir?|14|3,5|9|21|CAL|7×2=14 kilometr.
+Məntiq və düşünmə|çətin|new1000-p03-r46|Eyni anda başlayan iki dişli çarxda 12 və 18 diş var. Başlanğıcda toxunan işarəli dişlər ən az neçə diş keçidindən sonra yenə bir-birinə rast gələr?|36|6|24|72|CAL|İşarəli dişlərin birlikdə qayıtması üçün ƏKOB(12,18)=36 diş keçidi lazımdır.
+Məntiq və düşünmə|orta|new1000-p03-r47|100 qramlıq məhlulda 10 qram duz var. 100 qram su əlavə edəndə duz faizi nə olur?|5%|10%|20%|2%|CAL|Duz kütləsi 10 qram qalır, ümumi məhlul 200 qram olur; 10/200×100=5%.
+Məntiq və düşünmə|asan|new1000-p03-r48|Kütləcə 20%-lik 50 qram məhlulda neçə qram həll olmuş maddə var?|10|5|20|25|CAL|50 qramın 20%-i 50×0,20=10 qramdır.
+Məntiq və düşünmə|asan|new1000-p03-r49|Bir ədədin 40%-i 12-dir. Həmin ədəd neçədir?|30|24|36|48|CAL|12/0,40=30.
+Məntiq və düşünmə|asan|new1000-p03-r50|Məhsulun qiyməti 80-dən 100-ə qalxıb. Artım neçə faizdir?|25%|20%|15%|30%|CAL|Artım 20-dir; 20/80×100=25%.

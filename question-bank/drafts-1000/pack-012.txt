@@ -1,0 +1,60 @@
+@İdman və oyunlar|SP12A|https://www.world.rugby/the-game/beginners-guide/points?lang=en|World Rugby — Xal sistemi|Try, konversiya və zərbələr
+orta|new1000-p12-r01|Reqbi unionda adi “try” neçə xal verir?|5|3|2|7
+orta|new1000-p12-r02|Reqbi unionda uğurlu konversiya neçə əlavə xal verir?|2|1|3|5
+orta|new1000-p12-r03|Reqbi unionda uğurlu cərimə zərbəsi neçə xal verir?|3|1|2|5
+çətin|new1000-p12-r04|Reqbidə “drop goal” üçün top zərbədən əvvəl nə etməlidir?|Yerə dəyib sıçramalıdır|Hakimə dəyməlidir|Tribunaya çıxmalıdır|Tam dayanmalıdır
+çətin|new1000-p12-r05|Reqbidə cərimə “try”ı veriləndə ümumi neçə xal yazılır?|7|5|6|8
+@İdman və oyunlar|SP12B|https://db.ittf.com/sites/default/files/public/2026-02/2026_Statutes_v1_consolidated_clean.pdf|ITTF — 2026 qaydaları|Stolüstü tennis
+orta|new1000-p12-r06|Stolüstü tennisdə adi set üçün əsas hədəf neçə xaldır?|11|15|21|25
+orta|new1000-p12-r07|Stolüstü tennisdə 10:10-dan sonra neçə xal fərqi lazımdır?|2|1|3|4
+çətin|new1000-p12-r08|Stolüstü tennis topunun standart diametri neçə millimetrdir?|40|30|50|60
+orta|new1000-p12-r09|Stolüstü tennisdə adi halda servis neçə xaldan bir dəyişir?|2|1|3|5
+çətin|new1000-p12-r10|Stolüstü tennisdə top qanuni olaraq torun yanından keçib masaya düşə bilərmi?|Bəli|Xeyr|Yalnız qarışıq cütlərdə|Yalnız məşqdə
+@İdman və oyunlar|SP12C|https://archive.ihf.info/files/Uploads/Documents/9222_ihf_regelflyer_2008_eng_neu.pdf|IHF — Həndbolun əsasları|Qapı sahəsi və oyun hərəkətləri
+orta|new1000-p12-r11|Qapıçı daxil, klassik həndbolda eyni anda neçə oyunçu meydandadır?|7|5|6|11
+çətin|new1000-p12-r12|Həndbolda qapı sahəsinin əsas sərhədi qapıdan neçə metrdir?|6|5|7|9
+orta|new1000-p12-r13|Həndbolda penalti atışı neçə metrdən vurulur?|7|6|9|11
+çətin|new1000-p12-r14|Həndbolda topu yerə vurmadan ən çox neçə addım atmaq olar?|3|2|4|5
+orta|new1000-p12-r15|Böyüklərin klassik həndbol oyununun əsas vaxtı neçə dəqiqədir?|60|40|70|90
+@İdman və oyunlar|SP12D|https://resources.fina.org/fina/document/2026/02/18/e6815ecc-06d9-4f0b-98e9-4c441cf5e6a3/2026-02-18_World-Aquatics_CR-Final.pdf|World Aquatics — 2026 yarış qaydaları|Üzgüçülük texnikası
+orta|new1000-p12-r16|Hansı üzgüçülük növündə start suyun içindən verilir?|Arxasıüstə|Batterflay|Brass|Adi sərbəst
+çətin|new1000-p12-r17|Batterflayda qolların əsas hərəkəti necə olmalıdır?|Eyni vaxtda|Mütləq növbə ilə|Yalnız sağ qol|Yalnız sol qol
+çətin|new1000-p12-r18|Brassda finiş divarına toxunma necə edilir?|İki əllə eyni vaxtda|Yalnız bir ayaqla|Yalnız başla|İstənilən tək əllə
+orta|new1000-p12-r19|Uzun hovuz formatında yarış hovuzu neçə metrdir?|50|25|40|100
+çətin|new1000-p12-r20|Arxasıüstə yarışda üzgüçü finişə hansı vəziyyətdə çatmalıdır?|Arxasıüstə|Sinəsiüstə|Tam oturaq|Mütləq yanüstə
+@İdman və oyunlar|SP12E|https://www.usga.org/content/usga/home-page/articles/2026/01/world-play-terminology-golf-lingo.html|USGA — Qolf terminləri|Par və quş adları
+orta|new1000-p12-r21|Qolfda “birdie” hansı nəticədir?|Par-dan bir zərbə az|Par-dan bir zərbə çox|Par-la eyni|Par-dan dörd zərbə çox
+orta|new1000-p12-r22|Qolfda “eagle” hansı nəticədir?|Par-dan iki zərbə az|Par-dan iki zərbə çox|Par-la eyni|Par-dan bir zərbə çox
+orta|new1000-p12-r23|Qolfda “bogey” hansı nəticədir?|Par-dan bir zərbə çox|Par-dan bir zərbə az|Par-dan üç zərbə az|Par-la eyni
+çətin|new1000-p12-r24|Qolf terminlərində “birdie” sözü hansı canlı adına əsaslanır?|Quş|Balıq|At|Kəpənək
+çətin|new1000-p12-r25|Qolf meydançasında xüsusi hazırlanmış qumlu çökəklik necə adlanır?|Bunker|Tee sahəsi|Putting green|Klub evi
+@İdman və oyunlar|SP12F|https://static.wbsc.org/uploads/federations/282/documents/9cecec45-9da5-3be3-729e-c00ea2e42244.pdf|WBSC — Beysbol 2025–2026|İnninq və atışlar
+orta|new1000-p12-r26|Standart böyüklər beysbol oyunu əsasən neçə inninqdir?|9|5|7|11
+orta|new1000-p12-r27|Beysbolda müdafiə neçə aut alanda yarım-inninq bitir?|3|2|4|5
+orta|new1000-p12-r28|Beysbolda “strikeout” üçün əsasən neçə strayk lazımdır?|3|2|4|5
+orta|new1000-p12-r29|Beysbolda “walk” adətən neçə “ball”dan sonra verilir?|4|2|3|5
+orta|new1000-p12-r30|Beysbolda meydançanın daxili bazaları hansı formaya bənzəyir?|Romb|Dairə|Üçbucaq|Beşbucaq
+@İdman və oyunlar|SP12G|https://inside.fifa.com/es/news/curso-intensivo-sobre-reglas-del-futsal|FIFA — Futzal qaydaları|Futzalın əsasları
+orta|new1000-p12-r31|Futzalda qapıçı daxil bir komandadan neçə oyunçu oynayır?|5|6|7|11
+orta|new1000-p12-r32|Futzalda top yan xətdən çıxanda oyun necə bərpa edilir?|Ayaqla daxiletmə|Əllə daxiletmə|Mütləq penalti|Mərkəzdən atış
+orta|new1000-p12-r33|Futzalın əsas oyun vaxtı neçə 20 dəqiqəlik hissədir?|2|3|4|1
+orta|new1000-p12-r34|Futzalda oyunçu əvəzetmələri ümumilikdə necədir?|Sayca məhdud deyil|Yalnız bir dəfə|Yalnız fasilədə|Qadağandır
+orta|new1000-p12-r35|Futzalda yan xətdən daxiletmə üçün əsas vaxt həddi neçə saniyədir?|4|2|6|10
+@İdman və oyunlar|SP12H|https://www.worldarchery.sport/sport/equipment/compound|World Archery — Compound yay|Yayın mexanikası
+çətin|new1000-p12-r36|Compound yayı dartmanı yüngülləşdirmək üçün əsasən nə istifadə edir?|Eksantrik və kasnaq sistemi|Buxar mühərriki|Elektrik batareyası|Sıxılmış su
+çətin|new1000-p12-r37|Compound yay tam dartılanda saxlanmalı qüvvə adətən necə dəyişir?|Azalır|Sonsuz artır|Həmişə ikiqat artır|Sıfır kütləyə çevrilir
+çətin|new1000-p12-r38|Standart açıq hədəf yarışında böyüklər compound yayı neçə metrdən atır?|50|70|100|120
+çətin|new1000-p12-r39|Compound yayında oxu buraxmağa kömək edən alət nədir?|Buraxma mexanizmi|Mütləq kompas|Fit|Xronometr
+çətin|new1000-p12-r40|Compound yayının müasir inkişafı əsasən hansı dövrə aiddir?|XX əsrin ikinci yarısı|Qədim Roma|Orta əsr Misiri|Daş dövrü
+@İdman və oyunlar|SP12I|https://system.bwfbadminton.com/documents/folder_1_81/Statutes/CHAPTER-4---RULES-OF-THE-GAME/Section%204.1-%20Laws%20of%20Badminton%20-%2019052018A.pdf|BWF — Badmintonun əsas qaydaları|Meydança və servis
+orta|new1000-p12-r41|Badmintonda servis hansı istiqamətdə qarşı sahəyə vurulur?|Diaqonal|Eyni tərəfə düz|İstənilən tribuna tərəfə|Yalnız torun altından
+orta|new1000-p12-r42|Badmintonda tək oyun meydançası cüt oyuna görə necədir?|Daha dar|Daha enli|Tam dairəvi|Tam eyni enli
+orta|new1000-p12-r43|Badmintonda volan xəttin üzərinə düşərsə necə sayılır?|Meydança daxilində|Həmişə kənarda|Həmişə təkrar|Həmişə servis xətası
+orta|new1000-p12-r44|Top oyunda olarkən badmintonçu raketkası və ya bədəni ilə tora toxunsa, bu nədir?|Qayda pozuntusu|Əlavə xal|Qanuni fasilə|Avtomatik yenidən servis
+asan|new1000-p12-r45|Badmintonda cüt komandada neçə oyunçu olur?|2|3|4|6
+@İdman və oyunlar|SP12J|https://www.fifa.com/en/tournaments/mens/worldcup/articles/world-cup-champions-1930-1978-uruguay-italy-germany-brazil-england-argentina|FIFA — İlk dünya çempionatları|Tarixi nəticələr
+orta|new1000-p12-r46|İlk futbol dünya çempionatı hansı ildə keçirilib?|1930|1920|1940|1950
+orta|new1000-p12-r47|1930 futbol dünya çempionatına hansı ölkə ev sahibliyi edib?|Uruqvay|Braziliya|İtaliya|Fransa
+orta|new1000-p12-r48|Braziliyanın ilk dünya çempionluğu hansı ildə olub?|1958|1950|1966|1974
+orta|new1000-p12-r49|İngiltərənin 1966 dünya çempionluğu hansı ölkədə qazanılıb?|İngiltərə|Meksika|Çili|İsveç
+orta|new1000-p12-r50|1978 futbol dünya çempionatında ev sahibi olub qalib gələn ölkə hansıdır?|Argentina|İspaniya|Almaniya|İtaliya

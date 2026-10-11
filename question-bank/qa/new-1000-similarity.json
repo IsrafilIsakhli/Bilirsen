@@ -1,0 +1,506 @@
+[
+  {
+    "ids": [
+      "AZQ-00954",
+      "AZQ-00955"
+    ],
+    "packs": [
+      3,
+      3
+    ],
+    "rows": [
+      4,
+      5
+    ],
+    "overlap": 0.4,
+    "sameAnswer": true,
+    "questions": [
+      "İki ardıcıl tam ədədin hasili həmişə necə olur?",
+      "İki tək tam ədədin cəmi həmişə necə olur?"
+    ],
+    "answers": [
+      "Cüt",
+      "Cüt"
+    ]
+  },
+  {
+    "ids": [
+      "AZQ-01606",
+      "AZQ-01646"
+    ],
+    "packs": [
+      16,
+      16
+    ],
+    "rows": [
+      6,
+      46
+    ],
+    "overlap": 0.667,
+    "sameAnswer": false,
+    "questions": [
+      "Süfrə şəkərinin əsas kimyəvi adı nədir?",
+      "Süd şəkərinin kimyəvi adı nədir?"
+    ],
+    "answers": [
+      "Saxaroza",
+      "Laktoza"
+    ]
+  },
+  {
+    "ids": [
+      "AZQ-01523",
+      "AZQ-01524"
+    ],
+    "packs": [
+      14,
+      14
+    ],
+    "rows": [
+      23,
+      24
+    ],
+    "overlap": 0.625,
+    "sameAnswer": false,
+    "questions": [
+      "“Kitabi-Dədə Qorqud”da Dəli Domrul kimin oğludur?",
+      "“Kitabi-Dədə Qorqud”da Qanturalı kimin oğludur?"
+    ],
+    "answers": [
+      "Duxa Qocanın",
+      "Qanlı Qocanın"
+    ]
+  },
+  {
+    "ids": [
+      "AZQ-01516",
+      "AZQ-01519"
+    ],
+    "packs": [
+      14,
+      14
+    ],
+    "rows": [
+      16,
+      19
+    ],
+    "overlap": 0.6,
+    "sameAnswer": false,
+    "questions": [
+      "Tərtərçay Kürün hansı tərəf qoludur?",
+      "Kişçay Kürün hansı tərəf qoludur?"
+    ],
+    "answers": [
+      "Sağ",
+      "Sol"
+    ]
+  },
+  {
+    "ids": [
+      "AZQ-01588",
+      "AZQ-01590"
+    ],
+    "packs": [
+      15,
+      15
+    ],
+    "rows": [
+      38,
+      40
+    ],
+    "overlap": 0.571,
+    "sameAnswer": false,
+    "questions": [
+      "“Təəssürat, günəşin doğması” hansı limanı göstərir?",
+      "“Təəssürat, günəşin doğması” günün hansı vaxtını göstərir?"
+    ],
+    "answers": [
+      "Le Havre",
+      "Səhər"
+    ]
+  },
+  {
+    "ids": [
+      "AZQ-00955",
+      "AZQ-00956"
+    ],
+    "packs": [
+      3,
+      3
+    ],
+    "rows": [
+      5,
+      6
+    ],
+    "overlap": 0.5,
+    "sameAnswer": false,
+    "questions": [
+      "İki tək tam ədədin cəmi həmişə necə olur?",
+      "Ardıcıl üç tam ədədin cəmi həmişə nəyə bölünür?"
+    ],
+    "answers": [
+      "Cüt",
+      "3-ə"
+    ]
+  },
+  {
+    "ids": [
+      "AZQ-01058",
+      "AZQ-01059"
+    ],
+    "packs": [
+      5,
+      5
+    ],
+    "rows": [
+      8,
+      9
+    ],
+    "overlap": 0.5,
+    "sameAnswer": false,
+    "questions": [
+      "Empirik formul nəyi ən sadə şəkildə göstərir?",
+      "C₆H₁₂O₆ üçün ən sadə empirik formul hansıdır?"
+    ],
+    "answers": [
+      "Atomların tam ədəd nisbətini",
+      "CH₂O"
+    ]
+  },
+  {
+    "ids": [
+      "AZQ-01182",
+      "AZQ-01183"
+    ],
+    "packs": [
+      7,
+      7
+    ],
+    "rows": [
+      32,
+      33
+    ],
+    "overlap": 0.5,
+    "sameAnswer": false,
+    "questions": [
+      "“Gəlsin” feili hansı şəkildədir?",
+      "“Gəlsə” feili hansı şəkildədir?"
+    ],
+    "answers": [
+      "Əmr",
+      "Şərt"
+    ]
+  },
+  {
+    "ids": [
+      "AZQ-01213",
+      "AZQ-01214"
+    ],
+    "packs": [
+      8,
+      8
+    ],
+    "rows": [
+      13,
+      14
+    ],
+    "overlap": 0.5,
+    "sameAnswer": false,
+    "questions": [
+      "HTTP-də 404 kodu adətən nə deməkdir?",
+      "HTTP-də 200 kodu adətən nəyi bildirir?"
+    ],
+    "answers": [
+      "Resurs tapılmadı",
+      "Uğurlu cavabı"
+    ]
+  },
+  {
+    "ids": [
+      "AZQ-01391",
+      "AZQ-01393"
+    ],
+    "packs": [
+      11,
+      11
+    ],
+    "rows": [
+      41,
+      43
+    ],
+    "overlap": 0.5,
+    "sameAnswer": false,
+    "questions": [
+      "“Nəhənglər yolu”nun sütunları hansı süxurdandır?",
+      "“Nəhənglər yolu”nun qaya sütunları əsasən necə yaranıb?"
+    ],
+    "answers": [
+      "Bazalt",
+      "Lavanın soyuması ilə"
+    ]
+  },
+  {
+    "ids": [
+      "AZQ-01401",
+      "AZQ-01402"
+    ],
+    "packs": [
+      12,
+      12
+    ],
+    "rows": [
+      1,
+      2
+    ],
+    "overlap": 0.5,
+    "sameAnswer": false,
+    "questions": [
+      "Reqbi unionda adi “try” neçə xal verir?",
+      "Reqbi unionda uğurlu konversiya neçə əlavə xal verir?"
+    ],
+    "answers": [
+      "5",
+      "2"
+    ]
+  },
+  {
+    "ids": [
+      "AZQ-01401",
+      "AZQ-01403"
+    ],
+    "packs": [
+      12,
+      12
+    ],
+    "rows": [
+      1,
+      3
+    ],
+    "overlap": 0.5,
+    "sameAnswer": false,
+    "questions": [
+      "Reqbi unionda adi “try” neçə xal verir?",
+      "Reqbi unionda uğurlu cərimə zərbəsi neçə xal verir?"
+    ],
+    "answers": [
+      "5",
+      "3"
+    ]
+  },
+  {
+    "ids": [
+      "AZQ-01402",
+      "AZQ-01403"
+    ],
+    "packs": [
+      12,
+      12
+    ],
+    "rows": [
+      2,
+      3
+    ],
+    "overlap": 0.5,
+    "sameAnswer": false,
+    "questions": [
+      "Reqbi unionda uğurlu konversiya neçə əlavə xal verir?",
+      "Reqbi unionda uğurlu cərimə zərbəsi neçə xal verir?"
+    ],
+    "answers": [
+      "2",
+      "3"
+    ]
+  },
+  {
+    "ids": [
+      "AZQ-01421",
+      "AZQ-01422"
+    ],
+    "packs": [
+      12,
+      12
+    ],
+    "rows": [
+      21,
+      22
+    ],
+    "overlap": 0.5,
+    "sameAnswer": false,
+    "questions": [
+      "Qolfda “birdie” hansı nəticədir?",
+      "Qolfda “eagle” hansı nəticədir?"
+    ],
+    "answers": [
+      "Par-dan bir zərbə az",
+      "Par-dan iki zərbə az"
+    ]
+  },
+  {
+    "ids": [
+      "AZQ-01421",
+      "AZQ-01423"
+    ],
+    "packs": [
+      12,
+      12
+    ],
+    "rows": [
+      21,
+      23
+    ],
+    "overlap": 0.5,
+    "sameAnswer": false,
+    "questions": [
+      "Qolfda “birdie” hansı nəticədir?",
+      "Qolfda “bogey” hansı nəticədir?"
+    ],
+    "answers": [
+      "Par-dan bir zərbə az",
+      "Par-dan bir zərbə çox"
+    ]
+  },
+  {
+    "ids": [
+      "AZQ-01422",
+      "AZQ-01423"
+    ],
+    "packs": [
+      12,
+      12
+    ],
+    "rows": [
+      22,
+      23
+    ],
+    "overlap": 0.5,
+    "sameAnswer": false,
+    "questions": [
+      "Qolfda “eagle” hansı nəticədir?",
+      "Qolfda “bogey” hansı nəticədir?"
+    ],
+    "answers": [
+      "Par-dan iki zərbə az",
+      "Par-dan bir zərbə çox"
+    ]
+  },
+  {
+    "ids": [
+      "AZQ-01521",
+      "AZQ-01522"
+    ],
+    "packs": [
+      14,
+      14
+    ],
+    "rows": [
+      21,
+      22
+    ],
+    "overlap": 0.5,
+    "sameAnswer": false,
+    "questions": [
+      "“Kitabi-Dədə Qorqud”da Təpəgözü öldürən kimdir?",
+      "“Kitabi-Dədə Qorqud”da Uruzun atası kimdir?"
+    ],
+    "answers": [
+      "Basat",
+      "Salur Qazan"
+    ]
+  },
+  {
+    "ids": [
+      "AZQ-01536",
+      "AZQ-01539"
+    ],
+    "packs": [
+      14,
+      14
+    ],
+    "rows": [
+      36,
+      39
+    ],
+    "overlap": 0.5,
+    "sameAnswer": false,
+    "questions": [
+      "Səttar Bəhlulzadənin yaradıcılığında əsas janrlardan biri hansıdır?",
+      "Səttar Bəhlulzadənin ilk müəllimlərindən biri kim idi?"
+    ],
+    "answers": [
+      "Mənzərə",
+      "Əzim Əzimzadə"
+    ]
+  },
+  {
+    "ids": [
+      "AZQ-01586",
+      "AZQ-01588"
+    ],
+    "packs": [
+      15,
+      15
+    ],
+    "rows": [
+      36,
+      38
+    ],
+    "overlap": 0.5,
+    "sameAnswer": false,
+    "questions": [
+      "“Təəssürat, günəşin doğması”nı kim çəkib?",
+      "“Təəssürat, günəşin doğması” hansı limanı göstərir?"
+    ],
+    "answers": [
+      "Klod Mone",
+      "Le Havre"
+    ]
+  },
+  {
+    "ids": [
+      "AZQ-01566",
+      "AZQ-01596"
+    ],
+    "packs": [
+      15,
+      15
+    ],
+    "rows": [
+      16,
+      46
+    ],
+    "overlap": 0.5,
+    "sameAnswer": false,
+    "questions": [
+      "Məşhur “Öpüş” tablosunun müəllifi kimdir?",
+      "“3 may 1808” tablosunun müəllifi kimdir?"
+    ],
+    "answers": [
+      "Qustav Klimt",
+      "Fransisko Qoya"
+    ]
+  },
+  {
+    "ids": [
+      "AZQ-01576",
+      "AZQ-01596"
+    ],
+    "packs": [
+      15,
+      15
+    ],
+    "rows": [
+      26,
+      46
+    ],
+    "overlap": 0.5,
+    "sameAnswer": false,
+    "questions": [
+      "“Christinanın dünyası” tablosunun müəllifi kimdir?",
+      "“3 may 1808” tablosunun müəllifi kimdir?"
+    ],
+    "answers": [
+      "Endryu Uayet",
+      "Fransisko Qoya"
+    ]
+  }
+]

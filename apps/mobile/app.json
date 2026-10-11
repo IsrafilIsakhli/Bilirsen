@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Bilirsən?",
+    "slug": "bilirsen",
+    "version": "0.1.0",
+    "scheme": "bilirsen",
+    "icon": "./assets/brand/icon.png",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      [
+        "expo-audio",
+        {
+          "microphonePermission": false,
+          "recordAudioAndroid": false,
+          "enableBackgroundPlayback": false,
+          "enableBackgroundRecording": false
+        }
+      ]
+    ],
+    "web": {
+      "bundler": "metro"
+    },
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

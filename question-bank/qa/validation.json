@@ -1,0 +1,143 @@
+{
+  "records": 1950,
+  "emptyFields": 0,
+  "repeatedFactKeys": 0,
+  "repeatedExactTexts": 0,
+  "repeatedOptions": 0,
+  "wordingCandidates": [
+    {
+      "ids": [
+        "AZQ-00954",
+        "AZQ-00955"
+      ],
+      "wordOverlap": 0.571
+    },
+    {
+      "ids": [
+        "AZQ-01078",
+        "AZQ-01079"
+      ],
+      "wordOverlap": 0.5
+    },
+    {
+      "ids": [
+        "AZQ-01182",
+        "AZQ-01183"
+      ],
+      "wordOverlap": 0.6
+    },
+    {
+      "ids": [
+        "AZQ-01190",
+        "AZQ-01195"
+      ],
+      "wordOverlap": 0.5
+    },
+    {
+      "ids": [
+        "AZQ-01213",
+        "AZQ-01214"
+      ],
+      "wordOverlap": 0.5
+    },
+    {
+      "ids": [
+        "AZQ-01221",
+        "AZQ-01225"
+      ],
+      "wordOverlap": 0.5
+    },
+    {
+      "ids": [
+        "AZQ-01401",
+        "AZQ-01402"
+      ],
+      "wordOverlap": 0.571
+    },
+    {
+      "ids": [
+        "AZQ-01401",
+        "AZQ-01403"
+      ],
+      "wordOverlap": 0.571
+    },
+    {
+      "ids": [
+        "AZQ-01402",
+        "AZQ-01403"
+      ],
+      "wordOverlap": 0.556
+    },
+    {
+      "ids": [
+        "AZQ-01421",
+        "AZQ-01422"
+      ],
+      "wordOverlap": 0.6
+    },
+    {
+      "ids": [
+        "AZQ-01421",
+        "AZQ-01423"
+      ],
+      "wordOverlap": 0.6
+    },
+    {
+      "ids": [
+        "AZQ-01422",
+        "AZQ-01423"
+      ],
+      "wordOverlap": 0.6
+    },
+    {
+      "ids": [
+        "AZQ-01516",
+        "AZQ-01519"
+      ],
+      "wordOverlap": 0.667
+    },
+    {
+      "ids": [
+        "AZQ-01521",
+        "AZQ-01522"
+      ],
+      "wordOverlap": 0.5
+    },
+    {
+      "ids": [
+        "AZQ-01523",
+        "AZQ-01524"
+      ],
+      "wordOverlap": 0.625
+    },
+    {
+      "ids": [
+        "AZQ-01588",
+        "AZQ-01590"
+      ],
+      "wordOverlap": 0.625
+    },
+    {
+      "ids": [
+        "AZQ-01566",
+        "AZQ-01596"
+      ],
+      "wordOverlap": 0.5
+    },
+    {
+      "ids": [
+        "AZQ-01576",
+        "AZQ-01596"
+      ],
+      "wordOverlap": 0.5
+    },
+    {
+      "ids": [
+        "AZQ-01606",
+        "AZQ-01646"
+      ],
+      "wordOverlap": 0.6
+    }
+  ],
+  "semanticReview": "1950 sual müəllif tərəfindən məna və variantlar baxımından nəzərdən keçirilib. Avtomatik yoxlama məna təkrarını təkbaşına müəyyən etmir."
+}

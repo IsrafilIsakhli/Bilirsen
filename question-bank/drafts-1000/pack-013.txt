@@ -1,0 +1,60 @@
+@Tarix və sivilizasiyalar|NH13A|https://www.nobelprize.org/prizes/chemistry/1980/press-release/|Nobel Prize — Kimya 1980|DNT tədqiqatları və Sangerin iki mükafatı
+çətin|new1000-p13-r01|Frederik Sangerin 1958-ci il Nobel işi əsasən hansı zülal idi?|İnsulin|Kollagen|Keratin|Hemoglobin
+orta|new1000-p13-r02|Sangerin 1980 Nobel işi əsasən hansı molekulun ardıcıllığı ilə bağlı idi?|DNT|Sellüloza|Nişasta|Xolesterin
+orta|new1000-p13-r03|Frederik Sanger hər iki Nobel mükafatını hansı sahədə aldı?|Kimya|Fizika|Tibb|Sülh
+çətin|new1000-p13-r04|1980 kimya Nobelini Sangerlə birlikdə alan alimlərdən biri kim idi?|Uolter Gilbert|Çarlz Darvin|Maykl Faradey|Nikola Tesla
+çətin|new1000-p13-r05|1980 kimya Nobelində rekombinant DNT işi ilə fərqlənən alim kim idi?|Pol Berq|Lui Paster|Robert Huk|Karl Linney
+@Tarix və sivilizasiyalar|NH13B|https://www.nobelprize.org/prizes/medicine/1983/mcclintock/facts/|Nobel Prize — Barbara McClintock|Hərəkətli genetik elementlər
+çətin|new1000-p13-r06|Barbara Makklintok genetikanı əsasən hansı bitkidə araşdırırdı?|Qarğıdalı|Bambuk|Düyü|Lalə
+orta|new1000-p13-r07|Makklintokun kəşf etdiyi genetik elementlərin qeyri-adi xüsusiyyəti nə idi?|Xromosomda yer dəyişmək|Yalnız işıq saçmaq|Nüvədən daşa çevrilmək|Yalnız suda ərimək
+çətin|new1000-p13-r08|Makklintokun əsas müşahidələrindən biri qarğıdalının hansı hissəsinin rəngi idi?|Dənələrin|Yalnız köklərin|Yalnız çiçək saplağının|Yalnız gövdə qabığının
+çətin|new1000-p13-r09|Makklintok 1983 Nobel mükafatını necə almışdı?|Tək laureat kimi|Beş nəfərlə bölüşərək|Yalnız fəxri diplom kimi|Ölümündən yüz il sonra
+çətin|new1000-p13-r10|Makklintokun işi gen fəaliyyətinin hansı xüsusiyyətini göstərdi?|Aktivləşə və susa bilməsini|Heç dəyişməməsini|Yalnız temperatur olması|Yalnız sümük yaratmasını
+@Elm və kosmos|NH13C|https://www.nobelprize.org/prizes/physics/1930/raman/facts/|Nobel Prize — C. V. Raman|İşığın səpilməsi
+orta|new1000-p13-r11|Raman effekti əsasən hansı hadisə ilə bağlıdır?|İşığın səpilməsi|Radioaktiv parçalanma|Metalların əriməsi|Qravitasiya dalğası
+çətin|new1000-p13-r12|Raman səpilməsində çıxan işıqda hansı xüsusiyyət dəyişə bilər?|Tezlik|Atom nüvələrinin proton sayı|Maddənin element kimliyi|Molekulların mütləq atom sayı
+orta|new1000-p13-r13|Raman 1930 Nobelini hansı sahədə alıb?|Fizika|Kimya|Tibb|Ədəbiyyat
+orta|new1000-p13-r14|C. V. Raman hansı ölkənin alimi idi?|Hindistan|İsveç|Braziliya|Kanada
+çətin|new1000-p13-r15|Raman effekti maddəni araşdırarkən əsasən nə barədə məlumat verə bilər?|Molekulyar rəqslər|Yalnız ümumi qiymət|Yalnız qabın forması|Yalnız hava proqnozu
+@Elm və kosmos|NH13D|https://www.nobelprize.org/prizes/physics/1983/press-release/|Nobel Prize — Fizika 1983|Ulduzların quruluşu və elementlər
+çətin|new1000-p13-r16|Çandrasekar həddi əsasən hansı obyektin kütlə sabitliyi ilə bağlıdır?|Ağ cırtdan|Planet|Asteroid|Adi peyk
+çətin|new1000-p13-r17|Çandrasekarla 1983 fizika Nobelini bölüşən kim idi?|Uilyam Fauler|Ernest Rezerford|Maks Plank|Nils Bor
+orta|new1000-p13-r18|1983 fizika Nobelinin ümumi mövzusu əsasən nə idi?|Ulduzların quruluşu və elementlərin yaranması|Yalnız telefon dalğaları|Yalnız maye təzyiqi|Yalnız optik liflər
+çətin|new1000-p13-r19|Ağ cırtdanda çökməyə qarşı əsas kvant dayaq mexanizmi nədir?|Elektron degenerasiya təzyiqi|Yalnız külək|Kimyəvi yapışqan|Planet maqnit sahəsi
+çətin|new1000-p13-r20|Faulerin tədqiqatları kosmosda nəyin yaranmasını izah edirdi?|Kimyəvi elementlərin|Yalnız planet orbitlərinin formasının|Yalnız qalaktikaların fırlanma istiqamətinin|Yalnız ulduzların Yerə məsafəsinin
+@Tarix və sivilizasiyalar|NH13E|https://www.nobelprize.org/prizes/medicine/2015/tu/biographical/|Nobel Prize — Tu Youyou|Artemisininin tarixi
+orta|new1000-p13-r21|Tu Youyou-nun işi əsasən hansı xəstəliklə mübarizə tarixinə aiddir?|Malyariya|Qızılca|Skorbut|Vərəm
+orta|new1000-p13-r22|Tu Youyou ilə bağlı məşhur maddə hansıdır?|Artemisinin|Penisillin|İnsulin|Aspirin
+çətin|new1000-p13-r23|Artemisinin tədqiqatında əsas bitki hansı cinsə aiddir?|Artemisia|Vanilla|Rosa|Pinus
+çətin|new1000-p13-r24|Tu Youyou-nun iştirak etdiyi malyariya layihəsi hansı nömrə ilə tanınırdı?|523|101|404|808
+orta|new1000-p13-r25|Tu Youyou-nun araşdırmasında qədim mətnlər əsasən hansı rol oynadı?|Bitki istifadəsinə dair ipucu verdi|Müasir DNT xəritəsi verdi|Elektron mikroskop yaratdı|Bütün laboratoriyanı əvəz etdi
+@Elm və kosmos|NH13F|https://www.nobelprize.org/prizes/medicine/1953/summary/|Nobel Prize — Tibb 1953|Krebs və Lipmann
+orta|new1000-p13-r26|Krebsin adını daşıyan dövrün başqa adı nədir?|Limon turşusu dövrü|Su dövrü|Karbonat süxuru dövrü|Ay fazaları dövrü
+orta|new1000-p13-r27|Krebs dövrü hüceyrədə əsasən hansı sahəyə aiddir?|Enerji mübadiləsi|Yalnız görmə|Yalnız mexaniki hərəkət|Yalnız hüceyrə divarı
+çətin|new1000-p13-r28|Hans Krebs 1953 Nobelini kiminlə bölüşdü?|Frits Lipmann|Robert Kox|Ceyms Çedvik|Karl Landşteyner
+çətin|new1000-p13-r29|Lipmannın 1953 Nobel işi hansı maddə ilə bağlı idi?|Koenzim A|Xlorofil|Adrenalin|Peptidoqlikan
+çətin|new1000-p13-r30|Koenzim A metabolizmdə əsasən nə rol oynayır?|Kimyəvi qrupların daşınmasına kömək edir|DNT-ni bütövlükdə əvəz edir|Yalnız işıq qəbul edir|Yalnız hüceyrəni rəngləyir
+@Tarix və sivilizasiyalar|NH13G|https://www.nobelprize.org/prizes/medicine/1959/summary/|Nobel Prize — Tibb 1959|Nuklein turşularının sintezi
+çətin|new1000-p13-r31|Severo Oçoa 1959 Nobelini hansı alimlə bölüşdü?|Artur Kornberq|Lui Paster|İvan Pavlov|Aleksandr Fleming
+çətin|new1000-p13-r32|1959 tibb Nobeli hansı iki molekulun bioloji sintezinə aid idi?|RNT və DNT|Nişasta və sellüloza|Su və oksigen|İnsulin və adrenalin
+çətin|new1000-p13-r33|Oçoa və Kornberqin kəşflərində reaksiyanı sürətləndirən əsas vasitələr nə idi?|Fermentlər|Maqnitlər|Linzalar|Təkərlər
+çətin|new1000-p13-r34|Artur Kornberqin oğlu Rocer 2006 Nobelini hansı sahədə aldı?|Kimya|Sülh|Ədəbiyyat|Fizika
+çətin|new1000-p13-r35|1959-da Oçoa və Kornberqə verilən Nobel hansı sahəyə aid idi?|Fiziologiya və tibb|Yalnız fizika|Yalnız iqtisadiyyat|Yalnız sülh
+@Tarix və sivilizasiyalar|NH13H|https://www.nobelprize.org/prizes/peace/1962/ceremony-speech/|Nobel Prize — Linus Pauling|Elm və sülh fəaliyyəti
+orta|new1000-p13-r36|Linus Polinq 1962 Nobelini hansı sahədə aldı?|Sülh|Fizika|Ədəbiyyat|İqtisadiyyat
+orta|new1000-p13-r37|Polinqin sülh fəaliyyətində hansı mövzu əsas idi?|Nüvə sınaqlarına qarşı çıxmaq|Balina ovu|Yalnız dəmir yolu tikmək|Yalnız valyuta islahatı
+orta|new1000-p13-r38|Polinqin əvvəlki, 1954 Nobel mükafatı hansı sahədə idi?|Kimya|Fizika|Tibb|Ədəbiyyat
+çətin|new1000-p13-r39|Polinqin kimya işi əsasən hansı anlayışla bağlı idi?|Kimyəvi rabitə|Qitə sürüşməsi|Səsin sürəti|Planet orbitləri
+çətin|new1000-p13-r40|Polinqin təklif etdiyi dünya sülh tədqiqat təşkilatı hansı qurumla bağlı olmalı idi?|BMT|FIFA|OPEC|Ümumdünya Poçt İttifaqı
+@Elm və kosmos|NH13I|https://www.nobelprize.org/prizes/physics/2013/press-release/|Nobel Prize — Fizika 2013|Higgs mexanizmi
+orta|new1000-p13-r41|Peter Hiqqs 2013 fizika Nobelini kiminlə bölüşdü?|Fransua Enqler|Stiven Hokinq|Albert Eynşteyn|Riçard Feynman
+orta|new1000-p13-r42|Hiqqs mexanizmi bəzi elementar hissəciklərin hansı xüsusiyyətini izah edir?|Kütlə almasını|Rəngini|İnsan dilini|Daimi orbitini
+orta|new1000-p13-r43|Hiqqs hissəciyinin kəşfi 2012-də hansı mərkəzdə elan edildi?|CERN|NASA|ESA-nın yalnız kosmik stansiyası|Greenwich rəsədxanası
+çətin|new1000-p13-r44|Hiqqs və Enqlerin nəzəri təklifi əsasən hansı ilə aiddir?|1964|1905|1932|1999
+çətin|new1000-p13-r45|CERN-də Hiqqs hissəciyini müşahidə edən iki əsas təcrübə hansıdır?|ATLAS və CMS|Voyager və Pioneer|Hubble və Webb|Kepler və TESS
+@Tarix və sivilizasiyalar|NH13J|https://www.nobelprize.org/alfred-nobel/|Nobel Prize — Alfred Nobel|İxtira və vəsiyyət
+orta|new1000-p13-r46|Alfred Nobelin məşhur partlayıcı ixtirası hansıdır?|Dinamit|Barıt|TNT|Napalm
+çətin|new1000-p13-r47|Nobel dinamiti sabitləşdirmək üçün nitroqliserini hansı maddə ilə əlaqələndirdi?|Diatom torpağı|Yalnız xörək duzu|Yalnız dəmir tozu|Yalnız şəkər
+çətin|new1000-p13-r48|Dinamit patenti hansı ilə aiddir?|1867|1767|1917|1967
+orta|new1000-p13-r49|Nobel mükafatlarının əsasını qoyan son vəsiyyət hansı ildə yazılıb?|1895|1805|1935|1955
+çətin|new1000-p13-r50|Alfred Nobel 1896-cı ildə hansı İtaliya şəhərində vəfat edib?|San Remo|Roma|Milan|Neapol

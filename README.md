@@ -152,6 +152,13 @@ scripts/           Yerli quraşdırma, səs və təqdimat alətləri
 
 Route və controller faylları keçidləri və sorğuları idarə edir. Oyun qaydaları serverin domain/application hissəsindədir. Mobil ekranlar ortaq tema və komponentlərdən istifadə edir. Arxitekturanın qərarları [KOD-ARXITEKTURASI.az.md](KOD-ARXITEKTURASI.az.md), oyun qərarları isə [MOBIL-TƏTBİQ-PLANI.az.md](MOBIL-TƏTBİQ-PLANI.az.md) faylındadır.
 
+## Sənədlər
+
+- [Yerli quraşdırma](docs/development/LOCAL-SETUP.az.md) — yeni kompüterdə database, API və telefon bağlantısının hazırlanması.
+- [Tətbiqin arxitekturası](KOD-ARXITEKTURASI.az.md) — modulların məsuliyyətləri və serverdə idarə olunan oyun axını.
+- [Sual bankı](question-bank/README.az.md) — sualların hazırlanması, mənbələr və yoxlama qaydaları.
+- [Sınaq qeydləri](docs/testing/ILK-MERHELE.az.md) — yoxlanmış davranışlar və yayım üçün qalan işlər.
+
 ## Yoxlamalar
 
 ```powershell

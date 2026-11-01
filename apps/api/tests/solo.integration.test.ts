@@ -56,6 +56,11 @@ describe.skipIf(!enabled)('live solo API + PostgreSQL', () => {
     await db.$disconnect();
   });
   it('isolates players, serializes duplicate commands, and settles a complete game exactly once', async () => {
+    const readiness = await call('/health/ready', null);
+    expect(readiness).toEqual({
+      status: 200,
+      payload: { status: 'ok', database: 'reachable' },
+    });
     const commandId = randomUUID();
     const starts = await Promise.all(
       Array.from({ length: 5 }, () => call('/games/solo', player, { commandId })),
@@ -119,6 +124,8 @@ describe.skipIf(!enabled)('live solo API + PostgreSQL', () => {
     expect(me.soloRank.points).toBe(86);
     expect(me.duelRank.points).toBe(0);
     expect(me.completedGames).toBe(1);
+    expect(me.correctAnswers).toBe(10);
+    expect(me.answeredQuestions).toBe(10);
   });
   it('rejects expired answers, records no timeout penalty and closes without duplicate rank updates', async () => {
     const start = gameSchema.parse(
@@ -150,6 +157,12 @@ describe.skipIf(!enabled)('live solo API + PostgreSQL', () => {
       leaves.every((response) => gameSchema.parse(response.payload).result?.actualDelta === 0),
     ).toBe(true);
     expect(await db.rankLedger.count({ where: { matchId: start.id } })).toBe(1);
+    const profile = profileSchema.parse((await call('/me', other)).payload);
+    expect(profile).toMatchObject({
+      completedGames: 0,
+      correctAnswers: 0,
+      answeredQuestions: 1,
+    });
   });
   it('rotates sessions and revokes the token family on refresh replay', async () => {
     const refreshed = await call('/auth/refresh', null, { refreshToken: player.refreshToken });
@@ -161,5 +174,47 @@ describe.skipIf(!enabled)('live solo API + PostgreSQL', () => {
       401,
     );
     expect((await call('/me', newSession)).status).toBe(401);
+  });
+  it('rejects malformed tokens and revokes a concurrently replayed refresh family', async () => {
+    const session = await guest();
+    const malformedAccess = { ...session, accessToken: 'x'.repeat(64) };
+    expect((await call('/me', malformedAccess)).status).toBe(401);
+    expect((await call('/auth/refresh', null, { refreshToken: 'x'.repeat(96) })).status).toBe(401);
+    // Malformed attempts must not damage the legitimate session.
+    expect((await call('/me', session)).status).toBe(200);
+    const responses = await Promise.all([
+      call('/auth/refresh', null, { refreshToken: session.refreshToken }),
+      call('/auth/refresh', null, { refreshToken: session.refreshToken }),
+    ]);
+    expect(responses.map((response) => response.status).sort()).toEqual([201, 401]);
+    const successful = responses.find((response) => response.status === 201);
+    const rotated = sessionSchema.parse(successful?.payload);
+    expect((await call('/me', rotated)).status).toBe(401);
+  });
+  it('does not hide incomplete persisted counters behind a zero-valued profile', async () => {
+    const session = await guest();
+    const game = gameSchema.parse(
+      (await call('/games/solo', session, { commandId: randomUUID() })).payload,
+    );
+    const finished = gameSchema.parse(
+      (await call(`/games/${game.id}/leave`, session, { commandId: randomUUID() })).payload,
+    );
+    const original = finished.result;
+    if (!original) throw new Error('Missing fixture result');
+    try {
+      await db.result.update({
+        where: { matchId: game.id },
+        data: { payload: { ...original, correct: null } },
+      });
+      const response = await call('/me', session);
+      expect(response.status).toBe(503);
+      expect(response.payload).toEqual({
+        code: 'server_unavailable',
+        message: 'Serverlə əlaqədə problem var. Yenidən yoxla.',
+      });
+    } finally {
+      await db.result.update({ where: { matchId: game.id }, data: { payload: original } });
+    }
+    expect((await call('/me', session)).status).toBe(200);
   });
 });

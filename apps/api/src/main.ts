@@ -1,10 +1,9 @@
 import 'reflect-metadata';
 import { NestFactory } from '@nestjs/core';
-import type { NextFunction, Request, Response } from 'express';
-import helmet from 'helmet';
+import type { NestExpressApplication } from '@nestjs/platform-express';
 import { z } from 'zod';
 import { AppModule } from './app.module';
-import { ApiErrorFilter } from './common/api-error.filter';
+import { configureHttp } from './common/http-setup';
 const config = z
   .object({
     NODE_ENV: z.enum(['development', 'production']).default('development'),
@@ -13,15 +12,8 @@ const config = z
   })
   .parse(process.env);
 async function bootstrap(): Promise<void> {
-  const app = await NestFactory.create(AppModule);
-  app.setGlobalPrefix('v1');
-  app.use((req: Request & { receivedAt?: number }, _res: Response, next: NextFunction) => {
-    req.receivedAt = Date.now();
-    next();
-  });
-  app.use(helmet());
-  if (config.NODE_ENV === 'development') app.enableCors({ origin: true });
-  app.useGlobalFilters(new ApiErrorFilter());
+  const app = await NestFactory.create<NestExpressApplication>(AppModule, { bodyParser: false });
+  configureHttp(app, config.NODE_ENV);
   app.enableShutdownHooks();
   await app.listen(config.PORT, '0.0.0.0');
 }

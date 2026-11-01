@@ -1,9 +1,8 @@
 import { Injectable, UnauthorizedException, Inject } from '@nestjs/common';
 import { createHash, randomBytes, randomUUID } from 'node:crypto';
-import type { Profile, Session } from '@azquiz/contracts';
-import { resultSchema } from '@azquiz/contracts';
+import type { Session } from '@azquiz/contracts';
 import { DatabaseService } from '../../infrastructure/database/database.service';
-import { describeRank } from '../rankings/rank';
+import { ProfileService } from '../users/profile.service';
 
 export function hashToken(token: string): string {
   return createHash('sha256').update(token).digest('hex');
@@ -16,7 +15,10 @@ const invalidSession = () =>
 
 @Injectable()
 export class AuthService {
-  constructor(@Inject(DatabaseService) private readonly db: DatabaseService) {}
+  constructor(
+    @Inject(DatabaseService) private readonly db: DatabaseService,
+    @Inject(ProfileService) private readonly profiles: ProfileService,
+  ) {}
   async guest(): Promise<Session> {
     const id = randomUUID();
     const tokens = this.tokens();
@@ -34,9 +36,10 @@ export class AuthService {
         },
       });
     });
-    return { ...tokens.public, profile: await this.profile(id) };
+    return { ...tokens.public, profile: await this.profiles.read(id) };
   }
   async refresh(refreshToken: string): Promise<Session> {
+    if (!/^[a-f0-9]{96}$/.test(refreshToken)) throw invalidSession();
     const refreshHash = hashToken(refreshToken);
     const refreshed = await this.db.$transaction(async (tx) => {
       const sessions = await tx.$queryRaw<
@@ -46,10 +49,12 @@ export class AuthService {
           refreshHash: string;
           revoked: boolean;
           refreshExpiresAt: Date;
-          previousRefreshHashes: string[];
         }>
       >`
-        SELECT * FROM app.sessions WHERE "refreshHash" = ${refreshHash} OR ${refreshHash} = ANY("previousRefreshHashes") FOR UPDATE`;
+        SELECT id, "userId", "refreshHash", revoked, "refreshExpiresAt"
+        FROM app.sessions
+        WHERE "refreshHash" = ${refreshHash} OR ${refreshHash} = ANY("previousRefreshHashes")
+        FOR UPDATE`;
       const session = sessions[0];
       if (!session || session.revoked || session.refreshExpiresAt.getTime() <= Date.now())
         return null;
@@ -65,10 +70,10 @@ export class AuthService {
       return { tokens: tokens.public, userId: session.userId };
     });
     if (!refreshed) throw invalidSession();
-    return { ...refreshed.tokens, profile: await this.profile(refreshed.userId) };
+    return { ...refreshed.tokens, profile: await this.profiles.read(refreshed.userId) };
   }
   async authenticate(authorization?: string): Promise<string> {
-    if (!authorization?.startsWith('Bearer ') || authorization.length > 300) throw invalidSession();
+    if (!authorization || !/^Bearer [a-f0-9]{64}$/.test(authorization)) throw invalidSession();
     const session = await this.db.session.findUnique({
       where: { accessHash: hashToken(authorization.slice(7)) },
     });
@@ -80,24 +85,6 @@ export class AuthService {
     )
       throw invalidSession();
     return session.userId;
-  }
-  async profile(userId: string): Promise<Profile> {
-    const user = await this.db.user.findUniqueOrThrow({
-      where: { id: userId },
-      include: { ranks: true },
-    });
-    const results = await this.db.result.findMany({ where: { userId }, select: { payload: true } });
-    const parsed = results.map((row) => resultSchema.parse(row.payload));
-    return {
-      id: user.id,
-      displayName: user.displayName,
-      isGuest: true,
-      soloRank: describeRank(user.ranks.find((rank) => rank.mode === 'solo')?.points ?? 0),
-      duelRank: describeRank(user.ranks.find((rank) => rank.mode === 'duel')?.points ?? 0),
-      completedGames: parsed.filter((result) => result.reason === 'completed').length,
-      correctAnswers: parsed.reduce((sum, result) => sum + result.correct, 0),
-      answeredQuestions: parsed.reduce((sum, result) => sum + result.closedQuestions, 0),
-    };
   }
   private tokens() {
     const accessToken = randomBytes(32).toString('hex');

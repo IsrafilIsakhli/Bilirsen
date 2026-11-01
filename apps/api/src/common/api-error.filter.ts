@@ -3,6 +3,47 @@ import type { ArgumentsHost, ExceptionFilter } from '@nestjs/common';
 import type { Response } from 'express';
 import { GameRuleError } from '../modules/games/domain/solo';
 
+const bodyErrors: Readonly<Record<string, { status: number; code: string; message: string }>> = {
+  'entity.parse.failed': {
+    status: 400,
+    code: 'invalid_json',
+    message: 'Göndərilən JSON məlumatı düzgün deyil.',
+  },
+  'entity.too.large': {
+    status: 413,
+    code: 'payload_too_large',
+    message: 'Göndərilən məlumatın ölçüsü çox böyükdür.',
+  },
+  'encoding.unsupported': {
+    status: 415,
+    code: 'unsupported_encoding',
+    message: 'Sorğunun kodlaşdırılması dəstəklənmir.',
+  },
+  'charset.unsupported': {
+    status: 415,
+    code: 'unsupported_encoding',
+    message: 'Sorğunun kodlaşdırılması dəstəklənmir.',
+  },
+  'request.aborted': {
+    status: 400,
+    code: 'incomplete_request',
+    message: 'Sorğu tam göndərilməyib.',
+  },
+};
+
+export function bodyParserException(error: unknown): HttpException | undefined {
+  if (typeof error !== 'object' || error === null || !('type' in error)) return;
+  const definition =
+    typeof error.type === 'string' && Object.hasOwn(bodyErrors, error.type)
+      ? bodyErrors[error.type]
+      : undefined;
+  if (definition)
+    return new HttpException(
+      { code: definition.code, message: definition.message },
+      definition.status,
+    );
+}
+
 @Catch()
 export class ApiErrorFilter implements ExceptionFilter {
   private readonly logger = new Logger(ApiErrorFilter.name);
@@ -28,10 +69,11 @@ export class ApiErrorFilter implements ExceptionFilter {
       return;
     }
     // Do not serialize Prisma errors: their messages can contain connection details or SQL values.
-    this.logger.error(
-      'Request failed',
-      error instanceof Error ? error.constructor.name : 'UnknownError',
-    );
+    this.logger.error({
+      event: 'request_failed',
+      requestId: response.getHeader('X-Request-Id'),
+      errorType: error instanceof Error ? error.constructor.name : 'UnknownError',
+    });
     response.status(503).json({
       code: 'server_unavailable',
       message: 'Serverlə əlaqədə problem var. Yenidən yoxla.',

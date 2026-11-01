@@ -156,6 +156,8 @@ Route və controller faylları keçidləri və sorğuları idarə edir. Oyun qay
 
 ## Sənədlər
 
+- [Backend gücləndirməsi](docs/testing/BACKEND-GUCLENDIRME.az.md) — profil statistikası, sorğu sərhədləri, sessiya yoxlamaları və database hazırlıq ünvanı.
+
 - [Yerli quraşdırma](docs/development/LOCAL-SETUP.az.md) — yeni kompüterdə database, API və telefon bağlantısının hazırlanması.
 - [Tətbiqin arxitekturası](KOD-ARXITEKTURASI.az.md) — modulların məsuliyyətləri və serverdə idarə olunan oyun axını.
 - [Sual bankı](question-bank/README.az.md) — sualların hazırlanması, mənbələr və yoxlama qaydaları.

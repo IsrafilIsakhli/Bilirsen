@@ -10,7 +10,7 @@ import {
 } from '../src/modules/games/domain/solo';
 import type { PrivateQuestion } from '../src/modules/games/domain/solo';
 import { describeRank } from '../src/modules/rankings/rank';
-import { selectQuestions } from '../src/modules/questions/selection';
+import { selectQuestionBankIds, selectQuestions } from '../src/modules/questions/selection';
 
 function questions(): PrivateQuestion[] {
   return ['asan', 'asan', 'orta', 'orta', 'orta', 'orta', 'orta', 'çətin', 'çətin', 'çətin'].map(
@@ -32,6 +32,33 @@ function questions(): PrivateQuestion[] {
   );
 }
 describe('solo rules', () => {
+  it('selects metadata first, preserving difficulty and avoiding recent facts without answer bodies', () => {
+    const candidates = Array.from({ length: 3 }, (_, cycle) =>
+      questions().map((q) => ({
+        bankId: `${cycle}-${q.bankId}`,
+        factKey: `${cycle}-${q.factKey}`,
+        difficulty: q.difficulty,
+        category: q.category,
+      })),
+    ).flat();
+    const recent = new Set(
+      candidates.filter((q) => q.bankId.startsWith('0-')).map((q) => q.bankId),
+    );
+    const ids = selectQuestionBankIds(candidates, recent);
+    expect(ids).toHaveLength(10);
+    expect(new Set(ids).size).toBe(10);
+    expect(ids.every((id) => !recent.has(id))).toBe(true);
+    const selected = candidates.filter((q) => ids.includes(q.bankId));
+    expect(selected.filter((q) => q.difficulty === 'asan')).toHaveLength(2);
+    expect(selected.filter((q) => q.difficulty === 'orta')).toHaveLength(5);
+    expect(selected.filter((q) => q.difficulty === 'çətin')).toHaveLength(3);
+    expect(() =>
+      selectQuestionBankIds(
+        candidates.filter((q) => q.difficulty !== 'çətin'),
+        recent,
+      ),
+    ).toThrow('hazır deyil');
+  });
   it('balances topic variety when a sufficiently diverse pool exists', () => {
     const records = Array.from({ length: 4 }, (_, cycle) =>
       questions().map((q, index) => ({

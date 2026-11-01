@@ -3,18 +3,12 @@ import type { z } from 'zod';
 import { errorSchema, sessionSchema } from '@azquiz/contracts';
 import { useSession } from '../../stores/session';
 import { tokenStorage } from '../session/storage';
+import { ApiError, fetchJson } from './fetch-json';
+
+export { ApiError } from './fetch-json';
 
 const host = Constants.expoConfig?.hostUri?.split(':')[0];
 export const apiUrl = process.env.EXPO_PUBLIC_API_URL ?? (host ? `http://${host}:3000/v1` : null);
-export class ApiError extends Error {
-  constructor(
-    public readonly code: string,
-    message: string,
-    public readonly status = 0,
-  ) {
-    super(message);
-  }
-}
 let refreshFlight: Promise<void> | null = null;
 export async function renewSession(): Promise<void> {
   if (refreshFlight) return refreshFlight;
@@ -45,37 +39,18 @@ export async function request<T>(
 ): Promise<T> {
   if (!apiUrl) throw new ApiError('missing_configuration', 'Server ünvanı qurulmayıb.');
   const authenticated = options.authenticated !== false;
-  const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), 10000);
-  let response: Response;
-  try {
-    const token = useSession.getState().accessToken;
-    response = await fetch(`${apiUrl}${path}`, {
-      method: options.method ?? 'GET',
-      headers: {
-        'Content-Type': 'application/json',
-        ...(authenticated && token ? { Authorization: `Bearer ${token}` } : {}),
-      },
-      body: options.body === undefined ? undefined : JSON.stringify(options.body),
-      signal: controller.signal,
-    });
-  } catch {
-    throw new ApiError(
-      'network_error',
-      'Serverə qoşulmaq olmadı. Telefon və kompüterin eyni Wi-Fi şəbəkəsində olduğunu yoxla.',
-    );
-  } finally {
-    clearTimeout(timeout);
-  }
+  const token = useSession.getState().accessToken;
+  const { response, payload } = await fetchJson(`${apiUrl}${path}`, {
+    method: options.method ?? 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+      ...(authenticated && token ? { Authorization: `Bearer ${token}` } : {}),
+    },
+    body: options.body === undefined ? undefined : JSON.stringify(options.body),
+  });
   if (response.status === 401 && authenticated && !refreshed) {
     await renewSession();
     return request(path, schema, options, true);
-  }
-  let payload: unknown;
-  try {
-    payload = await response.json();
-  } catch {
-    throw new ApiError('invalid_response', 'Serverdən düzgün cavab alınmadı.', response.status);
   }
   if (!response.ok) {
     const error = errorSchema.safeParse(payload);

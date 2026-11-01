@@ -217,4 +217,49 @@ describe.skipIf(!enabled)('live solo API + PostgreSQL', () => {
     }
     expect((await call('/me', session)).status).toBe(200);
   });
+  it('isolates a damaged scheduled match without cancelling other active games', async () => {
+    const damagedPlayer = await guest();
+    const healthyPlayer = await guest();
+    const damagedGame = gameSchema.parse(
+      (await call('/games/solo', damagedPlayer, { commandId: randomUUID() })).payload,
+    );
+    const healthyGame = gameSchema.parse(
+      (await call('/games/solo', healthyPlayer, { commandId: randomUUID() })).payload,
+    );
+    const original = await db.match.findUniqueOrThrow({ where: { id: damagedGame.id } });
+    const originalState = soloStateSchema.parse(original.state);
+    try {
+      await db.match.update({
+        where: { id: damagedGame.id },
+        data: { state: {}, dueAt: new Date(0) },
+      });
+      // Only the scheduler observes the corrupted fixture: no GET advances it.
+      await expect
+        .poll(
+          async () => (await db.match.findUniqueOrThrow({ where: { id: damagedGame.id } })).status,
+          { timeout: 5000 },
+        )
+        .toBe('cancelled_server');
+      // Allow a further tick: the old implementation cancelled all games on recovery.
+      await new Promise((resolve) => setTimeout(resolve, 1100));
+      const healthy = await getGame(healthyGame.id, healthyPlayer);
+      expect(healthy.status).toBe('question_open');
+      expect(healthy.question?.id).toBe(healthyGame.question?.id);
+      const damaged = await db.match.findUniqueOrThrow({ where: { id: damagedGame.id } });
+      expect(damaged.activeUserId).toBeNull();
+      expect(damaged.dueAt).toBeNull();
+      expect(await db.result.count({ where: { matchId: damagedGame.id } })).toBe(0);
+      expect(await db.rankLedger.count({ where: { matchId: damagedGame.id } })).toBe(0);
+      const profile = profileSchema.parse((await call('/me', damagedPlayer)).payload);
+      expect(profile.soloRank.points).toBe(0);
+      const restarted = gameSchema.parse(
+        (await call('/games/solo', damagedPlayer, { commandId: randomUUID() })).payload,
+      );
+      expect(restarted.id).not.toBe(damagedGame.id);
+      await call(`/games/${restarted.id}/leave`, damagedPlayer, { commandId: randomUUID() });
+    } finally {
+      await db.match.update({ where: { id: damagedGame.id }, data: { state: originalState } });
+      await call(`/games/${healthyGame.id}/leave`, healthyPlayer, { commandId: randomUUID() });
+    }
+  });
 });

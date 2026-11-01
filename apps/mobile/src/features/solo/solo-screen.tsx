@@ -1,6 +1,6 @@
-import { useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { BackHandler, Modal, Platform, Pressable, View, StyleSheet } from 'react-native';
-import { router, Stack, useLocalSearchParams } from 'expo-router';
+import { router, Stack, useFocusEffect, useLocalSearchParams } from 'expo-router';
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import * as Crypto from 'expo-crypto';
 import { gameSchema } from '@azquiz/contracts';
@@ -32,6 +32,13 @@ import { AnswerFeedback } from './answer-feedback';
 export default function Solo() {
   const { id } = useLocalSearchParams<{ id: string }>();
   const client = useQueryClient();
+  const [focused, setFocused] = useState(false);
+  useFocusEffect(
+    useCallback(() => {
+      setFocused(true);
+      return () => setFocused(false);
+    }, []),
+  );
   const [confirm, setConfirm] = useState(false);
   const command = useRef<{ commandId: string; questionId: string; option: OptionKey } | null>(null);
   const leaveCommand = useRef(Crypto.randomUUID());
@@ -41,9 +48,13 @@ export default function Solo() {
     refetchInterval: (query) =>
       query.state.data?.status === 'finished' || query.state.data?.status === 'cancelled_server'
         ? false
-        : 700,
+        : query.state.status === 'error'
+          ? 3000
+          : 700,
+    refetchIntervalInBackground: false,
+    refetchOnWindowFocus: 'always',
     staleTime: 0,
-    enabled: Boolean(id),
+    enabled: Boolean(id) && focused,
     structuralSharing: (oldData, newData) => {
       const previous = gameSchema.safeParse(oldData);
       const incoming = gameSchema.parse(newData);

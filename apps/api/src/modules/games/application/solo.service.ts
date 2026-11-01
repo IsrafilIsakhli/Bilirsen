@@ -5,7 +5,7 @@ import type { AnswerCommand, GameSnapshot } from '@azquiz/contracts';
 import { gameSchema } from '@azquiz/contracts';
 import type { Prisma, Match } from '../../../generated/prisma/client';
 import { DatabaseService } from '../../../infrastructure/database/database.service';
-import { selectQuestions } from '../../questions/selection';
+import { selectQuestionBankIds, selectQuestions } from '../../questions/selection';
 import {
   advanceSolo,
   createSolo,
@@ -37,11 +37,12 @@ export class SoloService implements OnModuleInit, OnModuleDestroy {
     return this.command(userId, commandId, 'start', async (tx) => {
       const active = await tx.match.findUnique({ where: { activeUserId: userId } });
       if (active) return this.advance(tx, active, Date.now());
-      const records = await tx.questionVersion.findMany({
+      const candidates = await tx.questionVersion.findMany({
         where: { releaseStatus: process.env.NODE_ENV === 'production' ? 'approved' : 'test_only' },
+        select: { bankId: true, factKey: true, difficulty: true, category: true },
       });
       const recent = await tx.match.findMany({
-        where: { userId },
+        where: { userId, status: { not: 'cancelled_server' } },
         orderBy: { createdAt: 'desc' },
         take: 5,
       });
@@ -50,6 +51,22 @@ export class SoloService implements OnModuleInit, OnModuleDestroy {
           soloStateSchema.parse(match.state).questions.map((q) => q.bankId),
         ),
       );
+      const bankIds = selectQuestionBankIds(candidates, recentIds);
+      const records = await tx.questionVersion.findMany({
+        where: {
+          bankId: { in: bankIds },
+          releaseStatus: process.env.NODE_ENV === 'production' ? 'approved' : 'test_only',
+        },
+        select: {
+          bankId: true,
+          factKey: true,
+          difficulty: true,
+          category: true,
+          text: true,
+          options: true,
+          correctOption: true,
+        },
+      });
       const now = Date.now();
       const state = createSolo(selectQuestions(records, recentIds), now);
       const match = await tx.match.create({
@@ -227,27 +244,30 @@ export class SoloService implements OnModuleInit, OnModuleDestroy {
           where: { activeUserId: { not: null } },
           select: { id: true, userId: true },
         });
-        for (const match of pending)
-          await this.db.$transaction(async (tx) => {
-            await this.lockUser(tx, match.userId);
-            await tx.match.updateMany({
-              where: { id: match.id, activeUserId: { not: null } },
-              data: {
-                status: 'cancelled_server',
-                activeUserId: null,
-                dueAt: null,
-                revision: { increment: 1 },
-              },
-            });
-          });
+        for (const match of pending) await this.cancelFailedMatch(match.userId, match.id);
         this.interrupted = false;
       }
       const due = await this.db.match.findMany({
         where: { activeUserId: { not: null }, dueAt: { lte: new Date() } },
         select: { id: true, userId: true },
+        orderBy: [{ dueAt: 'asc' }, { id: 'asc' }],
         take: 100,
       });
-      for (const match of due) await this.read(match.userId, match.id);
+      for (const match of due) {
+        try {
+          await this.read(match.userId, match.id);
+        } catch (error) {
+          this.logger.error({
+            event: 'scheduled_match_failed',
+            matchId: match.id,
+            errorType: error instanceof Error ? error.constructor.name : 'UnknownError',
+          });
+          // A failed game's transaction has rolled back. Cancel only that game without
+          // parsing its potentially damaged state or awarding an incomplete result.
+          // If this write also fails, the outer handler retains outage recovery.
+          await this.cancelFailedMatch(match.userId, match.id);
+        }
+      }
     } catch (error) {
       if (!this.interrupted)
         this.logger.error(
@@ -258,5 +278,19 @@ export class SoloService implements OnModuleInit, OnModuleDestroy {
     } finally {
       this.ticking = false;
     }
+  }
+  private async cancelFailedMatch(userId: string, matchId: string): Promise<void> {
+    await this.db.$transaction(async (tx) => {
+      await this.lockUser(tx, userId);
+      await tx.match.updateMany({
+        where: { id: matchId, userId, activeUserId: userId },
+        data: {
+          status: 'cancelled_server',
+          activeUserId: null,
+          dueAt: null,
+          revision: { increment: 1 },
+        },
+      });
+    });
   }
 }

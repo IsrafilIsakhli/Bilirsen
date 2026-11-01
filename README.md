@@ -156,6 +156,7 @@ Route və controller faylları keçidləri və sorğuları idarə edir. Oyun qay
 
 ## Sənədlər
 
+- [Oyun və bağlantı dayanıqlılığı](docs/testing/OYUN-DAYANIQLILIGI.az.md) — oyun xətalarının təcridi, sual seçimi və mobil bağlantı sınaqları.
 - [Backend gücləndirməsi](docs/testing/BACKEND-GUCLENDIRME.az.md) — profil statistikası, sorğu sərhədləri, sessiya yoxlamaları və database hazırlıq ünvanı.
 
 - [Yerli quraşdırma](docs/development/LOCAL-SETUP.az.md) — yeni kompüterdə database, API və telefon bağlantısının hazırlanması.

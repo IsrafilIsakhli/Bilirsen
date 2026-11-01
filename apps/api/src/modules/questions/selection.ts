@@ -3,11 +3,13 @@ import { z } from 'zod';
 import { optionSchema, difficultySchema } from '@azquiz/contracts';
 import { GameRuleError, questionCounts } from '../games/domain/solo';
 import type { PrivateQuestion } from '../games/domain/solo';
-const recordSchema = z.object({
+const candidateSchema = z.object({
   bankId: z.string(),
   factKey: z.string(),
   difficulty: difficultySchema,
   category: z.string(),
+});
+const recordSchema = candidateSchema.extend({
   text: z.string(),
   options: z.object({ A: z.string(), B: z.string(), C: z.string(), D: z.string() }),
   correctOption: optionSchema,
@@ -24,13 +26,13 @@ export function shuffle<T>(items: readonly T[]): T[] {
   }
   return copy;
 }
-export function selectQuestions(
-  records: unknown[],
+function selectCandidates<T extends z.infer<typeof candidateSchema>>(
+  pool: T[],
   recentBankIds: ReadonlySet<string>,
-): PrivateQuestion[] {
-  const pool = records.map((record) => recordSchema.parse(record));
-  const selected: PrivateQuestion[] = [];
+): T[] {
+  const selected: T[] = [];
   const categoryCounts = new Map<string, number>();
+  const selectedFacts = new Set<string>();
   for (const [difficulty, count] of Object.entries(questionCounts())) {
     const candidates = shuffle(pool.filter((q) => q.difficulty === difficulty));
     if (candidates.length < count)
@@ -43,7 +45,36 @@ export function selectQuestions(
       );
       const row = candidates.shift();
       if (!row) throw new Error('Question pool changed during selection');
+      if (selectedFacts.has(row.factKey))
+        throw new GameRuleError('insufficient_questions', 'Sual dəstində təkrarlanan fakt var.');
+      selectedFacts.add(row.factKey);
       categoryCounts.set(row.category, (categoryCounts.get(row.category) ?? 0) + 1);
+      selected.push(row);
+    }
+  }
+  return selected;
+}
+
+export function selectQuestionBankIds(
+  records: unknown[],
+  recentBankIds: ReadonlySet<string>,
+): string[] {
+  return selectCandidates(
+    records.map((record) => candidateSchema.parse(record)),
+    recentBankIds,
+  ).map((question) => question.bankId);
+}
+
+export function selectQuestions(
+  records: unknown[],
+  recentBankIds: ReadonlySet<string>,
+): PrivateQuestion[] {
+  const selected = selectCandidates(
+    records.map((record) => recordSchema.parse(record)),
+    recentBankIds,
+  );
+  return shuffle(
+    selected.map((row) => {
       const keys = shuffle(['A', 'B', 'C', 'D'] as const);
       const newKeys = ['A', 'B', 'C', 'D'] as const;
       const options = keys.map((original, index) => {
@@ -53,8 +84,7 @@ export function selectQuestions(
       });
       const correctOption = newKeys[keys.indexOf(row.correctOption)];
       if (!correctOption) throw new Error('Correct answer mapping is incomplete');
-      selected.push({ ...row, id: randomUUID(), options, correctOption });
-    }
-  }
-  return shuffle(selected);
+      return { ...row, id: randomUUID(), options, correctOption };
+    }),
+  );
 }

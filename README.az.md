@@ -52,16 +52,17 @@ Bağlantı problemi olarsa telefonda `http://192.168.0.12:3000/v1/health` ünvan
 
 Mobil: Expo SDK 57 / React Native / strict TypeScript / Expo Router / TanStack Query / Zustand. Server: NestJS modulları / Prisma 7 / PostgreSQL. Açıq Zod müqavilələri `packages/contracts` daxilindədir. Düzgün variant açıq sual müqaviləsinə daxil edilmir.
 
+Yoxlama əmrlərini layihənin kök qovluğundan icra et.
+
 ```powershell
 npm.cmd run check
 ```
 
-Canlı server və database testi ayrıca işə salınır. Bu test yalnız yaratdığı sınaq istifadəçilərini təmizləyir:
+Canlı server və database testi ayrıca işə salınır; PostgreSQL və API əvvəlcədən açıq olmalıdır. Bu test yalnız yaratdığı sınaq istifadəçilərini təmizləyir:
 
 ```powershell
 $env:RUN_INTEGRATION='1'
-npm.cmd test
-Remove-Item Env:RUN_INTEGRATION
+try { npm.cmd test } finally { Remove-Item Env:RUN_INTEGRATION }
 npm.cmd exec -- playwright test
 npm.cmd run export -w @azquiz/mobile
 ```

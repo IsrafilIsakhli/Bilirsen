@@ -137,6 +137,8 @@ npm run phone:link
 
 Bu əmrdən sonra `output/testing/phone/BAXIS.html` faylını aç. İlk oyuna **“Qonaq kimi başla”** ilə daxil ol. Telefon sınağı zamanı Expo və oyun serveri açıq qalmalıdır. Bağlantını telefondan `http://KOMPÜTERİN_IP_ÜNVANI:3000/v1/health` ünvanı ilə yoxlamaq mümkündür.
 
+`/v1/health` serverin işlədiyini, `/v1/health/ready` isə database bağlantısını yoxlayır. Server açılır, amma oyun başlamırsa ikinci ünvanı da yoxla; uğurlu cavabda `database: "reachable"` görünür.
+
 Wi-Fi ünvanı dəyişərsə `EXPO_PUBLIC_API_URL` dəyərini yenilə, Expo-nu yenidən başlat və `npm run phone:link` ilə yeni QR kod yarat. Əvvəlki QR kod köhnə ünvana yönələcək.
 
 ## Layihənin quruluşu

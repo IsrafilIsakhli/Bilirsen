@@ -30,7 +30,7 @@ export function Icon({
 }: {
   name: IconName;
   size?: number;
-  color?: ColorValue;
+  color?: ComponentProps<typeof Ionicons>['color'];
 }) {
   return <Ionicons name={name} size={size} color={color} />;
 }

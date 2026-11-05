@@ -38,7 +38,7 @@ npm.cmd run dev:mobile
 
 ## Telefonda baxmaq
 
-Telefon və kompüter eyni Wi-Fi şəbəkəsinə qoşulsun. Expo Go-nu yenilə. Expo SDK 57 üçün iPhone-da Expo Go və kompüterdəki Expo CLI **eyni Expo hesabında** olmalıdır. [Expo-nun giriş tələbi](https://expo.dev/changelog/expo-go-57-login).
+Telefon və kompüter eyni Wi-Fi şəbəkəsinə qoşulsun. Layihə Expo SDK 58 istifadə edir. Telefonda həmin SDK-ya uyğun Expo Go versiyasını aç. Giriş tələb olunarsa, kompüterdəki Expo hesabından istifadə et. [Expo Go versiya uyğunluğu](https://docs.expo.dev/troubleshooting/expo-go-version-mismatch/).
 
 ```powershell
 npm.cmd run phone:link
@@ -50,7 +50,7 @@ Bağlantı problemi olarsa telefonda `http://192.168.0.12:3000/v1/health` ünvan
 
 ## Kod və yoxlama
 
-Mobil: Expo SDK 57 / React Native / strict TypeScript / Expo Router / TanStack Query / Zustand. Server: NestJS modulları / Prisma 7 / PostgreSQL. Açıq Zod müqavilələri `packages/contracts` daxilindədir. Düzgün variant açıq sual müqaviləsinə daxil edilmir.
+Mobil: Expo SDK 58 / React Native / strict TypeScript / Expo Router / TanStack Query / Zustand. Server: NestJS modulları / Prisma 7 / PostgreSQL. Açıq Zod müqavilələri `packages/contracts` daxilindədir. Düzgün variant açıq sual müqaviləsinə daxil edilmir.
 
 Yoxlama əmrlərini layihənin kök qovluğundan icra et.
 

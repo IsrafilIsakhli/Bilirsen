@@ -3,6 +3,11 @@ import { Icon, DuelMark } from '../../src/components/studio';
 import { useSession } from '../../src/stores/session';
 import { colors } from '../../src/theme/tokens';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
+
+function tabTint(focused: boolean) {
+  return focused ? colors.gold : colors.muted;
+}
+
 export default function TabsLayout() {
   const profile = useSession((s) => s.profile);
   const insets = useSafeAreaInsets();
@@ -27,28 +32,28 @@ export default function TabsLayout() {
         name="index"
         options={{
           title: 'Ana səhifə',
-          tabBarIcon: ({ color }) => <Icon name="home-outline" color={color} />,
+          tabBarIcon: ({ focused }) => <Icon name="home-outline" color={tabTint(focused)} />,
         }}
       />
       <Tabs.Screen
         name="duel"
         options={{
           title: 'Duel',
-          tabBarIcon: ({ color }) => <DuelMark size={25} color={color} />,
+          tabBarIcon: ({ focused }) => <DuelMark size={25} color={tabTint(focused)} />,
         }}
       />
       <Tabs.Screen
         name="leaderboard"
         options={{
           title: 'Reytinq',
-          tabBarIcon: ({ color }) => <Icon name="podium-outline" color={color} />,
+          tabBarIcon: ({ focused }) => <Icon name="podium-outline" color={tabTint(focused)} />,
         }}
       />
       <Tabs.Screen
         name="profile"
         options={{
           title: 'Profil',
-          tabBarIcon: ({ color }) => <Icon name="person-outline" color={color} />,
+          tabBarIcon: ({ focused }) => <Icon name="person-outline" color={tabTint(focused)} />,
         }}
       />
     </Tabs>

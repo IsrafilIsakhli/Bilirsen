@@ -8,7 +8,7 @@
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
     "plugins": [
-      "expo-router",
+      ["expo-router", { "asyncRoutes": { "web": false } }],
       "expo-secure-store",
       [
         "expo-audio",
@@ -21,7 +21,8 @@
       ]
     ],
     "web": {
-      "bundler": "metro"
+      "bundler": "metro",
+      "output": "single"
     },
     "experiments": {
       "typedRoutes": true

@@ -106,7 +106,7 @@ Sual bankında **1.950 hazırlanmış sual** var; hədəf 10.000-dir. Yerli tət
 
 | Hissə              | İstifadə olunanlar                                 |
 | ------------------ | -------------------------------------------------- |
-| Mobil tətbiq       | React Native, Expo SDK 57, Expo Router, TypeScript |
+| Mobil tətbiq       | React Native, Expo SDK 58, Expo Router, TypeScript |
 | Məlumat və sessiya | TanStack Query, Zustand, Expo SecureStore          |
 | Görünüş və səs     | React Native SVG, Expo LinearGradient, Expo Audio  |
 | Server             | NestJS, Prisma 7, PostgreSQL 18                    |

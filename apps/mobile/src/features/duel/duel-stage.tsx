@@ -4,8 +4,8 @@ import type { GameSnapshot } from '@azquiz/contracts';
 import { Badge, Body, Button, Card, Icon, Label, layout } from '../../components/studio';
 import { AvatarMedallion, Eyebrow, StudioNotice } from '../../components/studio-elements';
 import { QuestionFrame } from '../../components/question-frame';
-import { AnswerOption } from '../solo/answer-option';
-import { colors } from '../../theme/tokens';
+import { AnswerGrid, AnswerOption } from '../solo/answer-option';
+import { colors, displayFamily } from '../../theme/tokens';
 
 export type DuelStage = 'search' | 'faceoff' | 'question' | 'overtime' | 'victory' | 'defeat';
 export interface DuelPlayerDisplay {
@@ -78,8 +78,8 @@ export function DuelStageContent({ display }: { display: DuelStageDisplay }) {
             text={display.question.text}
             caption={`${display.question.points} XALLIQ SUAL`}
           />
-          <View style={{ gap: 10 }}>
-            {display.question.options.map((option) => (
+          <AnswerGrid options={display.question.options}>
+            {(option) => (
               <AnswerOption
                 key={option.key}
                 option={option}
@@ -87,8 +87,8 @@ export function DuelStageContent({ display }: { display: DuelStageDisplay }) {
                 disabled
                 onPress={() => undefined}
               />
-            ))}
-          </View>
+            )}
+          </AnswerGrid>
           <Card style={{ padding: 12 }}>
             <View style={layout.row}>
               <Icon name="lock-closed-outline" size={18} color={colors.muted} />
@@ -220,6 +220,7 @@ function UnavailableAction({ title }: { title: string }) {
 const styles = StyleSheet.create({
   hero: { alignItems: 'center', gap: 12, paddingVertical: 8 },
   title: {
+    fontFamily: displayFamily,
     color: colors.text,
     fontSize: 28,
     lineHeight: 34,

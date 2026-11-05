@@ -20,6 +20,7 @@ import { useProfile } from '../../services/http/queries';
 import { errorMessage } from '../../services/http/client';
 import { PerformanceSummary } from './performance-summary';
 import { ActionRow } from '../../components/action-row';
+import { StagePanel } from '../../components/stage-panel';
 
 export default function Profile() {
   const profile = useProfile();
@@ -38,8 +39,9 @@ export default function Profile() {
   const me = profile.data;
   return (
     <Screen atmosphere="quiet">
+      <Eyebrow>YARIŞÇI VƏSİQƏSİ</Eyebrow>
       <Title>Profil</Title>
-      <View style={[layout.row, { gap: 16, paddingVertical: 9 }]}>
+      <StagePanel style={[layout.row, { gap: 16 }]}>
         <AvatarMedallion name={me.displayName} size={72} />
         <View style={{ flex: 1, gap: 8 }}>
           <Title small>{me.displayName}</Title>
@@ -55,17 +57,17 @@ export default function Profile() {
             <Eyebrow>QONAQ HESABI</Eyebrow>
           </View>
         </View>
-      </View>
-      <SectionHeading title="Bilik pillələrin" note="İki ayrı rank" />
-      <View style={[layout.row, { alignItems: 'stretch', gap: 10 }]}>
-        <RankCard mode="solo" rank={me.soloRank} />
-        <RankCard mode="duel" rank={me.duelRank} />
-      </View>
+      </StagePanel>
       <PerformanceSummary
         correct={me.correctAnswers}
         answered={me.answeredQuestions}
         rounds={me.completedGames}
       />
+      <SectionHeading title="Bilik pillələrin" note="İki ayrı rank" />
+      <View style={[layout.row, { alignItems: 'stretch', gap: 10 }]}>
+        <RankCard mode="solo" rank={me.soloRank} />
+        <RankCard mode="duel" rank={me.duelRank} />
+      </View>
       <SectionHeading title="Hesab" />
       <Card style={{ padding: 0, gap: 0, overflow: 'hidden' }}>
         <ActionRow

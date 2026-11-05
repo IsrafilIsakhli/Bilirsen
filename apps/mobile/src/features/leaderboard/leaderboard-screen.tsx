@@ -5,19 +5,19 @@ import {
   Screen,
   Title,
   Body,
-  Card,
   Label,
   Badge,
   Button,
   ErrorNotice,
   layout,
 } from '../../components/studio';
-import { SectionHeading } from '../../components/studio-elements';
+import { Eyebrow, SectionHeading } from '../../components/studio-elements';
 import { SegmentedControl } from '../../components/segmented-control';
 import { useProfile } from '../../services/http/queries';
 import { errorMessage } from '../../services/http/client';
 import { RankStrip } from '../ranks/rank-strip';
 import { colors } from '../../theme/tokens';
+import { SceneBanner } from '../../components/stage-background';
 
 const modes = [
   { value: 'solo', label: 'Solo', accessibilityLabel: 'Solo reytinqi' },
@@ -29,7 +29,8 @@ export default function Leaderboard() {
   const profile = useProfile();
   const rank = mode === 'solo' ? profile.data?.soloRank : profile.data?.duelRank;
   return (
-    <Screen atmosphere="quiet">
+    <Screen atmosphere="rank">
+      <Eyebrow>BİLİK SƏHNƏSİ / SIRALAMA</Eyebrow>
       <Title>Reytinq</Title>
       <Body>Solo və duel üçün iki ayrı sıralama.</Body>
       <SegmentedControl value={mode} items={modes} onChange={setMode} />
@@ -53,7 +54,7 @@ export default function Leaderboard() {
           ? 'Solo oynayaraq şəxsi rankını yüksəldə bilərsən.'
           : 'Duel rankı canlı yarış açıldıqdan sonra dəyişəcək.'}
       </Body>
-      <Card>
+      <SceneBanner scene="rank" style={{ minHeight: 150, gap: 5 }}>
         <View style={layout.row}>
           <Badge icon="lock-closed-outline" compact />
           <View style={{ flex: 1, gap: 5 }}>
@@ -61,11 +62,20 @@ export default function Leaderboard() {
             <Text style={{ color: colors.muted, fontSize: 12 }}>Qeydiyyatlı oyunçular üçün</Text>
           </View>
         </View>
-        <Body>
-          Qonaq hesabları rəsmi sıralamada görünməyəcək. Sıralama və qeydiyyat növbəti mərhələdə
-          açılacaq.
-        </Body>
-      </Card>
+      </SceneBanner>
+      <Body>
+        Qonaq hesabları rəsmi sıralamada görünməyəcək. Sıralama və qeydiyyat növbəti mərhələdə
+        açılacaq.
+      </Body>
+      {__DEV__ && (
+        <Button
+          title="Sıralama nümunəsinə bax"
+          quiet
+          onPress={() =>
+            router.push({ pathname: '/studio-preview', params: { screen: 'leaderboard-full' } })
+          }
+        />
+      )}
       <Button
         title={mode === 'solo' ? 'Solo yarışına başla' : 'Duel studiyasına keç'}
         onPress={() => router.push(mode === 'solo' ? '/solo-ready' : '/(tabs)/duel')}

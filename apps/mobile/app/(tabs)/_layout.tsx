@@ -14,11 +14,11 @@ export default function TabsLayout() {
         tabBarActiveTintColor: colors.gold,
         tabBarInactiveTintColor: colors.muted,
         tabBarStyle: {
-          backgroundColor: '#081626',
-          borderTopColor: colors.line,
-          height: 64 + Math.max(18, insets.bottom),
-          paddingTop: 8,
-          paddingBottom: Math.max(18, insets.bottom),
+          backgroundColor: '#050b17',
+          borderTopColor: colors.brass,
+          height: 56 + Math.max(8, insets.bottom),
+          paddingTop: 5,
+          paddingBottom: Math.max(8, insets.bottom),
         },
         tabBarLabelStyle: { fontSize: 12, fontWeight: '600' },
       }}
@@ -27,7 +27,7 @@ export default function TabsLayout() {
         name="index"
         options={{
           title: 'Ana səhifə',
-          tabBarIcon: ({ color }) => <Icon name="home" color={color} />,
+          tabBarIcon: ({ color }) => <Icon name="home-outline" color={color} />,
         }}
       />
       <Tabs.Screen

@@ -1,6 +1,5 @@
 import { StyleSheet, Text, View } from 'react-native';
-import Svg, { Circle } from 'react-native-svg';
-import { Card, Label, layout } from '../../components/studio';
+import { Label, layout } from '../../components/studio';
 import { colors } from '../../theme/tokens';
 
 export function PerformanceSummary({
@@ -14,9 +13,8 @@ export function PerformanceSummary({
 }) {
   const ratio = answered ? Math.max(0, Math.min(1, correct / answered)) : 0;
   const percent = Math.round(ratio * 100);
-  const length = 2 * Math.PI * 43;
   return (
-    <Card style={{ gap: 18 }}>
+    <View style={styles.summary}>
       <Label>Yarış göstəricilərin</Label>
       <View style={[layout.row, { gap: 18, alignItems: 'center' }]}>
         <View
@@ -24,21 +22,6 @@ export function PerformanceSummary({
           accessible
           accessibilityLabel={`Düzgün cavab faizi: ${percent}%`}
         >
-          <Svg width="104" height="104" viewBox="0 0 104 104" style={StyleSheet.absoluteFill}>
-            <Circle cx="52" cy="52" r="43" fill="none" stroke={colors.line} strokeWidth="5" />
-            <Circle
-              cx="52"
-              cy="52"
-              r="43"
-              fill="none"
-              stroke={colors.green}
-              strokeWidth="5"
-              strokeDasharray={[length, length]}
-              strokeDashoffset={length * (1 - ratio)}
-              strokeLinecap="round"
-              transform="rotate(-90 52 52)"
-            />
-          </Svg>
           <Text style={styles.percent}>{percent}%</Text>
           <Text style={styles.unit}>düzgün</Text>
         </View>
@@ -55,15 +38,22 @@ export function PerformanceSummary({
           <Text style={styles.note}>Duel göstəriciləri canlı yarış açıldıqda əlavə olunacaq.</Text>
         </View>
       </View>
-    </Card>
+    </View>
   );
 }
 const styles = StyleSheet.create({
-  gauge: { width: 104, height: 104, alignItems: 'center', justifyContent: 'center', gap: 3 },
+  summary: {
+    gap: 14,
+    borderTopWidth: 1,
+    borderBottomWidth: 1,
+    borderColor: colors.brass,
+    paddingVertical: 14,
+  },
+  gauge: { minWidth: 98, alignItems: 'flex-start', justifyContent: 'center', gap: 3 },
   percent: {
-    color: colors.green,
-    fontSize: 25,
-    lineHeight: 32,
+    color: colors.goldLight,
+    fontSize: 42,
+    lineHeight: 48,
     fontWeight: '600',
     fontVariant: ['tabular-nums'],
   },

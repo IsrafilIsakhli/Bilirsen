@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Pressable, Text, View } from 'react-native';
 import { router } from 'expo-router';
-import { Screen, Card, Label, Icon, ErrorNotice, layout, Button } from '../../components/studio';
+import { Screen, Label, Icon, ErrorNotice, layout, Button } from '../../components/studio';
 import { SectionHeading, EmptyStage, StudioNotice } from '../../components/studio-elements';
 import { SegmentedControl } from '../../components/segmented-control';
 import { PageHeader } from '../../components/page-header';
@@ -70,58 +70,64 @@ export default function History() {
             accessibilityRole="button"
             accessibilityLabel={'Yarış nəticəsi: ' + result.score + ' xal'}
             onPress={() => router.push({ pathname: '/solo', params: { id: item.id } })}
+            style={{ paddingVertical: 14, borderTopWidth: 1, borderColor: colors.brass, gap: 10 }}
           >
-            <Card style={{ padding: 16, gap: 12, borderWidth: 0 }}>
-              <View style={[layout.row, { flexWrap: 'wrap', rowGap: 8 }]}>
-                <Icon
-                  name={completed ? 'checkmark-circle-outline' : 'flag-outline'}
-                  size={24}
-                  color={completed ? colors.green : colors.muted}
-                />
-                <View style={{ flex: 1, gap: 4 }}>
-                  <Label>Tək oyun</Label>
-                  <Text style={{ color: colors.muted, fontSize: 12 }}>
-                    {matchDate(result.finishedAt)}
-                  </Text>
-                </View>
-                <Text style={{ color: completed ? colors.green : colors.muted, fontSize: 12 }}>
-                  {completed ? 'Tamamlandı' : 'Bağlandı'}
-                </Text>
-                <Icon name="chevron-forward" size={16} color={colors.muted} />
-              </View>
-              <View style={{ height: 1, backgroundColor: colors.line }} />
-              <View style={[layout.between, { flexWrap: 'wrap', rowGap: 8 }]}>
-                <Text style={{ color: colors.text, fontSize: 21, fontWeight: '700' }}>
-                  {result.score}{' '}
-                  <Text style={{ color: colors.muted, fontSize: 12, fontWeight: '400' }}>
-                    yarış xalı
-                  </Text>
-                </Text>
-                <Text
-                  style={{
-                    color:
-                      result.actualDelta < 0
-                        ? colors.red
-                        : result.actualDelta > 0
-                          ? colors.green
-                          : colors.muted,
-                    fontWeight: '700',
-                    fontSize: 13,
-                  }}
-                >
-                  {result.actualDelta >= 0 ? '+' : ''}
-                  {result.actualDelta} rank
-                </Text>
-              </View>
-              <View style={[layout.between, { flexWrap: 'wrap', rowGap: 8 }]}>
+            <View style={[layout.row, { flexWrap: 'wrap', rowGap: 8 }]}>
+              <Icon
+                name={completed ? 'checkmark-circle-outline' : 'flag-outline'}
+                size={24}
+                color={completed ? colors.green : colors.muted}
+              />
+              <View style={{ flex: 1, gap: 4 }}>
+                <Label>Tək oyun</Label>
                 <Text style={{ color: colors.muted, fontSize: 12 }}>
-                  {result.correct}/{result.totalQuestions} düzgün
-                </Text>
-                <Text style={{ color: colors.muted, fontSize: 12 }}>
-                  {result.rank.name} {result.rank.division}
+                  {matchDate(result.finishedAt)}
                 </Text>
               </View>
-            </Card>
+              <Text style={{ color: completed ? colors.green : colors.muted, fontSize: 12 }}>
+                {completed ? 'Tamamlandı' : 'Bağlandı'}
+              </Text>
+              <Icon name="chevron-forward" size={16} color={colors.muted} />
+            </View>
+            <View style={{ height: 1, backgroundColor: colors.line }} />
+            <View style={[layout.between, { flexWrap: 'wrap', rowGap: 8 }]}>
+              <Text
+                style={{
+                  color: colors.goldLight,
+                  fontSize: 30,
+                  fontWeight: '600',
+                  fontVariant: ['tabular-nums'],
+                }}
+              >
+                {result.score}{' '}
+                <Text style={{ color: colors.muted, fontSize: 12, fontWeight: '400' }}>
+                  yarış xalı
+                </Text>
+              </Text>
+              <Text
+                style={{
+                  color:
+                    result.actualDelta < 0
+                      ? colors.red
+                      : result.actualDelta > 0
+                        ? colors.green
+                        : colors.muted,
+                  fontWeight: '700',
+                  fontSize: 13,
+                }}
+              >
+                {result.actualDelta >= 0 ? '+' : ''}
+                {result.actualDelta} rank
+              </Text>
+            </View>
+            <View style={[layout.between, { flexWrap: 'wrap', rowGap: 8 }]}>
+              <Text style={{ color: colors.muted, fontSize: 12 }}>
+                {result.correct}/{result.totalQuestions} düzgün
+              </Text>
+              <Text style={{ color: colors.muted, fontSize: 12 }}>
+                {result.rank.name} {result.rank.division}
+              </Text>
+            </View>
           </Pressable>
         );
       })}

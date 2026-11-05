@@ -3,7 +3,7 @@ import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { Icon, Body, Button, Card, Label } from '../../components/studio';
 import { Eyebrow, StudioNotice } from '../../components/studio-elements';
 import { StudioFormField } from '../../components/studio-form-field';
-import { colors } from '../../theme/tokens';
+import { colors, displayFamily } from '../../theme/tokens';
 
 export type AccountView = 'login' | 'register' | 'recovery' | 'verification' | 'conversion';
 export const accountTitles: Record<AccountView, string> = {
@@ -180,7 +180,8 @@ const styles = StyleSheet.create({
   hero: { alignItems: 'flex-start', gap: 12, paddingTop: 8, paddingBottom: 12 },
   title: {
     color: colors.text,
-    fontSize: 26,
+    fontFamily: displayFamily,
+    fontSize: 30,
     lineHeight: 32,
     fontWeight: '600',
     maxWidth: 320,

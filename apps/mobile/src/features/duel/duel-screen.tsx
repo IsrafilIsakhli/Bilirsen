@@ -18,23 +18,23 @@ import { errorMessage } from '../../services/http/client';
 import { RankStrip } from '../ranks/rank-strip';
 import { colors } from '../../theme/tokens';
 import { MatchupPreview } from './matchup-preview';
-import { StagePanel } from '../../components/stage-panel';
+import { SceneBanner } from '../../components/stage-background';
 
 export default function Duel() {
   const profile = useProfile();
   return (
-    <Screen>
+    <Screen atmosphere="duel">
       <View style={{ gap: 8 }}>
         <Text style={styles.status}>CANLI DUEL · TEZLİKLƏ</Text>
         <Title>Duel studiyası</Title>
         <Body>Biliyini eyni səhnədə sına.</Body>
       </View>
-      <StagePanel style={{ paddingVertical: 24 }}>
+      <SceneBanner scene="duel" style={{ minHeight: 216, gap: 8 }}>
         <MatchupPreview name={profile.data?.displayName ?? 'Sən'} />
         <Text style={[styles.note, { textAlign: 'center' }]}>
           Canlı duel və dost otaqları hazırlanır.
         </Text>
-      </StagePanel>
+      </SceneBanner>
       {profile.error && (
         <ErrorNotice
           message={errorMessage(profile.error)}

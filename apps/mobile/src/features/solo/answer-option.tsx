@@ -1,9 +1,56 @@
-import { Pressable, Text, View, StyleSheet, ActivityIndicator } from 'react-native';
-import { useId, useState } from 'react';
-import Svg, { Defs, LinearGradient, Stop, Path } from 'react-native-svg';
+import type { ReactNode } from 'react';
+import {
+  Pressable,
+  Text,
+  View,
+  StyleSheet,
+  ActivityIndicator,
+  useWindowDimensions,
+} from 'react-native';
 import type { OptionKey } from '@azquiz/contracts';
 import { Icon } from '../../components/studio';
+import { PanelInk } from '../../components/stage-panel';
 import { colors } from '../../theme/tokens';
+
+type Answer = { key: OptionKey; text: string };
+type AnswerState = 'neutral' | 'pending' | 'correct' | 'wrong';
+
+export function AnswerGrid({
+  options,
+  children,
+}: {
+  options: readonly Answer[];
+  children: (option: Answer) => ReactNode;
+}) {
+  const { width, fontScale } = useWindowDimensions();
+  const paired =
+    options.length === 4 &&
+    width >= 360 &&
+    fontScale <= 1.2 &&
+    options.every((option) => option.text.length <= 18);
+  if (!paired) return <View style={styles.stack}>{options.map(children)}</View>;
+  return (
+    <View style={styles.stack}>
+      {[options.slice(0, 2), options.slice(2, 4)].map((row, index) => (
+        <View key={index} style={styles.row}>
+          {row.map((option) => (
+            <View key={option.key} style={styles.cell}>
+              {children(option)}
+            </View>
+          ))}
+        </View>
+      ))}
+    </View>
+  );
+}
+
+const optionColors = {
+  neutral: { edge: colors.brass, fill: '#102441' },
+  pending: { edge: colors.goldLight, fill: '#203752' },
+  correct: { edge: colors.green, fill: '#102f32' },
+  wrong: { edge: colors.red, fill: '#3b2330' },
+} satisfies Record<AnswerState, { edge: string; fill: string }>;
+
 export function AnswerOption({
   option,
   state,
@@ -11,30 +58,13 @@ export function AnswerOption({
   onPress,
   dimmed = false,
 }: {
-  option: { key: OptionKey; text: string };
-  state: 'neutral' | 'pending' | 'correct' | 'wrong';
+  option: Answer;
+  state: AnswerState;
   disabled: boolean;
   onPress: () => void;
   dimmed?: boolean;
 }) {
-  const gradientId = `answer-${useId().replace(/:/g, '')}`;
-  const [size, setSize] = useState({ width: 400, height: 64 });
-  const border =
-    state === 'correct'
-      ? colors.green
-      : state === 'wrong'
-        ? colors.red
-        : state === 'pending'
-          ? colors.goldLight
-          : '#a28a61';
-  const fill =
-    state === 'correct'
-      ? '#15352f'
-      : state === 'wrong'
-        ? '#3b222b'
-        : state === 'pending'
-          ? '#3b3540'
-          : '#16314d';
+  const { edge, fill } = optionColors[state];
   return (
     <Pressable
       accessibilityRole="button"
@@ -42,79 +72,57 @@ export function AnswerOption({
       accessibilityState={{ disabled, selected: state !== 'neutral' }}
       disabled={disabled}
       onPress={onPress}
-      onLayout={({ nativeEvent: { layout } }) =>
-        setSize((previous) =>
-          previous.width === layout.width && previous.height === layout.height
-            ? previous
-            : { width: layout.width, height: layout.height },
-        )
-      }
-      style={({ pressed }) => [
-        styles.option,
-        dimmed && { opacity: 0.55 },
-        pressed && { opacity: 0.9 },
-      ]}
+      style={({ pressed }) => [styles.option, dimmed && styles.dimmed, pressed && styles.pressed]}
     >
-      <View style={[StyleSheet.absoluteFill, { pointerEvents: 'none' }]}>
-        <Svg width="100%" height="100%" viewBox={`0 0 ${size.width} ${size.height}`}>
-          <Defs>
-            <LinearGradient id={gradientId} x1="0%" y1="0%" x2="100%" y2="100%">
-              <Stop stopColor={fill} />
-              <Stop offset="1" stopColor={state === 'neutral' ? '#081726' : fill} />
-            </LinearGradient>
-          </Defs>
-          <Path
-            d={`M16 1 H${size.width - 16} L${size.width - 1} ${size.height / 2} L${size.width - 16} ${size.height - 1} H16 L1 ${size.height / 2} Z`}
-            fill={`url(#${gradientId})`}
-            stroke={border}
-            strokeWidth={state === 'neutral' ? 1 : 1.7}
-          />
-          <Path d={`M21 5 H${size.width - 21}`} stroke="#bddbf2" strokeWidth={0.5} opacity={0.24} />
-        </Svg>
-      </View>
-      <View
-        style={[
-          styles.letter,
-          {
-            borderColor: border,
-            backgroundColor: state !== 'neutral' ? border : '#112237',
-          },
-        ]}
-      >
-        <Text style={[styles.key, { color: state !== 'neutral' ? colors.background : border }]}>
+      <PanelInk fill={fill} edge={edge} />
+      <View style={[styles.letter, { borderColor: edge }]}>
+        <Text style={[styles.key, { color: state === 'neutral' ? colors.goldLight : edge }]}>
           {option.key}
         </Text>
       </View>
       <Text style={styles.text}>{option.text}</Text>
-      {state === 'pending' && <ActivityIndicator size="small" color={colors.gold} />}
-      {(state === 'correct' || state === 'wrong') && (
-        <Icon
-          name={state === 'correct' ? 'checkmark-circle' : 'close-circle'}
-          color={border}
-          size={22}
-        />
-      )}
+      <View style={styles.marker}>
+        {state === 'pending' && <ActivityIndicator size="small" color={colors.gold} />}
+        {(state === 'correct' || state === 'wrong') && (
+          <Icon name={state === 'correct' ? 'checkmark' : 'close'} color={edge} size={16} />
+        )}
+      </View>
     </Pressable>
   );
 }
+
 const styles = StyleSheet.create({
+  stack: { gap: 8 },
+  row: { flexDirection: 'row', alignItems: 'stretch', gap: 8 },
+  cell: { flex: 1, minWidth: 0 },
   option: {
-    minHeight: 64,
-    paddingHorizontal: 22,
-    paddingVertical: 12,
+    flex: 1,
+    minHeight: 57,
+    paddingHorizontal: 11,
+    paddingVertical: 9,
     flexDirection: 'row',
     alignItems: 'center',
-    gap: 12,
+    gap: 8,
   },
-  key: { fontSize: 17, fontWeight: '600' },
   letter: {
-    width: 30,
-    height: 30,
+    width: 28,
+    height: 29,
     borderWidth: 1,
-    borderRadius: 7,
+    borderRadius: 3,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#ffffff05',
+    backgroundColor: '#182d4e',
   },
-  text: { flex: 1, color: colors.text, fontWeight: '600', fontSize: 16, lineHeight: 23 },
+  key: { fontSize: 15, fontWeight: '600' },
+  text: {
+    flex: 1,
+    minWidth: 0,
+    color: colors.text,
+    fontSize: 16,
+    lineHeight: 22,
+    fontWeight: '600',
+  },
+  marker: { width: 16, alignItems: 'center' },
+  dimmed: { opacity: 0.68 },
+  pressed: { opacity: 0.88 },
 });

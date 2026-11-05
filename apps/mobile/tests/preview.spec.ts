@@ -124,7 +124,7 @@ test('Studio v3 presentation and media with explicit public-response fixtures', 
           total: 10,
           text: stressQuestion
             ? longQuestion
-            : 'Eyni yerdə günortadan sonra kölgən uzanmağa başlayırsa, Günəş üfüqə görə necə dəyişir?',
+            : 'Bir musiqi əsərinin sürətini ifadə edən termin hansıdır?',
           difficulty: 'asan',
           openedAt: now,
           deadlineAt: new Date(Date.now() + fixtureDuration * 1000).toISOString(),
@@ -135,11 +135,11 @@ test('Studio v3 presentation and media with explicit public-response fixtures', 
               key: 'A',
               text: stressQuestion
                 ? 'Dövrün xəritələri, arxiv sənədləri və səyyahların qeydlərini bir-biri ilə müqayisə etmək'
-                : 'Üfüqdən yüksəlir',
+                : 'Tembr',
             },
-            { key: 'B', text: 'Yerini dəyişmir' },
-            { key: 'C', text: 'Üfüqə yaxınlaşır' },
-            { key: 'D', text: 'Daha sürətli fırlanır' },
+            { key: 'B', text: stressQuestion ? 'Müasir xəritələr' : 'Tempo' },
+            { key: 'C', text: stressQuestion ? 'Şəhər əfsanələri' : 'Tonallıq' },
+            { key: 'D', text: stressQuestion ? 'Turist bələdçisi' : 'Akkord' },
           ],
         },
       };
@@ -152,7 +152,7 @@ test('Studio v3 presentation and media with explicit public-response fixtures', 
         rankDelta: -3,
         feedback: {
           selected: 'A',
-          correctOption: 'C',
+          correctOption: stressQuestion ? 'A' : 'B',
           correct: false,
           points: 0,
           rankDelta: -3,
@@ -193,7 +193,7 @@ test('Studio v3 presentation and media with explicit public-response fixtures', 
   await expect(page.getByText('Səhnə sənindir.')).toBeVisible();
   await screenshot('welcome');
   await page.getByRole('button', { name: 'Qonaq kimi başla' }).click();
-  await expect(page.getByText('Yarışa hazırsan?')).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Səhnə sənindir.', exact: true })).toBeVisible();
   await screenshot('home');
   await page.getByRole('button', { name: 'Solo rankını göstər' }).click();
   await expect(page.getByText('Bilik pillələri')).toBeVisible();
@@ -236,6 +236,13 @@ test('Studio v3 presentation and media with explicit public-response fixtures', 
   await screenshot('solo-ready');
   await page.getByRole('button', { name: 'Səhnəyə çıx' }).click();
   await expect(page.getByText('SUAL 1 / 10')).toBeVisible();
+  const firstChoice = page.getByRole('button', { name: /^A\. / });
+  const secondChoice = page.getByRole('button', { name: /^B\. / });
+  const [firstShort, secondShort] = await Promise.all([
+    firstChoice.boundingBox(),
+    secondChoice.boundingBox(),
+  ]);
+  expect(firstShort && secondShort && firstShort.y === secondShort.y).toBe(true);
   await screenshot('question');
   await page.getByRole('button', { name: /^A\. / }).click();
   await expect(page.getByText('Bu dəfə alınmadı')).toBeVisible();
@@ -253,8 +260,8 @@ test('Studio v3 presentation and media with explicit public-response fixtures', 
   await page.getByRole('button', { name: 'Tamamlanan', exact: true }).click();
   await expect(page.getByRole('button', { name: /^Yarış nəticəsi:/ })).toHaveCount(1);
   await page.getByRole('button', { name: /^Yarış nəticəsi:/ }).click();
-  await expect(page.getByText('Bilik yolunda irəli!')).toBeVisible();
-  await expect(page.getByText('On sual. On düzgün cavab. Mükəmməl tur!')).toBeVisible();
+  await expect(page.getByText('RANK YÜKSƏLDİ', { exact: true })).toBeVisible();
+  await expect(page.getByText('On sual. On düzgün cavab.', { exact: true })).toBeVisible();
   await screenshot('promotion');
   await page.emulateMedia({ reducedMotion: 'reduce' });
   await page.setViewportSize({ width: 320, height: 740 });
@@ -289,6 +296,11 @@ test('Studio v3 presentation and media with explicit public-response fixtures', 
   stressQuestion = true;
   await page.getByRole('button', { name: 'Səhnəyə çıx' }).click();
   await expect(page.getByText(longQuestion, { exact: true })).toBeVisible();
+  const [firstLong, secondLong] = await Promise.all([
+    firstChoice.boundingBox(),
+    secondChoice.boundingBox(),
+  ]);
+  expect(firstLong && secondLong && secondLong.y > firstLong.y).toBe(true);
   await screenshot('question-long-text');
   await page.setViewportSize({ width: 320, height: 740 });
   await page.evaluate(() => {

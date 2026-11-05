@@ -20,6 +20,7 @@ import { rankTiers } from './rank-presentation';
 import { colors } from '../../theme/tokens';
 import { RankCrest } from '../../components/rank-crest';
 import { StagePanel } from '../../components/stage-panel';
+import { SceneBanner } from '../../components/stage-background';
 
 export default function RankDetails() {
   const { mode } = useLocalSearchParams<{ mode: string }>();
@@ -40,8 +41,9 @@ export default function RankDetails() {
   const rank = duel ? profile.data.duelRank : profile.data.soloRank;
   const tierIndex = rankTiers.findIndex((tier) => tier.name === rank.name);
   return (
-    <Screen atmosphere="quiet">
+    <Screen atmosphere="rank">
       <PageHeader title={duel ? 'Duel rankı' : 'Solo rankı'} />
+      <SceneBanner scene="rank" style={{ minHeight: 176 }} />
       <StagePanel>
         <View style={[layout.row, { gap: 16 }]}>
           <RankCrest name={rank.name} size={80} />

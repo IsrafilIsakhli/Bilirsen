@@ -1,16 +1,7 @@
 import { View, Switch, Text } from 'react-native';
 import { router, useFocusEffect } from 'expo-router';
 import { useCallback } from 'react';
-import {
-  Screen,
-  Body,
-  Card,
-  Label,
-  Button,
-  Icon,
-  ErrorNotice,
-  layout,
-} from '../../components/studio';
+import { Screen, Body, Card, Label, Button, ErrorNotice, layout } from '../../components/studio';
 import { Eyebrow, SectionHeading } from '../../components/studio-elements';
 import { PageHeader } from '../../components/page-header';
 import { useSounds } from '../../services/audio/sound-provider';
@@ -23,18 +14,16 @@ export default function Settings() {
   return (
     <Screen atmosphere="quiet">
       <PageHeader title="Tənzimləmələr" />
-      <View style={{ paddingVertical: 4 }}>
-        <View style={layout.row}>
-          <Icon name="headset-outline" size={30} />
-          <View style={{ flex: 1, gap: 6 }}>
-            <Label>Səs ayarları</Label>
-            <Text style={{ color: colors.muted, fontSize: 12, lineHeight: 19 }}>
-              Aydın tik–tak ritmi, gərgin fon və iki cavab vurğusu.
-            </Text>
-          </View>
-        </View>
-      </View>
-      <Card>
+      <Eyebrow>SƏS PULTU</Eyebrow>
+      <View
+        style={{
+          gap: 14,
+          borderTopWidth: 1,
+          borderBottomWidth: 1,
+          borderColor: colors.brass,
+          paddingVertical: 14,
+        }}
+      >
         <View style={layout.between}>
           <View style={{ flex: 1 }}>
             <Label>Yarış səsləri</Label>
@@ -63,10 +52,10 @@ export default function Settings() {
             thumbColor={colors.text}
           />
         </View>
-      </Card>
+      </View>
       <SectionHeading title="Səsləri yoxla" note="3 studiya siqnalı" />
-      <Card style={{ gap: 0, padding: 0, overflow: 'hidden' }}>
-        <Text style={{ color: colors.muted, fontSize: 12, lineHeight: 19, padding: 16 }}>
+      <View style={{ gap: 0, borderTopWidth: 1, borderBottomWidth: 1, borderColor: colors.line }}>
+        <Text style={{ color: colors.muted, fontSize: 12, lineHeight: 19, paddingVertical: 12 }}>
           Fon sual boyunca çalınır. Cavab vurğusu seçim təsdiqlənəndə eşidilir.
         </Text>
         <ActionRow
@@ -95,7 +84,7 @@ export default function Settings() {
           icon="close-circle-outline"
           trailing="play-outline"
         />
-      </Card>
+      </View>
       <Button title="Dinləməni dayandır" outline icon="stop-outline" onPress={sounds.stop} />
       {sounds.error && <ErrorNotice message={sounds.error} />}
       <Body>

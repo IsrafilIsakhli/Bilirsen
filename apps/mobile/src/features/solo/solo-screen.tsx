@@ -19,7 +19,7 @@ import {
 import { request, errorMessage, ApiError } from '../../services/http/client';
 import { ConnectionNotice } from '../../components/connection-notice';
 import { keys } from '../../services/http/queries';
-import { AnswerOption } from '../../features/solo/answer-option';
+import { AnswerGrid, AnswerOption } from './answer-option';
 import { SoloResult } from '../../features/solo/result';
 import { useServerCountdown } from '../../hooks/use-server-countdown';
 import { colors } from '../../theme/tokens';
@@ -28,10 +28,12 @@ import { useSounds } from '../../services/audio/sound-provider';
 import { useGameSounds } from './use-game-sounds';
 import { QuestionStatus } from './question-status';
 import { AnswerFeedback } from './answer-feedback';
+import { useSession } from '../../stores/session';
 
 export default function Solo() {
   const { id } = useLocalSearchParams<{ id: string }>();
   const client = useQueryClient();
+  const contestant = useSession((state) => state.profile?.displayName);
   const [focused, setFocused] = useState(false);
   useFocusEffect(
     useCallback(() => {
@@ -162,7 +164,7 @@ export default function Solo() {
   return (
     <>
       <Stack.Screen options={{ gestureEnabled: false }} />
-      <Screen atmosphere="question" style={{ gap: 14 }}>
+      <Screen atmosphere="question" style={{ gap: 10, paddingTop: 8 }}>
         <View style={layout.between}>
           <Pressable
             accessibilityRole="button"
@@ -185,7 +187,7 @@ export default function Solo() {
             />
           </Pressable>
         </View>
-        <QuestionStatus snapshot={snapshot} remaining={remaining} />
+        <QuestionStatus snapshot={snapshot} remaining={remaining} contestant={contestant} />
         <QuestionFrame
           key={question.id}
           text={question.text}
@@ -198,8 +200,8 @@ export default function Solo() {
               : 'neutral'
           }
         />
-        <View style={{ gap: 10 }}>
-          {question.options.map((option) => (
+        <AnswerGrid options={question.options}>
+          {(option) => (
             <AnswerOption
               key={option.key}
               option={option}
@@ -228,8 +230,8 @@ export default function Solo() {
                 answer.mutate(body);
               }}
             />
-          ))}
-        </View>
+          )}
+        </AnswerGrid>
         <AnswerFeedback feedback={feedback} pending={pendingSelection !== null} />
         {game.error instanceof ApiError && game.error.code === 'network_error' ? (
           <ConnectionNotice
@@ -304,10 +306,8 @@ const styles = StyleSheet.create({
   iconControl: {
     width: 44,
     height: 44,
-    borderRadius: 14,
-    borderWidth: 1,
-    borderColor: '#49698450',
-    backgroundColor: '#12273b80',
+    borderRadius: 3,
+    backgroundColor: '#0713268a',
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -321,8 +321,8 @@ const styles = StyleSheet.create({
   modal: {
     backgroundColor: '#0e2033',
     borderWidth: 1,
-    borderColor: '#496883',
-    borderRadius: 22,
+    borderColor: colors.brass,
+    borderRadius: 3,
     padding: 20,
     gap: 16,
     width: '100%',

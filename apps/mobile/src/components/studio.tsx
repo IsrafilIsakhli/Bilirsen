@@ -20,6 +20,7 @@ import type { StageAtmosphere } from './stage-background';
 export { StageBackground } from './stage-background';
 import { colors, radius, spacing, typography } from '../theme/tokens';
 import { BrandMark } from './brand-mark';
+import { PanelInk } from './stage-panel';
 
 export type IconName = ComponentProps<typeof Ionicons>['name'];
 export function Icon({
@@ -131,14 +132,7 @@ export function Card({
   style,
 }: PropsWithChildren<{ gold?: boolean; style?: StyleProp<ViewStyle> }>) {
   return (
-    <LinearGradient
-      colors={gold ? ['#1c2c3b', '#102235'] : ['#13283b', '#102132']}
-      start={{ x: 0, y: 0 }}
-      end={{ x: 1, y: 1 }}
-      style={[styles.card, gold && { borderColor: colors.gold }, style]}
-    >
-      {children}
-    </LinearGradient>
+    <View style={[styles.card, gold && { borderColor: colors.brass }, style]}>{children}</View>
   );
 }
 export function Button({
@@ -168,29 +162,17 @@ export function Button({
       style={({ pressed }) => [
         styles.button,
         (outline || quiet) && { minHeight: 48 },
-        outline && styles.outline,
-        quiet && { backgroundColor: '#14253a' },
-        disabled && { backgroundColor: '#17283b', borderWidth: 1, borderColor: colors.line },
+        icon && !outline && !quiet && !loading && styles.actionWithIcon,
         pressed && { opacity: 0.88 },
       ]}
     >
-      {!outline && !quiet && !disabled && (
-        <LinearGradient
-          colors={['#f2ce8d', '#e3b467']}
-          style={[StyleSheet.absoluteFill, { borderRadius: radius.button }]}
+      {(!quiet || disabled) && (
+        <PanelInk
+          fill={disabled ? colors.panel : outline ? colors.background : colors.goldLight}
+          edge={disabled ? colors.line : outline ? colors.brass : colors.goldLight}
+          highlight={false}
         />
       )}
-      <View
-        style={[
-          StyleSheet.absoluteFill,
-          {
-            pointerEvents: 'none',
-            borderRadius: radius.button,
-            borderTopWidth: 1,
-            borderTopColor: disabled || quiet ? '#afc4df10' : outline ? '#ffdda010' : '#fff4d83b',
-          },
-        ]}
-      />
       {loading ? (
         <ActivityIndicator color={outline ? colors.gold : colors.background} />
       ) : (
@@ -199,7 +181,7 @@ export function Button({
             style={[
               styles.buttonText,
               outline && { color: colors.gold },
-              quiet && { color: colors.text },
+              quiet && { color: colors.goldLight },
               disabled && { color: colors.muted },
             ]}
           >
@@ -282,10 +264,10 @@ export const layout = StyleSheet.create({
   gap: { gap: 16 },
 });
 const styles = StyleSheet.create({
-  outer: { flex: 1, backgroundColor: '#030a12', alignItems: 'center' },
+  outer: { flex: 1, backgroundColor: '#030914', alignItems: 'center' },
   stage: { flex: 1, width: '100%', maxWidth: 520, overflow: 'hidden' },
   safe: { flex: 1 },
-  footer: { backgroundColor: '#081725', borderTopWidth: 1, borderColor: '#385f8a70' },
+  footer: { backgroundColor: '#061021', borderTopWidth: 1, borderColor: colors.brass },
   footerContent: { paddingHorizontal: 20, paddingTop: 12, paddingBottom: 8, gap: 4 },
   content: { padding: 20, gap: 16, paddingBottom: 30 },
   title: { color: colors.text, ...typography.title },
@@ -293,15 +275,14 @@ const styles = StyleSheet.create({
   label: { color: colors.text, ...typography.label },
   card: {
     borderWidth: 1,
-    borderColor: '#30495e',
+    borderColor: '#364968',
     borderRadius: radius.card,
+    backgroundColor: colors.panel,
     padding: 16,
     gap: 12,
   },
   button: {
     minHeight: 52,
-    borderRadius: radius.button,
-    overflow: 'hidden',
     alignItems: 'center',
     justifyContent: 'center',
     flexDirection: 'row',
@@ -309,7 +290,6 @@ const styles = StyleSheet.create({
     paddingHorizontal: 14,
     paddingVertical: 12,
   },
-  outline: { borderWidth: 1, borderColor: '#ae8b53' },
   buttonText: {
     color: colors.background,
     fontSize: 16,
@@ -318,6 +298,7 @@ const styles = StyleSheet.create({
     flexShrink: 1,
     textAlign: 'center',
   },
+  actionWithIcon: { justifyContent: 'space-between', paddingHorizontal: 18 },
   badge: { width: 60, height: 60, borderRadius: 30, padding: 2.5 },
   badgeInner: {
     flex: 1,

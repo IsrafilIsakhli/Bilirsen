@@ -40,7 +40,7 @@ test('Studio pages, sound previews, mute and server answer sound work together',
   const events = () => page.evaluate(() => Reflect.get(window, 'studioAudioEvents') as Playback[]);
   await page.goto('/');
   await page.getByRole('button', { name: 'Qonaq kimi başla' }).click();
-  await expect(page.getByText('Yarışa hazırsan?')).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Oyuna başla', exact: true })).toBeVisible();
   await page.getByRole('tab', { name: /Duel/ }).click();
   await expect(page.getByRole('button', { name: 'Rəqib tap · tezliklə' })).toBeDisabled();
   await page.screenshot({

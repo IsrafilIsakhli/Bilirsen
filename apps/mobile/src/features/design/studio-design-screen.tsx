@@ -97,13 +97,13 @@ export default function StudioDesignScreen() {
     <Screen
       key={entry.id}
       atmosphere={
-        entry.group === 'duel' && entry.view === 'question'
-          ? 'question'
-          : entry.group === 'duel' ||
-              entry.group === 'motion' ||
-              (entry.group === 'state' && entry.view === 'launch')
-            ? 'stage'
-            : 'quiet'
+        entry.group === 'duel' || entry.group === 'motion'
+          ? 'duel'
+          : entry.group === 'standings' || (entry.group === 'state' && entry.view === 'icon')
+            ? 'rank'
+            : entry.group === 'state' && entry.view === 'launch'
+              ? 'stage'
+              : 'quiet'
       }
       keyboard={entry.group === 'account'}
       footer={

@@ -1,168 +1,137 @@
-import { View, Text, StyleSheet, Pressable } from 'react-native';
+import { View, Text, StyleSheet, Pressable, useWindowDimensions } from 'react-native';
 import { router } from 'expo-router';
-import { AvatarMedallion, Eyebrow } from '../../components/studio-elements';
+import { Eyebrow } from '../../components/studio-elements';
 import {
   Screen,
   Title,
   Body,
-  Label,
-  Card,
   Button,
-  Icon,
   ErrorNotice,
   LoadingScreen,
   layout,
 } from '../../components/studio';
 import { useProfile, useHistory, useActiveGame } from '../../services/http/queries';
 import { errorMessage } from '../../services/http/client';
-import { RankCard } from '../../features/ranks/rank-card';
-import { colors } from '../../theme/tokens';
-import { StagePanel } from '../../components/stage-panel';
+import { RankCard } from '../ranks/rank-card';
+import { colors, displayFamily, typography } from '../../theme/tokens';
+
 export default function Home() {
+  const { height } = useWindowDimensions();
   const profile = useProfile();
   const history = useHistory();
   const active = useActiveGame();
   if (profile.isPending) return <LoadingScreen />;
   if (!profile.data)
     return (
-      <Screen>
-        <ErrorNotice
-          message={errorMessage(profile.error)}
-          onRetry={() => {
-            void profile.refetch();
-          }}
-        />
+      <Screen atmosphere="quiet">
+        <ErrorNotice message={errorMessage(profile.error)} onRetry={() => void profile.refetch()} />
       </Screen>
     );
+
   const me = profile.data;
   const last = history.data?.[0];
+  const activeId = active.data?.id;
   return (
-    <Screen style={{ gap: 20 }}>
-      <View style={layout.between}>
-        <View style={[layout.row, { flex: 1 }]}>
-          <AvatarMedallion name={me.displayName} />
-          <View style={{ flex: 1 }}>
-            <Body>Salam,</Body>
-            <Label>{me.displayName}</Label>
-          </View>
+    <Screen style={styles.content}>
+      <View style={styles.masthead}>
+        <Text style={styles.contestant}>{me.displayName}</Text>
+        <Eyebrow>BİLİK SƏHNƏSİ</Eyebrow>
+      </View>
+      <View style={[styles.hero, { minHeight: Math.max(280, Math.min(410, height * 0.48)) }]}>
+        <View style={styles.center}>
+          <Text accessibilityRole="header" style={styles.wordmark}>
+            Bilirsən?
+          </Text>
+          <Eyebrow>AZƏRBAYCAN DİLİNDƏ BİLİK YARIŞI</Eyebrow>
         </View>
-        <View style={{ alignItems: 'flex-end', gap: 4, flexShrink: 0 }}>
-          <Text style={styles.brand}>Bilirsən?</Text>
+        <View style={styles.center}>
+          <Title>{activeId ? 'Yarışın davam edir.' : 'Səhnə sənindir.'}</Title>
+          <Eyebrow>TƏK OYUN / 10 SUAL / 3 ÇƏTİNLİK</Eyebrow>
         </View>
       </View>
-      <View style={{ gap: 6 }}>
-        <Title>Yarışa hazırsan?</Title>
+      <Button
+        title={activeId ? 'Yarışa davam et' : 'Oyuna başla'}
+        icon="arrow-forward"
+        onPress={() =>
+          activeId
+            ? router.push({ pathname: '/solo', params: { id: activeId } })
+            : router.push('/solo-ready')
+        }
+      />
+      <View style={styles.ranks}>
+        <RankCard mode="solo" rank={me.soloRank} />
+        <RankCard mode="duel" rank={me.duelRank} />
       </View>
-      <StagePanel>
-        <View style={[layout.between, { alignItems: 'flex-start' }]}>
-          <View style={{ flex: 1, gap: 8 }}>
-            <Eyebrow>TƏK OYUN</Eyebrow>
-            <Text style={styles.soloTitle}>
-              {active.data ? 'Yarışın davam edir.' : 'Səhnə sənindir.'}
-            </Text>
-            <Body>10 sual · qarışıq mövzular</Body>
-          </View>
-          <View style={styles.soloMark}>
-            <Icon name="book-outline" size={27} />
-          </View>
-        </View>
-        <Button
-          title={active.data ? 'Yarışa davam et' : 'Oyuna başla'}
-          onPress={() =>
-            active.data
-              ? router.push({ pathname: '/solo', params: { id: active.data.id } })
-              : router.push('/solo-ready')
-          }
-        />
-      </StagePanel>
-      <View style={[layout.row, { alignItems: 'stretch', gap: 10 }]}>
-        <RankCard compact mode="solo" rank={me.soloRank} />
-        <RankCard compact mode="duel" rank={me.duelRank} />
-      </View>
-      <Card style={{ gap: 16, borderWidth: 0 }}>
-        <View style={layout.row}>
-          <Icon name="people-outline" color={colors.muted} size={26} />
-          <View style={{ flex: 1 }}>
-            <Title small>Duel</Title>
-            <Body>Eyni suallar, iki rəqib</Body>
-          </View>
-        </View>
-        <View style={{ width: '100%' }}>
-          <Button title="Duel studiyası" outline onPress={() => router.push('/(tabs)/duel')} />
-        </View>
-      </Card>
-      {last ? (
+      <View style={styles.links}>
         <Pressable
-          onPress={() => router.push({ pathname: '/solo', params: { id: last.id } })}
           accessibilityRole="button"
+          onPress={() => router.push('/(tabs)/duel')}
+          style={styles.link}
         >
-          <View style={styles.latest}>
-            <View style={layout.row}>
-              <Icon name="reader-outline" size={22} color={colors.muted} />
-              <View style={{ flex: 1 }}>
-                <Label>Son nəticə</Label>
-                <Body>
-                  Solo · {last.result.correct}/{last.result.totalQuestions} düzgün ·{' '}
-                  {last.result.score} xal
-                </Body>
-                <Text
-                  style={{
-                    color: last.result.actualDelta < 0 ? colors.red : colors.green,
-                    fontSize: 12,
-                    lineHeight: 20,
-                  }}
-                >
-                  Solo rankı: {last.result.actualDelta >= 0 ? '+' : ''}
-                  {last.result.actualDelta}
-                </Text>
-              </View>
-              <Icon name="chevron-forward" color={colors.muted} />
-            </View>
-          </View>
+          <Text style={styles.linkTitle}>Duel studiyası</Text>
+          <Eyebrow>CANLI DUEL TEZLİKLƏ</Eyebrow>
         </Pressable>
-      ) : (
-        <View style={styles.latest}>
-          <View style={layout.row}>
-            <Icon name="reader-outline" />
+        {last ? (
+          <Pressable
+            accessibilityRole="button"
+            onPress={() => router.push({ pathname: '/solo', params: { id: last.id } })}
+            style={styles.link}
+          >
+            <Text style={styles.linkTitle}>Son nəticə</Text>
+            <Text style={styles.linkNote}>
+              {last.result.correct}/{last.result.totalQuestions} düzgün · {last.result.score} xal
+            </Text>
+          </Pressable>
+        ) : (
+          <View style={styles.link}>
             <Body>İlk yarışın səni gözləyir.</Body>
           </View>
-        </View>
-      )}
+        )}
+      </View>
       {active.error && (
-        <ErrorNotice
-          message={errorMessage(active.error)}
-          onRetry={() => {
-            void active.refetch();
-          }}
-        />
+        <ErrorNotice message={errorMessage(active.error)} onRetry={() => void active.refetch()} />
       )}
       {history.error && (
-        <ErrorNotice
-          message={errorMessage(history.error)}
-          onRetry={() => {
-            void history.refetch();
-          }}
-        />
+        <ErrorNotice message={errorMessage(history.error)} onRetry={() => void history.refetch()} />
       )}
     </Screen>
   );
 }
+
 const styles = StyleSheet.create({
-  brand: { color: colors.goldLight, fontWeight: '700', fontSize: 19 },
-  soloTitle: {
+  content: { gap: 13, paddingBottom: 10 },
+  masthead: {
+    ...layout.between,
+    borderBottomWidth: 1,
+    borderColor: colors.brass,
+    paddingBottom: 12,
+  },
+  contestant: { ...typography.cue, color: colors.goldLight, flex: 1, textTransform: 'uppercase' },
+  hero: { justifyContent: 'space-between', paddingTop: 10, paddingBottom: 5, gap: 18 },
+  center: { alignItems: 'center', gap: 7 },
+  wordmark: {
+    fontFamily: displayFamily,
     color: colors.text,
-    fontSize: 27,
-    lineHeight: 34,
-    letterSpacing: -0.5,
-    fontWeight: '600',
+    fontSize: 58,
+    fontWeight: '700',
+    textAlign: 'center',
   },
-  soloMark: {
-    width: 46,
-    height: 46,
-    borderRadius: 12,
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: '#efbf6910',
+  ranks: {
+    flexDirection: 'row',
+    alignItems: 'stretch',
+    gap: 16,
+    borderTopWidth: 1,
+    borderColor: colors.brass,
+    paddingTop: 10,
   },
-  latest: { paddingVertical: 14, borderTopWidth: 1, borderColor: colors.line, minHeight: 64 },
+  links: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: 16,
+    borderTopWidth: 1,
+    borderColor: colors.brass,
+  },
+  link: { flex: 1, minWidth: 120, minHeight: 52, paddingVertical: 8, gap: 4 },
+  linkTitle: { color: colors.text, fontSize: 15, fontWeight: '600' },
+  linkNote: { color: colors.muted, fontSize: 12, lineHeight: 17 },
 });

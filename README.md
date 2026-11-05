@@ -15,13 +15,13 @@
 
 **Bilirsən?** Azərbaycan dilində mobil bilik yarışıdır. Məqsəd bir neçə dəqiqəlik oyunda həm bildiklərini sınamaq, həm də yeni bir şey öyrənməkdir. Suallar qarışıq mövzulardan gəlir; kateqoriya seçmək əvəzinə birbaşa yarışa başlayırsan.
 
-Görünüş üçün televiziya studiyası üslubu seçilib: tünd göy səhnə, qızılı vurğular, işıqlar və xüsusi sual çərçivələri. Vaxt azaldıqca arxa fondakı ritm sürətlənir. Düzgün və yanlış cavabların ayrıca səsi var; hamısını tənzimləmələrdən söndürmək mümkündür.
+Kinematoqrafik studiya dizaynında ana səhifə yarış səhnəsinə açılır. Sual ekranında işıqlı sayğac və turun pillələri, nəticədə isə yarış xalı və rank keçidi görünür. Qısa cavablar iki sütuna, uzun cavablar tam enə düzülür. Vaxt azaldıqca arxa fondakı ritm sürətlənir. Yarış səslərini tənzimləmələrdən söndürmək mümkündür.
 
 Layihə hazırda **0.1.0** inkişaf mərhələsindədir. Qonaq kimi solo oyun işləyir. Canlı duel, qeydiyyat və rəsmi reytinq növbəti mərhələlərə saxlanıb.
 
 ## Ekranlar
 
-Aşağıdakı şəkillər tətbiqin son Studio dizaynından, iPhone ölçüsünə uyğun **390 px enli brauzer görünüşündən** götürülüb. Nümunə hesab və nəticələr istifadə olunur; bunlar fiziki iPhone ekran çəkilişləri deyil.
+Aşağıdakı görüntülər işləyən tətbiqin **390 px enli brauzer sınağından** çəkilib. Hesab, rank və nəticə dəyərləri sınaq məlumatlarıdır. [Dizayn yenilənməsi və yoxlamalar](docs/design/KINEMATOQRAFIK-STUDIYA.az.md)
 
 <table>
   <tr>
@@ -47,13 +47,28 @@ Aşağıdakı şəkillər tətbiqin son Studio dizaynından, iPhone ölçüsün�
 </table>
 
 <details>
-<summary>Duel studiyası və tarixçə</summary>
+<summary>Duel, tarixçə, reytinq və digər ekranlar</summary>
 
 <table>
   <tr><th>Duel studiyası · xidmət hazırlanır</th><th>Yarış tarixçəsi</th></tr>
   <tr>
     <td><img src="docs/images/duel.png" width="250" alt="Canlı duelin hələ hazır olmadığını göstərən duel studiyası" /></td>
     <td><img src="docs/images/history.png" width="250" alt="Keçmiş solo turların nəticələri" /></td>
+  </tr>
+</table>
+
+<table>
+  <tr><th>Reytinq nümunəsi</th><th>Tənzimləmələr</th><th>Qeydiyyat</th></tr>
+  <tr>
+    <td><img src="docs/images/leaderboard.png" width="250" alt="Nümunə reytinqdə oyunçunun yer göstəricisi və ilk üçlük" /></td>
+    <td><img src="docs/images/settings.png" width="250" alt="Səs pultu və səs sınaqları" /></td>
+    <td><img src="docs/images/register.png" width="250" alt="Qeydiyyat forması, hesab xidməti gözləmə vəziyyətində" /></td>
+  </tr>
+  <tr><th>Solo hazırlıq</th><th>Səhv cavab</th><th>Uzun variantlar</th></tr>
+  <tr>
+    <td><img src="docs/images/solo-ready.png" width="250" alt="Solo yarışa hazırlıq və çətinliklər üzrə vaxt" /></td>
+    <td><img src="docs/images/answer.png" width="250" alt="Səhv cavabın işarəsi və düzgün variantın açılması" /></td>
+    <td><img src="docs/images/question-long.png" width="250" alt="Uzun cavabların tək sütunda təqdimatı" /></td>
   </tr>
 </table>
 

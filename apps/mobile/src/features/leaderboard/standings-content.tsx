@@ -1,9 +1,9 @@
 import { StyleSheet, Text, View } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import { Card, Icon, Label, layout } from '../../components/studio';
-import { AvatarMedallion } from '../../components/studio-elements';
+import { AvatarMedallion, Eyebrow } from '../../components/studio-elements';
 import { SegmentedControl } from '../../components/segmented-control';
-import { colors } from '../../theme/tokens';
+import { colors, displayFamily } from '../../theme/tokens';
 import { StagePanel } from '../../components/stage-panel';
 
 export interface StandingDisplay {
@@ -35,6 +35,17 @@ export function StandingsContent({
           { value: 'duel', label: 'Duel' },
         ]}
       />
+      <StagePanel style={styles.selfPanel}>
+        <View style={styles.selfCopy}>
+          <Eyebrow>SƏNİN YERİN · NÜMUNƏ</Eyebrow>
+          <Text style={styles.selfRank}>{self.rankLabel}</Text>
+          <Text style={[styles.points, { textAlign: 'left' }]}>{self.points} rank xalı</Text>
+        </View>
+        <View style={styles.selfPlace}>
+          <Text style={styles.selfNumber}>{self.position}</Text>
+          <Eyebrow>YER</Eyebrow>
+        </View>
+      </StagePanel>
       <View style={layout.center}>
         <Text style={styles.title}>Studiyanın ən yaxşıları</Text>
       </View>
@@ -83,12 +94,6 @@ export function StandingsContent({
           </View>
         ))}
       </Card>
-      <Card style={{ borderColor: '#c7a46580' }}>
-        <Standing player={self} />
-        <Text style={styles.points}>
-          Sənin yerin · {mode === 'solo' ? 'Solo' : 'Duel'} rankına görə
-        </Text>
-      </Card>
       <Text style={[styles.points, { textAlign: 'center' }]}>
         Qonaq hesabları rəsmi siyahıda görünməyəcək.
       </Text>
@@ -109,7 +114,25 @@ function Standing({ player }: { player: StandingDisplay }) {
   );
 }
 const styles = StyleSheet.create({
+  selfPanel: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 12,
+    flexWrap: 'wrap',
+    paddingVertical: 14,
+  },
+  selfCopy: { flex: 1, minWidth: 128, gap: 5 },
+  selfPlace: { alignItems: 'center', minWidth: 68 },
+  selfNumber: {
+    color: colors.goldLight,
+    fontSize: 49,
+    lineHeight: 54,
+    fontVariant: ['tabular-nums'],
+    fontWeight: '600',
+  },
+  selfRank: { fontFamily: displayFamily, color: colors.text, fontSize: 22, fontWeight: '700' },
   title: {
+    fontFamily: displayFamily,
     color: colors.text,
     fontSize: 27,
     fontWeight: '700',
@@ -131,8 +154,6 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: '#c29a5070',
     backgroundColor: '#26313c',
-    borderTopLeftRadius: 10,
-    borderTopRightRadius: 10,
     overflow: 'hidden',
     alignItems: 'center',
     justifyContent: 'center',

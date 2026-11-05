@@ -1,23 +1,15 @@
 import { Redirect, router } from 'expo-router';
 import { useMutation } from '@tanstack/react-query';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, useWindowDimensions } from 'react-native';
 import { sessionSchema } from '@azquiz/contracts';
-import {
-  Screen,
-  Title,
-  Body,
-  Button,
-  ErrorNotice,
-  Card,
-  Icon,
-  layout,
-} from '../../components/studio';
+import { Screen, Title, Button, ErrorNotice } from '../../components/studio';
 import { Eyebrow } from '../../components/studio-elements';
-import { BrandMark } from '../../components/brand-mark';
 import { useSession } from '../../stores/session';
 import { request, errorMessage } from '../../services/http/client';
-import { colors } from '../../theme/tokens';
+import { colors, displayFamily } from '../../theme/tokens';
+
 export default function Welcome() {
+  const { height } = useWindowDimensions();
   const profile = useSession((s) => s.profile);
   const guest = useMutation({
     mutationFn: async () => {
@@ -29,68 +21,46 @@ export default function Welcome() {
     },
   });
   if (profile) return <Redirect href="/(tabs)" />;
+
   return (
     <Screen style={styles.content}>
-      <View style={styles.hero}>
-        <Eyebrow>AZƏRBAYCANIN BİLİK SƏHNƏSİ</Eyebrow>
-        <BrandMark size={112} />
-        <Text style={styles.brand}>Bilirsən?</Text>
-        <Title small>Səhnə sənindir.</Title>
-        <Text style={styles.description}>
-          Biliyini sına. Pillələri yüksəl.{'\n'}Hər sual yeni bir fürsətdir.
-        </Text>
-      </View>
-      <Card style={{ padding: 14, borderWidth: 0 }}>
-        <View style={[layout.row, { gap: 0 }]}>
-          {[
-            { icon: 'help-circle-outline' as const, title: '10 sual' },
-            { icon: 'time-outline' as const, title: 'Bir səhnə' },
-            { icon: 'ribbon-outline' as const, title: 'Bilik rankı' },
-          ].map((item, index) => (
-            <View
-              key={item.title}
-              style={{
-                flex: 1,
-                alignItems: 'center',
-                gap: 8,
-                borderLeftWidth: index ? 1 : 0,
-                borderColor: '#c29a5040',
-              }}
-            >
-              <Icon name={item.icon} size={23} />
-              <Text style={{ color: colors.text, fontSize: 12, textAlign: 'center' }}>
-                {item.title}
-              </Text>
-            </View>
-          ))}
+      <View style={[styles.hero, { minHeight: Math.max(330, Math.min(570, height * 0.65)) }]}>
+        <View style={styles.center}>
+          <Eyebrow>AZƏRBAYCAN DİLİNDƏ BİLİK YARIŞI</Eyebrow>
+          <View style={styles.rule} />
+          <Text accessibilityRole="header" style={styles.wordmark}>
+            Bilirsən?
+          </Text>
         </View>
-      </Card>
-      <View style={{ gap: 16 }}>
-        {guest.error && <ErrorNotice message={errorMessage(guest.error)} />}
-        <Button
-          title="Qonaq kimi başla"
-          loading={guest.isPending}
-          onPress={() => guest.mutate()}
-          icon="arrow-forward"
-        />
-        <Body>
-          İlk sınaqda qonaq kimi oynaya bilərsən. Qeydiyyat növbəti mərhələdə əlavə olunacaq.
-        </Body>
-        <Button title="Hesab ekranlarına bax" onPress={() => router.push('/account')} quiet />
-        {__DEV__ && (
-          <Button
-            title="Bütün dizayn ekranlarına bax"
-            onPress={() => router.push('/studio-preview')}
-            quiet
-          />
-        )}
+        <View style={styles.center}>
+          <Title>Səhnə sənindir.</Title>
+          <Eyebrow>10 SUAL / 3 ÇƏTİNLİK / 2 AYRI RANK</Eyebrow>
+        </View>
       </View>
+      {guest.error && <ErrorNotice message={errorMessage(guest.error)} />}
+      <Button title="Qonaq kimi başla" loading={guest.isPending} onPress={() => guest.mutate()} />
+      <Button title="Hesab ekranlarına bax" onPress={() => router.push('/account')} quiet />
+      {__DEV__ && (
+        <Button
+          title="Bütün dizayn ekranlarına bax"
+          onPress={() => router.push('/studio-preview')}
+          quiet
+        />
+      )}
     </Screen>
   );
 }
+
 const styles = StyleSheet.create({
-  content: { justifyContent: 'center', paddingTop: 32, paddingBottom: 32, gap: 28 },
-  hero: { alignItems: 'center', gap: 18, paddingTop: 8 },
-  brand: { color: colors.goldLight, fontSize: 44, fontWeight: '700', letterSpacing: -1.2 },
-  description: { color: colors.muted, fontSize: 15, textAlign: 'center', lineHeight: 25 },
+  content: { paddingTop: 24, gap: 9 },
+  hero: { justifyContent: 'space-between', gap: 24, paddingTop: 14, paddingBottom: 22 },
+  center: { alignItems: 'center', gap: 12 },
+  wordmark: {
+    fontFamily: displayFamily,
+    color: colors.text,
+    fontSize: 64,
+    fontWeight: '700',
+    textAlign: 'center',
+  },
+  rule: { width: '82%', height: 1, backgroundColor: colors.brass },
 });

@@ -9,7 +9,7 @@ test('guest enters the Studio, plays, abandons and sees persisted history', asyn
     path: 'output/testing/2026-10-06/01-welcome.png',
   });
   await page.getByRole('button', { name: 'Qonaq kimi başla' }).click();
-  await expect(page.getByText('Yarışa hazırsan?')).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Oyuna başla', exact: true })).toBeVisible();
   await page.screenshot({ animations: 'disabled', path: 'output/testing/2026-10-06/02-home.png' });
   await page.getByRole('button', { name: 'Solo rankını göstər' }).click();
   await expect(page.getByText('Solo rank qaydaları')).toBeVisible();

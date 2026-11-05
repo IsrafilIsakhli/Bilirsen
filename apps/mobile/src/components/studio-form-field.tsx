@@ -73,10 +73,10 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     minHeight: 54,
-    backgroundColor: '#0b1d30',
+    backgroundColor: colors.panel,
     borderWidth: 1,
     borderColor: '#35516c',
-    borderRadius: 12,
+    borderRadius: 3,
   },
   input: {
     flex: 1,

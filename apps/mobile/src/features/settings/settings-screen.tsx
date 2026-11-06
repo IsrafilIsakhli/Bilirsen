@@ -27,7 +27,7 @@ export default function Settings() {
         <View style={layout.between}>
           <View style={{ flex: 1 }}>
             <Label>Yarış səsləri</Label>
-            <Body>Saniyə və cavab siqnalları</Body>
+            <Body>Ana səhifə, yarış fonu və cavab siqnalları</Body>
           </View>
           <Switch
             accessibilityLabel="Yarış səsləri"
@@ -41,7 +41,7 @@ export default function Settings() {
         <View style={layout.between}>
           <View style={{ flex: 1 }}>
             <Label>Saniyə səsi</Label>
-            <Body>Vaxt azaldıqca sıxlaşan tik–tak</Body>
+            <Body>Vaxt azaldıqca sürətlənən yarış ritmi</Body>
           </View>
           <Switch
             accessibilityLabel="Saniyə səsi"
@@ -53,14 +53,23 @@ export default function Settings() {
           />
         </View>
       </View>
-      <SectionHeading title="Səsləri yoxla" note="3 studiya siqnalı" />
+      <SectionHeading title="Səsləri yoxla" note="4 studiya səsi" />
       <View style={{ gap: 0, borderTopWidth: 1, borderBottomWidth: 1, borderColor: colors.line }}>
         <Text style={{ color: colors.muted, fontSize: 12, lineHeight: 19, paddingVertical: 12 }}>
           Fon sual boyunca çalınır. Cavab vurğusu seçim təsdiqlənəndə eşidilir.
         </Text>
         <ActionRow
+          title="Ana səhifənin fonunu dinlə"
+          description="Dövrə ilə çalınan studiya fonu"
+          disabled={!sounds.preferences.enabled}
+          onPress={() => sounds.play('home')}
+          icon="musical-notes-outline"
+          trailing="play-outline"
+        />
+        <ActionRow
           title="Saniyə səsini dinlə"
-          description="20 / 25 / 30 saniyəlik fon · ritm sona yaxın sıxlaşır"
+          description="30 saniyəlik studiya musiqisi nümunəsi"
+          divided
           disabled={!sounds.preferences.enabled || !sounds.preferences.timerEnabled}
           onPress={() => sounds.play('tick')}
           icon="time-outline"
@@ -88,8 +97,8 @@ export default function Settings() {
       <Button title="Dinləməni dayandır" outline icon="stop-outline" onPress={sounds.stop} />
       {sounds.error && <ErrorNotice message={sounds.error} />}
       <Body>
-        Səslər yarış üçün ayrıca hazırlanıb. Səs səviyyəsini telefonundakı düymələrlə dəyişə
-        bilərsən.
+        Səslər Mixkit-in yarışma kolleksiyasındandır. Səs səviyyəsini telefonundakı düymələrlə
+        dəyişə bilərsən.
       </Body>
       {__DEV__ && (
         <Card>

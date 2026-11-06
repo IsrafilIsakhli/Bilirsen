@@ -6,6 +6,7 @@ import { useSounds } from '../../services/audio/sound-provider';
 export function useGameSounds(
   snapshot: GameSnapshot | undefined,
   remaining: number,
+  readRemaining: () => number,
   suspended: boolean,
 ) {
   const { play, stop, syncTimer, timerAvailable } = useSounds();
@@ -46,7 +47,7 @@ export function useGameSounds(
       syncTimer({
         questionId: question.id,
         durationSeconds: question.durationSeconds,
-        remainingSeconds: remaining,
+        remainingSeconds: readRemaining(),
       });
     } else syncTimer(null);
   }, [
@@ -54,6 +55,7 @@ export function useGameSounds(
     snapshot?.status,
     snapshot?.feedback,
     remaining,
+    readRemaining,
     suspended,
     timerAvailable,
     syncTimer,

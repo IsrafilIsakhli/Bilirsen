@@ -91,11 +91,15 @@ export default function Solo() {
   });
   const snapshot = game.data;
   const question = snapshot?.question;
-  const remaining = useServerCountdown(question?.deadlineAt, snapshot?.serverNow);
+  const { remaining, readRemaining } = useServerCountdown(
+    question?.deadlineAt,
+    snapshot?.serverNow,
+  );
   const sounds = useSounds();
   useGameSounds(
     snapshot,
     remaining,
+    readRemaining,
     confirm ||
       answer.isPending ||
       command.current?.questionId === question?.id ||
@@ -221,6 +225,7 @@ export default function Solo() {
                       : 'neutral'
               }
               onPress={() => {
+                sounds.syncTimer(null);
                 const body = {
                   commandId: Crypto.randomUUID(),
                   questionId: question.id,

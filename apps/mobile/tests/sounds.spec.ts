@@ -1,11 +1,14 @@
 import { test, expect } from '@playwright/test';
-const isTimer = (event: { source: string }) => /tick(?:-(?:20|25))?\.wav/.test(event.source);
+const isTimer = (event: { source: string }) => /competition_tension\.wav/.test(event.source);
 type Playback = {
   source: string;
   volume: number;
   duration: number;
   rate: number;
   position: number;
+  preservesPitch: boolean;
+  loop: boolean;
+  overlap: boolean;
 };
 test('Studio pages, sound previews, mute and server answer sound work together', async ({
   page,
@@ -16,16 +19,14 @@ test('Studio pages, sound previews, mute and server answer sound work together',
     if (message.type() === 'error') errors.push(message.text());
   });
   await page.addInitScript(() => {
-    const events: {
-      source: string;
-      volume: number;
-      duration: number;
-      rate: number;
-      position: number;
-    }[] = [];
+    const events: Playback[] = [];
     Object.defineProperty(window, 'studioAudioEvents', { value: events });
+    const players = new Set<HTMLMediaElement>();
+    Object.defineProperty(window, 'studioAudioPlayers', { value: players });
     const play = HTMLMediaElement.prototype.play;
     HTMLMediaElement.prototype.play = function (this: HTMLMediaElement) {
+      const overlap = Array.from(players).some((player) => player !== this && !player.paused);
+      players.add(this);
       return play.call(this).then(() => {
         events.push({
           source: this.currentSrc,
@@ -33,6 +34,9 @@ test('Studio pages, sound previews, mute and server answer sound work together',
           duration: this.duration,
           rate: this.playbackRate,
           position: this.currentTime,
+          preservesPitch: this.preservesPitch,
+          loop: this.loop,
+          overlap,
         });
       });
     };
@@ -41,6 +45,16 @@ test('Studio pages, sound previews, mute and server answer sound work together',
   await page.goto('/');
   await page.getByRole('button', { name: 'Qonaq kimi başla' }).click();
   await expect(page.getByRole('button', { name: 'Oyuna başla', exact: true })).toBeVisible();
+  await expect
+    .poll(async () =>
+      (await events()).some(
+        (event) =>
+          event.source.includes('home_ambience.wav') &&
+          event.loop &&
+          Math.abs(event.duration - 28.8) < 0.01,
+      ),
+    )
+    .toBe(true);
   await page.getByRole('tab', { name: /Duel/ }).click();
   await expect(page.getByRole('button', { name: 'Rəqib tap · tezliklə' })).toBeDisabled();
   await page.screenshot({
@@ -79,7 +93,9 @@ test('Studio pages, sound previews, mute and server answer sound work together',
   await expect
     .poll(() =>
       page.evaluate(() =>
-        Array.from(document.querySelectorAll('audio')).every((player) => player.paused),
+        Array.from(Reflect.get(window, 'studioAudioPlayers') as Set<HTMLMediaElement>).every(
+          (player) => player.paused,
+        ),
       ),
     )
     .toBe(true);
@@ -105,10 +121,19 @@ test('Studio pages, sound previews, mute and server answer sound work together',
   await expect.poll(async () => (await events()).length).toBeGreaterThan(mutedCount);
   const timerStarts = (await events()).filter(isTimer).length;
   const liveTimer = (await events()).filter(isTimer).at(-1);
-  expect(liveTimer?.rate).toBe(1);
-  expect([20, 25, 30]).toContain(liveTimer?.duration);
+  expect(liveTimer?.preservesPitch).toBe(true);
+  expect(liveTimer?.duration).toBeCloseTo(30, 2);
   expect(liveTimer?.position).toBeGreaterThan(0); // Unmuting resumes the elapsed phase, not the beginning.
-  await page.waitForTimeout(2400);
+  await expect
+    .poll(() =>
+      page.evaluate(
+        () =>
+          Array.from(Reflect.get(window, 'studioAudioPlayers') as Set<HTMLMediaElement>).find(
+            (player) => player.currentSrc.includes('competition_tension.wav'),
+          )?.playbackRate ?? 0,
+      ),
+    )
+    .toBeGreaterThan((liveTimer?.rate ?? 0) + 0.025);
   expect((await events()).filter(isTimer).length).toBe(timerStarts);
   await page.getByRole('button', { name: 'Yarışdan çıx', exact: true }).click();
   await page.waitForTimeout(1100);
@@ -155,14 +180,15 @@ test('Studio pages, sound previews, mute and server answer sound work together',
     path: 'output/testing/studio-refinement/history.png',
   });
   expect((await events()).every((event) => event.duration > 0 && event.volume <= 0.65)).toBe(true);
+  expect((await events()).some((event) => event.overlap)).toBe(false);
   const previewEvents = await events();
   expect(previewEvents.find(isTimer)?.duration).toBeCloseTo(30, 2);
   expect(previewEvents.find((event) => event.source.includes('correct.wav'))?.duration).toBeCloseTo(
-    0.85,
+    1.35,
     2,
   );
   expect(previewEvents.find((event) => event.source.includes('wrong.wav'))?.duration).toBeCloseTo(
-    0.7,
+    1.45,
     2,
   );
   expect(errors).toEqual([]);

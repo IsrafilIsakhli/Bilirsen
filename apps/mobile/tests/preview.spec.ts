@@ -73,6 +73,7 @@ test('Studio v3 presentation and media with explicit public-response fixtures', 
   };
   const history = [{ id: '00000000-0000-4000-8000-000000000004', mode: 'solo', result: completed }];
   let snapshot: GameSnapshot | null = null;
+  let forceTimeout = false;
   let stressQuestion = false;
   let fixtureDuration = 20;
   const longQuestion =
@@ -174,9 +175,24 @@ test('Studio v3 presentation and media with explicit public-response fixtures', 
       profile.answeredQuestions = 13;
       history.unshift({ id: gameId, mode: 'solo', result });
       body = snapshot;
-    } else if (path === '/v1/games/' + gameId && snapshot)
+    } else if (path === '/v1/games/' + gameId && snapshot) {
+      if (forceTimeout && snapshot.status === 'question_open') {
+        snapshot = {
+          ...snapshot,
+          revision: snapshot.revision + 1,
+          status: 'question_closed',
+          feedback: {
+            selected: null,
+            correctOption: 'A',
+            correct: false,
+            points: 0,
+            rankDelta: 0,
+            nextAt: new Date(Date.now() + 60000).toISOString(),
+          },
+        };
+      }
       body = { ...snapshot, serverNow: new Date().toISOString() };
-    else {
+    } else {
       await route.fulfill({
         status: 404,
         json: {
@@ -216,15 +232,22 @@ test('Studio v3 presentation and media with explicit public-response fixtures', 
     await page.getByRole('button', { name: title }).click();
   }
   await expect
-    .poll(() => page.evaluate(() => Reflect.get(window, 'studioPreviewAudio').length))
+    .poll(() =>
+      page.evaluate(
+        () =>
+          (Reflect.get(window, 'studioPreviewAudio') as { source: string }[]).filter(
+            (event) => !event.source.includes('home_ambience'),
+          ).length,
+      ),
+    )
     .toBe(3);
   const audio: { source: string; duration: number }[] = await page.evaluate(() =>
     Reflect.get(window, 'studioPreviewAudio'),
   );
   for (const [cue, duration] of [
-    ['tick', 30],
-    ['correct', 0.85],
-    ['wrong', 0.7],
+    ['competition_tension', 30],
+    ['answer_correct', 1.35],
+    ['answer_wrong', 1.45],
   ] as const)
     expect(audio.find((event) => event.source.includes(cue + '.wav'))?.duration).toBeCloseTo(
       duration,
@@ -334,13 +357,31 @@ test('Studio v3 presentation and media with explicit public-response fixtures', 
           );
           return events.some(
             (event) =>
-              event.source.includes('tick') &&
-              Math.abs(event.duration - expected) < 0.001 &&
-              event.rate === 1,
+              event.source.includes('competition_tension') &&
+              Math.abs(event.duration - 30) < 0.001 &&
+              Math.abs(event.rate - (30 / expected) * 0.8) < 0.03,
           );
         }, duration),
       )
       .toBe(true);
+    if (duration === 30) {
+      const beforeTimeout = await page.evaluate(
+        () =>
+          (Reflect.get(window, 'studioPreviewAudio') as { source: string }[]).filter(({ source }) =>
+            /answer_(correct|wrong)\.wav/.test(source),
+          ).length,
+      );
+      forceTimeout = true;
+      await expect(page.getByText(/Vaxt bitdi/)).toBeVisible();
+      expect(
+        await page.evaluate(
+          () =>
+            (Reflect.get(window, 'studioPreviewAudio') as { source: string }[]).filter(
+              ({ source }) => /answer_(correct|wrong)\.wav/.test(source),
+            ).length,
+        ),
+      ).toBe(beforeTimeout);
+    }
     await page.getByRole('button', { name: 'Yarışdan çıx', exact: true }).click();
     await page.getByRole('button', { name: 'Turu bağla', exact: true }).click();
     await expect(page.getByText('Tur bağlandı', { exact: true })).toBeVisible();

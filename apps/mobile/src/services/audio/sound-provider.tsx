@@ -11,23 +11,22 @@ import type { PropsWithChildren } from 'react';
 import { AppState, Platform } from 'react-native';
 import * as SecureStore from 'expo-secure-store';
 import { setAudioModeAsync, useAudioPlayer, useAudioPlayerStatus } from 'expo-audio';
-import type { AudioPlayer } from 'expo-audio';
 import { z } from 'zod';
-import tickSource from '../../../assets/sounds/tick.wav';
-import tick20Source from '../../../assets/sounds/tick-20.wav';
-import tick25Source from '../../../assets/sounds/tick-25.wav';
-import correctSource from '../../../assets/sounds/correct.wav';
-import wrongSource from '../../../assets/sounds/wrong.wav';
+import homeSource from '../../../assets/sounds/broadcast/home_ambience.wav';
+import tickSource from '../../../assets/sounds/broadcast/competition_tension.wav';
+import correctSource from '../../../assets/sounds/broadcast/answer_correct.wav';
+import wrongSource from '../../../assets/sounds/broadcast/answer_wrong.wav';
 
 const preferencesSchema = z.object({ enabled: z.boolean(), timerEnabled: z.boolean() });
 type Preferences = z.infer<typeof preferencesSchema>;
-export type SoundCue = 'tick' | 'correct' | 'wrong';
+export type SoundCue = 'home' | 'tick' | 'correct' | 'wrong';
 export type TimerSoundRequest = {
   questionId: string;
   durationSeconds: number;
   remainingSeconds: number;
 };
 const key = 'bilirsen.sound.v1';
+const competitionLengthSeconds = 30;
 const defaults: Preferences = { enabled: true, timerEnabled: true };
 type SoundControls = {
   preferences: Preferences;
@@ -35,28 +34,21 @@ type SoundControls = {
   play: (cue: SoundCue) => void;
   stop: () => void;
   syncTimer: (request: TimerSoundRequest | null) => void;
+  syncHome: (focused: boolean) => void;
+  homeAvailable: boolean;
   timerAvailable: boolean;
   update: (change: Partial<Preferences>) => void;
 };
 const SoundContext = createContext<SoundControls | null>(null);
 
 export function SoundProvider({ children }: PropsWithChildren) {
+  const home = useAudioPlayer(homeSource);
+  const homeStatus = useAudioPlayerStatus(home);
   const tick = useAudioPlayer(tickSource);
   const tickStatus = useAudioPlayerStatus(tick);
-  const tick20 = useAudioPlayer(tick20Source);
-  const tick25 = useAudioPlayer(tick25Source);
-  const tick20Status = useAudioPlayerStatus(tick20);
-  const tick25Status = useAudioPlayerStatus(tick25);
   const correct = useAudioPlayer(correctSource);
   const wrong = useAudioPlayer(wrongSource);
-  const players = useMemo(
-    () => ({ tick, tick20, tick25, correct, wrong }),
-    [tick, tick20, tick25, correct, wrong],
-  );
-  const timerPlayers = useMemo(
-    () => ({ 20: tick20, 25: tick25, 30: tick }),
-    [tick, tick20, tick25],
-  );
+  const players = useMemo(() => ({ home, tick, correct, wrong }), [home, tick, correct, wrong]);
   const [preferences, setPreferences] = useState(defaults);
   const [playbackError, setPlaybackError] = useState<string | null>(null);
   const [storageError, setStorageError] = useState<string | null>(null);
@@ -66,12 +58,14 @@ export function SoundProvider({ children }: PropsWithChildren) {
   const configured = useRef(false);
   const [audioReady, setAudioReady] = useState(false);
   const [appActive, setAppActive] = useState(active.current);
-  const timerPlayback = useRef<{ key: string; pending: boolean; player: AudioPlayer } | null>(null);
+  const timerPlayback = useRef<{ key: string; pending: boolean } | null>(null);
+  const homePlayback = useRef(false);
   const generation = useRef(0);
   const writeQueue = useRef(Promise.resolve());
   const stop = useCallback(() => {
     generation.current += 1;
     timerPlayback.current = null;
+    homePlayback.current = false;
     for (const player of Object.values(players)) player.pause();
   }, [players]);
 
@@ -160,11 +154,13 @@ export function SoundProvider({ children }: PropsWithChildren) {
         try {
           await player.seekTo(0);
           if (currentGeneration !== generation.current || !allowed()) return;
+          player.loop = false;
           player.setPlaybackRate(1);
           player.volume = isTimer ? 0.5 : 0.6;
           player.play();
           setPlaybackError(null);
         } catch {
+          if (currentGeneration !== generation.current) return;
           setPlaybackError(
             'Səs çalınmadı. Telefonun səs səviyyəsini və tətbiqin səs ayarını yoxla.',
           );
@@ -173,6 +169,37 @@ export function SoundProvider({ children }: PropsWithChildren) {
       void replay();
     },
     [players, stop],
+  );
+
+  const syncHome = useCallback(
+    (focused: boolean) => {
+      if (!focused) {
+        if (homePlayback.current) stop();
+        return;
+      }
+      if (!configured.current || !active.current || !settings.current.enabled || !home.isLoaded)
+        return;
+      if (homePlayback.current) return;
+      stop();
+      const currentGeneration = generation.current;
+      homePlayback.current = true;
+      async function start() {
+        try {
+          await home.seekTo(0);
+          if (generation.current !== currentGeneration) return;
+          home.loop = true;
+          home.volume = 0.4;
+          home.play();
+          setPlaybackError(null);
+        } catch {
+          if (generation.current !== currentGeneration) return;
+          homePlayback.current = false;
+          setPlaybackError('Ana səhifənin fon səsi açıla bilmədi.');
+        }
+      }
+      void start();
+    },
+    [home, stop],
   );
 
   const syncTimer = useCallback(
@@ -186,7 +213,7 @@ export function SoundProvider({ children }: PropsWithChildren) {
         // Do not interrupt an answer verdict when repeated feedback stops an already stopped bed.
         if (timerPlayback.current) {
           generation.current += 1;
-          timerPlayback.current.player.pause();
+          tick.pause();
           timerPlayback.current = null;
         }
         return;
@@ -197,23 +224,27 @@ export function SoundProvider({ children }: PropsWithChildren) {
         setPlaybackError('Sualın vaxtına uyğun fon səsi açıla bilmədi.');
         return;
       }
-      const player = timerPlayers[duration];
+      const player = tick;
       if (!player.isLoaded) return; // Loaded status retriggers synchronization.
       const key = request.questionId + ':' + request.durationSeconds;
-      const position =
-        duration * Math.max(0, Math.min(1, 1 - request.remainingSeconds / request.durationSeconds));
-      if (
-        timerPlayback.current?.key === key &&
-        (timerPlayback.current.pending ||
-          (player.playing && Math.abs(player.currentTime - position) < 1.8))
-      )
-        return;
+      const elapsed = Math.max(0, Math.min(1, 1 - request.remainingSeconds / duration));
+      // Rate rises from 80% to 120% of the mean rate. Its integral lands exactly
+      // at the end of the stock cue for each supported question duration.
+      const position = competitionLengthSeconds * elapsed * (0.8 + 0.2 * elapsed);
+      const rate = (competitionLengthSeconds / duration) * (0.8 + 0.4 * elapsed);
+      if (timerPlayback.current?.key === key) {
+        if (timerPlayback.current.pending) return;
+        if (player.playing && Math.abs(player.currentTime - position) < 1.1) {
+          if (Math.abs(player.playbackRate - rate) >= 0.015) player.setPlaybackRate(rate, 'high');
+          return;
+        }
+      }
       stop();
       const currentGeneration = generation.current;
-      timerPlayback.current = { key, pending: true, player };
+      timerPlayback.current = { key, pending: true };
       async function start() {
         try {
-          await player.seekTo(position);
+          await player.seekTo(position, 0, 0);
           if (
             generation.current !== currentGeneration ||
             !active.current ||
@@ -221,12 +252,12 @@ export function SoundProvider({ children }: PropsWithChildren) {
             !settings.current.timerEnabled
           )
             return;
-          // Tempo is authored into each track. No live stretching or pitch processing.
-          player.shouldCorrectPitch = false;
-          player.setPlaybackRate(1);
+          player.loop = false;
+          player.shouldCorrectPitch = true;
+          player.setPlaybackRate(rate, 'high');
           player.volume = 0.5;
           player.play();
-          timerPlayback.current = { key, pending: false, player };
+          timerPlayback.current = { key, pending: false };
           setPlaybackError(null);
         } catch {
           if (generation.current !== currentGeneration) return;
@@ -236,22 +267,31 @@ export function SoundProvider({ children }: PropsWithChildren) {
       }
       void start();
     },
-    [timerPlayers, stop],
+    [tick, stop],
   );
 
   const timerAvailable =
     audioReady &&
     tickStatus.isLoaded &&
-    tick20Status.isLoaded &&
-    tick25Status.isLoaded &&
     appActive &&
     preferences.enabled &&
     preferences.timerEnabled;
+  const homeAvailable = audioReady && homeStatus.isLoaded && appActive && preferences.enabled;
 
   const error = playbackError ?? storageError;
   const controls = useMemo(
-    () => ({ preferences, error, play, stop, syncTimer, timerAvailable, update }),
-    [preferences, error, play, stop, syncTimer, timerAvailable, update],
+    () => ({
+      preferences,
+      error,
+      play,
+      stop,
+      syncTimer,
+      timerAvailable,
+      syncHome,
+      homeAvailable,
+      update,
+    }),
+    [preferences, error, play, stop, syncTimer, timerAvailable, syncHome, homeAvailable, update],
   );
   return <SoundContext.Provider value={controls}>{children}</SoundContext.Provider>;
 }

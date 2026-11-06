@@ -1,5 +1,6 @@
 import { View, Text, StyleSheet, Pressable, useWindowDimensions } from 'react-native';
-import { router } from 'expo-router';
+import { router, useFocusEffect } from 'expo-router';
+import { useCallback } from 'react';
 import { Eyebrow } from '../../components/studio-elements';
 import {
   Screen,
@@ -14,12 +15,22 @@ import { useProfile, useHistory, useActiveGame } from '../../services/http/queri
 import { errorMessage } from '../../services/http/client';
 import { RankCard } from '../ranks/rank-card';
 import { colors, displayFamily, typography } from '../../theme/tokens';
+import { useSounds } from '../../services/audio/sound-provider';
 
 export default function Home() {
   const { height } = useWindowDimensions();
   const profile = useProfile();
   const history = useHistory();
   const active = useActiveGame();
+  const { homeAvailable, syncHome } = useSounds();
+  const playHome = Boolean(profile.data) && homeAvailable;
+  useFocusEffect(
+    useCallback(() => {
+      if (!playHome) return;
+      syncHome(true);
+      return () => syncHome(false);
+    }, [playHome, syncHome]),
+  );
   if (profile.isPending) return <LoadingScreen />;
   if (!profile.data)
     return (

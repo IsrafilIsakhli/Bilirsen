@@ -126,6 +126,8 @@ npm run generate
 
 Yeni kompüterdə database və sual bankı ilk dəfə hazırlanmalıdır. Bunun üçün [yerli quraşdırma təlimatını](docs/development/LOCAL-SETUP.az.md) izlə. Mövcud database ilə davam edirsənsə, məlumatları yenidən idxal etməyə ehtiyac yoxdur.
 
+Expo-nu ilk dəfə işə salmazdan əvvəl [lisenziyalı dörd səsi quraşdır](apps/mobile/assets/sounds/broadcast/README.md).
+
 Mobil bağlantını hazırla:
 
 ```powershell

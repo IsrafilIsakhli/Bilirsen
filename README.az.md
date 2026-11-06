@@ -24,6 +24,8 @@ npm.cmd run db:prepare
 
 `db:prepare` yalnız `app` sxemini hazırlayır. Hazırlama bankını və Docker volume-u silmir. Migration checksum-u fərqlənərsə dayanır. Administratorun parolu oxunmur: lokal container daxilində inzibatçı bağlantısı istifadə olunur. Runtime üçün ayrıca məhdud database hesabı və `apps/api/.env.local` yaradılır. Bu faylı paylaşma.
 
+Expo-nu ilk dəfə işə salmazdan əvvəl [lisenziyalı dörd səsi quraşdır](apps/mobile/assets/sounds/broadcast/README.md).
+
 İki ayrı terminalda:
 
 ```powershell

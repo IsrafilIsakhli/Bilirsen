@@ -21,6 +21,8 @@ tmp-audit.json
 !/output/design/
 /output/design/*
 !/output/design/son-dizayn-2026-10-05/
+# Mixkit permits in-game use and excludes redistribution with source files.
+/apps/mobile/assets/sounds/broadcast/*.wav
 question-bank/outputs/**/*.inspect.ndjson
 playwright-report/
 blob-report/

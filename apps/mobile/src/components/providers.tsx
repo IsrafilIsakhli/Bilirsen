@@ -9,17 +9,26 @@ import { renewSession, ApiError, errorMessage } from '../services/http/client';
 import { Screen, ErrorNotice, LoadingScreen } from './studio';
 import { SoundProvider } from '../services/audio/sound-provider';
 
-const queryClient = new QueryClient({
-  defaultOptions: {
-    queries: {
-      retry: (count, error) => count < 1 && error instanceof ApiError && error.status === 0,
-      staleTime: 15000,
-    },
-    mutations: { retry: false },
-  },
-});
+function SessionQueries({ children }: PropsWithChildren) {
+  const [queryClient] = useState(
+    () =>
+      new QueryClient({
+        defaultOptions: {
+          queries: {
+            retry: (count, error) => count < 1 && error instanceof ApiError && error.status === 0,
+            staleTime: 15000,
+          },
+          mutations: { retry: false },
+        },
+      }),
+  );
+  useEffect(() => () => queryClient.clear(), [queryClient]);
+  return <QueryClientProvider client={queryClient}>{children}</QueryClientProvider>;
+}
+
 export function Providers({ children }: PropsWithChildren) {
   const ready = useSession((s) => s.ready);
+  const userId = useSession((s) => s.profile?.id);
   const [error, setError] = useState<string | null>(null);
   async function bootstrap() {
     setError(null);
@@ -39,7 +48,7 @@ export function Providers({ children }: PropsWithChildren) {
   }, []);
   return (
     <SafeAreaProvider>
-      <QueryClientProvider client={queryClient}>
+      <SessionQueries key={userId ?? 'anonymous'}>
         {error ? (
           <Screen>
             <ErrorNotice
@@ -54,7 +63,7 @@ export function Providers({ children }: PropsWithChildren) {
         ) : (
           <LoadingScreen message="Studiyaya qoşuluruq…" />
         )}
-      </QueryClientProvider>
+      </SessionQueries>
     </SafeAreaProvider>
   );
 }

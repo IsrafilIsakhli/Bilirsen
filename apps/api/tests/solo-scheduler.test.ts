@@ -109,6 +109,43 @@ describe('solo scheduler failure isolation', () => {
     );
   });
 
+  it('returns cancellation for a damaged match on read and repeated leave without settling it', async () => {
+    const cancelled: Match = {
+      ...scheduledMatch(),
+      activeUserId: null,
+      status: 'cancelled_server',
+      dueAt: null,
+    };
+    vi.spyOn(db.match, 'findFirst').mockResolvedValue(cancelled);
+    vi.spyOn(db.commandReceipt, 'findUnique').mockResolvedValue(null);
+    const commandId = randomUUID();
+    vi.spyOn(db.commandReceipt, 'create').mockResolvedValue({
+      userId: cancelled.userId,
+      commandId,
+      fingerprint: 'fixture',
+      response: {},
+      createdAt: new Date(),
+    });
+    const resultWrite = vi.spyOn(db.result, 'create');
+    const ledgerWrite = vi.spyOn(db.rankLedger, 'create');
+    const rankWrite = vi.spyOn(db.rank, 'update');
+
+    for (const response of [
+      await service.read(cancelled.userId, cancelled.id),
+      await service.leave(cancelled.userId, cancelled.id, commandId),
+    ]) {
+      expect(gameSchema.parse(response)).toEqual({
+        ...view,
+        id: cancelled.id,
+        revision: cancelled.revision,
+        serverNow: new Date().toISOString(),
+      });
+    }
+    expect(resultWrite).not.toHaveBeenCalled();
+    expect(ledgerWrite).not.toHaveBeenCalled();
+    expect(rankWrite).not.toHaveBeenCalled();
+  });
+
   it('does not overlap timer batches while a game transaction is still pending', async () => {
     const match = scheduledMatch();
     const due = vi.spyOn(db.match, 'findMany').mockResolvedValue([]);

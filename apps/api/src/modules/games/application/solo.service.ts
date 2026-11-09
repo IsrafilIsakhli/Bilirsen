@@ -117,9 +117,8 @@ export class SoloService implements OnModuleInit, OnModuleDestroy {
   async leave(userId: string, matchId: string, commandId: string): Promise<GameSnapshot> {
     return this.command(userId, commandId, `leave:${matchId}`, async (tx) => {
       const match = await this.ownedMatch(tx, userId, matchId);
+      if (!match.activeUserId) return this.advance(tx, match, Date.now());
       const state = soloStateSchema.parse(match.state);
-      if (!match.activeUserId)
-        return snapshot(match.id, match.revision, this.status(match), state, Date.now());
       await this.settle(tx, match, state, 'abandoned', Date.now());
       return this.persist(tx, match, state, 'finished', Date.now());
     });
@@ -167,6 +166,22 @@ export class SoloService implements OnModuleInit, OnModuleDestroy {
     return gameSchema.shape.status.parse(match.status);
   }
   private async advance(tx: Transaction, match: Match, now: number): Promise<GameSnapshot> {
+    if (match.status === 'cancelled_server') {
+      // Cancellation has no settled score or rank. Its persisted state may be the
+      // reason the scheduler cancelled it, so it must not be read here.
+      return {
+        id: match.id,
+        revision: match.revision,
+        mode: 'solo',
+        status: 'cancelled_server',
+        serverNow: new Date(now).toISOString(),
+        score: 0,
+        rankDelta: 0,
+        question: null,
+        feedback: null,
+        result: null,
+      };
+    }
     const state = soloStateSchema.parse(match.state);
     if (!match.activeUserId)
       return snapshot(match.id, match.revision, this.status(match), state, now);

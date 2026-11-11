@@ -1,7 +1,7 @@
 import 'reflect-metadata';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { Logger } from '@nestjs/common';
-import { randomUUID } from 'node:crypto';
+import { createHash, randomUUID } from 'node:crypto';
 import type { Match } from '../src/generated/prisma/client';
 import { gameSchema } from '@azquiz/contracts';
 import { DatabaseService } from '../src/infrastructure/database/database.service';
@@ -163,5 +163,35 @@ describe('solo scheduler failure isolation', () => {
     release(view);
     await vi.advanceTimersByTimeAsync(500);
     expect(due).toHaveBeenCalledTimes(2);
+  });
+
+  it('replays a start command with the current match state without creating another game', async () => {
+    const cancelled: Match = {
+      ...scheduledMatch(),
+      activeUserId: null,
+      status: 'cancelled_server',
+      dueAt: null,
+      revision: 3,
+    };
+    const commandId = randomUUID();
+    vi.spyOn(db.commandReceipt, 'findUnique').mockResolvedValue({
+      userId: cancelled.userId,
+      commandId,
+      fingerprint: createHash('sha256').update('start').digest('hex'),
+      response: { ...view, id: cancelled.id, status: 'question_open' },
+      createdAt: new Date(0),
+    });
+    vi.spyOn(db.match, 'findFirst').mockResolvedValue(cancelled);
+    const createMatch = vi.spyOn(db.match, 'create');
+    const createReceipt = vi.spyOn(db.commandReceipt, 'create');
+
+    const replay = await service.start(cancelled.userId, commandId);
+    expect(replay).toMatchObject({ id: cancelled.id, revision: 3, status: 'cancelled_server' });
+    expect(createMatch).not.toHaveBeenCalled();
+    expect(createReceipt).not.toHaveBeenCalled();
+
+    await expect(service.leave(cancelled.userId, cancelled.id, commandId)).rejects.toMatchObject({
+      code: 'command_conflict',
+    });
   });
 });

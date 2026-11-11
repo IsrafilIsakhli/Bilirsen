@@ -142,7 +142,12 @@ export class SoloService implements OnModuleInit, OnModuleDestroy {
               'command_conflict',
               'Eyni əmrlə fərqli məlumat göndərilə bilməz.',
             );
-          return gameSchema.parse(receipt.response);
+          const recorded = gameSchema.parse(receipt.response);
+          if (fingerprint === 'start') {
+            const match = await this.ownedMatch(tx, userId, recorded.id);
+            return this.advance(tx, match, Date.now());
+          }
+          return recorded;
         }
         const response = await action(tx);
         await tx.commandReceipt.create({

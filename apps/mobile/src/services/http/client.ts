@@ -49,7 +49,8 @@ export async function request<T>(
     body: options.body === undefined ? undefined : JSON.stringify(options.body),
   });
   if (response.status === 401 && authenticated && !refreshed) {
-    await renewSession();
+    // Another request may have already renewed the token while this response was in flight.
+    if (useSession.getState().accessToken === token) await renewSession();
     return request(path, schema, options, true);
   }
   if (!response.ok) {

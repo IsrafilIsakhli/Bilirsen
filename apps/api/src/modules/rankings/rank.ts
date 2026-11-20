@@ -8,10 +8,11 @@ const tiers = [
   { name: 'Əllamə', start: 2100, span: 300 },
 ] as const;
 const divisions = ['III', 'II', 'I'] as const;
+const descendingTiers = [...tiers].reverse();
 
 export function describeRank(points: number): Rank {
   if (!Number.isSafeInteger(points) || points < 0) throw new RangeError('Invalid rank balance');
-  const tier = [...tiers].reverse().find((entry) => points >= entry.start);
+  const tier = descendingTiers.find((entry) => points >= entry.start);
   if (!tier) throw new Error('Rank configuration is incomplete');
   const index = Math.min(2, Math.floor((points - tier.start) / tier.span));
   const division = divisions[index];

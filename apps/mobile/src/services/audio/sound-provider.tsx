@@ -156,7 +156,7 @@ export function SoundProvider({ children }: PropsWithChildren) {
           if (currentGeneration !== generation.current || !allowed()) return;
           player.loop = false;
           player.setPlaybackRate(1);
-          player.volume = isTimer ? 0.5 : 0.6;
+          player.volume = cue === 'home' ? 0.4 : isTimer ? 0.5 : 0.6;
           player.play();
           setPlaybackError(null);
         } catch {

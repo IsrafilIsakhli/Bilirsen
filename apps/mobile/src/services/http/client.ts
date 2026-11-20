@@ -13,9 +13,9 @@ let refreshFlight: Promise<void> | null = null;
 export async function renewSession(): Promise<void> {
   if (refreshFlight) return refreshFlight;
   refreshFlight = (async () => {
-    const refreshToken = await tokenStorage.read();
-    if (!refreshToken) throw new ApiError('session_expired', 'Yenidən daxil ol.', 401);
     try {
+      const refreshToken = await tokenStorage.read();
+      if (!refreshToken) throw new ApiError('session_expired', 'Yenidən daxil ol.', 401);
       const session = await request('/auth/refresh', sessionSchema, {
         method: 'POST',
         body: { refreshToken },

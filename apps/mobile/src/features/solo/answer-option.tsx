@@ -68,7 +68,7 @@ export function AnswerOption({
   return (
     <Pressable
       accessibilityRole="button"
-      accessibilityLabel={`${option.key}. ${option.text}`}
+      accessibilityLabel={`${option.key}. ${option.text}${state === 'correct' ? '. Düzgün cavab' : state === 'wrong' ? '. Yanlış cavab' : state === 'pending' ? '. Cavab təsdiqlənir' : ''}`}
       accessibilityState={{ disabled, selected: state !== 'neutral' }}
       disabled={disabled}
       onPress={onPress}
@@ -97,7 +97,7 @@ const styles = StyleSheet.create({
   cell: { flex: 1, minWidth: 0 },
   option: {
     flex: 1,
-    minHeight: 57,
+    minHeight: 60,
     paddingHorizontal: 11,
     paddingVertical: 9,
     flexDirection: 'row',

@@ -4,7 +4,7 @@ import type { GameSnapshot } from '@azquiz/contracts';
 import { PanelInk } from '../../components/stage-panel';
 import { colors, typography } from '../../theme/tokens';
 
-const circumference = 2 * Math.PI * 48;
+const circumference = 2 * Math.PI * 40;
 
 export function QuestionStatus({
   snapshot,
@@ -27,7 +27,7 @@ export function QuestionStatus({
         <Text style={styles.cue}>
           SUAL {question.number} / {question.total}
         </Text>
-        <Text style={styles.cue}>{difficulty}</Text>
+        <Text style={styles.cue}>{difficulty} · {question.points} XAL</Text>
       </View>
       <View style={styles.track}>
         <View style={styles.focus}>
@@ -37,21 +37,21 @@ export function QuestionStatus({
             accessible
             accessibilityLabel={`Qalan vaxt: ${remaining} saniyə`}
           >
-            <Svg width={112} height={112} viewBox="0 0 112 112" style={StyleSheet.absoluteFill}>
-              <Circle cx={56} cy={56} r={54} fill={colors.background} stroke="#6e86ac" />
-              <Circle cx={56} cy={56} r={48} fill="none" stroke="#294263" strokeWidth={4} />
+            <Svg width={96} height={96} viewBox="0 0 96 96" style={StyleSheet.absoluteFill}>
+              <Circle cx={48} cy={48} r={46} fill={colors.background} stroke="#6e86ac" />
+              <Circle cx={48} cy={48} r={40} fill="none" stroke="#294263" strokeWidth={3} />
               {progress > 0 && (
                 <Circle
-                  cx={56}
-                  cy={56}
-                  r={48}
+                  cx={48}
+                  cy={48}
+                  r={40}
                   fill="none"
                   stroke={timeColor}
-                  strokeWidth={4}
+                  strokeWidth={3}
                   strokeDasharray={[circumference, circumference]}
                   strokeDashoffset={circumference * (1 - progress)}
                   strokeLinecap="round"
-                  transform="rotate(-90 56 56)"
+                  transform="rotate(-90 48 48)"
                 />
               )}
             </Svg>
@@ -108,8 +108,8 @@ const styles = StyleSheet.create({
   cue: { ...typography.cue, color: colors.goldLight },
   track: { flexDirection: 'row', alignItems: 'stretch', gap: 10 },
   focus: { flex: 1, minWidth: 0, alignItems: 'center', justifyContent: 'center', gap: 4 },
-  dial: { width: 112, height: 112, alignItems: 'center', justifyContent: 'center', gap: 2 },
-  seconds: { fontSize: 44, lineHeight: 49, fontWeight: '600', fontVariant: ['tabular-nums'] },
+  dial: { width: 96, height: 96, alignItems: 'center', justifyContent: 'center', gap: 0 },
+  seconds: { fontSize: 38, lineHeight: 43, fontWeight: '600', fontVariant: ['tabular-nums'] },
   secondsCaption: { color: colors.muted, fontSize: 10, letterSpacing: 1.1 },
   scoreboard: {
     width: '100%',

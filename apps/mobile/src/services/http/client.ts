@@ -34,7 +34,12 @@ export async function renewSession(): Promise<void> {
 export async function request<T>(
   path: string,
   schema: z.ZodType<T>,
-  options: { method?: 'GET' | 'POST'; body?: unknown; authenticated?: boolean } = {},
+  options: {
+    method?: 'GET' | 'POST';
+    body?: unknown;
+    authenticated?: boolean;
+    signal?: AbortSignal;
+  } = {},
   refreshed = false,
 ): Promise<T> {
   if (!apiUrl) throw new ApiError('missing_configuration', 'Server ünvanı qurulmayıb.');
@@ -47,10 +52,13 @@ export async function request<T>(
       ...(authenticated && token ? { Authorization: `Bearer ${token}` } : {}),
     },
     body: options.body === undefined ? undefined : JSON.stringify(options.body),
+    signal: options.signal,
   });
+  options.signal?.throwIfAborted();
   if (response.status === 401 && authenticated && !refreshed) {
     // Another request may have already renewed the token while this response was in flight.
     if (useSession.getState().accessToken === token) await renewSession();
+    options.signal?.throwIfAborted();
     return request(path, schema, options, true);
   }
   if (!response.ok) {

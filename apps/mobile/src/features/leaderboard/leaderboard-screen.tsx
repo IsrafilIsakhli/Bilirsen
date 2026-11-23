@@ -59,7 +59,7 @@ export default function Leaderboard() {
           <Badge icon="lock-closed-outline" compact />
           <View style={{ flex: 1, gap: 5 }}>
             <Label>Rəsmi reytinq tezliklə</Label>
-            <Text style={{ color: colors.muted, fontSize: 12 }}>Qeydiyyatlı oyunçular üçün</Text>
+            <Text style={{ color: colors.muted, fontSize: 14, lineHeight: 21 }}>Qeydiyyatlı oyunçular üçün</Text>
           </View>
         </View>
       </SceneBanner>

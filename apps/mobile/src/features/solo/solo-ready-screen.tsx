@@ -75,6 +75,33 @@ export default function SoloReady() {
           </View>
         ))}
       </View>
+      <View
+        style={{
+          flexDirection: 'row',
+          gap: 16,
+          paddingVertical: 16,
+          borderTopWidth: 1,
+          borderBottomWidth: 1,
+          borderColor: colors.line,
+        }}
+      >
+        <View style={{ flex: 1, gap: 4 }}>
+          <Eyebrow>YARIŞ XALI</Eyebrow>
+          <Text
+            style={{ color: colors.goldLight, fontSize: 28, lineHeight: 34, fontWeight: '600' }}
+          >
+            255
+          </Text>
+          <Text style={{ color: colors.muted, fontSize: 13, lineHeight: 19 }}>Turun maksimumu</Text>
+        </View>
+        <View style={{ flex: 1, gap: 4 }}>
+          <Eyebrow>SOLO RANKI</Eyebrow>
+          <Icon name="trending-up-outline" size={32} />
+          <Text style={{ color: colors.muted, fontSize: 13, lineHeight: 19 }}>
+            Düzgün cavabla yüksəlir
+          </Text>
+        </View>
+      </View>
       {profile.data && <RankStrip rank={profile.data.soloRank} mode="solo" />}
       {profile.error && (
         <ErrorNotice

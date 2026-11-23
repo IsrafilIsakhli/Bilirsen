@@ -8,7 +8,7 @@ import type { Request } from 'express';
 import { gzipSync } from 'node:zlib';
 import { z } from 'zod';
 import { errorSchema } from '@azquiz/contracts';
-import { configureHttp, JSON_BODY_LIMIT } from '../src/common/http-setup';
+import { configureHttp, JSON_BODY_LIMIT, REQUEST_TIMEOUT_MS } from '../src/common/http-setup';
 
 @Controller('probe')
 class ProbeController {
@@ -47,6 +47,21 @@ describe('HTTP failure boundaries', () => {
   afterAll(async () => {
     server?.closeIdleConnections();
     await app?.close();
+  });
+
+  it('prevents caching of private success and failure responses and bounds unfinished uploads', async () => {
+    for (const response of [
+      await fetch(address, { method: 'POST' }),
+      await fetch(`${address}/failure`),
+      await fetch(`${address}/missing`),
+    ]) {
+      expect(response.headers.get('Cache-Control')).toBe('no-store');
+      expect(response.headers.get('Pragma')).toBe('no-cache');
+      await response.arrayBuffer();
+    }
+    expect(server.requestTimeout).toBe(REQUEST_TIMEOUT_MS);
+    expect(server.headersTimeout).toBeLessThanOrEqual(server.requestTimeout);
+    expect(server.keepAliveTimeout).toBe(5000);
   });
 
   it('rejects malformed JSON without echoing the body and keeps the API usable', async () => {

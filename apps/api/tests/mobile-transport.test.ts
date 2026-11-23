@@ -69,6 +69,24 @@ describe('mobile HTTP transport deadlines', () => {
       expect((await fetchJson(address, {})).payload).toEqual({ ok: true });
     },
   );
+  it.each(['slow-headers', 'slow-body'])(
+    'cancels an abandoned %s request without reporting a network error',
+    async (path) => {
+      const controller = new AbortController();
+      const reason = new Error('screen-left');
+      const response = fetchJson(`${address}/${path}`, { signal: controller.signal });
+      const assertion = expect(response).rejects.toBe(reason);
+      setTimeout(() => controller.abort(reason), 40);
+      await assertion;
+      expect((await fetchJson(address, {})).payload).toEqual({ ok: true });
+    },
+  );
+  it('honors cancellation before sending the request', async () => {
+    const controller = new AbortController();
+    const reason = new Error('session-changed');
+    controller.abort(reason);
+    await expect(fetchJson(address, { signal: controller.signal })).rejects.toBe(reason);
+  });
   it('distinguishes malformed responses from connection failures', async () => {
     await expect(fetchJson(`${address}/invalid`, {})).rejects.toMatchObject({
       code: 'invalid_response',

@@ -1,4 +1,5 @@
 import { StyleSheet, Text, View } from 'react-native';
+import Svg, { Circle } from 'react-native-svg';
 import { Label, layout } from '../../components/studio';
 import { colors } from '../../theme/tokens';
 
@@ -22,6 +23,23 @@ export function PerformanceSummary({
           accessible
           accessibilityLabel={`Düzgün cavab faizi: ${percent}%`}
         >
+          <Svg width={104} height={104} viewBox="0 0 104 104" style={StyleSheet.absoluteFill}>
+            <Circle cx={52} cy={52} r={48} stroke="#294263" strokeWidth={3} fill="none" />
+            {ratio > 0 && (
+              <Circle
+                cx={52}
+                cy={52}
+                r={48}
+                stroke={colors.goldLight}
+                strokeWidth={3}
+                fill="none"
+                strokeDasharray={[Math.PI * 96, Math.PI * 96]}
+                strokeDashoffset={Math.PI * 96 * (1 - ratio)}
+                transform="rotate(-90 52 52)"
+                strokeLinecap="round"
+              />
+            )}
+          </Svg>
           <Text style={styles.percent}>{percent}%</Text>
           <Text style={styles.unit}>düzgün</Text>
         </View>
@@ -49,11 +67,11 @@ const styles = StyleSheet.create({
     borderColor: colors.brass,
     paddingVertical: 14,
   },
-  gauge: { minWidth: 98, alignItems: 'flex-start', justifyContent: 'center', gap: 3 },
+  gauge: { width: 104, height: 104, alignItems: 'center', justifyContent: 'center', gap: 0 },
   percent: {
     color: colors.goldLight,
-    fontSize: 42,
-    lineHeight: 48,
+    fontSize: 30,
+    lineHeight: 38,
     fontWeight: '600',
     fontVariant: ['tabular-nums'],
   },

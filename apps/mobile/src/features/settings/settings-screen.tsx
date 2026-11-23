@@ -15,13 +15,14 @@ export default function Settings() {
     <Screen atmosphere="quiet">
       <PageHeader title="Tənzimləmələr" />
       <Eyebrow>SƏS PULTU</Eyebrow>
-      <View
+      <Card
         style={{
           gap: 14,
           borderTopWidth: 1,
           borderBottomWidth: 1,
           borderColor: colors.brass,
-          paddingVertical: 14,
+          paddingVertical: 18,
+          backgroundColor: '#0c1a30',
         }}
       >
         <View style={layout.between}>
@@ -52,7 +53,7 @@ export default function Settings() {
             thumbColor={colors.text}
           />
         </View>
-      </View>
+      </Card>
       <SectionHeading title="Səsləri yoxla" note="4 studiya səsi" />
       <View style={{ gap: 0, borderTopWidth: 1, borderBottomWidth: 1, borderColor: colors.line }}>
         <Text style={{ color: colors.muted, fontSize: 12, lineHeight: 19, paddingVertical: 12 }}>

@@ -16,14 +16,17 @@ import {
   StudioNotice,
 } from '../../components/studio-elements';
 import { RankCard } from '../ranks/rank-card';
-import { useProfile } from '../../services/http/queries';
+import { keys, useProfile } from '../../services/http/queries';
+import { useScreenRefresh } from '../../hooks/use-screen-refresh';
 import { errorMessage } from '../../services/http/client';
 import { PerformanceSummary } from './performance-summary';
 import { ActionRow } from '../../components/action-row';
 import { StagePanel } from '../../components/stage-panel';
+const profileQueries = [keys.profile];
 
 export default function Profile() {
   const profile = useProfile();
+  const refresh = useScreenRefresh(profileQueries);
   if (profile.isPending) return <LoadingScreen />;
   if (!profile.data)
     return (
@@ -38,7 +41,7 @@ export default function Profile() {
     );
   const me = profile.data;
   return (
-    <Screen atmosphere="quiet">
+    <Screen atmosphere="quiet" {...refresh}>
       <Eyebrow>YARIŞÇI VƏSİQƏSİ</Eyebrow>
       <Title>Profil</Title>
       <StagePanel style={[layout.row, { gap: 16 }]}>

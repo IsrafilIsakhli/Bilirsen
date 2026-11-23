@@ -1,10 +1,12 @@
 import { randomUUID } from 'node:crypto';
+import { Server } from 'node:http';
 import type { NestExpressApplication } from '@nestjs/platform-express';
 import type { NextFunction, Request, Response } from 'express';
 import helmet from 'helmet';
 import { ApiErrorFilter, bodyParserException } from './api-error.filter';
 
 export const JSON_BODY_LIMIT = 16 * 1024;
+export const REQUEST_TIMEOUT_MS = 15000;
 
 // Create the application with bodyParser: false so this ordering also applies to parser errors.
 export function configureHttp(
@@ -12,8 +14,18 @@ export function configureHttp(
   environment: 'development' | 'production',
 ): void {
   app.setGlobalPrefix('v1');
+  // Bound incomplete uploads independently of the game-answer deadline.
+  const server: unknown = app.getHttpServer();
+  if (!(server instanceof Server)) throw new Error('Expected the configured HTTP transport');
+  server.requestTimeout = REQUEST_TIMEOUT_MS;
+  server.headersTimeout = 10000;
+  server.keepAliveTimeout = 5000;
+  server.maxRequestsPerSocket = 1000;
   app.use((_req: Request, res: Response, next: NextFunction) => {
     res.setHeader('X-Request-Id', randomUUID());
+    // Tokens, private profiles and live deadlines must never be reused by a cache.
+    res.setHeader('Cache-Control', 'no-store');
+    res.setHeader('Pragma', 'no-cache');
     next();
   });
   app.use(helmet());

@@ -12,7 +12,7 @@ export function useProfile() {
   const token = useSession((s) => s.accessToken);
   return useQuery({
     queryKey: keys.profile,
-    queryFn: () => request('/me', profileSchema),
+    queryFn: ({ signal }) => request('/me', profileSchema, { signal }),
     enabled: Boolean(token),
   });
 }
@@ -20,7 +20,7 @@ export function useHistory() {
   const token = useSession((s) => s.accessToken);
   return useQuery({
     queryKey: keys.history,
-    queryFn: () => request('/me/history', historySchema),
+    queryFn: ({ signal }) => request('/me/history', historySchema, { signal }),
     enabled: Boolean(token),
   });
 }
@@ -28,7 +28,7 @@ export function useActiveGame() {
   const token = useSession((s) => s.accessToken);
   return useQuery({
     queryKey: keys.active,
-    queryFn: async () => (await request('/games/active', activeGameSchema)).game,
+    queryFn: async ({ signal }) => (await request('/games/active', activeGameSchema, { signal })).game,
     enabled: Boolean(token),
     staleTime: 0,
   });

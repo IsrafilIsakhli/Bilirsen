@@ -273,10 +273,20 @@ export function SoundProvider({ children }: PropsWithChildren) {
   const timerAvailable =
     audioReady &&
     tickStatus.isLoaded &&
+    tickStatus.duration > 0 &&
+    tick.isLoaded &&
     appActive &&
     preferences.enabled &&
     preferences.timerEnabled;
-  const homeAvailable = audioReady && homeStatus.isLoaded && appActive && preferences.enabled;
+  // Web can report an initial loaded status before the media has playable data.
+  // Duration changes when loading completes and retriggers the screen's audio effect.
+  const homeAvailable =
+    audioReady &&
+    homeStatus.isLoaded &&
+    homeStatus.duration > 0 &&
+    home.isLoaded &&
+    appActive &&
+    preferences.enabled;
 
   const error = playbackError ?? storageError;
   const controls = useMemo(

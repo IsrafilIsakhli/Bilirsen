@@ -230,6 +230,19 @@ test('Studio v3 presentation and media with explicit public-response fixtures', 
     'Səhv cavab səsini dinlə',
   ]) {
     await page.getByRole('button', { name: title }).click();
+    const source = title.startsWith('Saniyə')
+      ? 'competition_tension'
+      : title.startsWith('Düzgün')
+        ? 'answer_correct'
+        : 'answer_wrong';
+    await expect
+      .poll(() =>
+        page.evaluate((cue) => {
+          const events: { source: string }[] = Reflect.get(window, 'studioPreviewAudio');
+          return events.some((event) => event.source.includes(cue));
+        }, source),
+      )
+      .toBe(true);
   }
   await expect
     .poll(() =>

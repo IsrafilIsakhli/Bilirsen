@@ -8,6 +8,7 @@ import {
   ActivityIndicator,
   KeyboardAvoidingView,
   Platform,
+  RefreshControl,
   useWindowDimensions,
 } from 'react-native';
 import type { ColorValue, StyleProp, ViewStyle } from 'react-native';
@@ -63,12 +64,16 @@ export function Screen({
   footer,
   keyboard = false,
   atmosphere = 'stage',
+  refreshing = false,
+  onRefresh,
 }: PropsWithChildren<{
   scroll?: boolean;
   style?: StyleProp<ViewStyle>;
   footer?: ReactNode;
   keyboard?: boolean;
   atmosphere?: StageAtmosphere;
+  refreshing?: boolean;
+  onRefresh?: () => void;
 }>) {
   const { width } = useWindowDimensions();
   const paddingHorizontal = width < 360 ? spacing.lg : spacing.xl;
@@ -91,6 +96,17 @@ export function Screen({
                 showsVerticalScrollIndicator={false}
                 keyboardShouldPersistTaps="handled"
                 keyboardDismissMode="on-drag"
+                refreshControl={
+                  onRefresh ? (
+                    <RefreshControl
+                      refreshing={refreshing}
+                      onRefresh={onRefresh}
+                      tintColor={colors.goldLight}
+                      colors={[colors.gold]}
+                      progressBackgroundColor={colors.panel}
+                    />
+                  ) : undefined
+                }
               >
                 {children}
               </ScrollView>

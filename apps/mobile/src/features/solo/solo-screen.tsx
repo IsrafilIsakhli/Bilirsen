@@ -46,7 +46,7 @@ export default function Solo() {
   const leaveCommand = useRef(Crypto.randomUUID());
   const game = useQuery({
     queryKey: keys.game(id),
-    queryFn: () => request(`/games/${id}`, gameSchema),
+    queryFn: ({ signal }) => request(`/games/${id}`, gameSchema, { signal }),
     refetchInterval: (query) =>
       query.state.data?.status === 'finished' || query.state.data?.status === 'cancelled_server'
         ? false

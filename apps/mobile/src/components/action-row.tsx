@@ -57,5 +57,5 @@ const styles = StyleSheet.create({
   icon: { width: 28, alignItems: 'center' },
   copy: { flex: 1, gap: 4 },
   title: { color: colors.text, fontSize: 16, lineHeight: 23, fontWeight: '600' },
-  description: { color: colors.muted, fontSize: 12, lineHeight: 19 },
+  description: { color: colors.muted, fontSize: 14, lineHeight: 21 },
 });

@@ -71,21 +71,48 @@ export function SoloResult({ result }: { result: GameResult }) {
         <Progress rank={result.rank} />
       </Animated.View>
       <View style={styles.breakdown}>
+        <View style={layout.between}>
+          <Eyebrow>TURUN İCMALI</Eyebrow>
+          <Text style={styles.caption}>
+            {result.closedQuestions}/{result.totalQuestions} sual bağlandı.
+          </Text>
+        </View>
         <View
           style={styles.segments}
           accessible
-          accessibilityLabel={`${result.totalQuestions} sualdan ${result.closedQuestions} sual bağlandı`}
+          accessibilityLabel={`${result.correct} düzgün cavab, ${result.closedQuestions - result.correct} digər nəticə, ${result.totalQuestions - result.closedQuestions} açılmamış sual`}
         >
           {Array.from({ length: result.totalQuestions }, (_, index) => (
             <View
               key={index}
-              style={[styles.segment, index < result.closedQuestions && styles.closed]}
+              style={[
+                styles.segment,
+                index < result.correct
+                  ? styles.closed
+                  : index < result.closedQuestions
+                    ? styles.other
+                    : undefined,
+              ]}
             />
           ))}
         </View>
-        <Text style={styles.caption}>
-          {result.closedQuestions}/{result.totalQuestions} sual bağlandı.
-        </Text>
+        <View style={styles.metrics}>
+          <View style={styles.metric}>
+            <Text style={[styles.metricNumber, { color: colors.green }]}>{result.correct}</Text>
+            <Text style={styles.caption}>Düzgün</Text>
+          </View>
+          <View style={styles.metric}>
+            <Text style={styles.metricNumber}>{result.closedQuestions - result.correct}</Text>
+            <Text style={styles.caption}>Digər nəticə</Text>
+          </View>
+          <View style={styles.metric}>
+            <Text style={[styles.metricNumber, { color: colors.muted }]}>
+              {result.totalQuestions - result.closedQuestions}
+            </Text>
+            <Text style={styles.caption}>Açılmamış</Text>
+          </View>
+        </View>
+        <Text style={styles.caption}>Digər nəticəyə yanlış və cavabsız suallar daxildir.</Text>
       </View>
       {!complete && <StudioNotice>Cavab verdiyin sualların nəticəsi saxlanıldı.</StudioNotice>}
       {result.actualDelta !== result.theoreticalDelta && (
@@ -120,8 +147,18 @@ const styles = StyleSheet.create({
     fontWeight: '700',
     flexShrink: 1,
   },
-  breakdown: { gap: 10, paddingTop: 5 },
+  breakdown: { gap: 14, paddingTop: 18, borderTopWidth: 1, borderColor: colors.line },
+  metrics: { flexDirection: 'row', flexWrap: 'wrap', gap: 16 },
+  metric: { flex: 1, minWidth: 70, alignItems: 'center', gap: 3 },
+  metricNumber: {
+    color: colors.goldLight,
+    fontSize: 28,
+    lineHeight: 34,
+    fontWeight: '600',
+    fontVariant: ['tabular-nums'],
+  },
   segments: { flexDirection: 'row', gap: 5 },
-  segment: { height: 4, flex: 1, backgroundColor: colors.line },
+  segment: { height: 5, flex: 1, backgroundColor: colors.line },
+  other: { backgroundColor: colors.gold },
   closed: { backgroundColor: colors.green },
 });

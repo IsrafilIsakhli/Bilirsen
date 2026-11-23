@@ -11,10 +11,13 @@ export class ApiError extends Error {
 /** The deadline covers the connection, headers and the complete response body. */
 export async function fetchJson(
   url: string,
-  options: Pick<RequestInit, 'method' | 'headers' | 'body'>,
+  options: Pick<RequestInit, 'method' | 'headers' | 'body' | 'signal'>,
   timeoutMs = 10000,
 ): Promise<{ response: Response; payload: unknown }> {
   const controller = new AbortController();
+  const cancel = () => controller.abort();
+  options.signal?.addEventListener('abort', cancel, { once: true });
+  if (options.signal?.aborted) cancel();
   const timeout = setTimeout(() => controller.abort(), timeoutMs);
   try {
     const response = await fetch(url, { ...options, signal: controller.signal });
@@ -27,6 +30,8 @@ export async function fetchJson(
     }
     return { response, payload };
   } catch (error) {
+    // Preserve caller cancellation so a hidden screen cannot start a session renewal.
+    if (options.signal?.aborted) throw options.signal.reason ?? error;
     if (error instanceof ApiError) throw error;
     throw new ApiError(
       'network_error',
@@ -36,5 +41,6 @@ export async function fetchJson(
     );
   } finally {
     clearTimeout(timeout);
+    options.signal?.removeEventListener('abort', cancel);
   }
 }

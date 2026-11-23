@@ -28,9 +28,9 @@ export function QuestionFrame({
 
 const styles = StyleSheet.create({
   frame: {
-    minHeight: 126,
+    minHeight: 140,
     paddingHorizontal: 19,
-    paddingVertical: 17,
+    paddingVertical: 20,
     gap: 9,
     justifyContent: 'center',
   },

@@ -1,16 +1,18 @@
 import { useState } from 'react';
-import { Pressable, Text, View } from 'react-native';
+import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { router } from 'expo-router';
 import { Screen, Label, Icon, ErrorNotice, layout, Button } from '../../components/studio';
 import { SectionHeading, EmptyStage, StudioNotice } from '../../components/studio-elements';
 import { SegmentedControl } from '../../components/segmented-control';
 import { PageHeader } from '../../components/page-header';
-import { useHistory } from '../../services/http/queries';
+import { keys, useHistory } from '../../services/http/queries';
+import { useScreenRefresh } from '../../hooks/use-screen-refresh';
 import { errorMessage } from '../../services/http/client';
-import { colors } from '../../theme/tokens';
+import { colors, displayFamily } from '../../theme/tokens';
 import { StudioLoading } from '../../components/studio-loading';
 
 type Filter = 'all' | 'completed' | 'abandoned';
+const historyQueries = [keys.history];
 const filters = [
   { value: 'all', label: 'Hamısı' },
   { value: 'completed', label: 'Tamamlanan' },
@@ -25,13 +27,15 @@ function matchDate(value: string): string {
 
 export default function History() {
   const history = useHistory();
+  const refresh = useScreenRefresh(historyQueries);
   const [filter, setFilter] = useState<Filter>('all');
   const visible = history.data?.filter((item) => filter === 'all' || item.result.reason === filter);
   return (
-    <Screen atmosphere="quiet">
+    <Screen atmosphere="quiet" {...refresh}>
       <PageHeader title="Oyun tarixçəsi" />
       <SectionHeading title="Son yarışlar" note="Son 20 solo turu" />
       <SegmentedControl value={filter} items={filters} onChange={setFilter} />
+      {!!visible?.length && <Text style={styles.count}>{visible.length} yarış göstərilir</Text>}
       {history.isPending && <StudioLoading message="Nəticələrin hazırlanır…" />}
       {history.error && (
         <ErrorNotice
@@ -70,7 +74,7 @@ export default function History() {
             accessibilityRole="button"
             accessibilityLabel={'Yarış nəticəsi: ' + result.score + ' xal'}
             onPress={() => router.push({ pathname: '/solo', params: { id: item.id } })}
-            style={{ paddingVertical: 14, borderTopWidth: 1, borderColor: colors.brass, gap: 10 }}
+            style={({ pressed }) => [styles.entry, pressed && styles.pressed]}
           >
             <View style={[layout.row, { flexWrap: 'wrap', rowGap: 8 }]}>
               <Icon
@@ -80,29 +84,16 @@ export default function History() {
               />
               <View style={{ flex: 1, gap: 4 }}>
                 <Label>Tək oyun</Label>
-                <Text style={{ color: colors.muted, fontSize: 12 }}>
-                  {matchDate(result.finishedAt)}
-                </Text>
+                <Text style={styles.date}>{matchDate(result.finishedAt)}</Text>
               </View>
-              <Text style={{ color: completed ? colors.green : colors.muted, fontSize: 12 }}>
+              <Text style={[styles.status, { color: completed ? colors.green : colors.muted }]}>
                 {completed ? 'Tamamlandı' : 'Bağlandı'}
               </Text>
               <Icon name="chevron-forward" size={16} color={colors.muted} />
             </View>
-            <View style={{ height: 1, backgroundColor: colors.line }} />
             <View style={[layout.between, { flexWrap: 'wrap', rowGap: 8 }]}>
-              <Text
-                style={{
-                  color: colors.goldLight,
-                  fontSize: 30,
-                  fontWeight: '600',
-                  fontVariant: ['tabular-nums'],
-                }}
-              >
-                {result.score}{' '}
-                <Text style={{ color: colors.muted, fontSize: 12, fontWeight: '400' }}>
-                  yarış xalı
-                </Text>
+              <Text style={styles.score}>
+                {result.score} <Text style={styles.date}>yarış xalı</Text>
               </Text>
               <Text
                 style={{
@@ -121,10 +112,10 @@ export default function History() {
               </Text>
             </View>
             <View style={[layout.between, { flexWrap: 'wrap', rowGap: 8 }]}>
-              <Text style={{ color: colors.muted, fontSize: 12 }}>
+              <Text style={styles.detail}>
                 {result.correct}/{result.totalQuestions} düzgün
               </Text>
-              <Text style={{ color: colors.muted, fontSize: 12 }}>
+              <Text style={styles.detail}>
                 {result.rank.name} {result.rank.division}
               </Text>
             </View>
@@ -137,3 +128,39 @@ export default function History() {
     </Screen>
   );
 }
+
+const styles = StyleSheet.create({
+  count: { color: colors.muted, fontSize: 13, lineHeight: 20 },
+  entry: {
+    paddingVertical: 20,
+    paddingHorizontal: 16,
+    borderTopWidth: 1,
+    borderColor: colors.brass,
+    backgroundColor: '#0b1c31',
+    gap: 14,
+  },
+  pressed: { backgroundColor: '#182e49' },
+  date: {
+    color: colors.muted,
+    fontSize: 12,
+    lineHeight: 19,
+    fontWeight: '400',
+  },
+  status: {
+    fontSize: 12,
+    lineHeight: 18,
+    borderWidth: 1,
+    borderColor: '#50638170',
+    paddingVertical: 4,
+    paddingHorizontal: 7,
+  },
+  score: {
+    color: colors.goldLight,
+    fontFamily: displayFamily,
+    fontSize: 38,
+    lineHeight: 46,
+    fontWeight: '600',
+    fontVariant: ['tabular-nums'],
+  },
+  detail: { color: colors.muted, fontSize: 14, lineHeight: 21 },
+});
